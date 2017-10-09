@@ -36,6 +36,21 @@ a {
     min-height: 100%;
 }
 
+.shadow {
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+
+.shadow-show {
+    display: block;
+}
+
 /*arrow scroll to top*/
 
 body .arrows {
@@ -1134,6 +1149,67 @@ input[type="file"] {
 
 :-ms-input-placeholder {
     opacity: 0.5;
+}
+
+/*TRAINING*/
+
+.video__container {
+    display: inline-block;
+    width: 48%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 30px rgba(56, 60, 99, 0.1);
+    background: white;
+}
+
+.video__preview {
+    width: 100%;
+}
+
+.preview-img {
+    width: 100%;
+}
+
+.preview-caption {
+    text-align: center;
+    font-size: 26px;
+    color: #5459A3;
+}
+
+.video__popup {
+    width: 70%;
+    display: none;
+    background: black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    z-index: 9999999;
+}
+
+.video-player {
+    width: 100%
+}
+
+.video-show {
+    display: block;
+}
+
+.video-close {
+    display: none;
+    position: absolute;
+    right: 13%;
+    top: 7%;
+    width: 20px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+.video-close-show {
+    display: block;
 }
 
 /*SHOP*/
