@@ -9,3 +9,8 @@ function closeVideo() {
     document.getElementById('shadow').classList.remove('shadow-show');
     document.getElementById('close_video').classList.remove('video-close-show');
 }
+
+function closeMenu() {
+    document.getElementById('nav-mobil').classList.remove('show');
+    document.getElementById('open').classList.remove('active', 'close-btn');
+}

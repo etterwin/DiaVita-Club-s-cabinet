@@ -343,6 +343,7 @@
         left: 0;
         transition: left 0.3s linear;
         box-shadow: 4px 0 40px rgba(0, 0, 0, 0.5);
+        z-index: 90;
     }
 
     .btn {
@@ -445,6 +446,24 @@
         width: 90%;
         float: none;
         margin: 0 auto;
+    }
+
+    .video__container {
+        width: 95%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .video__popup {
+        width: 100%;
+        left: 0;
+        top: 25%;
+    }
+
+    .video-close {
+        top: 2%;
+        right: 2%;
+        width: 30px;
     }
 
     .shop-item__container {

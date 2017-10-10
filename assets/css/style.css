@@ -70,7 +70,7 @@ body .arrows {
     background: white;
     height: 55px;
     width: 55px;
-    z-index: 9999;
+    z-index: 50;
     border-radius: 50px;
 }
 
@@ -1169,12 +1169,14 @@ input[type="file"] {
 
 .preview-img {
     width: 100%;
+    cursor: pointer;
 }
 
 .preview-caption {
     text-align: center;
     font-size: 26px;
     color: #5459A3;
+    cursor: pointer;
 }
 
 .video__popup {
@@ -1201,7 +1203,7 @@ input[type="file"] {
 .video-close {
     display: none;
     position: absolute;
-    right: 13%;
+    right: 12%;
     top: 7%;
     width: 20px;
     z-index: 9999999;
