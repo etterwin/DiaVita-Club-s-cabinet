@@ -40,7 +40,7 @@ a {
     height: 100vh;
     background: rgba(0,0,0,0.4);
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: 99999;
@@ -1155,12 +1155,11 @@ input[type="file"] {
 
 .video__container {
     display: inline-block;
-    width: 48%;
+    width: 47%;
     padding: 15px;
     box-sizing: border-box;
     border-radius: 4px;
-    box-shadow: 0 5px 30px rgba(56, 60, 99, 0.1);
-    background: white;
+    vertical-align: top;
 }
 
 .video__preview {
@@ -1186,7 +1185,7 @@ input[type="file"] {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 4px;
-    position: absolute;
+    position: fixed;
     top: 7%;
     left: 15%;
     z-index: 9999999;
@@ -1202,7 +1201,7 @@ input[type="file"] {
 
 .video-close {
     display: none;
-    position: absolute;
+    position: fixed;
     right: 12%;
     top: 7%;
     width: 20px;
