@@ -1162,6 +1162,11 @@ input[type="file"] {
     vertical-align: top;
 }
 
+.video__container--hide {
+    cursor: default;
+    opacity: 0.6;
+}
+
 .video__preview {
     width: 100%;
 }
@@ -1171,11 +1176,23 @@ input[type="file"] {
     cursor: pointer;
 }
 
+.preview-img--hide {
+    width: 100%;
+    cursor: default;
+}
+
 .preview-caption {
     text-align: center;
     font-size: 26px;
     color: #5459A3;
     cursor: pointer;
+}
+
+.preview-caption--hide {
+    text-align: center;
+    font-size: 26px;
+    color: #5459A3;
+    cursor: default;
 }
 
 .video__popup {
