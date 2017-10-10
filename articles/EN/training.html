@@ -25,6 +25,8 @@
     <script src="../../assets/js/menu.js"></script>
     <script src="../../assets/js/scrollup.js"></script>
     <script src="../../assets/js/search.js"></script>
+    <script src="../../assets/js/schoolTabs.js"></script>
+    <script src="../../assets/js/schoolTabsMobil.js"></script>
     <script src="../../assets/js/submenu.js"></script>
     <script src="../../assets/js/jquery-3.2.1.min.js"></script>
 
@@ -132,30 +134,473 @@
 
 <div class="wrapper">
 
-    <main class="main">
+    <nav class="school__navigation">
 
-        <div class="video__container">
+        <ul class="school-nav-list">
+            <li class="school-nav-item"><a href="#bussines_in_dvc"
+                                           class="school-nav-item-link school-nav-item-link--active">Бизнес в Diavita Club</a>
+            </li>
+            <li class="school-nav-item"><a href="#online-promotion" class="school-nav-item-link">Online promotion</a>
+            </li>
+            <li class="school-nav-item"><a href="#offline-promotion" class="school-nav-item-link">Offline promotion</a>
+            </li>
+            <li class="school-nav-item"><a href="#bussines_evolution" class="school-nav-item-link">Развитие бизнеса в DVC</a>
+            </li>
+        </ul>
 
-            <div class="video__preview">
+    </nav>
 
-                <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
-                <h2 class="preview-caption" onclick="showVideo(this)">Name of video</h2>
+    <div id="bussines_in_dvc" class="school__body show show-mob">
+
+        <div class="school-accordion">
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Почему все выбирают DVC? Все ответы за 5 минут 30 секунд</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
 
             </div>
 
-            <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+            <div class="video__container">
 
-            <div class="video__popup" id="video_popup">
+                <div class="video__preview">
 
-                <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
-                    <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
-                </video>
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Как создать свою структуру в  DVC? </h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Эффективные методики быстрого создания команды</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Заработать первые 3000 батт? Это легко! Смотрите инструкцию</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Быстрый способ заработать 150000 бат за 4 дня! Смотрите</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
 
             </div>
 
         </div>
 
-    </main>
+    </div>
+
+    <div id="online-promotion" class="school__body hide hide-mob">
+
+        <div class="school-accordion">
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Почему продавать в онлайне - проще?</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Как стать популярным в социальных сетях? 5 эффективных приемов</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Продвижение в Ютуб. Волшебная сила видеоконтента.</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Пассивный доход с помощью социальных сетей. Это реально?!</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Эффективные каналы продвижения в интернете, о которых вы даже не подозревали!</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="offline-promotion" class="school__body hide hide-mob">
+
+        <div class="school-accordion">
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Как превратить друзей в покупателей?</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Продвижение в оффлайне - эффективно ли? 5 “работающих” схем</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Важнейшие элементы вашего стиля, которые заставят людей вам доверять</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Отпустить или удержать? Подробная инструкция, как приобрести постоянных клиентов</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Создаем пассивный доход. Как заставить систему работать на тебя?</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="bussines_evolution" class="school__body hide hide-mob">
+
+        <div class="school-accordion">
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Зачем создавать свою структуру? Наглядные примеры - истории успеха</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">5 действенных приемов для быстрого роста вашей структуры! Смотрите</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">“Живой” мастер-класс для привлечения новых партнеров: диалоги, которые заставят следовать за вами</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Развиваем свою команду: как убедить человека повысить свой статус в структуре?</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+            <div class="video__container">
+
+                <div class="video__preview">
+
+                    <img src="../../assets/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <h2 class="preview-caption" onclick="showVideo(this)">Страшная сила мотивации. Как не потерять веру в себя и свою команду?</h2>
+
+                </div>
+
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video" onclick="closeVideo(this)">
+
+                <div class="video__popup" id="video_popup">
+
+                    <video class="video-player" controls="controls" poster="../../assets/video/bg.png">
+                        <source src="../../assets/video/diavita%20draft2.mp4" type="video/mp4"/>
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 
@@ -174,6 +619,8 @@
 <script src="../../assets/js/hideVideo.js"></script>
 <script src="../../assets/js/menu.js"></script>
 <script src="../../assets/js/scrollup.js"></script>
+<script src="../../assets/js/schoolTabs.js"></script>
+<script src="../../assets/js/schoolTabsMobil.js"></script>
 <script src="../../assets/js/search.js"></script>
 <script src="../../assets/js/submenu.js"></script>
 <script src="../../assets/js/jquery-3.2.1.min.js"></script>
