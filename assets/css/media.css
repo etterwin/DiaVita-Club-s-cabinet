@@ -689,7 +689,8 @@
     }
 
     .lesson-caption--black,
-    .lesson-caption--blue {
+    .lesson-caption--blue,
+    .lesson-caption--darkblue {
         font-size: 20px;
         width: 95%;
     }
@@ -726,6 +727,47 @@
     }
 
     .basic-inst-img {
+        width: 95%;
+    }
+
+    /*Use of other resources and sites*/
+    .line__container {
+        display: block;
+    }
+
+    .line__content {
+        width: 100%;
+    }
+
+    .line-text {
+        width: 60%;
+    }
+
+    .line__container--horizontal {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .line-container-icon,
+    .line-num-icon {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .line-container-text,
+    .line-text--white {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .line__container--border {
+        width: 90%;
+        padding: 0;
+        border: 0;
+    }
+
+    .line__caption {
         width: 95%;
     }
 
@@ -980,6 +1022,27 @@
     /*The power of a declaration*/
     .power__container {
         width: 49%;
+    }
+
+    /*The image that is imitated*/
+    .imitated__container {
+        width: 95%;
+    }
+
+    .imitated__content {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .imitated-icon {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .imitated-text {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
     }
 
     /*NEGOTIATION*/

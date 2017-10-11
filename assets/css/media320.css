@@ -119,6 +119,11 @@
         padding: 20px 10px;
     }
 
+    /*Use of other resources and sites*/
+    .line-img {
+        width: 90%;
+    }
+
     /*Basic course of promotion on Facebook*/
     .base-fb__icons {
         width: 270px;
