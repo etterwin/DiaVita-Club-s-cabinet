@@ -1179,6 +1179,11 @@ input[type="file"] {
 .preview-img--hide {
     width: 100%;
     cursor: default;
+    max-height: 195px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #FFE66B;
+    border-radius: 4px;
 }
 
 .preview-caption {
