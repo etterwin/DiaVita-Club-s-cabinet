@@ -218,4 +218,23 @@
         width: 100%;
     }
 
+    /*login*/
+
+    .dialog {
+        width: 100%;
+        left: 0;
+    }
+
+    .dialog  .dialog-front,
+    .dialog .dialog-back {
+        left: 42.5%;
+    }
+
+    .dialog .dialog-content {
+        width: 100%;
+        min-width: 200px;
+    }
+
+
 }
+

@@ -626,3 +626,47 @@ h3,
         display: none;
     }
 }
+
+@media screen and (max-height: 320px) {
+
+    .dialog .dialog-content {
+        height: 290px;
+        padding: 10px 20px;
+    }
+
+
+    .form-group {
+        margin-bottom: 5px !important;
+        height: 30px;
+    }
+
+    .pad-top-20 {
+        padding-top: 0;
+    }
+
+    .pad-btm-20 {
+        padding-bottom: 0;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .wrapper {
+        height: 290px;
+        overflow: scroll;
+    }
+
+    .dialog .dialog-form .btn.btn-default {
+        margin: 20px auto;
+    }
+
+    .dialog-img {
+        padding: 0;
+        width: 250px;
+    }
+
+    .fix-middle {
+        width: 400px;
+    }
+}
