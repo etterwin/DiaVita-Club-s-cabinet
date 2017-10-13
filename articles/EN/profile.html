@@ -105,6 +105,17 @@
         <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="../../assets/pictures/svg/chat.svg"
                                                                                 class="nav-mobil-icon" alt="">Chat</a>
         </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link"><img src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
+                    class="fa fa-chevron-down"></i></div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item"><a href="../../EN.html"
+                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="../../TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
+                </a></li>
+            </ul>
+        </li>
         <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img
                 src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
     </ul>
@@ -127,6 +138,12 @@
                 <li class="navigation-item"><a href="training.html" class="navigation-item-link">Training</a></li>
                 <li class="navigation-item"><a href="shop.html" class="navigation-item-link">Shop</a></li>
                 <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
+                <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                    <ul class="navigation-submenu-list" id="submenu_list">
+                        <li class="navigation-submenu-item"><a href="profile.html">English</a></li>
+                        <li class="navigation-submenu-item"><a href="../TH/profile.html">Thai</a></li>
+                    </ul>
+                </li>
             </ul>
 
 
