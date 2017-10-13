@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Prompt:200" rel="stylesheet">
 
     <!-- JS -->
+    <script src="assets/js/addClass.js"></script>
     <script src="assets/js/search.js"></script>
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/submenu.js"></script>
@@ -41,14 +42,36 @@
     <nav class="nav-mobil" id="nav-mobil">
 
         <ul class="nav-mobil-list" id="accordion">
-            <li class="nav-mobil-item"><a href="TH.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">บ้าน</a></li> <!-- home -->
-            <li class="nav-mobil-item"><a href="articles/TH/profile.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">โครงสร้างของฉัน</a></li> <!-- my structure -->
-            <li class="nav-mobil-item"><a href="articles/TH/instruments.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">เครื่องมือ</a></li> <!-- instruments -->
-            <li class="nav-mobil-item"><a href="articles/TH/introduction.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">โรงเรียน</a></li> <!-- school -->
-            <li class="nav-mobil-item"><a href="articles/TH/training.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">การอบรม</a></li> <!-- training -->
-            <li class="nav-mobil-item"><a href="articles/TH/shop.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">ห้าง</a></li> <!-- shop -->
-            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="">พูดคุย</a></li> <!-- chat -->
-            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">ออกจากระบบ</a></li> <!-- logout -->
+            <li class="nav-mobil-item"><a href="EN.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/home.svg"
+                                                                                          class="nav-mobil-icon-fix" alt="">Home</a>
+            </li>
+            <li class="nav-mobil-item"><a href="articles/EN/profile.html" class="nav-mobil-item-link"><img
+                    src="assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My structure</a></li>
+            <li class="nav-mobil-item"><a href="articles/EN/instruments.html" class="nav-mobil-item-link"><img
+                    src="assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+            <li class="nav-mobil-item"><a href="articles/EN/introduction.html" class="nav-mobil-item-link"><img
+                    src="assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School</a></li>
+            <li class="nav-mobil-item"><a href="articles/EN/training.html" class="nav-mobil-item-link"><img
+                    src="assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Training</a></li>
+            <li class="nav-mobil-item"><a href="articles/EN/shop.html" class="nav-mobil-item-link"><img
+                    src="assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/chat.svg"
+                                                                                    class="nav-mobil-icon" alt="">Chat</a>
+            </li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
+                        class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="EN.html"
+                                                      class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                    </li>
+                    <li class="mobil-submenu-item"><a href="TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
+                    </a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/logout.svg"
+                                                                                    class="nav-mobil-icon" alt="">Logout</a>
+            </li>
         </ul>
 
     </nav>
@@ -71,6 +94,12 @@
                         <li class="navigation-item"><a href="articles/TH/training.html" class="navigation-item-link">การอบรม</a></li> <!-- training -->
                         <li class="navigation-item"><a href="articles/TH/shop.html" class="navigation-item-link">ห้าง</a></li> <!-- shop -->
                         <li class="navigation-item"><a href="#" class="navigation-item-link">พูดคุย</a></li> <!-- chat -->
+                        <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                            <ul class="navigation-submenu-list" id="submenu_list">
+                                <li class="navigation-submenu-item"><a href="EN.html">English</a></li>
+                                <li class="navigation-submenu-item"><a href="TH.html">Thai</a></li>
+                            </ul>
+                        </li>
                     </ul>
 
 
