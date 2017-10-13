@@ -2215,6 +2215,13 @@ input[type="file"] {
     font-weight: bold;
 }
 
+.line-chat-img {
+    max-width: 320px;
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+}
+
 
 
 
