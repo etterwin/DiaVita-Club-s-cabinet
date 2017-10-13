@@ -518,6 +518,24 @@ input:-ms-input-placeholder {
     font-size: 14px;
 }
 
+.navigation-submenu {
+    color: #F5F5F7;
+    font-size: 18px;
+    position: relative;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.navigation-submenu-list {
+    display: none;
+    position: absolute;
+}
+
+.show-submenu {
+    display: block;
+}
+
 /*main*/
 
 .main {

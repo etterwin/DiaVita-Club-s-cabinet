@@ -90,3 +90,7 @@ function closeMenu() {
     document.getElementById('nav-mobil').classList.remove('show');
     document.getElementById('open').classList.remove('active', 'close-btn');
 }
+
+function showSubmenu() {
+    document.getElementById('submenu_list').classList.add('show-submenu');
+}
