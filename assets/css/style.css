@@ -530,10 +530,28 @@ input:-ms-input-placeholder {
 .navigation-submenu-list {
     display: none;
     position: absolute;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    background: white;
 }
 
 .show-submenu {
     display: block;
+}
+
+.navigation-submenu-item-link {
+    color: #5A5EA6;
+    opacity: 0.7;
+}
+
+.navigation-submenu-item-link:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.navigation-submenu-item-link:not(:hover) {
+    transition: all 0.3s ease-in-out;
 }
 
 /*main*/
