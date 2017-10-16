@@ -23,6 +23,7 @@
     <script src="../../assets/js/addClass.js"></script>
     <script src="../../assets/js/hide.js"></script>
     <script src="../../assets/js/menu.js"></script>
+    <script src="../../assets/js/openHtml.js"></script>
     <script src="../../assets/js/scrollup.js"></script>
     <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/schoolTabs.js"></script>
@@ -46,67 +47,111 @@
 <nav class="nav-mobil" id="nav-mobil">
 
     <ul class="nav-mobil-list" id="accordion">
-        <li class="nav-mobil-item"><a href="../../EN.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Home</a></li>
+        <li class="nav-mobil-item">
+            <a href="../../TH.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="" />บ้าน</a> <!-- Home -->
+        </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My
-                structure<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="" />
+                โครงสร้างของฉัน<i class="fa fa-chevron-down"></i> <!-- my structure -->
+            </div>
             <ul class="mobil-submenu-list mobil-tabs-list">
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                   class="mobil-submenu-item-link mobil-tabs-item-link active-profile-mob"
-                                                                  onclick="closeMenu(this)">My profile</a></li>
+                                                                  onclick="openProfile(this)">ประวัติของฉัน</a> <!-- My profile -->
+                </li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">My statistic</a></li>
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                  onclick="openProfile(this)">สถิติของฉัน</a> <!-- My statistic -->
+                </li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">My contacts</a></li>
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                  onclick="openProfile(this)">รายชื่อติดต่อของฉัน</a> <!-- My contacts -->
+                </li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">Setting</a></li>
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                  onclick="openProfile(this)">การตั้งค่า</a> <!-- Setting -->
+                </li>
             </ul>
         </li>
-        <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+        <li class="nav-mobil-item">
+            <a href="instruments.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="" />เครื่องมือ</a> <!-- instruments -->
+        </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i
-                    class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="" />
+                โรงเรียน<i class="fa fa-chevron-down"></i> <!-- school -->
+            </div>
             <ul class="mobil-submenu-list">
                 <li class="mobil-submenu-item"><a href="introduction.html"
                                                   class="mobil-submenu-item-link mobil-submenu-item-link-active"
-                                                  onclick="closeMenu(this)">Introducion</a></li>
+                                                  onclick="openSchool(this)">บทนำ</a> <!-- Introduction -->
+                </li>
                 <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Online promotion</a></li>
+                                                  onclick="openSchool(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                </li>
                 <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Offline promotion</a></li>
+                                                  onclick="openSchool(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                </li>
                 <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Business creating</a></li>
+                                                  onclick="openSchool(this)">การสร้างธุรกิจ</a> <!-- Business creating -->
+                </li>
                 <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Increase in sales</a></li>
+                                                  onclick="openSchool(this)">เพิ่มยอดขาย</a> <!-- Increase in sales -->
+                </li>
                 <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Negotiation</a></li>
+                                                  onclick="openSchool(this)">การเจรจาต่อรอง</a> <!-- Negotiation -->
+                </li>
             </ul>
-        </li>
-        <li class="nav-mobil-item"><a href="training.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Training</a></li>
-        <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
-        <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="../../assets/pictures/svg/chat.svg"
-                                                                                class="nav-mobil-icon" alt="">Chat</a>
         </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
-                    class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="" />
+                การอบรม<i class="fa fa-chevron-down"></i> <!-- training -->
+            </div>
             <ul class="mobil-submenu-list">
-                <li class="mobil-submenu-item"><a href="../../EN.html"
-                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                <li class="mobil-submenu-item"><a href="training.html"
+                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                  onclick="closeMenu(this)">ธุรกิจใน DiaVita Club</a> <!-- Business in the Diavita Club -->
                 </li>
-                <li class="mobil-submenu-item"><a href="../../TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
-                </a></li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="closeMenu(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="closeMenu(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="closeMenu(this)">การพัฒนาธุรกิจใน DiaVita Club</a> <!-- Business development in the DiaVita Club -->
+                </li>
             </ul>
         </li>
-        <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+        <li class="nav-mobil-item">
+            <a href="shop.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="" />ห้าง</a> <!-- shop -->
+        </li>
+        <li class="nav-mobil-item">
+            <a href="#" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="" />พูดคุย</a> <!-- chat -->
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link">
+                <img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                ภาษา<i class="fa fa-chevron-down"></i> <!-- language -->
+            </div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item">
+                    <a href="../EN/training.html" class="mobil-submenu-item-link mobil-submenu-item-link-active">English</a>
+                </li>
+                <li class="mobil-submenu-item">
+                    <a href="../../TH.html" class="mobil-submenu-item-link">ไทย</a> <!-- thai -->
+                </li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link">
+            <img src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="" />ออกจากระบบ</a> <!--logout -->
+        </li>
     </ul>
 
 </nav>
@@ -120,28 +165,28 @@
         <nav class="header-navigation">
 
             <ul class="navigation-list">
-                <li class="navigation-item"><a href="../../TH.html" class="navigation-item-link">บ้าน</a></li> <!-- home -->
-                <li class="navigation-item"><a href="profile.html" class="navigation-item-link">โครงสร้างของฉัน</a></li> <!-- my structure -->
+                <li class="navigation-item"><a href="../../TH.html" class="navigation-item-link">บ้าน</a></li> <!-- home-->
+                <li class="navigation-item"><a href="profile.html" class="navigation-item-link">โครงสร้างของฉัน</a></li><!-- my structure -->
                 <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">เครื่องมือ</a></li> <!-- instruments -->
-                <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">โรงเรียน</a></li><!-- school -->
+                <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">โรงเรียน</a></li> <!-- school -->
                 <li class="navigation-item"><a href="training.html" class="navigation-item-link">การอบรม</a></li> <!-- training -->
                 <li class="navigation-item"><a href="shop.html" class="navigation-item-link">ห้าง</a></li> <!-- shop -->
                 <li class="navigation-item"><a href="#" class="navigation-item-link">พูดคุย</a></li> <!-- chat -->
-                <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">ภาษา <!-- language -->
                     <ul class="navigation-submenu-list" id="submenu_list">
                         <li class="navigation-submenu-item"><a href="../EN/training.html">English</a></li>
-                        <li class="navigation-submenu-item"><a href="training.html">Thai</a></li>
+                        <li class="navigation-submenu-item"><a href="../../TH.html">ไทย</a></li> <!-- thai -->
                     </ul>
                 </li>
             </ul>
 
 
             <form class="header-form" action="" autocomplete="on">
-                <input id="search" name="search" type="search" placeholder="Search...">
+                <input id="search" name="search" type="search" placeholder="ค้นหา...">
                 <input id="search_submit" value="Rechercher" type="submit">
             </form>
 
-            <a href="login.html" class="logout-link">Logout</a>
+            <a href="login.html" class="logout-link">ออกจากระบบ</a> <!-- logout -->
 
         </nav>
 
@@ -155,13 +200,13 @@
 
         <ul class="school-nav-list">
             <li class="school-nav-item"><a href="#bussines_in_dvc"
-                                           class="school-nav-item-link school-nav-item-link--active">ธุรกิจใน Diavita Club</a>
+                                           class="school-nav-item-link school-nav-item-link--active">ธุรกิจใน DiaVita Club</a> <!-- Business in the Diavita Club -->
             </li>
-            <li class="school-nav-item"><a href="#online-promotion" class="school-nav-item-link">โปรโมชั่นออนไลน์</a>
+            <li class="school-nav-item"><a href="#online-promotion" class="school-nav-item-link">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
             </li>
-            <li class="school-nav-item"><a href="#offline-promotion" class="school-nav-item-link">โปรโมชั่นแบบออฟไลน์</a>
+            <li class="school-nav-item"><a href="#offline-promotion" class="school-nav-item-link">โปรโมชั่นแบบออฟไลน์</a> <!-- Offline promotion -->
             </li>
-            <li class="school-nav-item"><a href="#bussines_evolution" class="school-nav-item-link">การพัฒนาธุรกิจใน Diavita Club</a>
+            <li class="school-nav-item"><a href="#bussines_evolution" class="school-nav-item-link">การพัฒนาธุรกิจใน DiaVita Club</a> <!-- Business development in the DiaVita Club -->
             </li>
         </ul>
 
@@ -175,13 +220,13 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/img/video/bg.png" class="preview-img" onclick="showVideo(this)"/>
+                    <img src="../../assets/pictures/img/video/bg.png" class="preview-img" onclick="showVideo(this)" />
                     <h2 class="preview-caption" onclick="showVideo(this)">เพราะเหตุใดทุกคนจึงเลือก Diavita Club คำตอบทั้งหมดใน
                         5 นาที 30 วินาที</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_1" onclick="closeVideo(this)">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_1" onclick="closeVideo(this)" />
 
                 <div class="video__popup" id="video_popup_1">
 
@@ -197,12 +242,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีสร้างเครือข่ายของคุณเองใน Diavita Club</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_2" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_2" onclick="" />
 
                 <div class="video__popup" id="video_popup_2">
 
@@ -218,12 +263,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีที่ช่วยให้คุณสร้างทีมของคุณเองได้อย่างมีประสิทธิภาพ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_3" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_3" onclick="" />
 
                 <div class="video__popup" id="video_popup_3">
 
@@ -239,12 +284,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีสร้างรายได้ 3,000 บาทแรก ง่ายมาก ๆ! ดูคำแนะนำ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_4" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_4" onclick="" />
 
                 <div class="video__popup" id="video_popup_4">
 
@@ -260,12 +305,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีหาเงิน 150,000 บาทใน 3 วันแบบง่าย ๆ! ดูวิธีเลย</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_5" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_5" onclick="" />
 
                 <div class="video__popup" id="video_popup_5">
 
@@ -289,12 +334,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">เพราะเหตุในการขายสินค้าออนไลน์จึงง่ายกว่า</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_6" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_6" onclick="" />
 
                 <div class="video__popup" id="video_popup_6">
 
@@ -310,12 +355,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีทำให้คุณเป็นที่รู้จักอย่างกว้างขวางในสังคมออนไลน์ 5 วิธีง่ายๆ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_7" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_7" onclick="" />
 
                 <div class="video__popup" id="video_popup_7">
 
@@ -331,12 +376,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">การทำโปรโมชั่นผ่าน YouTube พลังมหัศจรรย์ของสื่อวิดีโอ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_8" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_8" onclick="" />
 
                 <div class="video__popup" id="video_popup_8">
 
@@ -352,12 +397,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">สื่อสังคมออนไลน์ช่วยให้มีรายได้แบบ Passive income ได้จริงหรือ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_9" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_9" onclick="" />
 
                 <div class="video__popup" id="video_popup_9">
 
@@ -373,12 +418,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีการโปรโมทในอินเตอร์เน็ตที่มีประสิทธิภาพที่คุณไม่เคยนึกถึง!</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_10" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_10" onclick="" />
 
                 <div class="video__popup" id="video_popup_10">
 
@@ -402,12 +447,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">วิธีเปลี่ยนเพื่อนให้กลายเป็นลูกค้า</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_11" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_11" onclick="" />
 
                 <div class="video__popup" id="video_popup_11">
 
@@ -423,12 +468,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">โปรโมชั่นแบบออฟไลน์มีประสิทธิภาพจริงหรือไม่ 5 วิธีที่ใช้ได้ผล</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_12" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_12" onclick="" />
 
                 <div class="video__popup" id="video_popup_12">
 
@@ -444,12 +489,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">องค์ประกอบที่สำคัญที่สุดในแบบของคุณเองที่ทำให้คนอื่น ๆ ไว้ใจคุณ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_13" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_13" onclick="" />
 
                 <div class="video__popup" id="video_popup_13">
 
@@ -465,12 +510,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">ปล่อยไปหรือเก็บไว้ คำแนะนำอย่างละเอียดว่าจะมีลูกค้าประจำได้อย่างไร</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_14" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_14" onclick="" />
 
                 <div class="video__popup" id="video_popup_14">
 
@@ -486,12 +531,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">สร้างรายได้แบบ passive income วิธีทำให้ระบบทำงานให้กับคุณ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_15" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_15" onclick="" />
 
                 <div class="video__popup" id="video_popup_15">
 
@@ -515,13 +560,13 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">เพราะเหตุใดคุณจึงต้องสร้างเครือข่ายของคุณเอง เรื่องจริงทั้งหมดที่เคยเกิดขึ้น
                         คือ ตัวอย่างที่คุ้มค่าและน่าทำตาม</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_16" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_16" onclick="" />
 
                 <div class="video__popup" id="video_popup_16">
 
@@ -537,13 +582,13 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">5 วิธีที่มีประสิทธิภาพที่จะช่วยให้เครือข่ายของคุณเติบโตอย่างรวดเร็ว!
                         ดูเลยว่าต้องทำอย่างไร</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_17" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_17" onclick="" />
 
                 <div class="video__popup" id="video_popup_17">
 
@@ -559,13 +604,13 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">บทเรียนที่น่าสนใจในการดึงดูดผู้ร่วมธุรกิจรายใหม่ ๆ
                         บทสนทนาที่ทำให้ผู้คนติดตามคุณ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_18" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_18" onclick="" />
 
                 <div class="video__popup" id="video_popup_18">
 
@@ -581,12 +626,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">การพัฒนาทีมของคุณ วิธีโน้มน้าวใจให้คนในทีมของคุณโปรโมทสถานะของเขา</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_19" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_19" onclick="" />
 
                 <div class="video__popup" id="video_popup_19">
 
@@ -602,12 +647,12 @@
 
                 <div class="video__preview">
 
-                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick=""/>
+                    <img src="../../assets/pictures/svg/video/coming-soon-th.svg" class="preview-img--hide" onclick="" />
                     <h2 class="preview-caption--hide" onclick="">แรงจูงใจที่ยอดเยี่ยม วิธีที่ช่วยให้คุณยังคงเชื่อมั่นในตัวเองและทีมของคุณ</h2>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_20" onclick="">
+                <img src="../../assets/pictures/svg/cancel-music.svg" class="video-close" id="close_video_20" onclick="" />
 
                 <div class="video__popup" id="video_popup_20">
 

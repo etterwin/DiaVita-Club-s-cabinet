@@ -21,9 +21,10 @@
 
         <!-- JS -->
         <script src="../../assets/js/addClass.js"></script>
-        <script src="../../assets/js/hide.js"></script>
         <script src="../../assets/js/dropdownmenu.js"></script>
+        <script src="../../assets/js/hide.js"></script>
         <script src="../../assets/js/menu.js"></script>
+        <script src="../../assets/js/openHtml.js"></script>
         <script src="../../assets/js/scrollup.js"></script>
         <script src="../../assets/js/search.js"></script>
         <script src="../../assets/js/submenu.js"></script>
@@ -36,7 +37,7 @@
 
     <a id="anchor--top"></a>
 
-        <div class="btn button-container" id="open">
+    <div class="btn button-container" id="open">
             <span class="top"></span>
             <span class="middle"></span>
             <span class="bottom"></span>
@@ -45,67 +46,109 @@
     <nav class="nav-mobil" id="nav-mobil">
 
         <ul class="nav-mobil-list" id="accordion">
-            <li class="nav-mobil-item"><a href="../../EN.html" class="nav-mobil-item-link"><img
-                    src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Home</a></li>
+            <li class="nav-mobil-item">
+                <a href="../../TH.html" class="nav-mobil-item-link">
+                    <img src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="" />บ้าน</a></li> <!-- Home -->
             <li class="nav-mobil-item submenu-open">
-                <div class="link"><img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My
-                    structure<i class="fa fa-chevron-down"></i></div>
+                <div class="link">
+                    <img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="" />
+                    โครงสร้างของฉัน<i class="fa fa-chevron-down"></i> <!-- my structure -->
+                </div>
                 <ul class="mobil-submenu-list mobil-tabs-list">
-                    <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
+                    <li class="mobil-submenu-item mobil-tabs-item"><a href="#profile"
                                                                       class="mobil-submenu-item-link mobil-tabs-item-link active-profile-mob"
-                                                                      onclick="closeMenu(this)">My profile</a></li>
-                    <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                      class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                      onclick="closeMenu(this)">My statistic</a></li>
-                    <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                      class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                      onclick="closeMenu(this)">My contacts</a></li>
-                    <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                      class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                      onclick="closeMenu(this)">Setting</a></li>
+                                                                      onclick="closeMenu(this)">ประวัติของฉัน</a> <!-- My profile -->
+                    </li>
+                    <li class="mobil-submenu-item mobil-tabs-item"><a href="#statistic"
+                                                                      class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                      onclick="closeMenu(this)">สถิติของฉัน</a> <!-- My statistic -->
+                    </li>
+                    <li class="mobil-submenu-item mobil-tabs-item"><a href="#contacts"
+                                                                      class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                      onclick="closeMenu(this)">รายชื่อติดต่อของฉัน</a> <!-- My contacts -->
+                    </li>
+                    <li class="mobil-submenu-item mobil-tabs-item"><a href="#setting"
+                                                                      class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                      onclick="closeMenu(this)">การตั้งค่า</a> <!-- Setting -->
+                    </li>
                 </ul>
             </li>
-            <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img
-                    src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+            <li class="nav-mobil-item">
+                <a href="instruments.html" class="nav-mobil-item-link">
+                    <img src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="" />เครื่องมือ</a> <!-- instruments -->
+            </li>
             <li class="nav-mobil-item submenu-open">
-                <div class="link"><img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i
-                        class="fa fa-chevron-down"></i></div>
+                <div class="link">
+                    <img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="" />
+                    โรงเรียน<i class="fa fa-chevron-down"></i> <!-- school -->
+                </div>
                 <ul class="mobil-submenu-list">
                     <li class="mobil-submenu-item"><a href="introduction.html"
                                                       class="mobil-submenu-item-link mobil-submenu-item-link-active"
-                                                      onclick="closeMenu(this)">Introducion</a></li>
+                                                      onclick="openSchool(this)">บทนำ</a> <!-- Introduction -->
+                    </li>
                     <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                      onclick="closeMenu(this)">Online promotion</a></li>
+                                                      onclick="openSchool(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                    </li>
                     <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                      onclick="closeMenu(this)">Offline promotion</a></li>
+                                                      onclick="openSchool(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                    </li>
                     <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                      onclick="closeMenu(this)">Business creating</a></li>
+                                                      onclick="openSchool(this)">การสร้างธุรกิจ</a> <!-- Business creating -->
+                    </li>
                     <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                      onclick="closeMenu(this)">Increase in sales</a></li>
+                                                      onclick="openSchool(this)">เพิ่มยอดขาย</a> <!-- Increase in sales -->
+                    </li>
                     <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                      onclick="closeMenu(this)">Negotiation</a></li>
+                                                      onclick="openSchool(this)">การเจรจาต่อรอง</a> <!-- Negotiation -->
+                    </li>
                 </ul>
-            </li>
-            <li class="nav-mobil-item"><a href="training.html" class="nav-mobil-item-link"><img
-                    src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Training</a></li>
-            <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img
-                    src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
-            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="../../assets/pictures/svg/chat.svg"
-                                                                                    class="nav-mobil-icon" alt="">Chat</a>
             </li>
             <li class="nav-mobil-item submenu-open">
-                <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
-                        class="fa fa-chevron-down"></i></div>
+                <div class="link">
+                    <img src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="" />
+                    การอบรม<i class="fa fa-chevron-down"></i> <!-- training -->
+                </div>
                 <ul class="mobil-submenu-list">
-                    <li class="mobil-submenu-item"><a href="../../EN.html"
-                                                      class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                    <li class="mobil-submenu-item"><a href="training.html"
+                                                      class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                      onclick="openTraining(this)">ธุรกิจใน DiaVita Club</a> <!-- Business in the Diavita Club -->
                     </li>
-                    <li class="mobil-submenu-item"><a href="../../TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
-                    </a></li>
+                    <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                      onclick="openTraining(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                    </li>
+                    <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                      onclick="openTraining(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                    </li>
+                    <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                      onclick="openTraining(this)">การพัฒนาธุรกิจใน DiaVita Club</a> <!-- Business development in the DiaVita Club -->
+                    </li>
                 </ul>
             </li>
-            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img
-                    src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+            <li class="nav-mobil-item">
+                <a href="shop.html" class="nav-mobil-item-link">
+                    <img src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="" />Shop</a> <!-- shop -->
+            </li>
+            <li class="nav-mobil-item">
+                <a href="#" class="nav-mobil-item-link">
+                    <img src="../../assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="" />พูดคุย</a> <!-- chat -->
+            </li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link">
+                    <img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                    ภาษา<i class="fa fa-chevron-down"></i> <!-- language -->
+                </div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item">
+                        <a href="../EN/profile.html" class="mobil-submenu-item-link mobil-submenu-item-link-active">English</a>
+                    </li>
+                    <li class="mobil-submenu-item">
+                        <a href="../../TH.html" class="mobil-submenu-item-link">ไทย</a> <!-- thai -->
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="" />ออกจากระบบ</a></li> <!--logout -->
         </ul>
 
     </nav>
@@ -126,21 +169,21 @@
                     <li class="navigation-item"><a href="training.html" class="navigation-item-link">การอบรม</a></li> <!-- training -->
                     <li class="navigation-item"><a href="shop.html" class="navigation-item-link">ห้าง</a></li> <!-- shop -->
                     <li class="navigation-item"><a href="#" class="navigation-item-link">พูดคุย</a></li> <!-- chat -->
-                    <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                    <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">ภาษา <!-- language -->
                         <ul class="navigation-submenu-list" id="submenu_list">
                             <li class="navigation-submenu-item"><a href="../EN/profile.html">English</a></li>
-                            <li class="navigation-submenu-item"><a href="profile.html">Thai</a></li>
+                            <li class="navigation-submenu-item"><a href="profile.html">ไทย</a></li> <!-- thai -->
                         </ul>
                     </li>
                 </ul>
 
 
                 <form class="header-form" action="" autocomplete="on">
-                    <input id="search" name="search" type="search" placeholder="ค้นหา...">
-                    <input id="search_submit" value="Rechercher" type="submit">
+                    <input id="search" name="search" type="search" placeholder="Search...">
+                    <input id="search_submit" value="Researcher" type="submit">
                 </form>
 
-                <a href="login.html" class="logout-link">ออกจากระบบ</a> <!-- logout -->
+                <a href="login.html" class="logout-link">ออกจากระบบ</a> <!--logout -->
 
             </nav>
 
@@ -148,11 +191,11 @@
 
     </header>
 
-        <div class="wrapper">
+    <div class="wrapper">
 
             <aside class="usermenu__container">
 
-                <img src="../../assets/pictures/svg/avatar.svg" class="user-photo" alt="">
+                <img src="../../assets/pictures/svg/avatar.svg" class="user-photo" alt="" />
                 <h3 class="user-name">Kel'Tass Sunstrider</h3>
                 <h4 class="user-status">Business partner</h4>
 
@@ -180,29 +223,29 @@
 
                         <div class="user-data--left">
                             <div class="user-data__container">
-                                <img src="../../assets/pictures/svg/tw.svg" class="user-icon" alt="">
+                                <img src="../../assets/pictures/svg/tw.svg" class="user-icon" alt="" />
                                 <p class="data-contact"><span class="twitter">twitter:@example</span></p>
                             </div>
 
                             <div class="user-data__container">
-                                <img src="../../assets/pictures/svg/fb.svg" class="user-icon" alt="">
+                                <img src="../../assets/pictures/svg/fb.svg" class="user-icon" alt="" />
                                 <p class="data-contact"><span class="facebook">facebook.com/example</span></p>
                             </div>
 
                             <div class="user-data__container">
-                                <img src="../../assets/pictures/svg/sky.svg" class="user-icon" alt="">
+                                <img src="../../assets/pictures/svg/sky.svg" class="user-icon" alt="" />
                                 <p class="data-contact"><span class="skype">example</span></p>
                             </div>
                         </div>
 
                         <div class="user-data--right">
                             <div class="user-data__container">
-                                <img src="../../assets/pictures/svg/mail.svg" class="user-icon" alt="">
+                                <img src="../../assets/pictures/svg/mail.svg" class="user-icon" alt="" />
                                 <p class="data-contact"><span class="email"></span>example@mail.com</p>
                             </div>
 
                             <div class="user-data__container">
-                                <img src="../../assets/pictures/svg/phone.svg" class="user-icon" alt="">
+                                <img src="../../assets/pictures/svg/phone.svg" class="user-icon" alt="" />
                                 <p class="data-contact"><span class="phone"></span>+1234567890</p>
                             </div>
                         </div>
@@ -210,10 +253,10 @@
 
                     <aside class="info__friends">
                         <h3 class="friends-caption">เพื่อน</h3>
-                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="">
-                        <img src="../../assets/pictures/svg/plus.svg" class="friends-add" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="" />
+                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="" />
+                        <img src="../../assets/pictures/svg/avatar.svg" class="friends-img" alt="" />
+                        <img src="../../assets/pictures/svg/plus.svg" class="friends-add" alt="" />
                     </aside>
 
                 </div>
@@ -229,7 +272,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -239,33 +282,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -277,7 +320,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -287,33 +330,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -325,7 +368,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -335,33 +378,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -373,7 +416,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -383,33 +426,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -421,7 +464,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -431,33 +474,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -469,7 +512,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -479,33 +522,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -517,7 +560,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -527,33 +570,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -565,7 +608,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -575,33 +618,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -613,7 +656,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -623,33 +666,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -661,7 +704,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -671,33 +714,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -709,7 +752,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -719,33 +762,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -757,7 +800,7 @@
                 <section class="contact__container">
 
                     <div class="contact__content">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                         <h3 class="contact-name">Jayna Praudmur</h3>
                         <p class="contact-status">Master partner</p>
                         <a class="open-popup popup-btn" href="#">Show more</a>
@@ -767,33 +810,33 @@
                         <div class="popup-box">
 
                             <div class="contact__main">
-                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="">
+                                <img src="../../assets/pictures/svg/avatar.svg" class="contact-avatar" alt="" />
                                 <h3 class="contact-name">Jayna Praudmur</h3>
                                 <p class="contact-status">Master partner</p>
                             </div>
 
                             <div class="contact__information">
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/tw.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="twitter">twitter:@example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/fb.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="facebook">facebook.com/example</span></p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/sky.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="skype">example</span></p>
                                 </div>
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/mail.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="email"></span>example@mail.com</p>
                                 </div>
 
                                 <div class="information__container">
-                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="">
+                                    <img src="../../assets/pictures/svg/phone.svg" class="information-icon" alt="" />
                                     <p class="information-data"><span class="phone"></span>+1234567890</p>
                                 </div>
                             </div>
@@ -810,7 +853,7 @@
                 <div class="setting__avatar">
 
                     <form action="" method="post" enctype="multipart/form-data">
-                        <img src="../../assets/pictures/svg/avatar.svg" class="form-img" alt="">
+                        <img src="../../assets/pictures/svg/avatar.svg" class="form-img" alt="" />
                         <label for="avatar-download" class="avatar-download">ดาวน์โหลด</label>
                         <input type="file" name="avatar" id="avatar-download">
                         <input type="submit" value="Download">
@@ -855,31 +898,31 @@
                     <form class="setting__forms">
 
                         <div class="form__container">
-                            <img src="../../assets/pictures/svg/tw.svg" class="setting-icon" alt="">
+                            <img src="../../assets/pictures/svg/tw.svg" class="setting-icon" alt="" />
                             <label for="contact-setting-twitter" class="setting-text-fix">Twitter:</label>
                             <input type="url" id="contact-setting-twitter" class="setting-data" name="twitter" placeholder="ป้อนที่อยู่ Twitter ของคุณ...">
                         </div>
 
                         <div class="form__container">
-                            <img src="../../assets/pictures/svg/fb.svg" class="setting-icon" alt="">
+                            <img src="../../assets/pictures/svg/fb.svg" class="setting-icon" alt="" />
                             <label for="contact-setting-facebook" class="setting-text-fix">Facebook:</label>
                             <input type="url" id="contact-setting-facebook" class="setting-data" name="facebook" placeholder="ป้อนที่อยู่ Facebook ของคุณ...">
                         </div>
 
                         <div class="form__container">
-                            <img src="../../assets/pictures/svg/sky.svg" class="setting-icon" alt="">
+                            <img src="../../assets/pictures/svg/sky.svg" class="setting-icon" alt="" />
                             <label for="contact-setting-skype" class="setting-text-fix">Skype:</label>
                             <input type="url" id="contact-setting-skype" class="setting-data" name="skype" placeholder="ป้อนที่อยู่ Skype ของคุณ...">
                         </div>
 
                         <div class="form__container">
-                            <img src="../../assets/pictures/svg/mail.svg" class="setting-icon" alt="">
+                            <img src="../../assets/pictures/svg/mail.svg" class="setting-icon" alt="" />
                             <label for="contact-setting-email" class="setting-text-fix">Email:</label>
                             <input type="email" id="contact-setting-email" class="setting-data" name="email" placeholder="กรอกที่อยู่อีเมล์ของคุณ...">
                         </div>
 
                         <div class="form__container">
-                            <img src="../../assets/pictures/svg/phone.svg" class="setting-icon" alt="">
+                            <img src="../../assets/pictures/svg/phone.svg" class="setting-icon" alt="" />
                             <label for="contact-setting-phone" class="setting-text-fix">Phone:</label>
                             <input type="tel" id="contact-setting-phone" class="setting-data" name="phone" placeholder="ป้อนหมายเลขโทรศัพท์ของคุณ...">
                         </div>
@@ -915,18 +958,18 @@
 
         </div>
 
-        <a href="#anchor--top" class="scrollup" id="scrollToTop">
+    <a href="#anchor--top" class="scrollup" id="scrollToTop">
             <div class="arrow-wrapper"><div class="arrows"></div></div>
         </a>
 
-        <footer class="footer">
+    <footer class="footer">
             <p class="footer-text">สงวนลิขสิทธิ์
                 <br> 2017 | <span class="diavita">DiaVita</span></p>
         </footer>
 
     <script src="../../assets/js/addClass.js"></script>
-    <script src="../../assets/js/hide.js"></script>
     <script src="../../assets/js/dropdownmenu.js"></script>
+    <script src="../../assets/js/hide.js"></script>
     <script src="../../assets/js/menu.js"></script>
     <script src="../../assets/js/scrollup.js"></script>
     <script src="../../assets/js/search.js"></script>

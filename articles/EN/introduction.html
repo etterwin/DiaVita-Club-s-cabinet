@@ -22,10 +22,10 @@
 
     <!-- JS -->
     <script src="../../assets/js/accordion.js"></script>
-    <script src="../../assets/js/hide.js"></script>
     <script src="../../assets/js/addClass.js"></script>
     <script src="../../assets/js/coopGraphic.js"></script>
     <script src="../../assets/js/dropdownmenu.js"></script>
+    <script src="../../assets/js/hide.js"></script>
     <script src="../../assets/js/menu.js"></script>
     <script src="../../assets/js/rain.js"></script>
     <script src="../../assets/js/scrolldown.js"></script>
@@ -50,67 +50,105 @@
 <nav class="nav-mobil" id="nav-mobil">
 
     <ul class="nav-mobil-list" id="accordion">
-        <li class="nav-mobil-item"><a href="../../EN.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Home</a></li>
+        <li class="nav-mobil-item">
+            <a href="../../EN.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt=""/>Home</a>
+        </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My
-                structure<i class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">
+                My structure<i class="fa fa-chevron-down"></i></div>
             <ul class="mobil-submenu-list mobil-tabs-list">
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                   class="mobil-submenu-item-link mobil-tabs-item-link active-profile-mob"
-                                                                  onclick="closeMenu(this)">My profile</a></li>
+                                                                  onclick="openProfile(this)">My profile</a></li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                   class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">My statistic</a></li>
+                                                                  onclick="openProfile(this)">My statistic</a></li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                   class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">My contacts</a></li>
+                                                                  onclick="openProfile(this)">My contacts</a></li>
                 <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                   class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                  onclick="closeMenu(this)">Setting</a></li>
+                                                                  onclick="openProfile(this)">Setting</a></li>
             </ul>
         </li>
-        <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+        <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link">
+            <img src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="" />Instruments</a>
+        </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i
-                    class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="" />
+                School<i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="mobil-submenu-list">
                 <li class="mobil-submenu-item"><a href="#introduction"
                                                   class="mobil-submenu-item-link mobil-submenu-item-link-active"
-                                                  onclick="closeMenu(this)">Introducion</a></li>
+                                                  onclick="closeMenu(this)">Introduction</a>
+                </li>
                 <li class="mobil-submenu-item"><a href="#online-promotion" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Online promotion</a></li>
+                                                  onclick="closeMenu(this)">Online promotion</a>
+                </li>
                 <li class="mobil-submenu-item"><a href="#offline-promotion" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Offline promotion</a></li>
+                                                  onclick="closeMenu(this)">Offline promotion</a>
+                </li>
                 <li class="mobil-submenu-item"><a href="#business-creating" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Business creating</a></li>
+                                                  onclick="closeMenu(this)">Business creating</a>
+                </li>
                 <li class="mobil-submenu-item"><a href="#increase-in-sales" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Increase in sales</a></li>
+                                                  onclick="closeMenu(this)">Increase in sales</a>
+                </li>
                 <li class="mobil-submenu-item"><a href="#negotiation" class="mobil-submenu-item-link"
-                                                  onclick="closeMenu(this)">Negotiation</a></li>
+                                                  onclick="closeMenu(this)">Negotiation</a>
+                </li>
             </ul>
-        </li>
-        <li class="nav-mobil-item"><a href="training.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Training</a></li>
-        <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
-        <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="../../assets/pictures/svg/chat.svg"
-                                                                                class="nav-mobil-icon" alt="">Chat</a>
         </li>
         <li class="nav-mobil-item submenu-open">
-            <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
-                    class="fa fa-chevron-down"></i></div>
+            <div class="link">
+                <img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                Training<i class="fa fa-chevron-down"></i>
+            </div>
             <ul class="mobil-submenu-list">
-                <li class="mobil-submenu-item"><a href="../../EN.html"
-                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                <li class="mobil-submenu-item"><a href="training.html"
+                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                  onclick="openTraining(this)">Business in the DiaVita Club</a>
                 </li>
-                <li class="mobil-submenu-item"><a href="../../TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
-                </a></li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Online promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Offline promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Business development in the DiaVita Club</a>
+                </li>
             </ul>
         </li>
-        <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img
-                src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+        <li class="nav-mobil-item">
+            <a href="shop.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="" />Shop</a>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="#" class="nav-mobil-item-link">
+            <img src="../../assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="" />Chat</a>
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="">
+                Language<i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item">
+                    <a href="../../EN.html" class="mobil-submenu-item-link mobil-submenu-item-link-active">English</a>
+                </li>
+                <li class="mobil-submenu-item">
+                    <a href="../TH/introduction.html" class="mobil-submenu-item-link">ไทย</a> <!-- thai -->
+                </li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="#" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="" />Logout</a>
+        </li>
     </ul>
 
 </nav>
@@ -119,7 +157,7 @@
 
     <div class="header-wrapper">
 
-        <img src="../../assets/pictures/svg/logowhite.svg" class="header-logo-mob" alt="">
+        <img src="../../assets/pictures/svg/logowhite.svg" class="header-logo-mob" alt="" />
 
         <nav class="header-navigation">
 
@@ -133,8 +171,8 @@
                 <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
                 <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
                     <ul class="navigation-submenu-list" id="submenu_list">
-                        <li class="navigation-submenu-item"><a href="introduction.html">English</a></li>
-                        <li class="navigation-submenu-item"><a href="../TH/introduction.html">Thai</a></li>
+                        <li class="navigation-submenu-item"><a href="../../EN.html">English</a></li>
+                        <li class="navigation-submenu-item"><a href="../TH/introduction.html">ไทย</a></li> <!-- thai -->
                     </ul>
                 </li>
             </ul>
@@ -142,7 +180,7 @@
 
             <form class="header-form" action="" autocomplete="on">
                 <input id="search" name="search" type="search" placeholder="Search...">
-                <input id="search_submit" value="Rechercher" type="submit">
+                <input id="search_submit" value="Researcher" type="submit">
             </form>
 
             <a href="login.html" class="logout-link">Logout</a>
@@ -158,18 +196,23 @@
     <nav class="school__navigation">
 
         <ul class="school-nav-list">
-            <li class="school-nav-item"><a href="#introduction"
-                                           class="school-nav-item-link school-nav-item-link--active">Introduction</a>
+            <li class="school-nav-item">
+                <a href="#introduction" class="school-nav-item-link school-nav-item-link--active">Introduction</a>
             </li>
-            <li class="school-nav-item"><a href="#online-promotion" class="school-nav-item-link">Online promotion</a>
+            <li class="school-nav-item">
+                <a href="#online-promotion" class="school-nav-item-link">Online promotion</a>
             </li>
-            <li class="school-nav-item"><a href="#offline-promotion" class="school-nav-item-link">Offline promotion</a>
+            <li class="school-nav-item">
+                <a href="#offline-promotion" class="school-nav-item-link">Offline promotion</a>
             </li>
-            <li class="school-nav-item"><a href="#business-creating" class="school-nav-item-link">Business creation</a>
+            <li class="school-nav-item">
+                <a href="#business-creating" class="school-nav-item-link">Business creation</a>
             </li>
-            <li class="school-nav-item"><a href="#increase-in-sales" class="school-nav-item-link">Increase in sales</a>
+            <li class="school-nav-item">
+                <a href="#increase-in-sales" class="school-nav-item-link">Increase in sales</a>
             </li>
-            <li class="school-nav-item"><a href="#negotiation" class="school-nav-item-link">Negotiation</a></li>
+            <li class="school-nav-item">
+                <a href="#negotiation" class="school-nav-item-link">Negotiation</a></li>
         </ul>
 
     </nav>
@@ -184,10 +227,9 @@
                 <div class="lesson-header">
 
                     <h1 class="lesson-header-caption">Who we are?</h1>
-                    <img src="../../assets/pictures/svg/firstlesson/groupleaf.svg" class="first-lesson-img--leaf"
-                         alt="">
+                    <img src="../../assets/pictures/svg/firstlesson/groupleaf.svg" class="first-lesson-img--leaf" alt="" />
                     <img src="../../assets/pictures/svg/firstlesson/greeting.svg"
-                         class="lesson-header-img first-lesson-pandafix" alt="">
+                         class="lesson-header-img first-lesson-pandafix" alt="" />
 
                 </div>
 
@@ -195,7 +237,7 @@
 
                     <div class="lesson-container__content">
 
-                        <img src="../../assets/pictures/svg/icons/medal.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/medal.svg" class="lesson-container-icon" alt="" />
                         <p class="first-lesson-text">We are one of the most innovative network companies in the
                             world.</p>
 
@@ -203,7 +245,7 @@
 
                     <div class="lesson-container__content">
 
-                        <img src="../../assets/pictures/svg/icons/networking.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/networking.svg" class="lesson-container-icon" alt="" />
                         <p class="first-lesson-text">We offer excellent opportunities for doing business for
                             everyone.</p>
 
@@ -211,8 +253,7 @@
 
                     <div class="lesson-container__content">
 
-                        <img src="../../assets/pictures/svg/icons/presentation.svg" class="lesson-container-icon"
-                             alt="">
+                        <img src="../../assets/pictures/svg/icons/presentation.svg" class="lesson-container-icon" alt="" />
                         <p class="first-lesson-text">We teach to build effective marketing plans and effectively use
                             modern digital technologies.</p>
 
@@ -220,7 +261,7 @@
 
                     <div class="lesson-container__content">
 
-                        <img src="../../assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="" />
                         <p class="first-lesson-text">What's important is that you will not need any material
                             investment.</p>
 
@@ -228,7 +269,7 @@
 
                     <div class="lesson-container__content">
 
-                        <img src="../../assets/pictures/svg/icons/online-shop.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/online-shop.svg" class="lesson-container-icon" alt="" />
                         <p class="first-lesson-text">In addition, if you become a part of our team, then you will be
                             able to purchase products from the company with very good discounts.</p>
 
@@ -242,8 +283,7 @@
 
                     <div class="first-lesson__content">
 
-                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="first-lesson-content-icon"
-                             alt="">
+                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="first-lesson-content-icon" alt="" />
                         <p class="first-lesson-content-text">If you dream of your own business, but you do not have seed
                             capital, then we will help you realize your dream!</p>
 
@@ -251,7 +291,7 @@
 
                     <div class="first-lesson__content">
 
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="first-lesson-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="first-lesson-content-icon" alt="" />
                         <p class="first-lesson-content-text">You can safely call yourself a single-minded person and you
                             are not afraid of changes in your life? We are waiting for you!</p>
 
@@ -267,7 +307,7 @@
 
                         <div class="first-lesson__container">
 
-                            <img src="../../assets/pictures/svg/icons/currency.svg" class="first-lesson-icon" alt="">
+                            <img src="../../assets/pictures/svg/icons/currency.svg" class="first-lesson-icon" alt="" />
                             <p class="first-lesson-text">Lack of costs. You do not have to borrow or invest a lot to
                                 start your own business.</p>
 
@@ -275,8 +315,7 @@
 
                         <div class="first-lesson__container">
 
-                            <img src="../../assets/pictures/svg/icons/certeficate%20-%201.svg" class="first-lesson-icon"
-                                 alt="">
+                            <img src="../../assets/pictures/svg/icons/certeficate%20-%201.svg" class="first-lesson-icon" alt="" />
                             <p class="first-lesson-text">You will learn the secrets of successful business conduct:
                                 trainings, master classes, webinars and much more.</p>
 
@@ -284,8 +323,7 @@
 
                         <div class="first-lesson__container">
 
-                            <img src="../../assets/pictures/svg/icons/laptop-and-rocket.svg" class="first-lesson-icon"
-                                 alt="">
+                            <img src="../../assets/pictures/svg/icons/laptop-and-rocket.svg" class="first-lesson-icon" alt="" />
                             <p class="first-lesson-text">Innovative IT solutions for attracting new customers and
                                 business development.</p>
 
@@ -293,14 +331,14 @@
 
                         <div class="first-lesson__container">
 
-                            <img src="../../assets/pictures/svg/icons/progress.svg" class="first-lesson-icon" alt="">
+                            <img src="../../assets/pictures/svg/icons/progress.svg" class="first-lesson-icon" alt="" />
                             <p class="first-lesson-text">Opportunities for rapid career growth.</p>
 
                         </div>
 
                         <div class="first-lesson__container">
 
-                            <img src="../../assets/pictures/svg/icons/three.svg" class="first-lesson-icon" alt="">
+                            <img src="../../assets/pictures/svg/icons/three.svg" class="first-lesson-icon" alt="" />
                             <p class="first-lesson-text">You will find a friendly team and constant acquaintance with
                                 successful people.</p>
 
@@ -308,7 +346,7 @@
 
                     </div>
 
-                    <img src="../../assets/pictures/svg/firstlesson/sit.svg" class="first-lesson-img--right" alt="">
+                    <img src="../../assets/pictures/svg/firstlesson/sit.svg" class="first-lesson-img--right" alt="" />
 
                 </div>
 
@@ -321,7 +359,7 @@
                 <div class="lesson-header">
 
                     <h1 class="lesson-header-caption">Why should I become a SBL* (Senior Business Leader)?</h1>
-                    <img src="../../assets/pictures/svg/secondlesson/together.svg" class="lesson-header-img" alt="">
+                    <img src="../../assets/pictures/svg/secondlesson/together.svg" class="lesson-header-img" alt="" />
 
                 </div>
 
@@ -334,7 +372,7 @@
                         <br> SBL for real is a luxury and he has a 30% discount. And accordingly from each downline
                         partner in his structure, he receives income for each sale.</p>
 
-                    <img src="../../assets/pictures/svg/secondlesson/hint.svg" class="second-lesson-img--right" alt="">
+                    <img src="../../assets/pictures/svg/secondlesson/hint.svg" class="second-lesson-img--right" alt="" />
 
                 </div>
 
@@ -352,7 +390,7 @@
                             Moreover he gets 7% of the volume of his structure in addition.</p>
 
                         <img src="../../assets/pictures/svg/secondlesson/success-winner.svg"
-                             class="second-lesson-container-img" alt="">
+                             class="second-lesson-container-img" alt="" />
 
                     </div>
 
@@ -366,7 +404,7 @@
                             SBL.</p>
 
                         <img src="../../assets/pictures/svg/secondlesson/success-loser.svg"
-                             class="second-lesson-container-img" alt="">
+                             class="second-lesson-container-img" alt="" />
 
                     </div>
 
@@ -379,8 +417,7 @@
                         SBL always has in the structure his own BL (Business Leader), whom Partner, SP and MP obey. And
                         from them he also receives 7% of their common turnover.</p>
 
-                    <img src="../../assets/pictures/svg/secondlesson/about-loser.svg" class="second-lesson-img--right"
-                         alt="">
+                    <img src="../../assets/pictures/svg/secondlesson/about-loser.svg" class="second-lesson-img--right" alt="" />
 
                 </div>
 
@@ -391,14 +428,13 @@
                         At that time SBL is known in the DiaVita Club, he is as an example and everyone wants to be
                         friends with him.</p>
 
-                    <img src="../../assets/pictures/svg/secondlesson/pandas.svg" class="second-lesson-img--right"
-                         alt="">
+                    <img src="../../assets/pictures/svg/secondlesson/pandas.svg" class="second-lesson-img--right" alt="" />
 
                 </div>
 
                 <footer class="lesson-footer">
                     <p class="lesson-footer-text">Make the right choice, become SBL!</p>
-                    <img src="../../assets/pictures/svg/drows/footerSecondLesson-en.svg" class="lesson-footer-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/footerSecondLesson-en.svg" class="lesson-footer-img" alt="" />
                 </footer>
 
             </div>
@@ -410,7 +446,7 @@
                 <div class="lesson-header">
 
                     <h1 class="lesson-header-caption">Why do you need to team up and share information?</h1>
-                    <img src="../../assets/pictures/svg/thirdlesson/header.svg" class="lesson-header-img" alt="">
+                    <img src="../../assets/pictures/svg/thirdlesson/header.svg" class="lesson-header-img" alt="" />
 
                 </div>
 
@@ -421,7 +457,7 @@
                         that he can not finish on time. He does not share information, because he thinks that no one
                         will guess before his information.</p>
                     <img src="../../assets/pictures/svg/thirdlesson/pandabusy.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -432,7 +468,7 @@
                         him. As a result, the exchange of information is much faster: the best ways to attract appear
                         faster than those who work alone.</p>
                     <img src="../../assets/pictures/svg/thirdlesson/presentation.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -443,7 +479,7 @@
                         shares information at the forums, and he already stands on the higher position and became a MP.
                         Very soon he will rise again on the career ladder.</p>
                     <img src="../../assets/pictures/svg/thirdlesson/laptop.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -454,7 +490,7 @@
                         came to success. They always interact with each other, which is why their productivity is
                         high.</p>
                     <img src="../../assets/pictures/svg/thirdlesson/talking.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -464,7 +500,7 @@
                         his shoulders a load with which he will cope alone or not. However, when you are not alone, they
                         are all a team and it is always easier for them to overcome all difficulties!</p>
                     <img src="../../assets/pictures/svg/thirdlesson/alone.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -474,7 +510,7 @@
                         period of time. At this time, the second and his comrades became SBL, they have their own
                         structure and big income.</p>
                     <img src="../../assets/pictures/svg/thirdlesson/mountain.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -492,7 +528,7 @@
                     </div>
 
                     <img src="../../assets/pictures/svg/thirdlesson/together.svg" class="third-lesson-container-img"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -514,7 +550,7 @@
 
                     <h2 class="lesson-header-caption">Basic course of promotion in Instagram</h2>
                     <img src="../../assets/pictures/svg/drows/insta-panda.svg"
-                         class="lesson-header-img lesson-header-img--320" alt="">
+                         class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -532,11 +568,11 @@
                         <div class="android__container">
                             <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en">
 
-                                <img src="../../assets/pictures/svg/icons/android-logo.svg" class="android-img" alt="">
+                                <img src="../../assets/pictures/svg/icons/android-logo.svg" class="android-img" alt="" />
                                 <img src="../../assets/pictures/svg/icons/black-circle.svg" class="android-icon--left"
-                                     alt="">
+                                     alt="" />
                                 <img src="../../assets/pictures/svg/icons/black-circle.svg" class="android-icon--right"
-                                     alt="">
+                                     alt="" />
 
                             </a>
                         </div>
@@ -547,8 +583,9 @@
 
                     <div class="basic-inst__link">
 
-                        <a href="#"><img src="../../assets/pictures/svg/icons/apple-logo.svg"
-                                         class="basic-inst-link-img" alt=""></a>
+                        <a href="#">
+                            <img src="../../assets/pictures/svg/icons/apple-logo.svg" class="basic-inst-link-img" alt="" />
+                        </a>
                         <p class="basic-inst-link-text">For iPhone (iOS)</p>
 
                     </div>
@@ -556,9 +593,8 @@
                     <div class="basic-inst__link basic-inst__link-rain">
 
                         <div class="rain"></div>
-                        <a href="https://www.microsoft.com/en-us/store/p/instagram/9nblggh5l9xt?SilentAuth=1&wa=wsignin1.0"><img
-                                src="../../assets/pictures/svg/icons/windows-logo.svg" class="basic-inst-link-img"
-                                alt=""></a>
+                        <a href="https://www.microsoft.com/en-us/store/p/instagram/9nblggh5l9xt?SilentAuth=1&wa=wsignin1.0">
+                            <img src="../../assets/pictures/svg/icons/windows-logo.svg" class="basic-inst-link-img" alt="" /></a>
                         <p class="basic-inst-link-text">For Windows Mobile</p>
 
                     </div>
@@ -570,7 +606,7 @@
 
                     <div class="lesson-container__content">
                         <img src="../../assets/pictures/svg/icons/instagram-icon.svg" class="lesson-container-icon"
-                             alt="">
+                             alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Go to the link above, select in accordance with your phone
                                 or go to the application store and download Instagram.</p>
@@ -580,7 +616,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Run the application and select the registration method. You
                                 can automatically register via Facebook (if you have an account there)</p>
@@ -590,7 +626,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/send-mail.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/send-mail.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">You can register via email or phone number, just switch the
                                 tab</p>
@@ -600,7 +636,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/stationery.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/stationery.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Enter your phone number or e-mail.</p>
                             <span class="lesson-container-number">4</span>
@@ -609,7 +645,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/contract.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/contract.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Next, enter your name and surname, login and password.
                                 Also, make an avatar photo.</p>
@@ -619,7 +655,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/networking.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/networking.svg" class="lesson-container-icon" alt=""  />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Subscribe to the maximum number of friends. The more of
                                 them, the more likely to find buyers among them.</p>
@@ -629,7 +665,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/flag.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/flag.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">That is all, an account is created, now you should design
                                 and set up it.</p>
@@ -641,9 +677,9 @@
                 </div>
 
 
-                <img src="../../assets/pictures/" class="basic-inst-screenshot" alt="">
+                <img src="../../assets/pictures/" class="basic-inst-screenshot" alt="" />
 
-                <img src="../../assets/pictures/svg/icons/100-friends-en.svg" class="basic-inst-img" alt="">
+                <img src="../../assets/pictures/svg/icons/100-friends-en.svg" class="basic-inst-img" alt="" />
 
                 <p class="lesson-text--border">For successful promotion in Instagram we need at least 100 subscribers.
                     This is not a problem if you start adding your friends. Instagram very often suggests you to add
@@ -651,9 +687,9 @@
 
                 <div class="basic-inst__icons">
 
-                    <img src="../../assets/pictures/svg/icons/flask.svg" class="basic-inst-icon" alt="">
-                    <img src="../../assets/pictures/svg/icons/info.svg" class="basic-inst-icon" alt="">
-                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="basic-inst-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/flask.svg" class="basic-inst-icon" alt="" />
+                    <img src="../../assets/pictures/svg/icons/info.svg" class="basic-inst-icon" alt="" />
+                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="basic-inst-icon" alt="" />
 
                 </div>
 
@@ -667,7 +703,7 @@
                     <p class="lesson-footer-text">More detailed methodology, with private and secret techniques of fast
                         sales through Instagram you can read in our advanced lessons. Access to them is possible after
                         receiving the SP status.</p>
-                    <img src="../../assets/pictures/svg/drows/footerBasicInst-en.svg" class="lesson-footer-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/footerBasicInst-en.svg" class="lesson-footer-img" alt="" />
                 </footer>
 
             </div>
@@ -680,7 +716,7 @@
 
                     <h2 class="lesson-header-caption">Basic course of advancement in the Facebook</h2>
                     <img src="../../assets/pictures/svg/drows/fb-panda.svg"
-                         class="lesson-header-img lesson-header-img--320" alt="">
+                         class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -698,7 +734,7 @@
                 <div class="lesson__container">
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/fb-logo.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/fb-logo.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Launch installed on your smartphone Facebook.</p>
                             <span class="lesson-container-number">1</span>
@@ -708,7 +744,7 @@
 
                     <div class="lesson-container__content">
                         <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="lesson-container-icon"
-                             alt="">
+                             alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">"Push" the inscription "Register on Facebook", and then -
                                 "Start".</p>
@@ -718,7 +754,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/list.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/list.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Enter your real e-mail, as well as a mobile phone number to
                                 which you have access.</p>
@@ -728,7 +764,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/shield.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/shield.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Enter your personal data: name and surname, place of
                                 residence / study / work, date of birth, and then come up with a reliable password (and
@@ -748,16 +784,16 @@
 
                 <div class="base-fb__icons">
 
-                    <img src="../../assets/pictures/svg/icons/networking-1.svg" class="base-fb-icon" alt="">
-                    <img src="../../assets/pictures/svg/icons/coin.svg" class="base-fb-icon" alt="">
-                    <img src="../../assets/pictures/svg/icons/progress.svg" class="base-fb-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/networking-1.svg" class="base-fb-icon" alt="" />
+                    <img src="../../assets/pictures/svg/icons/coin.svg" class="base-fb-icon" alt="" />
+                    <img src="../../assets/pictures/svg/icons/progress.svg" class="base-fb-icon" alt="" />
 
                 </div>
 
                 <p class="lesson-text--border">Promotion in facebook is very similar to promotion in instagram. Your
                     account should be as full as possible. So your friends will trust you.</p>
 
-                <img src="../../assets/pictures/" class="base-fb-screenshot" alt="">
+                <img src="../../assets/pictures/" class="base-fb-screenshot" alt="" />
 
                 <p class="lesson-text--border">In the future you need to post about VE (Vite Energy). Then you tell a
                     story about this product and attach a photo. The better quality of the post, the more responses you
@@ -767,7 +803,7 @@
                     <p class="lesson-footer-text">More detailed information on the promotion on FB you will find in our
                         next lessons. There we will talk about the rapid growth of the popularity of your page, secret
                         techniques that increase the flow of customers and the flow of sales.</p>
-                    <img src="../../assets/pictures/svg/drows/footerBasicFb-en.svg" class="lesson-footer-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/footerBasicFb-en.svg" class="lesson-footer-img" alt="" />
                 </footer>
 
 
@@ -779,7 +815,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">Use of other resources and sites</h2>
-                    <img src="../../assets/pictures/svg/drows/line-panda.svg" class="lesson-header-img lesson-header-img--320" alt="">
+                    <img src="../../assets/pictures/svg/drows/line-panda.svg" class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -1054,7 +1090,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">Fundamental principles of offline promotion</h2>
-                    <img src="../../assets/pictures/svg/drows/salesPromo.svg" class="lesson-header-img--big" alt="">
+                    <img src="../../assets/pictures/svg/drows/salesPromo.svg" class="lesson-header-img--big" alt="" />
 
                 </div>
 
@@ -1072,7 +1108,7 @@
                     <p class="lesson-hint--white">There is a rule of 150 score. 30 score for every point</p>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Appearance - the better you look, the better you are spick
                                 and span and dressed with a taste, the more you win people’s favor</p>
@@ -1083,7 +1119,7 @@
 
                     <div class="lesson-container__content">
                         <img src="../../assets/pictures/svg/icons/head-management.svg" class="lesson-container-icon"
-                             alt="">
+                             alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Internal state - a cheerful, confident and positive person
                                 is more attractive than listless, unsure and dreary.</p>
@@ -1093,7 +1129,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/rock.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/rock.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">Status and solvency - the higher the person's place in the
                                 social vertical, the more interesting he is to others. The ability to behave with
@@ -1105,7 +1141,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/stationery.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/stationery.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">What you are saying. If your speech is rich with
                                 filler-words, a person will not be able to acquire information. You must give clear
@@ -1116,7 +1152,7 @@
 
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/target.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/target.svg" class="lesson-container-icon" alt="" />
                         <div class="lesson-container__texts">
                             <p class="lesson-container-text">The way you speak. Easy, beautifully, funny, warmly and
                                 sincerely - this is wow.</p>
@@ -1137,8 +1173,7 @@
 
 
                         <div class="fundamental-container__content">
-                            <img src="../../assets/pictures/svg/icons/like.svg" class="fundamental-container-icon"
-                                 alt="">
+                            <img src="../../assets/pictures/svg/icons/like.svg" class="fundamental-container-icon" alt="" />
                             <p class="fundamental-container-text">Appearance. It is enough to have a well-groomed
                                 appearance and clean clothes of regular fit. A head should be clean and beautifully done
                                 up. Facial hair is shaved or has a beautiful shape. Shoes clean. Nails are well-groomed.
@@ -1147,7 +1182,7 @@
 
 
                         <div class="fundamental-container__content">
-                            <img src="../../assets/pictures/svg/icons/box.svg" class="fundamental-container-icon">
+                            <img src="../../assets/pictures/svg/icons/box.svg" class="fundamental-container-icon" alt="" />
                             <p class="fundamental-container-text">Internal state. Our appearance, the quality of a
                                 voice, behavior of a body, completely depends on your internal state. If you are set to
                                 fail, think about the negative, worry and are nervous, then you will fail. In order to
@@ -1158,7 +1193,7 @@
 
                         <div class="fundamental-container__content">
                             <img src="../../assets/pictures/svg/icons/diamond.svg" class="fundamental-container-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="fundamental-container-text">Status and solvency. Since you are at the beginning of
                                 the road to your wealth, then you need to make friends on the DVC. The more high-ranking
                                 friends you have at DVC, the stronger you grow. The faster you will become richer. The
@@ -1170,7 +1205,7 @@
 
                         <div class="fundamental-container__content">
                             <img src="../../assets/pictures/svg/icons/talking.svg" class="fundamental-container-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="fundamental-container-text">What are you saying. Get rid of filler-words. Speak
                                 clearly and distinctly. Do not rush. It is better to speak slowly and clearly than
                                 quickly and not clearly. You must be as informed as possible in your question. Do not be
@@ -1183,7 +1218,7 @@
 
                         <div class="fundamental-container__content">
                             <img src="../../assets/pictures/svg/icons/contract.svg" class="fundamental-container-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="fundamental-container-text">The way you speak. Have an eye-contact. This is a
                                 necessary rule during negotiationы. The more frequent you twinkle and look away the less
                                 a person trust you. Be confident and calm. Speak slowly but do not “load” a person. A
@@ -1194,14 +1229,14 @@
 
                     <div class="fundamental__container-images">
                         <img src="../../assets/pictures/svg/drows/panda303030.svg"
-                             class="fundamental-container-image-panda" alt="">
+                             class="fundamental-container-image-panda" alt="" />
                         <img src="../../assets/pictures/svg/icons/303030.svg" class="fundamental-container-image-303030"
-                             alt="">
+                             alt="" />
                     </div>
 
                 </div>
 
-                <img src="" class="basic-inst-content-img" alt="">
+                <img src="" class="basic-inst-content-img" alt="" />
 
 
                 <h2 class="lesson-caption--black">And here it is some important nuances before a meeting</h2>
@@ -1218,7 +1253,7 @@
                         to influence people and get what they want from them. We will tell secret techniques that will
                         help very quickly and in a short time to collect a very effective team.</p>
                     <img src="../../assets/pictures/svg/drows/footerFundamental-en.svg" class="lesson-footer-img"
-                         alt="">
+                         alt="" />
                 </footer>
 
             </div>
@@ -1230,7 +1265,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">How to reach an agreement about cooperation</h2>
-                    <img src="../../assets/pictures/svg/drows/cooperation.svg" class="lesson-header-img--big" alt="">
+                    <img src="../../assets/pictures/svg/drows/cooperation.svg" class="lesson-header-img--big" alt="" />
 
                 </div>
 
@@ -1244,7 +1279,7 @@
 
                     <div class="coop__argument">
 
-                        <img src="../../assets/pictures/svg/icons/puzzle1.svg" class="coop-arg-img--1" alt="">
+                        <img src="../../assets/pictures/svg/icons/puzzle1.svg" class="coop-arg-img--1" alt="" />
                         <p class="coop-arg-text">Untenable arguments</p>
                         <br>
 
@@ -1252,14 +1287,14 @@
 
                     <div class="coop__argument">
 
-                        <img src="../../assets/pictures/svg/icons/puzzle2.svg" class="coop-arg-img--2" alt="">
+                        <img src="../../assets/pictures/svg/icons/puzzle2.svg" class="coop-arg-img--2" alt="" />
                         <p class="coop-arg-text">Weak arguments</p>
 
                     </div>
 
                     <div class="coop__argument">
 
-                        <img src="../../assets/pictures/svg/icons/puzzle4.svg" class="coop-arg-img--4" alt="">
+                        <img src="../../assets/pictures/svg/icons/puzzle4.svg" class="coop-arg-img--4" alt="" />
                         <p class="coop-arg-text">Strong arguments</p>
 
                     </div>
@@ -1274,11 +1309,11 @@
                     <div class="coop__container-icons">
 
                         <img src="../../assets/pictures/svg/icons/puzzle4.svg"
-                             class="coop-container-icon graphic-icon--top" alt="">
+                             class="coop-container-icon graphic-icon--top" alt="" />
                         <img src="../../assets/pictures/svg/icons/puzzle2.svg"
-                             class="coop-container-icon graphic-icon--middle" alt="">
+                             class="coop-container-icon graphic-icon--middle" alt="" />
                         <img src="../../assets/pictures/svg/icons/puzzle1.svg"
-                             class="coop-container-icon graphic-icon--bottom" alt="">
+                             class="coop-container-icon graphic-icon--bottom" alt="" />
 
                     </div>
 
@@ -1307,42 +1342,42 @@
 
                 <div class="lesson-container__content">
                     <img src="../../assets/pictures/svg/icons/200-billion-en.svg" class="agreement-container-icon"
-                         alt="">
+                         alt="" />
                     <p class="agreement-container-text--black">World's richest market is the MLM market. The annual
                         profit of world leaders of network business is more than 200 billion dollars. All data is in
                         open sources.</p>
                 </div>
 
                 <div class="lesson-container__content">
-                    <img src="../../assets/pictures/svg/icons/shield.svg" class="agreement-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/shield.svg" class="agreement-container-icon" alt="" />
                     <p class="agreement-container-text--black">Laws, charters, guidelines, if they are executed and
                         correspond to real life. For example, MLM is not prohibited by law. This is absolutely legal way
                         of earning.</p>
                 </div>
 
                 <div class="lesson-container__content">
-                    <img src="../../assets/pictures/svg/icons/flasks.svg" class="agreement-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/flasks.svg" class="agreement-container-icon" alt="" />
                     <p class="agreement-container-text--black">Experimentally verified conclusions. Give examples of
                         successful businessmen of network business. There are hundreds of thousands of these stories on
                         the Internet.</p>
                 </div>
 
                 <div class="lesson-container__content">
-                    <img src="../../assets/pictures/svg/icons/medal.svg" class="agreement-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/medal.svg" class="agreement-container-icon" alt="" />
                     <p class="agreement-container-text--black">Expert's opinion. There is a popular video of a world
                         famous business-coacher B.Tracy about MLM that it is the shortest way to the growth and
                         richness.</p>
                 </div>
 
                 <div class="lesson-container__content">
-                    <img src="../../assets/pictures/svg/icons/book.svg" class="agreement-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/book.svg" class="agreement-container-icon" alt="" />
                     <p class="agreement-container-text--black">Eyewitness testimonies and witnesses of events. As an
                         example, millions of people working in the field of network business who actively conduct their
                         pages on the Internet and show their rich life with videos from their travels.</p>
                 </div>
 
                 <div class="lesson-container__content">
-                    <img src="../../assets/pictures/svg/icons/camera.svg" class="agreement-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/camera.svg" class="agreement-container-icon" alt="" />
                     <p class="agreement-container-text--black">Statistic information if data collection, processing and
                         analysis made by a professional statistician.</p>
                 </div>
@@ -1355,7 +1390,7 @@
 
                     <h2 class="lesson-container-caption--white">Weak arguments</h2>
 
-                    <img src="../../assets/pictures/svg/drows/standLoser.svg" class="argument-img--left" alt="">
+                    <img src="../../assets/pictures/svg/drows/standLoser.svg" class="argument-img--left" alt="" />
 
                     <div class="argument__container">
 
@@ -1412,7 +1447,7 @@
 
                 </div>
 
-                <img src="../../assets/pictures/svg/drows/sitLoser.svg" class="argument-img--right" alt="">
+                <img src="../../assets/pictures/svg/drows/sitLoser.svg" class="argument-img--right" alt="" />
 
 
                 <p class="lesson-text--border">They help to expose, discredit an opponent who used them.</p>
@@ -1421,7 +1456,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/bulbs.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/bulbs.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">In the course of argumentation, use only those arguments that you
                             and your opponent understand in the same way.</p>
 
@@ -1429,7 +1464,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">If an argument is not accepted, find a reason for this and then do
                             not insist on it in the conversation.</p>
 
@@ -1437,7 +1472,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/like.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/like.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Do not underestimate the importance of strong arguments of an enemy.
                             Better, on the contrary, emphasize their importance and your correct understanding.</p>
 
@@ -1445,7 +1480,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/molecule.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/molecule.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Say your arguments, not related to what an enemy or partner said,
                             after you answered his arguments.</p>
 
@@ -1453,7 +1488,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/panel.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/panel.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">More accurately measure the pace of argumentation with the pace of a
                             partner.</p>
 
@@ -1461,7 +1496,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/head-management.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/head-management.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Excessive persuasiveness always provokes rebuff, as the superiority
                             of a partner in a dispute is always offensive.</p>
 
@@ -1469,7 +1504,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/idea.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/idea.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Give one or two bright arguments and, if a desired effect is
                             achieved, limit them.</p>
 
@@ -1477,7 +1512,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/flag.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/flag.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Avoid weak and untenable arguments. They only harm. Use only strong
                             arguments.</p>
 
@@ -1485,7 +1520,7 @@
 
                     <div class="coop-footer__container">
 
-                        <img src="../../assets/pictures/svg/icons/presentation.svg" class="coop-footer-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/presentation.svg" class="coop-footer-img" alt="" />
                         <p class="coop-footer-text">Be flexible. There is no need to argue with a man. When he says
                             something, take his point of view, but after offer a strong argument. As a result, the
                             conversation will be easier in your channel.</p>
@@ -1504,7 +1539,7 @@
 
                     <h2 class="lesson-header-caption">Create an image of a successful person</h2>
                     <img src="../../assets/pictures/svg/drows/successfull.svg"
-                         class="lesson-header-img lesson-header-img--320" alt="">
+                         class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -1515,14 +1550,14 @@
                     around you so people could see in you someone they can trust and rely on, but not an unworthy and
                     solemn fool.</p>
 
-                <img src="../../assets/pictures/svg/drows/cloud1r-en.svg" class="successful-cloud--right" alt="">
-                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--right" alt="">
+                <img src="../../assets/pictures/svg/drows/cloud1r-en.svg" class="successful-cloud--right" alt="" />
+                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--right" alt="" />
 
                 <div class="successful__contetn--left">
 
                     <div class="successful__container">
 
-                        <img src="../../assets/pictures/svg/icons/earth.svg" class="successful-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/earth.svg" class="successful-img" alt="" />
                         <p class="successful-text">You need to correct your profiles in the social networks in
                             accordance with the image that you are planning to show people around you. Approximately 70%
                             of the information in your profile should refer your professional sphere and just 30% - your
@@ -1533,7 +1568,7 @@
 
                     <div class="successful__container">
 
-                        <img src="../../assets/pictures/svg/icons/beer.svg" class="successful-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/beer.svg" class="successful-img" alt="" />
                         <p class="successful-text">If you are planning to be engaged in politics you shouldn’t load
                             discreditable pictures (Ex: with cigarettes, with the drunk people, in the shorts, swimsuit
                             or topless etc). Also, you’d better not demonstrate where and with whom you live and spend
@@ -1549,7 +1584,7 @@
 
                     <div class="successful__container">
 
-                        <img src="../../assets/pictures/svg/icons/camera.svg" class="successful-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/camera.svg" class="successful-img" alt="" />
                         <p class="successful-text">Secondly, forbid anybody from tagging you on the photos without your
                             permission. Use settings in your profile to do this. Social networks are the great mean of
                             creating a personal brand. Use all the opportunities given by social networking.</p>
@@ -1558,8 +1593,8 @@
 
                 </div>
 
-                <img src="../../assets/pictures/svg/drows/cloud1l-en.svg" class="successful-cloud--left" alt="">
-                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--left" alt="">
+                <img src="../../assets/pictures/svg/drows/cloud1l-en.svg" class="successful-cloud--left" alt="" />
+                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--left" alt="" />
 
                 <div class="successful__contetn--right">
 
@@ -1571,7 +1606,7 @@
                             Moreover, dresses must have sleeves (even in Summer). Both men and women should cover their
                             knees. Also, it’s better not to reveal the brand of your clothes in order not to dishonor
                             you as the expert in your professional sphere.</p>
-                        <img src="../../assets/pictures/svg/icons/shirt.svg" class="successful-img--right" alt="">
+                        <img src="../../assets/pictures/svg/icons/shirt.svg" class="successful-img--right" alt="" />
 
                     </div>
 
@@ -1579,7 +1614,7 @@
 
                         <p class="successful-text">You should hide your tattoos and piercings if you have ones because
                             you can never know how people you deal with treat these kinds of body decoration.</p>
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="successful-img--right" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="successful-img--right" alt="" />
 
                     </div>
 
@@ -1592,14 +1627,14 @@
                             old-fashioned push-button phone is the one who has already achieved much and doesn’t need to
                             prove anything to anybody. In other cases it’s better to use the up to date gadgets.</p>
                         <img src="../../assets/pictures/svg/icons/clock-setting.svg" class="successful-img--right"
-                             alt="">
+                             alt="" />
 
                     </div>
 
                 </div>
 
-                <img src="../../assets/pictures/svg/drows/cloud2r-en.svg" class="successful-cloud--right" alt="">
-                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--right" alt="">
+                <img src="../../assets/pictures/svg/drows/cloud2r-en.svg" class="successful-cloud--right" alt="" />
+                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--right" alt="" />
 
                 <p class="lesson-text--border">You are the arithmetical mean of your circle. This statement equally
                     refers all the spheres of your life: financial, private, spiritual. If you want to be successful but
@@ -1612,8 +1647,8 @@
                     the same way these people do. In order to get more successful people interested you need to improve
                     your communicative skills taking special trainings and courses.</p>
 
-                <img src="../../assets/pictures/svg/drows/cloud2l-en.svg" class="successful-cloud--left" alt="">
-                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--left" alt="">
+                <img src="../../assets/pictures/svg/drows/cloud2l-en.svg" class="successful-cloud--left" alt="" />
+                <img src="../../assets/pictures/svg/drows/panda.svg" class="successful-panda--left" alt="" />
 
                 <p class="successful-text--border">It takes more than a half of the year for the image that you are
                     creating to become your second nature. You need to be highly motivated and self-disciplined. You
@@ -1629,7 +1664,7 @@
 
                 <div class="successful__container">
 
-                    <img src="../../assets/pictures/svg/icons/talking.svg" class="successful-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/talking.svg" class="successful-img" alt="" />
                     <p class="successful-text">Work on your voice. Well trained and confident voice is a significant
                         dignity for anybody and especially for those who carries on the negotiations. Here is the good
                         training for your voice – rehearse the speech on any topic and record it. Listen to your record
@@ -1639,7 +1674,7 @@
 
                 <div class="successful__container">
 
-                    <img src="../../assets/pictures/svg/icons/bell.svg" class="successful-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/bell.svg" class="successful-img" alt="" />
                     <p class="successful-text">Don’t fuss, take your time. Let your movements and speech be calm and
                         gentle. Try not to fling your arms about. You can get rid of fussiness with a help of yoga,
                         pilates, ski walking, meditation and massage.</p>
@@ -1648,7 +1683,7 @@
 
                 <div class="successful__container">
 
-                    <img src="../../assets/pictures/svg/icons/send-mail.svg" class="successful-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/send-mail.svg" class="successful-img" alt="" />
                     <p class="successful-text">Remember about the self-introduction. It’s important to analyze your
                         nicknames, userpics and even your e-mail addresses. They mustn’t be jokey and made up in the
                         childhood or be the set of random symbols. This makes your image unserious.</p>
@@ -1665,7 +1700,7 @@
                         trendiness but the respect towards yourself and people around you. It is the opportunity to be
                         understood and to be the winner in every situation.</p>
                     <img src="../../assets/pictures/svg/drows/footerSuccessImage-en.svg" class="lesson-footer-img"
-                         alt="">
+                         alt="" />
                 </footer>
 
             </div>
@@ -1678,7 +1713,7 @@
 
                     <h2 class="lesson-header-caption">How to increase trust to yourself</h2>
                     <img src="../../assets/pictures/svg/drows/famous.svg"
-                         class="lesson-header-img lesson-header-img--320" alt="">
+                         class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -1694,7 +1729,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">1</span>
-                    <img src="../../assets/pictures/svg/icons/star.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/star.svg" class="trust-img" alt="" />
                     <p class="trust-text">Brand is one of the most powerful warranty of the quality. At the same time
                         brand means the high price because it increases the subjective price of the service or of the
                         product. Working under the brand you are not just “you” anymore but the representative of the
@@ -1707,7 +1742,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">2</span>
-                    <img src="../../assets/pictures/svg/icons/theatre.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/theatre.svg" class="trust-img" alt="" />
                     <p class="trust-text">The impression that consumer gets coming in the office, in the salespoint or
                         in the meeting place (café, restaurant) immediately refers your products and services. Pay
                         attention to the building. The consumer gets the first impression when he or she sees the
@@ -1722,7 +1757,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">3</span>
-                    <img src="../../assets/pictures/svg/icons/presentation.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/presentation.svg" class="trust-img" alt="" />
                     <p class="trust-text">To earn the consumers’ sympathy tell them about the technologies that you are
                         using in your work. This information should be transparent. Visual expression is very important
                         so you may provide the material evidence of your professional worth. Preparing the material for
@@ -1736,7 +1771,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">4</span>
-                    <img src="../../assets/pictures/svg/icons/box.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/box.svg" class="trust-img" alt="" />
                     <p class="trust-text">Give consumers the opportunity to test your product or service before buying
                         it. That is the best way to prove your respectability and competitiveness. In this case the
                         client doesn’t risk buying the unknown product. He or she can check whether it is as good as he
@@ -1749,7 +1784,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">5</span>
-                    <img src="../../assets/pictures/svg/icons/online-shop.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/online-shop.svg" class="trust-img" alt="" />
                     <p class="trust-text">Undoubtedly, the more often your company’s name being mentioned in the press
                         and social networks – the better. Moreover, it’s well-known that the non-advertising mentions
                         have more clients’ credibility. Talk to your consumers after the buying, ask for their
@@ -1762,7 +1797,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">6</span>
-                    <img src="../../assets/pictures/svg/icons/phone-24.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/phone-24.svg" class="trust-img" alt="" />
                     <p class="trust-text">One of the most simple and effective ways to earn the client’s sympathy is the
                         regular phone conversations. In this case clients feel your care and interest. Thus, you can
                         complete three tasks: fight against the competitors, giving the actual information on the
@@ -1781,7 +1816,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">7</span>
-                    <img src="../../assets/pictures/svg/icons/networking-2.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/networking-2.svg" class="trust-img" alt="" />
                     <p class="trust-text">How do you choose a doctor or a tutor? Right, you listen to your
                         acquaintances’ recommendations. The opinion leaders give the most effective recommendations. For
                         example, it’s better to recommend the cocktail Vita Energy by athletes or models.</p>
@@ -1793,7 +1828,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">8</span>
-                    <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="trust-img" alt="" />
                     <p class="trust-text">Demonstrate the clients who have already bought your service and who are
                         satisfied with it. Compare them ironically with those who don’t use your services yet. This
                         method is often used by the maintenance companies. They say: “We will do the highly qualified
@@ -1813,7 +1848,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">9</span>
-                    <img src="../../assets/pictures/svg/icons/mustaches.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/mustaches.svg" class="trust-img" alt="" />
                     <p class="trust-text">Usually the stereotypes in the clients’ lives refer the products and services
                         as well. For instance, you will never celebrate your birthday in the cheap restaurant or reply
                         the anonymous commercial proposal. Expensive is equal to high quality. The expensive product
@@ -1829,7 +1864,7 @@
                 <div class="trust__container">
 
                     <span class="trust-number">10</span>
-                    <img src="../../assets/pictures/svg/icons/gift.svg" class="trust-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/gift.svg" class="trust-img" alt="" />
                     <p class="trust-text">In addition to the general services you can include, for example, the hotline,
                         delivery at place or any other services that you can arrange. Such services immediately gain the
                         clients’ credibility. If you are so caring for clients in the minor matters then it makes sense
@@ -1845,7 +1880,7 @@
 
                     <div class="trust-scheme__content">
 
-                        <img src="../../assets/pictures/svg/icons/pants.svg" class="trust-scheme-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/pants.svg" class="trust-scheme-content-icon" alt="" />
                         <p class="lesson-container-text">Take care of your appearance. You cannot look
                             inappropriate.</p>
 
@@ -1853,7 +1888,7 @@
 
                     <div class="trust-scheme__content">
 
-                        <img src="../../assets/pictures/svg/icons/two.svg" class="trust-scheme-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/two.svg" class="trust-scheme-content-icon" alt="" />
                         <p class="lesson-container-text">Ask clients the questions. Learn to listen to them and hear
                             them.</p>
 
@@ -1861,7 +1896,7 @@
 
                     <div class="trust-scheme__content">
 
-                        <img src="../../assets/pictures/svg/icons/info.svg" class="trust-scheme-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/info.svg" class="trust-scheme-content-icon" alt="" />
                         <p class="lesson-container-text">Don’t hide your sight during the conversation. That’s the sign
                             of lie.</p>
 
@@ -1869,7 +1904,7 @@
 
                     <div class="trust-scheme__content">
 
-                        <img src="../../assets/pictures/svg/icons/gift-1.svg" class="trust-scheme-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/gift-1.svg" class="trust-scheme-content-icon" alt="" />
                         <p class="lesson-container-text">Offer clients the nice free staff such as a plastic bag with
                             your brand on it.</p>
 
@@ -1895,9 +1930,9 @@
 
                     <h2 class="lesson-header-caption">Clients before a face</h2>
                     <img src="../../assets/pictures/svg/drows/clientBeforeFace.svg"
-                         class="lesson-header-img--big lesson-header-img--fix" alt="">
-                    <img src="../../assets/pictures/svg/icons/quiz-big.svg" class="before-face-icon--left" alt="">
-                    <img src="../../assets/pictures/svg/icons/quiz-small.svg" class="before-face-icon--right" alt="">
+                         class="lesson-header-img--big lesson-header-img--fix" alt="" />
+                    <img src="../../assets/pictures/svg/icons/quiz-big.svg" class="before-face-icon--left" alt="" />
+                    <img src="../../assets/pictures/svg/icons/quiz-small.svg" class="before-face-icon--right" alt="" />
 
                 </div>
 
@@ -1911,7 +1946,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/networking-2.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/networking-2.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">This is a classic way to capture the clients. In the beginning you can
                         make a list of 30-40 people you know. Always try to add new names to this list! Such list is the
                         fastest and the easiest way for a beginner to improve business because these people know you and
@@ -1923,7 +1958,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/networking.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/networking.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">There are always people you haven’t involved. In this case you can
                         always ask them to recommend you some of their acquaintances who could be interested in talking
                         to you. Contacting them mention the person who gave you this contact. It will help you earn
@@ -1939,14 +1974,14 @@
                         sometimes it may seem that you have already offered your business to everyone. Have you really
                         done this? </h3>
                     <img src="../../assets/pictures/svg/drows/beforeface-scheme-en.svg" class="before-face-scheme-img"
-                         alt="">
+                         alt="" />
 
                     <div class="before-face-scheme__content">
 
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/gift.svg" class="before-face-scheme-info-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="before-face-scheme-info-text">Guests at the somebody's birthday party?</p>
 
                         </div>
@@ -1954,7 +1989,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/handshake.svg"
-                                 class="before-face-scheme-info-icon" alt="">
+                                 class="before-face-scheme-info-icon" alt="" />
                             <p class="before-face-scheme-info-text">Colleagues or neighbors?</p>
 
                         </div>
@@ -1962,7 +1997,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/bus.svg" class="before-face-scheme-info-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="before-face-scheme-info-text">Fellow travelers?</p>
 
                         </div>
@@ -1970,7 +2005,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/bag.svg" class="before-face-scheme-info-icon"
-                                 alt="">
+                                 alt="" />
                             <p class="before-face-scheme-info-text">Classmates?</p>
 
                         </div>
@@ -1978,7 +2013,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/cup-of-tea.svg"
-                                 class="before-face-scheme-info-icon" alt="">
+                                 class="before-face-scheme-info-icon" alt="" />
                             <p class="before-face-scheme-info-text">People sitting next to you at the cafe?</p>
 
                         </div>
@@ -1986,7 +2021,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/mustaches.svg"
-                                 class="before-face-scheme-info-icon" alt="">
+                                 class="before-face-scheme-info-icon" alt="" />
                             <p class="before-face-scheme-info-text">Your children's teachers, doctors?</p>
 
                         </div>
@@ -1994,7 +2029,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/searching.svg"
-                                 class="before-face-scheme-info-icon" alt="">
+                                 class="before-face-scheme-info-icon" alt="" />
                             <p class="before-face-scheme-info-text">Contacts from your old notebook?</p>
 
                         </div>
@@ -2002,7 +2037,7 @@
                         <div class="before-face-scheme__info">
 
                             <img src="../../assets/pictures/svg/icons/man-diagramma.svg"
-                                 class="before-face-scheme-info-icon" alt="">
+                                 class="before-face-scheme-info-icon" alt="" />
                             <p class="before-face-scheme-info-text">Your teachers?</p>
 
                         </div>
@@ -2015,7 +2050,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/talking.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/talking.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">There are lots of social networks that you can use for your business!
                         Use all the messengers and video networks, use the opportunity of making your personal channels
                         and private chats. The only thing you need is a strong will to develop your business.
@@ -2028,7 +2063,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/stationery.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/stationery.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">Experience has proven that the mass mails distribution is a very
                         effective way to capture the customers. Though if you don't have your customer database the
                         agency for e-mails distribution will unlikely give you the base according to your request.
@@ -2041,7 +2076,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/laptop-and-rocket.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/laptop-and-rocket.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">The well-made landing pages can capture the enormous attention to your
                         project. Don't miss that opportunity!</p>
 
@@ -2051,7 +2086,7 @@
 
                 <div class="before-face__container">
 
-                    <img src="../../assets/pictures/svg/icons/support.svg" class="before-face-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/support.svg" class="before-face-img" alt="" />
                     <p class="before-face-text">Use cold calls to capture the potential clients whom you haven't known
                         before. Offer them your product/service/cooperation on the phone call (in the most cases) or at
                         the business meeting. There is a special approach for such contacts - no pressure, well
@@ -2071,7 +2106,7 @@
                 <footer class="lesson-footer">
                     <p class="lesson-footer-text">We believe that all these variants help you forget about the problem
                         of clients searching. Now it's your time!</p>
-                    <img src="../../assets/pictures/svg/drows/footerBeforeFace-en.svg" class="lesson-footer-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/footerBeforeFace-en.svg" class="lesson-footer-img" alt="" />
                 </footer>
 
             </div>
@@ -2084,7 +2119,7 @@
 
                     <h2 class="lesson-header-caption">Customers for life</h2>
                     <img src="../../assets/pictures/svg/drows/oldFriends.svg"
-                         class="lesson-header-img lesson-header-img--fix" alt="">
+                         class="lesson-header-img lesson-header-img--fix" alt="" />
 
                 </div>
 
@@ -2097,7 +2132,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/heart.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/heart.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Customers’ desires must be very important to you. Talk to them,
                         find out what they want, and give it to them. For this reason, you will find out more and more
                         about your customer and be able to predict his desires. Then, the customer will keep coming back
@@ -2109,7 +2144,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/networking.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/networking.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Your structure must work distinctly and smoothly, just like
                         clockwork. You must be sure to have a sales system and a communication system with the customer.
                         All questions that the customer might have you should have planned a response for ahead of time.
@@ -2121,10 +2156,10 @@
 
                 <div class="customers__container-images--height">
 
-                    <img src="../../assets/pictures/svg/drows/dialog.svg" class="customers-container-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/dialog.svg" class="customers-container-img" alt="" />
 
                     <img src="../../assets/pictures/svg/icons/lightning.svg" class="customers-container-icon--light"
-                         alt="">
+                         alt="" />
 
                     <p class="customers-container-text--light">What do you<br> think...</p>
 
@@ -2134,7 +2169,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/handshake.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/handshake.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Never promise the customer something you can’t give him. For
                         instance, don’t promise that after taking Vita Energy that the effect will take place the very
                         next day. In deceiving the customer, you deceive yourself as well. Instead, promise less, but as
@@ -2149,7 +2184,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/like.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/like.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">You should be not selling a product to the customer, but rather
                         helping the customer. If he asks you to do something that isn’t included in your direct
                         obligations, or it’s a separate service, do it for him. For instance, give him additional
@@ -2159,16 +2194,16 @@
 
                 <div class="customers__container-images--height">
 
-                    <img src="../../assets/pictures/svg/drows/tea.svg" class="customers-container-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/tea.svg" class="customers-container-img" alt="" />
 
                     <img src="../../assets/pictures/svg/icons/arrow-big.svg" class="customers-container-arrow--big"
-                         alt="">
+                         alt="" />
                     <img src="../../assets/pictures/svg/icons/arrow-thin.svg" class="customers-container-arrow--small"
-                         alt="">
+                         alt="" />
 
-                    <img src="../../assets/pictures/svg/icons/steam.svg" class="customers-container-steam--left" alt="">
+                    <img src="../../assets/pictures/svg/icons/steam.svg" class="customers-container-steam--left" alt="" />
                     <img src="../../assets/pictures/svg/icons/steam.svg" class="customers-container-steam--right"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2176,7 +2211,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/gift.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/gift.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Don’t blame yourself or your partner if all the sudden a mistake
                         is made. Analyze the mistake, avoid it in the future, and offer the customer pleasant
                         compensation – either a discount or a little gift. Mistakes are forgiven. The main thing is to
@@ -2188,7 +2223,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/support.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/support.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Remember, not everything can be perfect. Everyone has complaints
                         and that’s totally a normal situation. But if complaints aren’t coming to you then that just
                         means one thing: something’s going wrong. It’s better to solve problems immediately. Try to call
@@ -2199,12 +2234,12 @@
 
                 <div class="customers__container-images">
 
-                    <img src="../../assets/pictures/svg/drows/supporting.svg" class="customers-container-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/supporting.svg" class="customers-container-img" alt="" />
 
                     <img src="../../assets/pictures/svg/icons/quiz-big.svg" class="customers-container-icon--big"
-                         alt="">
+                         alt="" />
                     <img src="../../assets/pictures/svg/icons/quiz-small.svg" class="customers-container-icon--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2212,7 +2247,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/progress.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/progress.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">Digits and statistics should be important to you. Measure
                         everything. You will never find out the condition of your business without measuring all the
                         necessary figures. Count the number of regular customers, new customers, number of successful
@@ -2224,7 +2259,7 @@
 
                 <div class="customers__container">
 
-                    <img src="../../assets/pictures/svg/icons/searching.svg" class="customers-container-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/searching.svg" class="customers-container-icon" alt="" />
                     <p class="customers-container-text">There is no limit to perfection. Find out how things are going
                         in the best of your niche. Look for information about the means of their development and borrow
                         their successful experience.</p>
@@ -2233,7 +2268,7 @@
 
                 <div class="lesson__container--gradient">
 
-                    <img src="../../assets/pictures/svg/drows/similiar.svg" class="lesson-container-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/similiar.svg" class="lesson-container-img" alt="" />
 
                 </div>
 
@@ -2244,7 +2279,7 @@
                 <div class="customers__comment">
 
                     <img src="../../assets/pictures/svg/icons/avatarPandaBoy-1.svg" class="customers-comment-img"
-                         alt="">
+                         alt="" />
                     <p class="customers-comment-text">Treat people how you’d like to be treated. This may seem obvious,
                         but few people actually follow this. Especially in business. Put yourself in the customer’s
                         shoes and give them the level of service and the relationship that you would like to see when
@@ -2255,7 +2290,7 @@
                 <div class="customers__comment">
 
                     <img src="../../assets/pictures/svg/icons/avatarPandaGirl-2.svg" class="customers-comment-img"
-                         alt="">
+                         alt="" />
                     <p class="customers-comment-text">Be honest. Lies about your products, raw materials, and service
                         quality may play a bad joke on you and seriously hurt your reputation. If you can’t offer a
                         customer something, be honest. Customers will appreciate that and trust you.</p>
@@ -2265,7 +2300,7 @@
                 <div class="customers__comment">
 
                     <img src="../../assets/pictures/svg/icons/avatarPandaBoy-2.svg" class="customers-comment-img"
-                         alt="">
+                         alt="" />
                     <p class="customers-comment-text">Remember that your customers are people, not numbers. After
                         talking to a potential customer, remember their name and key facts about them. Don’t consider
                         him a statistical unit. Small details that you’ll find out from conversation will help you
@@ -2276,7 +2311,7 @@
                 <div class="customers__comment">
 
                     <img src="../../assets/pictures/svg/icons/avatarPandaGirl-1.svg" class="customers-comment-img"
-                         alt="">
+                         alt="" />
                     <p class="customers-comment-text">Follow body language. Many people don’t say what’s in their head.
                         Small signs in their body will help you to properly evaluate the situation and understand which
                         way to take the conversation.</p>
@@ -2286,7 +2321,7 @@
                 <div class="customers__comment">
 
                     <img src="../../assets/pictures/svg/icons/avatarPandaBoy-3.svg" class="customers-comment-img"
-                         alt="">
+                         alt="" />
                     <p class="customers-comment-text">Take a sincere interest in your customer. Listen to him,
                         understand and accept his problems, and try to help. This sincerity will pay off with the
                         customer’s loyalty.</p>
@@ -2297,7 +2332,7 @@
                     <p class="lesson-footer-text">Working with customers is not a simple task and it has a lot of
                         potential landmines. But this is interesting experiences. So find out new things and try to
                         understand everybody. That’s when your customers will really become “Customers for life”.</p>
-                    <img src="../../assets/pictures/svg/drows/footerCustomers-en.svg" class="lesson-footer-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/footerCustomers-en.svg" class="lesson-footer-img" alt="" />
                 </footer>
 
             </div>
@@ -2309,8 +2344,8 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">Making a residual income</h2>
-                    <img src="../../assets/pictures/svg/drows/rest.svg" class="lesson-header-img--big" alt="">
-                    <img src="../../assets/pictures/svg/icons/1000baht.svg" class="income-icon" alt="">
+                    <img src="../../assets/pictures/svg/drows/rest.svg" class="lesson-header-img--big" alt="" />
+                    <img src="../../assets/pictures/svg/icons/1000baht.svg" class="income-icon" alt="" />
 
                 </div>
 
@@ -2325,7 +2360,7 @@
 
                     <div class="residual__container">
 
-                        <img src="../../assets/pictures/svg/icons/currency.svg" class="residual-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/currency.svg" class="residual-container-icon" alt="" />
                         <p class="residual-container-text">In time, an unlimited amount of money can be acquired based
                             on the residual principle, which means that assets owners receive money over the course of
                             an undefined period of time, regardless of whether they’re working or not.</p>
@@ -2335,7 +2370,7 @@
                     <div class="residual__container">
 
                         <img src="../../assets/pictures/svg/icons/clock-setting.svg" class="residual-container-icon"
-                             alt="">
+                             alt="" />
                         <p class="residual-container-text">Owners of assets generating money flows have more free time
                             and money to afford investing in assets or fully quitting work and enjoying life, in other
                             words acquiring financial freedom.</p>
@@ -2344,7 +2379,7 @@
 
                     <div class="residual__container">
 
-                        <img src="../../assets/pictures/svg/icons/house.svg" class="residual-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/house.svg" class="residual-container-icon" alt="" />
                         <p class="residual-container-text">After achieving passive income, people can compile their own
                             work schedules without having to leave their homes.</p>
 
@@ -2367,7 +2402,7 @@
                     revenue and, correspondingly, the higher your income. 1st line partners, in entering the system,
                     easily copy your actions and create their own teams. All of this is passed down the structure.</p>
 
-                <img src="../../assets/pictures/svg/drows/looking.svg" class="lesson-img" alt="">
+                <img src="../../assets/pictures/svg/drows/looking.svg" class="lesson-img" alt="" />
 
                 <p class="lesson-text--border">That’s how huge organizations are created. Meanwhile, you can only know
                     10-20 partners from your first-second line.</p>
@@ -2390,40 +2425,40 @@
                         <div class="income-container__stars--left">
 
                             <img src="../../assets/pictures/svg/icons/star-middy.svg" class="income-star-one--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-width.svg" class="income-star-two--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-three--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-four--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-five--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-middy.svg" class="income-star-six--left"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-seven--left"
-                                 alt="">
+                                 alt="" />
 
                         </div>
 
-                        <img src="../../assets/pictures/img/vitaenergy.png" class="income-container-img" alt="">
+                        <img src="../../assets/pictures/img/vitaenergy.png" class="income-container-img" alt="" />
 
                         <div class="income-container__stars--right">
 
                             <img src="../../assets/pictures/svg/icons/star-middy.svg" class="income-star-one--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-width.svg" class="income-star-two--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-three--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-four--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-five--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-middy.svg" class="income-star-six--right"
-                                 alt="">
+                                 alt="" />
                             <img src="../../assets/pictures/svg/icons/star-thin.svg" class="income-star-seven--right"
-                                 alt="">
+                                 alt="" />
 
                         </div>
 
@@ -2449,9 +2484,9 @@
 
                 <div class="income__container-images">
 
-                    <img src="../../assets/pictures/svg/drows/saling.svg" class="income-container-saling-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/saling.svg" class="income-container-saling-img" alt="" />
                     <img src="../../assets/pictures/svg/icons/1000-baht-italic.svg" class="income-container-saling-icon"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2466,7 +2501,7 @@
                         a goal that will motivate you, push you, and get you off the couch and working according to the
                         system.</p>
                     <img src="../../assets/pictures/svg/drows/footerPassiveIncome-en.svg" class="lesson-footer-img"
-                         alt="">
+                         alt="" />
                 </footer>
 
 
@@ -2505,7 +2540,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">Increase the number of sales with a promo</h2>
-                    <img src="../../assets/pictures/svg/icons/sales.svg" class="lesson-header-img--big">
+                    <img src="../../assets/pictures/svg/icons/sales.svg" class="lesson-header-img--big" />
 
                 </div>
 
@@ -2521,7 +2556,7 @@
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/target-1.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/target-1.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Any images should be not just of high quality or unique - their
                         presence should be justified. They must form a mood, bring out emotions.</p>
 
@@ -2529,14 +2564,14 @@
 
                 <div class="sales__images">
 
-                    <img src="../../assets/pictures/img/drink.jpg" class="sales-img" alt="">
-                    <img src="../../assets/pictures/img/girlpresentation.jpg" class="sales-img" alt="">
+                    <img src="../../assets/pictures/img/drink.jpg" class="sales-img" alt="" />
+                    <img src="../../assets/pictures/img/girlpresentation.jpg" class="sales-img" alt="" />
 
                 </div>
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/shearch-1.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/shearch-1.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Do not be lazy to study search results of pictures in the search for
                         spamming with pictures from the photobank. Avoid popular photos and pictures - they do not have
                         credibility.</p>
@@ -2545,7 +2580,7 @@
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/clown.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/clown.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Nobody forbids to use images from photobank, but they are better to
                         buy and choose those that will look organic. Until now, there is a problem of people or plots
                         that are not relevant to reality and to a product that you are offering. The discrepancy
@@ -2555,7 +2590,7 @@
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/camera.svg" class="lesson-content-icon">
+                    <img src="../../assets/pictures/svg/icons/camera.svg" class="lesson-content-icon" />
                     <p class="lesson-content-text">It's always better to make your own photos - they will be unique,
                         your own. You can also use a product to create a composition - this increases trust.</p>
 
@@ -2563,14 +2598,14 @@
 
                 <div class="sales__images">
 
-                    <img src="../../assets/pictures/img/loseweight.jpg" class="sales-img" alt="">
-                    <img src="../../assets/pictures/img/bottle.jpg" class="sales-img" alt="">
+                    <img src="../../assets/pictures/img/loseweight.jpg" class="sales-img" alt="" />
+                    <img src="../../assets/pictures/img/bottle.jpg" class="sales-img" alt="" />
 
                 </div>
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/two.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/two.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">If you use photos of people who recommend your product, it would be
                         great if you gave a possibility to connect with this person. It says that a person is real and
                         he can be asked a question, it works as social proof.</p>
@@ -2579,17 +2614,17 @@
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Attract customers to do photos with your product, leave sell -
                         comments. Then screenshots of these comments can be used as a promo.</p>
 
                 </div>
 
-                <img src="../../assets/pictures/img/sales-screenshot.jpg" class="lesson-screenshot" alt="">
+                <img src="../../assets/pictures/img/sales-screenshot.jpg" class="lesson-screenshot" alt="" />
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Good and effective approach - the use of schemes “before and after”
                         of using your product.</p>
 
@@ -2597,14 +2632,14 @@
 
                 <div class="sales__images">
 
-                    <img src="../../assets/pictures/img/fat.jpg" class="sales-img" alt="">
-                    <img src="../../assets/pictures/img/thin.jpg" class="sales-img" alt="">
+                    <img src="../../assets/pictures/img/fat.jpg" class="sales-img" alt="" />
+                    <img src="../../assets/pictures/img/thin.jpg" class="sales-img" alt="" />
 
                 </div>
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/roller.svg" class="lesson-content-icon">
+                    <img src="../../assets/pictures/svg/icons/roller.svg" class="lesson-content-icon" />
                     <p class="lesson-content-text">Pay attention to a colour composition of your promo. Colors should be
                         harmonized with each other, cause positive emotions, in any case not to irritate.</p>
 
@@ -2612,14 +2647,14 @@
 
                 <div class="sales__images">
 
-                    <img src="../../assets/pictures/img/bottleexample.jpg" class="sales-img" alt="">
-                    <img src="../../assets/pictures/img/food.jpg" class="sales-img" alt="">
+                    <img src="../../assets/pictures/img/bottleexample.jpg" class="sales-img" alt="" />
+                    <img src="../../assets/pictures/img/food.jpg" class="sales-img" alt="" />
 
                 </div>
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/table.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/table.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Pay special attention to the psychology of color. For example, black
                         and gold cause association of wealth, gray - reliability, red and yellow colors cause appetite.
                         Choose a color scheme depending on a product that you sell with a promo.</p>
@@ -2628,7 +2663,7 @@
 
                 <div class="lesson__content">
 
-                    <img src="../../assets/pictures/svg/icons/stars.svg" class="lesson-content-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/stars.svg" class="lesson-content-icon" alt="" />
                     <p class="lesson-content-text">Try to bring out potential client’s emotions with a promo. Shocking
                         promo always works better. The better promo is remembered, the better it sells.</p>
 
@@ -2649,7 +2684,7 @@
 
                     <h2 class="lesson-header-caption">Combating contradictions</h2>
                     <img src="../../assets/pictures/svg/icons/choosing.svg"
-                         class="lesson-header-img--big lesson-header-img--fix" alt="">
+                         class="lesson-header-img--big lesson-header-img--fix" alt="" />
 
                 </div>
 
@@ -2665,21 +2700,21 @@
 
                     <div class="contradictions__block">
 
-                        <img src="../../assets/pictures/svg/icons/trolley.svg" class="contradictions-block-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/trolley.svg" class="contradictions-block-img" alt="" />
                         <p class="contradictions-block-text">Objection associated with goods</p>
 
                     </div>
 
                     <div class="contradictions__block">
 
-                        <img src="../../assets/pictures/svg/icons/support.svg" class="contradictions-block-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/support.svg" class="contradictions-block-img" alt="" />
                         <p class="contradictions-block-text">Objection associated with a seller</p>
 
                     </div>
 
                     <div class="contradictions__block">
 
-                        <img src="../../assets/pictures/svg/icons/house.svg" class="contradictions-block-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/house.svg" class="contradictions-block-img" alt="" />
                         <p class="contradictions-block-text">Objection associated with a company</p>
 
                     </div>
@@ -2687,14 +2722,14 @@
                     <div class="contradictions__block">
 
                         <img src="../../assets/pictures/svg/icons/online-shop.svg" class="contradictions-block-img"
-                             alt="">
+                             alt="" />
                         <p class="contradictions-block-text">Objection associated with a service</p>
 
                     </div>
 
                     <div class="contradictions__block">
 
-                        <img src="../../assets/pictures/svg/icons/currency.svg" class="contradictions-block-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/currency.svg" class="contradictions-block-img" alt="" />
                         <p class="contradictions-block-text">Objection associated with price</p>
 
                     </div>
@@ -2702,7 +2737,7 @@
                     <div class="contradictions__block">
 
                         <img src="../../assets/pictures/svg/icons/handshake.svg" class="contradictions-block-img"
-                             alt="">
+                             alt="" />
                         <p class="contradictions-block-text">Indecisiveness in decision-making</p>
 
                     </div>
@@ -2714,7 +2749,7 @@
                 <div class="contradictions__infographic">
 
                     <p class="contradictions-infographic-text-one">Listen carefully to a buyer</p>
-                    <img src="../../assets/pictures/svg/icons/two-1.svg" class="contradictions-infographic-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/two-1.svg" class="contradictions-infographic-icon" alt="" />
                     <span class="contradictions-infographic-number">1</span>
 
                 </div>
@@ -2723,7 +2758,7 @@
 
                     <p class="contradictions-infographic-text-two">Recognize a buyer's point of view</p>
                     <img src="../../assets/pictures/svg/icons/check-symbol-1.svg"
-                         class="contradictions-infographic-icon" alt="">
+                         class="contradictions-infographic-icon" alt="" />
                     <span class="contradictions-infographic-number">2</span>
 
                 </div>
@@ -2732,7 +2767,7 @@
 
                     <p class="contradictions-infographic-text-two">Choose the technique of dealing with an objection</p>
                     <img src="../../assets/pictures/svg/icons/search.svg" class="contradictions-infographic-icon"
-                         alt="">
+                         alt="" />
                     <span class="contradictions-infographic-number">3</span>
 
                 </div>
@@ -2741,7 +2776,7 @@
 
                     <p class="contradictions-infographic-text-one">Answer the objection</p>
                     <img src="../../assets/pictures/svg/icons/target.svg" class="contradictions-infographic-icon"
-                         alt="">
+                         alt="" />
                     <span class="contradictions-infographic-number">4</span>
 
                 </div>
@@ -2750,7 +2785,7 @@
                 <div class="contradictions__infographic">
 
                     <p class="contradictions-infographic-text-one">Try to make a sale</p>
-                    <img src="../../assets/pictures/svg/icons/buy.svg" class="contradictions-infographic-icon" alt="">
+                    <img src="../../assets/pictures/svg/icons/buy.svg" class="contradictions-infographic-icon" alt="" />
                     <span class="contradictions-infographic-number">5</span>
 
                 </div>
@@ -2765,9 +2800,9 @@
                     <h3 class="lesson-caption--gray">Technique number 1</h3>
                     <p class="lesson-text--border">Agree with an objection of an interlocutor, but add a weighty
                         argument in favor of your product.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia1.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia1.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia1mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2777,9 +2812,9 @@
                     <h3 class="lesson-caption--gray">Technique number 2</h3>
                     <p class="lesson-text--border">Contest objections of an interlocutor, explaining them with your
                         positive motives.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia2.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia2.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia2mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2787,9 +2822,9 @@
 
                     <h2 class="lesson-caption--blue">Ask a Question</h2>
                     <h3 class="lesson-caption--gray">Technique number 3</h3>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia3.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia3.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia3mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2801,9 +2836,9 @@
                         fact is that when a client starts telling you that it is expensive, he is trying to make you
                         believe that goods are the same for everyone, but you just have higher prices. Your task, using
                         the method "Let's compare", show a client that there are no identical things.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia4.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia4.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia4mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2815,9 +2850,9 @@
                         more profitable than a product that is cheaper. A typical example is a sale of an expensive
                         detergent in a small package that will wash out 1000 plates but a cheap product will wash only
                         300 plates.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia5.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia5.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia5mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2827,9 +2862,9 @@
                     <h3 class="lesson-caption--gray">Technique number 6</h3>
                     <p class="lesson-text--border">You take a client's objection and confront it with a stronger
                         statement. For example:</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia6.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia6.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia6mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2840,9 +2875,9 @@
                     <p class="lesson-text--border">In order for this method to work, find in the past a client's
                         experience such actions that are similar to those offered by you. Then it will be easier for him
                         to agree to your proposal.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia7.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia7.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia7mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2851,9 +2886,9 @@
                     <h2 class="lesson-caption--blue">Overstated the bar</h2>
                     <h3 class="lesson-caption--gray">Technique number 8</h3>
                     <p class="lesson-text--border">An overstated bar is a story about a more complex case.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia8.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia8.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia8mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2863,9 +2898,9 @@
                     <h3 class="lesson-caption--gray">Technique number 9</h3>
                     <p class="lesson-text--border">This method is a magic wand. You just find out the acceptable
                         conditions for a buyer from a buyer.</p>
-                    <img src="../../assets/pictures/svg/dialog/EN/dia9.svg" class="contradictions-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/dialog/EN/dia9.svg" class="contradictions-dialog-img" alt="" />
                     <img src="../../assets/pictures/svg/dialog/EN/dia9mob.svg" class="contradictions-dialog-img--small"
-                         alt="">
+                         alt="" />
 
                 </div>
 
@@ -2877,7 +2912,7 @@
                     <p class="lesson-footer-text">In further lessons of the DVC, we will tell you in detail how to
                         create the right image in eyes of your customers.</p>
                     <img src="../../assets/pictures/svg/drows/footerContradiation-en.svg" class="lesson-footer-img"
-                         alt="">
+                         alt="" />
                 </footer>
 
             </div>
@@ -2889,10 +2924,10 @@
 
                     <h2 class="lesson-header-caption">The power of a declaration</h2>
                     <img src="../../assets/pictures/svg/icons/speaker.svg"
-                         class="lesson-header-img lesson-header-img--320" alt="">
-                    <img src="../../assets/pictures/svg/icons/blink-left.svg" class="declaration-icon--left" alt="">
-                    <img src="../../assets/pictures/svg/icons/blink-right.svg" class="declaration-icon--right" alt="">
-                    <img src="../../assets/pictures/svg/icons/blink-left.svg" class="declaration-icon--middle" alt="">
+                         class="lesson-header-img lesson-header-img--320" alt="" />
+                    <img src="../../assets/pictures/svg/icons/blink-left.svg" class="declaration-icon--left" alt="" />
+                    <img src="../../assets/pictures/svg/icons/blink-right.svg" class="declaration-icon--right" alt="" />
+                    <img src="../../assets/pictures/svg/icons/blink-left.svg" class="declaration-icon--middle" alt="" />
 
                 </div>
 
@@ -2913,28 +2948,28 @@
 
                     <div class="power__container">
 
-                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="power-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/handshake.svg" class="power-container-icon" alt="" />
                         <p class="power-container-text">The promise</p>
 
                     </div>
 
                     <div class="power__container">
 
-                        <img src="../../assets/pictures/svg/icons/three.svg" class="power-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/three.svg" class="power-container-icon" alt="" />
                         <p class="power-container-text">Publicity</p>
 
                     </div>
 
                     <div class="power__container">
 
-                        <img src="../../assets/pictures/svg/icons/teacher.svg" class="power-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/teacher.svg" class="power-container-icon" alt="" />
                         <p class="power-container-text">An overseer</p>
 
                     </div>
 
                     <div class="power__container">
 
-                        <img src="../../assets/pictures/svg/icons/coin.svg" class="power-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/coin.svg" class="power-container-icon" alt="" />
                         <p class="power-container-text">Value in what you say</p>
 
                     </div>
@@ -2950,7 +2985,7 @@
 
                 <div class="lesson__container--gradient">
 
-                    <img src="../../assets/pictures/svg/icons/hand-paper-en.svg" class="lesson-container-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/hand-paper-en.svg" class="lesson-container-img" alt="" />
 
                 </div>
 
@@ -2964,9 +2999,9 @@
 
                 <div class="customers__container-images--height">
 
-                    <img src="../../assets/pictures/svg/drows/conflict.svg" class="customers-container-img" alt="">
+                    <img src="../../assets/pictures/svg/drows/conflict.svg" class="customers-container-img" alt="" />
 
-                    <img src="../../assets/pictures/svg/icons/drib.svg" class="customers-container-icon--drib" alt="">
+                    <img src="../../assets/pictures/svg/icons/drib.svg" class="customers-container-icon--drib" alt="" />
 
                 </div>
 
@@ -2996,7 +3031,7 @@
                         properly, you won’t be able to get out of it. Also be prepared and understand that the goal will
                         be fulfilled if you make the decision to declare it.</p>
                     <img src="../../assets/pictures/svg/drows/footerDeclaration-en.svg" class="lesson-footer-img"
-                         alt="">
+                         alt="" />
                 </footer>
 
             </div>
@@ -3007,7 +3042,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">The image that is imitated</h2>
-                    <img src="../../assets/pictures/svg/icons/mirror.svg" class="lesson-header-img lesson-header-img--320" alt="">
+                    <img src="../../assets/pictures/svg/icons/mirror.svg" class="lesson-header-img lesson-header-img--320" alt="" />
 
                 </div>
 
@@ -3176,7 +3211,7 @@
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption">The rule of 3 “Yes”</h2>
-                    <img src="../../assets/pictures/svg/icons/3yes.svg" class="lesson-header-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/3yes.svg" class="lesson-header-img" alt="" />
 
                 </div>
 
@@ -3195,9 +3230,9 @@
                     perfectly well.</p>
 
                 <div class="yes__images">
-                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--first" alt="">
-                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--second" alt="">
-                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--third" alt="">
+                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--first" alt="" />
+                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--second" alt="" />
+                    <img src="../../assets/pictures/svg/icons/check-symbol.svg" class="yes-img yes-img--third" alt="" />
                 </div>
 
                 <p class="lesson-hint">This rule is used with success even by ordinary people. For example, children
@@ -3206,24 +3241,29 @@
 
                 <div class="yes__dialog">
 
-                    <img src="../../assets/pictures/svg/icons/mother%20and%20son.svg" class="yes-dialog-img" alt="">
+                    <img src="../../assets/pictures/svg/icons/mother%20and%20son.svg" class="yes-dialog-img" alt="" />
 
                     <ul class="yes-dialog-list">
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
-                            <p class="yes-dialog-first">Mummy, do you love me?</p></li>
-                        <li class="yes-dialog-item-second"><img src="../../assets/pictures/svg/dashdark.svg"
-                                                                class="yes-dialog-icon">
-                            <p class="yes-dialog-second">Yes</p></li>
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
-                            <p class="yes-dialog-first">Mummy? did I behave good today?</p></li>
-                        <li class="yes-dialog-item-second"><img src="../../assets/pictures/svg/dashdark.svg"
-                                                                class="yes-dialog-icon">
-                            <p class="yes-dialog-second">Yes</p></li>
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
-                            <p class="yes-dialog-first">Mummy, will you buy me this toy car?</p></li>
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-first">Mummy, do you love me?</p>
+                        </li>
+                        <li class="yes-dialog-item-second">
+                            <img src="../../assets/pictures/svg/dashdark.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-second">Yes</p>
+                        </li>
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-first">Mummy? did I behave good today?</p>
+                        </li>
+                        <li class="yes-dialog-item-second">
+                            <img src="../../assets/pictures/svg/dashdark.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-second">Yes</p>
+                        </li>
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-first">Mummy, will you buy me this toy car?</p>
+                        </li>
                     </ul>
 
                 </div>
@@ -3249,25 +3289,31 @@
                 <div class="yes__dialog">
 
                     <ul class="yes-dialog-list">
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
-                            <p class="yes-dialog-first">So, you want to lose weight for a long time?</p></li>
-                        <li class="yes-dialog-item-second"><img src="../../assets/pictures/svg/dashdark.svg"
-                                                                class="yes-dialog-icon">
-                            <p class="yes-dialog-second">Yes</p></li>
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
-                            <p class="yes-dialog-first">You said you haven’t time to eat right?</p></li>
-                        <li class="yes-dialog-item-second"><img src="../../assets/pictures/svg/dashdark.svg"
-                                                                class="yes-dialog-icon">
-                            <p class="yes-dialog-second">Yes</p></li>
-                        <li class="yes-dialog-item-first"><img src="../../assets/pictures/svg/dash.svg"
-                                                               class="yes-dialog-icon">
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-first">So, you want to lose weight for a long time?</p>
+                        </li>
+                        <li class="yes-dialog-item-second">
+                            <img src="../../assets/pictures/svg/dashdark.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-second">Yes</p>
+                        </li>
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-first">You said you haven’t time to eat right?</p>
+                        </li>
+                        <li class="yes-dialog-item-second">
+                            <img src="../../assets/pictures/svg/dashdark.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-second">Yes</p>
+                        </li>
+                        <li class="yes-dialog-item-first">
+                            <img src="../../assets/pictures/svg/dash.svg" class="yes-dialog-icon" alt="" />
                             <p class="yes-dialog-first">By the way, the cocktail Vita Energy I told you, can be made for
-                                5 minutes. Maybe do you want to try?</p></li>
-                        <li class="yes-dialog-item-second"><img src="../../assets/pictures/svg/dashdark.svg"
-                                                                class="yes-dialog-icon">
-                            <p class="yes-dialog-second">Yes...</p></li>
+                                5 minutes. Maybe do you want to try?</p>
+                        </li>
+                        <li class="yes-dialog-item-second">
+                            <img src="../../assets/pictures/svg/dashdark.svg" class="yes-dialog-icon" alt="" />
+                            <p class="yes-dialog-second">Yes...</p>
+                        </li>
                     </ul>
 
                 </div>
@@ -3278,19 +3324,19 @@
                 <div class="three-yes__content">
 
                     <div class="three-yes-content__texts">
-                        <img src="../../assets/pictures/svg/icons/genious.svg" class="three-yes-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/genious.svg" class="three-yes-content-icon" alt="" />
                         <p class="three-yes-content-text"><b>LOGIC.</b> Questions must belong to a topic and logically
                             bracketed</p>
                     </div>
 
                     <div class="three-yes-content__texts">
-                        <img src="../../assets/pictures/svg/icons/formula.svg" class="three-yes-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/formula.svg" class="three-yes-content-icon" alt="" />
                         <p class="three-yes-content-text"><b>SIMPLICITY.</b> You should not use difficult and complex
                             statements, the easier communication - the more trust you have</p>
                     </div>
 
                     <div class="three-yes-content__texts">
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="three-yes-content-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="three-yes-content-icon" alt="" />
                         <p class="three-yes-content-text"><b>ADEQUATENESS.</b> Questions must be adequate your listener
                             haven’t a feeling that he is used and you want to deceive him.</p>
                     </div>
@@ -3303,7 +3349,7 @@
 
                     <div class="yes-hang yes-hang__minus">
 
-                        <img src="../../assets/pictures/svg/icons/minus.svg" class="yes-hang-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/minus.svg" class="yes-hang-img" alt="" />
                         <p class="yes-hang-text">it is necessary to think in advance a chain of questions and variants
                             of manipulation during the conversation, if suddenly something "went wrong"</p>
 
@@ -3311,7 +3357,7 @@
 
                     <div class="yes-hang yes-hang__plus">
 
-                        <img src="../../assets/pictures/svg/icons/plus.svg" class="yes-hang-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/plus.svg" class="yes-hang-img" alt="" />
                         <div class="yes-hang__text">
                             <p class="yes-hang-text">Allows you to inconspicuously bring an interlocutor to the solution
                                 we need</p>
@@ -3343,10 +3389,10 @@
 
                     <h2 class="lesson-header-caption">Mister-charm</h2>
                     <img src="../../assets/pictures/svg/drows/charm.svg"
-                         class="lesson-header-img--big lesson-header-img-pandafix" alt="">
-                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--first" alt="">
-                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--second" alt="">
-                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--last" alt="">
+                         class="lesson-header-img--big lesson-header-img-pandafix" alt="" />
+                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--first" alt="" />
+                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--second" alt="" />
+                    <img src="../../assets/pictures/svg/icons/star-thin.svg" class="charm-star--last" alt="" />
 
                 </div>
 
@@ -3361,22 +3407,22 @@
                     <h2 class="lesson-container-caption--white">Natural traits</h2>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/three.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/three.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text--white">Sociability (ability to easily get on with people)</p>
                     </div>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/masks.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/masks.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text--white">Empathy ( ability to empathize)</p>
                     </div>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/search.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/search.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text--white">Reflexion ( ability to understand a person)</p>
                     </div>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/two.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/two.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text--white">Eloquence (the ability to impact with a word).</p>
                     </div>
 
@@ -3391,17 +3437,17 @@
                     <h2 class="lesson-caption--blue">Characteristics of a personality</h2>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/libra.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/libra.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text">Moral values</p>
                     </div>
 
                     <div class="charm-container__content">
-                        <img src="../../assets/pictures/svg/icons/certeficate.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/certeficate.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text">Mental health</p>
                     </div>
 
                     <div class="charm-container__content-fix">
-                        <img src="../../assets/pictures/svg/icons/networking-3.svg" class="charm-content-img" alt="">
+                        <img src="../../assets/pictures/svg/icons/networking-3.svg" class="charm-content-img" alt="" />
                         <p class="charm-content-text">Possession of communication techniques: interpersonal
                             communication, business speech, anticipation and overcoming of conflict situations.</p>
                     </div>
@@ -3417,14 +3463,14 @@
 
                 <div class="lesson__container">
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/user.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Behave naturally. Just be yourself, you do not need to chase
                             after some standards or bars - it always looks fake and insincere. The most favorable
                             impression we usually make when we behave naturally.</p>
                     </div>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/hand-plant.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Be a good listener. People are always more interested in their
                             lives than in lives of others. Learn to listen to an interlocutor - and not just listen, but
                             hear. Bring in yourself a stress-resistance - if during a conversation you really want to
@@ -3434,7 +3480,7 @@
                     </div>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/rockstar.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/rockstar.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Demonstrate your interest in others - this is one of the best
                             ways to make a good impression. Be attentive to an interlocutor. Take this position to
                             communicate with him face to face. Be sure to keep eye contact - but, of course, in
@@ -3442,7 +3488,7 @@
                     </div>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/heart.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/heart.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Try to understand and support an interlocutor. Let people meet
                             in you something that they most need: participation, understanding, support. Often walk in
                             another person’s shoes, try to imagine what he must feel in this situation.</p>
@@ -3450,13 +3496,13 @@
 
                     <div class="lesson-container__content">
                         <img src="../../assets/pictures/svg/icons/networking-1.svg" class="lesson-container-icon"
-                             alt="">
+                             alt="" />
                         <p class="lesson-container-text">Emphasize the similarity with your interlocutor. As you know,
                             we are attracted to others be the unity of views, common interests, similar destinies.</p>
                     </div>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Express sincere approval. Except in very rare exceptions,
                             people like the approval of their ideas and actions, so sincere praise promotes a good
                             impression. The approval or compliment naturally follows from our desire to find unifying
@@ -3465,7 +3511,7 @@
                     </div>
 
                     <div class="lesson-container__content">
-                        <img src="../../assets/pictures/svg/icons/shirt.svg" class="lesson-container-icon" alt="">
+                        <img src="../../assets/pictures/svg/icons/shirt.svg" class="lesson-container-icon" alt="" />
                         <p class="lesson-container-text">Do not scrimp on compliments. Let people feel their sincerity,
                             notice all the good things (from clothes, hairstyles to interesting ideas, thoughts) and do
                             not hesitate to tell people. At the same time, talk about what you really feel.</p>
@@ -3507,10 +3553,10 @@
 </footer>
 
 <script src="../../assets/js/addClass.js"></script>
-<script src="../../assets/js/hide.js"></script>
 <script src="../../assets/js/accordion.js"></script>
 <script src="../../assets/js/coopGraphic.js"></script>
 <script src="../../assets/js/dropdownmenu.js"></script>
+<script src="../../assets/js/hide.js"></script>
 <script src="../../assets/js/menu.js"></script>
 <script src="../../assets/js/rain.js"></script>
 <script src="../../assets/js/scrolldown.js"></script>

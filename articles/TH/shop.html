@@ -23,6 +23,7 @@
         <script src="../../assets/js/addClass.js"></script>
         <script src="../../assets/js/hide.js"></script>
         <script src="../../assets/js/menu.js"></script>
+        <script src="../../assets/js/openHtml.js"></script>
         <script src="../../assets/js/scrollup.js"></script>
         <script src="../../assets/js/search.js"></script>
         <script src="../../assets/js/submenu.js"></script>
@@ -42,67 +43,111 @@
         <nav class="nav-mobil" id="nav-mobil">
 
             <ul class="nav-mobil-list" id="accordion">
-                <li class="nav-mobil-item"><a href="../../EN.html" class="nav-mobil-item-link"><img
-                        src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Home</a></li>
+                <li class="nav-mobil-item">
+                    <a href="../../TH.html" class="nav-mobil-item-link">
+                        <img src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="" />บ้าน</a> <!-- Home -->
+                </li>
                 <li class="nav-mobil-item submenu-open">
-                    <div class="link"><img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My
-                        structure<i class="fa fa-chevron-down"></i></div>
+                    <div class="link">
+                        <img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="" />
+                        โครงสร้างของฉัน<i class="fa fa-chevron-down"></i> <!-- my structure -->
+                    </div>
                     <ul class="mobil-submenu-list mobil-tabs-list">
                         <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
                                                                           class="mobil-submenu-item-link mobil-tabs-item-link active-profile-mob"
-                                                                          onclick="closeMenu(this)">My profile</a></li>
+                                                                          onclick="openProfile(this)">ประวัติของฉัน</a> <!-- My profile -->
+                        </li>
                         <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                          class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                          onclick="closeMenu(this)">My statistic</a></li>
+                                                                          class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                          onclick="openProfile(this)">สถิติของฉัน</a> <!-- My statistic -->
+                        </li>
                         <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                          class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                          onclick="closeMenu(this)">My contacts</a></li>
+                                                                          class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                          onclick="openProfile(this)">รายชื่อติดต่อของฉัน</a> <!-- My contacts -->
+                        </li>
                         <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
-                                                                          class="mobil-submenu-item-link mobil-tabs-item-link "
-                                                                          onclick="closeMenu(this)">Setting</a></li>
+                                                                          class="mobil-submenu-item-link mobil-tabs-item-link"
+                                                                          onclick="openProfile(this)">การตั้งค่า</a> <!-- Setting -->
+                        </li>
                     </ul>
                 </li>
-                <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img
-                        src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+                <li class="nav-mobil-item">
+                    <a href="instruments.html" class="nav-mobil-item-link">
+                        <img src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="" />เครื่องมือ</a> <!-- instruments -->
+                </li>
                 <li class="nav-mobil-item submenu-open">
-                    <div class="link"><img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i
-                            class="fa fa-chevron-down"></i></div>
+                    <div class="link">
+                        <img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="" />
+                        โรงเรียน<i class="fa fa-chevron-down"></i> <!-- school -->
+                    </div>
                     <ul class="mobil-submenu-list">
                         <li class="mobil-submenu-item"><a href="introduction.html"
                                                           class="mobil-submenu-item-link mobil-submenu-item-link-active"
-                                                          onclick="closeMenu(this)">Introducion</a></li>
+                                                          onclick="openSchool(this)">บทนำ</a> <!-- Introduction -->
+                        </li>
                         <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                          onclick="closeMenu(this)">Online promotion</a></li>
+                                                          onclick="openSchool(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                        </li>
                         <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                          onclick="closeMenu(this)">Offline promotion</a></li>
+                                                          onclick="openSchool(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                        </li>
                         <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                          onclick="closeMenu(this)">Business creating</a></li>
+                                                          onclick="openSchool(this)">การสร้างธุรกิจ</a> <!-- Business creating -->
+                        </li>
                         <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                          onclick="closeMenu(this)">Increase in sales</a></li>
+                                                          onclick="openSchool(this)">เพิ่มยอดขาย</a> <!-- Increase in sales -->
+                        </li>
                         <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
-                                                          onclick="closeMenu(this)">Negotiation</a></li>
+                                                          onclick="openSchool(this)">การเจรจาต่อรอง</a> <!-- Negotiation -->
+                        </li>
                     </ul>
-                </li>
-                <li class="nav-mobil-item"><a href="training.html" class="nav-mobil-item-link"><img
-                        src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="">Training</a></li>
-                <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img
-                        src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
-                <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="../../assets/pictures/svg/chat.svg"
-                                                                                        class="nav-mobil-icon" alt="">Chat</a>
                 </li>
                 <li class="nav-mobil-item submenu-open">
-                    <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="">Langiage<i
-                            class="fa fa-chevron-down"></i></div>
+                    <div class="link">
+                        <img src="../../assets/pictures/svg/open-book.svg" class="nav-mobil-icon-fix" alt="" />
+                        การอบรม<i class="fa fa-chevron-down"></i> <!-- training -->
+                    </div>
                     <ul class="mobil-submenu-list">
-                        <li class="mobil-submenu-item"><a href="../../EN.html"
-                                                          class="mobil-submenu-item-link mobil-submenu-item-link-active" onclick="closeMenu(this)">English</a>
+                        <li class="mobil-submenu-item"><a href="training.html"
+                                                          class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                          onclick="openTraining(this)">ธุรกิจใน DiaVita Club</a> <!-- Business in the Diavita Club -->
                         </li>
-                        <li class="mobil-submenu-item"><a href="../../TH.html" class="mobil-submenu-item-link" onclick="closeMenu(this)">Thai
-                        </a></li>
+                        <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                          onclick="openTraining(this)">โปรโมชั่นออนไลน์</a> <!-- Online promotion -->
+                        </li>
+                        <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                          onclick="openTraining(this)">โปรโมชันออฟไลน์</a> <!-- Offline promotion -->
+                        </li>
+                        <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                          onclick="openTraining(this)">การพัฒนาธุรกิจใน DiaVita Club</a> <!-- Business development in the DiaVita Club -->
+                        </li>
                     </ul>
                 </li>
-                <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img
-                        src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+                <li class="nav-mobil-item">
+                    <a href="shop.html" class="nav-mobil-item-link">
+                        <img src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="" />ห้าง</a> <!-- shop -->
+                </li>
+                <li class="nav-mobil-item">
+                    <a href="#" class="nav-mobil-item-link">
+                        <img src="../../assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="" />พูดคุย</a> <!-- chat -->
+                </li>
+                <li class="nav-mobil-item submenu-open">
+                    <div class="link">
+                        <img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                        ภาษา<i class="fa fa-chevron-down"></i> <!-- language -->
+                    </div>
+                    <ul class="mobil-submenu-list">
+                        <li class="mobil-submenu-item">
+                            <a href="../EN/shop.html" class="mobil-submenu-item-link mobil-submenu-item-link-active">English</a>
+                        </li>
+                        <li class="mobil-submenu-item">
+                            <a href="../../TH.html" class="mobil-submenu-item-link">ไทย</a> <!-- thai -->
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link">
+                    <img src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="" />ออกจากระบบ</a> <!--logout -->
+                </li>
             </ul>
 
         </nav>
@@ -116,17 +161,17 @@
                 <nav class="header-navigation">
 
                     <ul class="navigation-list">
-                        <li class="navigation-item"><a href="../../TH.html" class="navigation-item-link">บ้าน</a></li> <!-- home -->
-                        <li class="navigation-item"><a href="profile.html" class="navigation-item-link">โครงสร้างของฉัน</a></li> <!-- my structure -->
+                        <li class="navigation-item"><a href="../../TH.html" class="navigation-item-link">บ้าน</a></li> <!-- home-->
+                        <li class="navigation-item"><a href="profile.html" class="navigation-item-link">โครงสร้างของฉัน</a></li><!-- my structure -->
                         <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">เครื่องมือ</a></li> <!-- instruments -->
-                        <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">โรงเรียน</a></li><!-- school -->
+                        <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">โรงเรียน</a></li> <!-- school -->
                         <li class="navigation-item"><a href="training.html" class="navigation-item-link">การอบรม</a></li> <!-- training -->
                         <li class="navigation-item"><a href="shop.html" class="navigation-item-link">ห้าง</a></li> <!-- shop -->
                         <li class="navigation-item"><a href="#" class="navigation-item-link">พูดคุย</a></li> <!-- chat -->
-                        <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                        <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">ภาษา <!-- language -->
                             <ul class="navigation-submenu-list" id="submenu_list">
                                 <li class="navigation-submenu-item"><a href="../EN/shop.html">English</a></li>
-                                <li class="navigation-submenu-item"><a href="shop.html">Thai</a></li>
+                                <li class="navigation-submenu-item"><a href="../../TH.html">ไทย</a></li> <!-- thai -->
                             </ul>
                         </li>
                     </ul>
@@ -154,177 +199,208 @@
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-chocolate.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Chocolate</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-chocolate.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-chocolate.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-strawberry.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/strawberry.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/strawberry.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Strawberry</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-strawberry.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-strawberry.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-vanilla.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/vanilla.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/vanilla.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Vanilla</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-vanilla.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-vanilla.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-green-coffee.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/greencoffee.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/greencoffee.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Green Coffee</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-green-coffee.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-green-coffee.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-pina-colada.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/pinacolada.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/pinacolada.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Pina Colada</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-pina-colada.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-pina-colada.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-banana.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/banana.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/banana.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Banana</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-banana.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-banana.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-chocolate-dark.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/darkchocolate.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/darkchocolate.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Dark Chocolate</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-chocolate-dark.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-chocolate-dark.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-tropical.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/tropical.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/tropical.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Tropical</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-tropical.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-tropical.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-acai-berry.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/acaiberry.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/acaiberry.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Acai Berry</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-acai-berry.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-acai-berry.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-tiramisu.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/tiramisu.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/tiramisu.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Tiramisu</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-tiramisu.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-tiramisu.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-goji-berry.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/gojiberry.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/gojiberry.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Goji Berry</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-goji-berry.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-goji-berry.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-coconut.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/coconut.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/coconut.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Coconut</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-coconut.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-coconut.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                     <div class="shop-item__container">
 
                         <a href="https://diavita.com/store/vita-energy-cookies.html" class="shop-item-link">
-                            <img src="../../assets/pictures/img/cookies.png" class="shop-item-img" alt="">
+                            <img src="../../assets/pictures/img/cookies.png" class="shop-item-img" alt="" />
                             <h1 class="shop-item-caption">Vita Energy Cookies</h1>
                         </a>
 
                         <h2 class="shop-item-price">฿<span class="price">1,400.00</span></h2>
 
-                        <a href="https://diavita.com/store/vita-energy-cookies.html" class="shop-item-btn-link"><p class="shop-item-btn">เช็คเอาท์</p></a>
+                        <a href="https://diavita.com/store/vita-energy-cookies.html" class="shop-item-btn-link">
+                            <p class="shop-item-btn">เช็คเอาท์</p>
+                        </a>
 
                     </div>
 
                 </div>
 
-                <a href="https://diavita.com/store.html/" class="checkout-btn-link"><p class="checkout-btn">เช็คเอาท์</p></a>
+                <a href="https://diavita.com/store.html/" class="checkout-btn-link">
+                    <p class="checkout-btn">เช็คเอาท์</p>
+                </a>
 
-                <p class="main-text">ด้วยวิถีการดำเนินชีวิตที่เร่งรีบของคนยุคใหม่ ทำให้เราไม่ค่อยมีเวลาดูแลสุขภาพของตัวเองสักเท่าไรนัก แต่คงไม่ปฏิเสธว่า เราทุกคนต่างอยากมีรูปร่างดีสมส่วน ไปพร้อม ๆ กับความรู้สึกสดชื่น กระปรี้กระเปร่า เปี่ยมล้นไปด้วยพลังและพร้อมที่จะเผชิญกับสิ่งต่าง ๆ ด้วยเหตุผลต่าง ๆ เหล่านี้ทำให้ <span class="diavita">DiaVita©</span> ได้คิดค้นและพัฒนาโปรแกรมสุขภาพอัจฉริยะขึ้นมาเพื่อตอบโจทย์เหล่านี้ และช่วยให้คุณมีชีวิตที่ง่ายขึ้น สุขภาพดีขึ้น และมีความสุขมากขึ้น!</p>
+                <p class="main-text">ด้วยวิถีการดำเนินชีวิตที่เร่งรีบของคนยุคใหม่ ทำให้เราไม่ค่อยมีเวลาดูแลสุขภาพของตัวเองสักเท่าไรนัก
+                    แต่คงไม่ปฏิเสธว่า เราทุกคนต่างอยากมีรูปร่างดีสมส่วน ไปพร้อม ๆ กับความรู้สึกสดชื่น กระปรี้กระเปร่า
+                    เปี่ยมล้นไปด้วยพลังและพร้อมที่จะเผชิญกับสิ่งต่าง ๆ ด้วยเหตุผลต่าง ๆ เหล่านี้ทำให้ <span class="diavita">DiaVita©</span>
+                    ได้คิดค้นและพัฒนาโปรแกรมสุขภาพอัจฉริยะขึ้นมาเพื่อตอบโจทย์เหล่านี้ และช่วยให้คุณมีชีวิตที่ง่ายขึ้น สุขภาพดีขึ้น และมีความสุขมากขึ้น!</p>
 
             </main>
 
