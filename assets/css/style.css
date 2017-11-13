@@ -2240,6 +2240,106 @@ input[type="file"] {
     margin: 20px auto;
 }
 
+/*Advanced course of promotion in Instagram*/
+
+.advanced-icon__container {
+    display: flex;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.advanced-icon__box {
+    display: inline-block;
+    margin: 0 auto auto auto;
+    width: 32%;
+    vertical-align: top;
+}
+
+.advanced-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.advanced-icon-text {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+}
+
+.advanced-icon__container--thin {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.advanced-icon-text--black {
+    display: block;
+    width: 90%;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+.advanced-icon-text--white {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 20px auto;
+    width: 70%;
+    color: white;
+    border-left: 8px solid white;
+}
+
+.advanced-list {
+    width: 50%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.advanced-item {
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+}
+
+.advanced-item-icon {
+    display: inline-block;
+    height: 20px;
+    margin: auto 10px auto;
+}
+
+.advanced-item-text {
+    display: inline-block;
+    margin: auto auto auto 10px;
+}
+
+.advanced-screen {
+    width: 70%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+.advanced-screen-link {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.advanced__container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.advanced__box {
+    display: inline-block;
+    width: 24%;
+}
+
 
 
 

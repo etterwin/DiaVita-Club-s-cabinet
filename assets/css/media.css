@@ -771,6 +771,23 @@
         width: 95%;
     }
 
+    /*advanced course of promotion in inst*/
+
+    .advanced-icon__container,
+    .advanced-icon__box{
+        display: block;
+        width: 100%;
+    }
+
+    .advanced-screen,
+    .advanced-screen-link {
+        width: 100%;
+    }
+
+    .advanced__box {
+        width: 49%;
+    }
+
     /*OFFLINE PROMOTION*/
     /*Fundamental principles of offline promotion*/
     .fundamental-container--left {
