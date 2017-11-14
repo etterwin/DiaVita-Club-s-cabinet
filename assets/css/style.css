@@ -2388,6 +2388,77 @@ input[type="file"] {
     font-weight: bold;
 }
 
+.advanced-fb__screen {
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+}
+
+.advanced-fb-screen {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    max-height: 320px;
+    margin: auto 0 auto auto;
+}
+
+.advanced-fb-screen-text {
+    display: inline-block;
+    width: 50%;
+    margin: auto auto auto 20px;
+}
+
+.advanced-text {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+}
+
+.advanced-fb__box {
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.advanced-img {
+    display: inline-block;
+    max-height: 300px;
+    margin: auto 10px auto auto;
+}
+
+.advanced__texts {
+    display: inline-block;
+    width: 80%;
+    margin: auto 0;
+}
+
+.advanced__texts--big {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.advanced-caption {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.advanced-text--white {
+    color: white;
+}
+
+.adv-fb__container {
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.adv-fb-text--black {
+    display: inline-block;
+    width: 80%;
+}
+
 
 
 /*OFFLINE PROMOTION*/
