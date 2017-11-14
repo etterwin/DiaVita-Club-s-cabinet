@@ -1906,9 +1906,28 @@ input[type="file"] {
     margin: auto;
 }
 
+.lesson-container-text--small {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: white;
+    margin: auto auto auto 0;
+}
+
 .lesson-container-number {
     margin: auto;
     font-size: 60px;
+    opacity: 0.5;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+}
+
+.lesson-container-number--small {
+    margin: auto 10px auto auto;
+    font-size: 40px;
     opacity: 0.5;
     font-weight: bold;
     line-height: 1.5;
@@ -2340,6 +2359,34 @@ input[type="file"] {
     width: 24%;
 }
 
+/*advanced course of promotion in fb*/
+
+.lesson-container-content-wrapper {
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    margin: 20px auto;
+}
+
+.adv-fb-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: auto 10px auto auto;
+}
+
+.adv-fb-text {
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.advanced-icon-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 
