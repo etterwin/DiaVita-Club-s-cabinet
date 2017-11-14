@@ -774,7 +774,8 @@
     /*advanced course of promotion in inst*/
 
     .advanced-icon__container,
-    .advanced-icon__box{
+    .advanced-icon__box,
+    .advanced-fb__screen {
         display: block;
         width: 100%;
     }
@@ -784,8 +785,30 @@
         width: 100%;
     }
 
+    .advanced-fb__box {
+        width: 90%;
+    }
+
     .advanced__box {
         width: 49%;
+    }
+
+    .lesson-container-content-wrapper,
+    .adv-fb__container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .advanced-list {
+        width: 70%;
+    }
+
+    .advanced-fb-screen,
+    .advanced-fb-screen-text,
+    .advanced-text {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
     }
 
     /*OFFLINE PROMOTION*/
