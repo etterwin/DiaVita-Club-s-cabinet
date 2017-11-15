@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+}
+
 .show {
     display: inline-block;
 }
@@ -1861,6 +1865,31 @@ input[type="file"] {
     width: 80%;
 }
 
+.lesson-container-list {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.lesson-container-item {
+    display: flex;
+    margin: 10px auto;
+}
+
+.lesson-container-item-icon {
+    display: inline-block;
+    height: 20px;
+    margin: auto;
+}
+
+.lesson-container-item-text {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    width: 90%;
+}
+
 .lesson-container--left {
     width: 80%;
     display: inline-block;
@@ -1882,6 +1911,29 @@ input[type="file"] {
     min-height: 100px;
     margin: 10px auto;
     box-sizing: border-box;
+}
+
+.lesson-container__content--small {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.lesson-container-content-number {
+    display: inline-block;
+    color: white;
+    opacity: 0.5;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.lesson-container-content-text {
+    color: white;
+    display: inline-block;
+    width: 90%;
+    margin: auto;
 }
 
 .lesson-container-icon {
@@ -2459,9 +2511,232 @@ input[type="file"] {
     width: 80%;
 }
 
+/*target ad fb*/
+
+.target-fb__container {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+}
+
+.target-fb-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: auto 10px auto auto;
+}
+
+.target-fb-text {
+    display: inline-block;
+    width: 80%;
+    margin: auto 0;
+}
+
+.target-fb-number {
+    display: inline-block;
+    margin: auto auto auto 10px;
+    font-size: 60px;
+    color: #8492A6;
+    font-weight: bold;
+}
+
+.target-gb-screen {
+    margin: 20px auto;
+    display: block;
+    max-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.target-gb-screen--small {
+    max-width: 400px;
+}
+
+.target-fb__box {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.target-fb__content {
+    display: inline-block;
+    width: 49%;
+    margin: auto;
+}
+
+.target-fb__content--alone {
+    display: inline-block;
+    width: 49%;
+    margin: auto 0;
+}
+
+.target-fb-caption--white {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.target-fb-text--white {
+    color: white;
+}
+
+.target-fb-img--right {
+    display: inline-block;
+    width: 49%;
+    max-height: 200px;
+    margin: auto;
+}
+
+.target-fb-list {
+    padding: 15px;
+    box-sizing: border-box;
+    border-left: 5px dashed white;
+    max-width: 600px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.target-fb-item-text::before {
+    content: " ";
+    background: #fecc0c;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -22px;
+}
+
+.target-fb-item-text {
+    color: white;
+    position: relative;
+}
+
+.target-fb-list--white {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+}
+
+.target-fb-item--white {
+    color: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.target-fb-item-icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: auto;
+}
+
+.target-fb-item-text--white {
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+}
+
+.target-fb__block {
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.target-fb-icon {
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+}
+
+.target-fb--wrapper {
+    display: inline-block;
+    margin: auto;
+}
+
+.target-fb-text--bold {
+    margin: 0 0 10px;
+}
+
+.target-fb__container--white {
+    display: flex;
+    width: 60%;
+    margin: 15px auto;
+}
+
+.target-fb-text--border {
+    display: inline-block;
+    margin: auto;
+    width: 48%;
+    border-left: 8px solid #fecc0c;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.target-fb-screen--right {
+    display: inline-block;
+    width: 48%;
+    margin: auto;
+}
+
+.target-fb__content {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.target-fb-content__box {
+    width: 30%;
+    display: inline-block;
+    margin: 0 auto auto auto;
+}
+
+.target-fb-content-icon,
+.target-fb-container-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.target-fb-content-text {
+    display: block;
+    width: 100%;
+    margin: 10px auto 0;
+    text-align: center;
+    color: white;
+}
+
+.target-fb__container--small {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.target-fb-container__block {
+    width: 49%;
+    display: inline-block;
+}
+
+.target-fb-container-description {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 
-/*OFFLINE PROMOTION*/
+
+
+
+    /*OFFLINE PROMOTION*/
 
 /*Basic principles of offline promotion*/
 
