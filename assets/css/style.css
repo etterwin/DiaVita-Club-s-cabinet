@@ -2589,6 +2589,12 @@ input[type="file"] {
     margin: auto;
 }
 
+.target-fb__content--small {
+    display: inline-block;
+    width: 49%;
+    margin: auto;
+}
+
 .target-fb-list {
     padding: 15px;
     box-sizing: border-box;
@@ -2617,6 +2623,9 @@ input[type="file"] {
     font-weight: bold;
     font-size: 16px;
     color: white;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
     list-style: none;
 }
 
@@ -2653,12 +2662,12 @@ input[type="file"] {
 .target-fb-icon {
     height: 100px;
     display: inline-block;
-    margin: auto;
+    margin: auto 0;
 }
 
 .target-fb--wrapper {
     display: inline-block;
-    margin: auto;
+    margin: auto 0;
 }
 
 .target-fb-text--bold {

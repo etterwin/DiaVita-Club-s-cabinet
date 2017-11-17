@@ -141,6 +141,18 @@
         margin-top: -120px;
     }
 
+    /*target ad fb*/
+
+    .target-fb-content__box,
+    .target-fb__content {
+        display: block;
+        width: 100%;
+    }
+
+    .target-fb__box {
+        height: 230px;
+    }
+
     /*OFFLINE PROMOTION*/
     /*Fundamental principles of offline promotion*/
     .fundamental-container-icon {

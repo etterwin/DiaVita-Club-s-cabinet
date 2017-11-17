@@ -811,6 +811,34 @@
         margin: 10px auto;
     }
 
+    /*target ad fb*/
+
+    .target-fb__container,
+    .target-fb__container--white {
+        width: 100%;
+    }
+
+    .target-fb__box,
+    .target-fb-list,
+    .advanced-icon-text--white {
+        width: 95%;
+    }
+
+    .target-gb-screen {
+        padding: 0;
+    }
+
+    .target-fb-list--white {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .lesson-container-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
     /*OFFLINE PROMOTION*/
     /*Fundamental principles of offline promotion*/
     .fundamental-container--left {
