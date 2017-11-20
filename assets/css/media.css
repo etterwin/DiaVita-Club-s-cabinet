@@ -715,6 +715,10 @@
         margin: 10px auto;
     }
 
+    .lesson__container--white {
+        width: 90%;
+    }
+
     /*ONLINE PROMOTION*/
     /*Basic course of promotion in Instagram*/
     .basic-inst__link {
@@ -836,6 +840,12 @@
     .lesson-container-list {
         width: 90%;
         margin: 0 auto;
+    }
+
+    /*YT*/
+
+    .youtube__container {
+        width: 100%;
     }
 
 

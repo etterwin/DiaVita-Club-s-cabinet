@@ -1825,6 +1825,12 @@ input[type="file"] {
     background: #00c5db
 }
 
+.lesson__container--white {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+
 .lesson-container-img,
 .customers-container-img {
     width: 512px;
@@ -1968,6 +1974,16 @@ input[type="file"] {
     margin: auto auto auto 0;
 }
 
+.lesson-container-text--black {
+    font-size: 14px;
+    width: 90%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: auto;
+}
+
 .lesson-container-number {
     margin: auto;
     font-size: 60px;
@@ -1984,6 +2000,15 @@ input[type="file"] {
     font-weight: bold;
     line-height: 1.5;
     color: white;
+}
+
+.lesson-container-number--black {
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    color: #8492A6;
+    display: inline-block;
+
 }
 
 .lesson__content {
@@ -2741,6 +2766,34 @@ input[type="file"] {
     margin: 0 auto;
 }
 
+/*YT*/
+
+.youtube__container {
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.youtube-icon {
+    max-height: 100px;
+    display: inline-block;
+    margin: auto;
+}
+
+.youtube__texts {
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.youtube-screenshot {
+    display: block;
+    margin: 10px auto;
+    max-width: 320px;
+    width: 100%;
+}
 
 
 
