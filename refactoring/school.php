@@ -14,12 +14,36 @@
             <nav class="school__navigation">
 
                 <ul class="school-nav-list">
-                    <li class="school-nav-item"><a href="#introduction" class="school-nav-item-link school-nav-item-link--active">บทนำ</a></li> <!-- introduction -->
-                    <li class="school-nav-item"><a href="#online-promotion" class="school-nav-item-link">โปรโมชั่นออนไลน์</a></li> <!-- online promotion -->
-                    <li class="school-nav-item"><a href="#offline-promotion" class="school-nav-item-link">โปรโมชันออฟไลน์</a></li> <!-- offline promotion -->
-                    <li class="school-nav-item"><a href="#business-creating" class="school-nav-item-link">การสร้างธุรกิจ</a></li> <!-- business creating -->
-                    <li class="school-nav-item"><a href="#increase-in-sales" class="school-nav-item-link">เพิ่มยอดขาย</a></li> <!-- increase in sales -->
-                    <li class="school-nav-item"><a href="#negotiation" class="school-nav-item-link">การเจรจาต่อรอง</a></li> <!-- negotiation -->
+                    <li class="school-nav-item">
+                        <a href="#introduction" class="school-nav-item-link school-nav-item-link--active">
+                            <?=Yii::t(category:'front', message:'Introduction');?>
+                        </a>
+                    </li>
+                    <li class="school-nav-item">
+                        <a href="#online-promotion" class="school-nav-item-link">
+
+                        </a>
+                    </li>
+                    <li class="school-nav-item">
+                        <a href="#offline-promotion" class="school-nav-item-link">
+                            <?=Yii::t(category:'front', message:'Offline promotion');?>
+                        </a>
+                    </li>
+                    <li class="school-nav-item">
+                        <a href="#business-creating" class="school-nav-item-link">
+                            <?=Yii::t(category:'front', message:'Business creation');?>
+                        </a>
+                    </li>
+                    <li class="school-nav-item">
+                        <a href="#increase-in-sales" class="school-nav-item-link">
+                            <?=Yii::t(category:'front', message:'Increase in sales');?>
+                        </a>
+                    </li>
+                    <li class="school-nav-item">
+                        <a href="#negotiation" class="school-nav-item-link">
+                            <?=Yii::t(category:'front', message:'Negotiation');?>
+                        </a>
+                    </li>
                 </ul>
 
             </nav>
@@ -28,12 +52,12 @@
 
                 <div class="school-accordion">
 
-                    <h1 class="school-accordion-caption">บทเรียนแรก</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'First lesson');?></h1>
                     <div class="school-accordion__container first-lesson">
 
                         <div class="lesson-header">
 
-                            <h1 class="lesson-header-caption">พวกเราคือใคร?</h1>
+                            <h1 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Who we are?');?></h1>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/firstlesson/groupleaf.svg" class="first-lesson-img--leaf"
                                  alt="">
                             <img src="/modules/admin/cabinet_assets/pictures/svg/firstlesson/greeting.svg"
@@ -47,7 +71,8 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/medal.svg" class="lesson-block-icon"
                                      alt="">
-                                <p class="lesson-block-text">เราเป็นหนึ่งใน บริษัท เครือข่ายที่มีนวัตกรรมมากที่สุดในโลก</p>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'We are one of the most innovative network companies in the
+                            world.');?></p>
 
                             </div>
 
@@ -55,7 +80,8 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking.svg" class="lesson-block-icon"
                                      alt="">
-                                <p class="lesson-block-text">เรามีโอกาสที่ดีในการทำธุรกิจสำหรับทุกคน</p>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'We offer excellent opportunities for doing business for
+                            everyone.');?></p>
 
                             </div>
 
@@ -63,15 +89,16 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/presentation.svg" class="lesson-block-icon"
                                      alt="">
-                                <p class="lesson-block-text">เราสอนการสร้างแผนการตลาดที่มีประสิทธิภาพและใช้เทคโนโลยีดิจิทัลได้อย่างมีปร
-                                    ะสิทธิภาพ</p>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'We teach to build effective marketing plans and effectively use
+                            modern digital technologies.');?></p>
 
                             </div>
 
                             <div class="lesson__block">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/like.svg" class="lesson-block-icon" alt="">
-                                <p class="lesson-block-text">สิ่งสำคัญคือคุณไม่จำเป็นต้องมีการลงทุนที่สำคัญใด ๆ</p>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'What\'s important is that you will not need any material
+                            investment.');?></p>
 
                             </div>
 
@@ -79,8 +106,8 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/online-shop.svg" class="lesson-block-icon"
                                      alt="">
-                                <p class="lesson-block-text">นอกจากนี้หากคุณเป็นส่วนหนึ่งของทีมงานของเราแล้วคุณจะสามารถซื้อผลิตภัณฑ์จ
-                                    าก บริษัท ที่มีส่วนลดที่ดีได้</p>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'In addition, if you become a part of our team, then you will be
+                            able to purchase products from the company with very good discounts.');?></p>
 
                             </div>
 
@@ -88,28 +115,28 @@
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">เราเป็นใคร?</h2>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'For whom are we?');?></h2>
 
                             <div class="lesson__block--two">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/handshake.svg" class="lesson-block-icon--two"
                                      alt="">
-                                <p class="lesson-block-text--two--white">ถ้าคุณฝันของธุรกิจของคุณเอง แต่คุณไม่มีทุนเมล็ดแล้วเราจะช่วยให้คุณ
-                                    ตระหนักถึงความฝันของคุณ!</p>
+                                <p class="lesson-block-text--two--white"><?=Yii::t(category:'front', message:'If you dream of your own business, but you do not have seed
+                            capital, then we will help you realize your dream!');?></p>
 
                             </div>
 
                             <div class="lesson__block--two">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/user.svg" class="lesson-block-icon--two" alt="">
-                                <p class="lesson-block-text--two--white">คุณสามารถเรียกตัวเองว่าเป็นคนใจเดียวกันและคุณไม่กลัวการเปลี่ยนแป
-                                    ลงในชีวิตของคุณ? เรากำลังรอคุณอยู่!</p>
+                                <p class="lesson-block-text--two--white"><?=Yii::t(category:'front', message:'You can safely call yourself a single-minded person and you
+                            are not afraid of changes in your life? We are waiting for you!');?></p>
 
                             </div>
 
                         </div>
 
-                        <h2 class="lesson-caption--black">สิ่งที่เราเสนอ?</h2>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'What do we offer?');?></h2>
 
                         <div class="lesson__container--white">
 
@@ -118,7 +145,8 @@
                                 <div class="first-lesson__container">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/currency.svg" class="first-lesson-icon" alt="">
-                                    <p class="first-lesson-text">ขาดค่าใช้จ่าย คุณไม่จำเป็นต้องยืมหรือลงทุนเพื่อเริ่มต้นธุรกิจของคุณเอง</p>
+                                    <p class="first-lesson-text"><?=Yii::t(category:'front', message:'Lack of costs. You do not have to borrow or invest a lot to
+                                start your own business.');?></p>
 
                                 </div>
 
@@ -126,8 +154,8 @@
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/certeficate%20-%201.svg" class="first-lesson-icon"
                                          alt="">
-                                    <p class="first-lesson-text">คุณจะได้เรียนรู้เคล็ดลับในการดำเนินธุรกิจที่ประสบความสำเร็จ: การฝึกอบร
-                                        มการเรียนการสอนการสัมมนาทางเว็บและอื่น ๆ อีกมากมาย</p>
+                                    <p class="first-lesson-text"><?=Yii::t(category:'front', message:'You will learn the secrets of successful business conduct:
+                                trainings, master classes, webinars and much more.');?></p>
 
                                 </div>
 
@@ -135,22 +163,23 @@
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/laptop-and-rocket.svg" class="first-lesson-icon"
                                          alt="">
-                                    <p class="first-lesson-text">นวัตกรรมไอทีโซลูชั่นเพื่อดึงดูดลูกค้าใหม่และการพัฒนาธุรกิจ</p>
+                                    <p class="first-lesson-text"><?=Yii::t(category:'front', message:'Innovative IT solutions for attracting new customers and
+                                business development.');?></p>
 
                                 </div>
 
                                 <div class="first-lesson__container">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/progress.svg" class="first-lesson-icon" alt="">
-                                    <p class="first-lesson-text">โอกาสในการเติบโตอย่างรวดเร็วของอาชีพ</p>
+                                    <p class="first-lesson-text"><?=Yii::t(category:'front', message:'Opportunities for rapid career growth.');?></p>
 
                                 </div>
 
                                 <div class="first-lesson__container">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/three.svg" class="first-lesson-icon" alt="">
-                                    <p class="first-lesson-text">คุณจะได้พบกับทีมงานที่เป็นมิตรและความคุ้นเคยกับคนที่ประสบความสำเร็จอย่
-                                        างต่อเนื่อง</p>
+                                    <p class="first-lesson-text"><?=Yii::t(category:'front', message:'You will find a friendly team and constant acquaintance with
+                                successful people.');?></p>
 
                                 </div>
 
@@ -163,23 +192,24 @@
                     </div>
 
 
-                    <h1 class="school-accordion-caption">บทเรียนที่สอง</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Second lesson');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h1 class="lesson-header-caption">ทำไมฉันควรจะเป็น SBL * (Senior Business Leader)?</h1>
+                            <h1 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Why should I become a SBL* (Senior Business Leader)?');?></h1>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/together.svg" class="lesson-header-img" alt="">
 
                         </div>
 
                         <div class="second-lesson__container">
 
-                            <p class="second-lesson-text--border">แสดงเป็นการเปรียบเทียบของพันธมิตรสามัญและ SBL เริ่มต้นด้วยข้อเท็จจริ
-                                งที่ว่ามีเพื่อนสองคน One คือ Partner และอีกแห่งคือ SBL และเปรียบเทียบกับแต่ละอื่น ๆ
-                                คู่ค้าธรรมดามีส่วนลดเพียง 12% สำหรับผลิตภัณฑ์และไม่มีโครงสร้าง
-                                <br> SBL สำหรับของจริงคือความหรูหราและเขามีส่วนลด 30% และจากพันธมิตรแบบดาวน์ไลน์ในโครงสร้างของเขาเขาไ
-                                ด้รับรายได้สำหรับการขายแต่ละครั้ง</p>
+                            <p class="second-lesson-text--border"><?=Yii::t(category:'front', message:'Show as a comparison of an ordinary partner and SBL. Start
+                        with the fact that there are two friends. One is a Partner and another is SBL. And just compare
+                        them with each other.
+                        An ordinary partner has only a 12% discount for a product and has no structure.
+                        <br/>SBL for real is a luxury and he has a 30% discount. And accordingly from each downline
+                        partner in his structure, he receives income for each sale.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/hint.svg" class="second-lesson-img--right" alt="">
 
@@ -189,10 +219,14 @@
 
                             <div class="second-lesson__container">
 
-                                <p class="second-lesson-container-text">พันธมิตรของเราไม่มีโครงสร้างเพราะเขาขี้เกียจและมองหาข้ออ้าง
-                                    แม้ว่า SBL เพื่อนของเขาจะแวะเยี่ยมชมทุกคนที่คุ้นเคยให้เชื่อมโยง Instagram และ FB เพื่อโปรโมตและเติบโตไปยัง
-                                    SBL จากหุ้นส่วนแต่ละรายเขาได้รับ 18% จากการขายแต่ละครั้ง SP (Senior Partner) นำ 10% MP
-                                    (Master PArtner) นำ 5% นอกจากนี้เขาได้รับ 7% ของปริมาณโครงสร้างของเขาในนอกจากนี้</p>
+                                <p class="second-lesson-container-text"><?=Yii::t(category:'front', message:'Our Partner has no structure because he is lazy and
+                            looks for a pretext.
+                            Although his friend SBL visited all familiar, link up the Instagram and FB for promotion and
+                            grew to SBL.
+                            From each partner he receives 18% from each sale
+                            SP (Senior Partner) brings 10%
+                            MP (Master PArtner) brings 5%
+                            Moreover he gets 7% of the volume of his structure in addition.');?></p>
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/success-winner.svg"
                                      class="second-lesson-container-img" alt="">
@@ -201,10 +235,12 @@
 
                             <div class="second-lesson__container">
 
-                                <p class="second-lesson-container-text">พันธมิตรของเรากังวลเกี่ยวกับปริมาณส่วนบุคคลของ 60 PV
-                                    (Personal Volume) ที่ต้องปฏิบัติตาม เขาอาจกลายเป็น SBL แต่เขาขี้เกียจ SBL ไม่ต้องกังวลว่าผู้คนจะซื้อผลิต
-                                    ภัณฑ์จากเขาหรือไม่ เขาเติบโตขึ้นเป็นหุ้นส่วน SP และ MP ซึ่งยังสร้างโครงสร้างภายใต้ตัวเองซึ่งจะช่วยเสริมสร้าง
-                                    SBL ของเรา</p>
+                                <p class="second-lesson-container-text"><?=Yii::t(category:'front', message:'Our Partner constantly worries about the personal volume
+                            of 60 PV (Personal Volume) that needs to be fulfilled. He could have become SBL but he is
+                            lazy.
+                            SBL does not need to worry about whether people will buy a product from him or not. He grows
+                            partners, SP and MP, who also build a structure under themselves, thereby enriching our
+                            SBL.');?></p>
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/success-loser.svg"
                                      class="second-lesson-container-img" alt="">
@@ -215,9 +251,10 @@
 
                         <div class="second-lesson__container">
 
-                            <p class="second-lesson-text--border">พันธมิตรของเราไม่ได้พยายามที่จะใช้เวลาน้อยและนำเสนอสินค้า DiaVita
-                                ให้กับเพื่อนและครอบครัว และเขาก็หาเงินได้เล็กน้อย SBL มีโครงสร้างของตัวเองอยู่เสมอ BL (Business Leader) ซึ่ง
-                                Partner, SP และ MP เชื่อฟัง และจากพวกเขาเขายังได้รับ 7% ของการหมุนเวียนทั่วไปของพวกเขา</p>
+                            <p class="second-lesson-text--border"><?=Yii::t(category:'front', message:'Our Partner does not even try to spend a little time and offer
+                        DiaVita goods to friends and family. And so he earns little money.
+                        SBL always has in the structure his own BL (Business Leader), whom Partner, SP and MP obey. And
+                        from them he also receives 7% of their common turnover.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/about-loser.svg" class="second-lesson-img--right"
                                  alt="">
@@ -226,9 +263,10 @@
 
                         <div class="second-lesson__container">
 
-                            <p class="second-lesson-text--border">หุ้นส่วนของเรารู้ว่าสมาชิกคนอื่น ๆ ของ DiaVita Club มีเพียงเล็กน้อยเท่
-                                านั้นเพราะเขาไม่ได้ลองและมักตำหนิผู้อื่นสำหรับปัญหาของเขา ในเวลานั้น SBL เป็นที่รู้จักใน DiaVita Club
-                                เขาเป็นตัวอย่างและทุกคนก็อยากเป็นเพื่อนกับเขา</p>
+                            <p class="second-lesson-text--border"><?=Yii::t(category:'front', message:'Our Partner knows other members of the DiaVita Club only a
+                        little, because he does not try and generally blames others for his problems.
+                        At that time SBL is known in the DiaVita Club, he is as an example and everyone wants to be
+                        friends with him.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/pandas.svg" class="second-lesson-img--right"
                                  alt="">
@@ -236,28 +274,29 @@
                         </div>
 
                         <footer class="lesson-footer">
-                            <p class="lesson-footer-text">ตัดสินใจเลือก SBL!</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'Make the right choice, become SBL!');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footerSecondLesson-th.svg" class="lesson-footer-img" alt="">
                         </footer>
 
                     </div>
 
 
-                    <h1 class="school-accordion-caption">บทเรียนที่สาม</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Third lesson');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h1 class="lesson-header-caption">ทำไมคุณถึงต้องทำเป็นทีมและแบ่งปันข้อมูล?</h1>
+                            <h1 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Why do you need to team up and share information?');?></h1>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/header.svg" class="lesson-header-img" alt="">
 
                         </div>
 
                         <div class="third-lesson__container">
 
-                            <p class="third-lesson-container-text">คนแรกกลัวการเป็นหุ้นส่วนเพราะเขาคิดว่าหุ้นส่วนพาลูกค้ามาจากเขาเขาจึ
-                                งทำหน้าที่เป็นอิสระ เขามักจะมีหลายสิ่งหลายอย่างที่เขาไม่สามารถจบได้ทันเวลา เขาไม่เปิดเผยข้อมูลเพราะเขาคิดว่าไม่มีใค
-                                รคาดเดาได้ก่อนข้อมูลของเขา</p>
+                            <p class="third-lesson-container-text"><?=Yii::t(category:'front', message:'The first is afraid of partnership, because he thinks that
+                        the partner takes customers from him, so he acts independently. He always has a lot of things
+                        that he can not finish on time. He does not share information, because he thinks that no one
+                        will guess before his information.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/pandabusy.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -265,9 +304,10 @@
 
                         <div class="third-lesson__container--gradient">
 
-                            <p class="third-lesson-container-text--white">ข้อที่สองคือการแบ่งปันข้อมูลกับคู่ค้าของเขา เขาเผยแพร่ข้อมูลเ
-                                กี่ยวกับวิธีการค้นหาลูกค้าและพาร์ทเนอร์ร่วมกับเขา เป็นผลให้การแลกเปลี่ยนข้อมูลทำได้เร็วขึ้น: วิธีที่ดีที่สุดในการดึงดูดปรา
-                                กฏเร็วกว่าผู้ที่ทำงานคนเดียว.</p>
+                            <p class="third-lesson-container-text--white"><?=Yii::t(category:'front', message:'The second is sharing information with his partners. He
+                        disseminates information about the methods of searching for customers, and partners share with
+                        him. As a result, the exchange of information is much faster: the best ways to attract appear
+                        faster than those who work alone.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/presentation.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -275,9 +315,10 @@
 
                         <div class="third-lesson__container">
 
-                            <p class="third-lesson-container-text">คนแรกรวบรวมข้อมูลเองและกิจกรรมทั้งหมดของเขาไม่ได้มีผลอย่างที่สอง
-                                ส่วนที่สองติดต่อกับคู่ค้าของเขาอย่างจริงจังเขาแชร์ข้อมูลในฟอรัมและเขาก็ยืนอยู่ในตำแหน่งที่สูงขึ้นและกลายเป็นส. เร็ว ๆ
-                                นี้เขาจะเพิ่มขึ้นอีกครั้งในบันไดอาชีพ</p>
+                            <p class="third-lesson-container-text"><?=Yii::t(category:'front', message:'The first collects information himself, and all his
+                        activities are not as effective as the second. The second actively contacts his partners, he
+                        shares information at the forums, and he already stands on the higher position and became a MP.
+                        Very soon he will rise again on the career ladder.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/laptop.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -285,9 +326,10 @@
 
                         <div class="third-lesson__container--gradient">
 
-                            <p class="third-lesson-container-text--white">คนที่สองและเพื่อนร่วมงานของเขาร่วมมือกันเพื่อเป้าหมายร่วมกัน
-                                และพวกเขาก็มาถึงตำแหน่งของ BL ขอบคุณเฉพาะความมุ่งมั่นและความขยันของพวกเขาที่พวกเขาประสบความสำเร็จ
-                                พวกเขามีปฏิสัมพันธ์กับแต่ละอื่น ๆ ซึ่งเป็นเหตุผลที่ผลผลิตของพวกเขาสูง</p>
+                            <p class="third-lesson-container-text--white"><?=Yii::t(category:'front', message:'The second and his colleagues joined together for a common
+                        goal and they reached the position of BL. Only thanks to their commitment and diligence they
+                        came to success. They always interact with each other, which is why their productivity is
+                        high.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/talking.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -295,9 +337,9 @@
 
                         <div class="third-lesson__container">
 
-                            <p class="third-lesson-container-text">หนึ่งในสนามไม่ได้เป็นนักรบ ครั้งแรกที่มีการโหลดบนไหล่ของเขาโหลดกับ
-                                ที่เขาจะรับมือกับคนเดียวหรือไม่ อย่างไรก็ตามเมื่อคุณไม่ได้อยู่คนเดียวพวกเขาทั้งหมดเป็นทีมและมันง่ายกว่าเสมอสำหรับพว
-                                กเขาที่จะเอาชนะความยากลำบากทั้งหมด!</p>
+                            <p class="third-lesson-container-text"><?=Yii::t(category:'front', message:'One in the field is not a warrior. The first has loaded on
+                        his shoulders a load with which he will cope alone or not. However, when you are not alone, they
+                        are all a team and it is always easier for them to overcome all difficulties!');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/alone.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -305,8 +347,9 @@
 
                         <div class="third-lesson__container--gradient">
 
-                            <p class="third-lesson-container-text--white">คนแรกได้ถึงสถานะของ MP แต่เป็นระยะเวลานานมาก
-                                ในเวลานี้ที่สองและสหายของเขากลายเป็น SBL พวกเขามีโครงสร้างของตัวเองและมีรายได้สูง</p>
+                            <p class="third-lesson-container-text--white"><?=Yii::t(category:'front', message:'The first has reached the status of MP, but for a very long
+                        period of time. At this time, the second and his comrades became SBL, they have their own
+                        structure and big income.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/mountain.svg" class="third-lesson-container-img"
                                  alt="">
 
@@ -316,11 +359,12 @@
 
                             <div class="third-lesson-container__content">
 
-                                <p class="third-lesson-container-content-text">ไม่มีใครรู้ว่าหมีแพนด้าตัวแรก: เขาไม่ได้มีส่วนร่วมในกา
-                                    รอภิปรายในฟอรัมและไม่คิดริเริ่ม หมีแพนด้าที่สองมีสถานะวีไอพีในฟอรัมเนื่องจากสนับสนุนการอภิปรายแบ่งปันข้อมูลต
-                                    อบคำถามและทำความรู้จักกับคนใหม่ ๆ ทุกคนอยากเป็นเพื่อนกับเขา</p>
-                                <p class="third-lesson-container-content-text">มันเป็นสิ่งที่จำเป็นที่จะรวมกันในทีมเพราะการทำงานเป็นทีม
-                                    นำไปสู่ความสำเร็จ นี่เป็นวิธีที่เร็วที่สุดในการประสบความสำเร็จ!</p>
+                                <p class="third-lesson-container-content-text"><?=Yii::t(category:'front', message:'No one knows the first panda: he does not
+                            participate in discussions at the forum and does not take the initiative. The second panda
+                            has a VIP status on the forum, because it supports discussions, shares information, answers
+                            questions and makes new acquaintances. Everyone wants to be friends with him.');?></p>
+                                <p class="third-lesson-container-content-text"><?=Yii::t(category:'front', message:'It is necessary to unite in teams, because
+                            teamwork leads to success. This is the fastest way to become successful!');?></p>
 
                             </div>
 
