@@ -384,22 +384,22 @@
 
                 <div class="school-accordion">
 
-                    <h1 class="school-accordion-caption">คอร์สการโปรโมทธุรกิจขั้นพื้นฐานผ่าน Instagram</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Basic course of promotion in Instagram');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">คอร์สการโปรโมทธุรกิจขั้นพื้นฐานผ่าน Instagram</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Basic course of promotion in Instagram');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/insta-panda.svg" class="lesson-header-img lesson-header-img--320" alt="">
 
                         </div>
 
-                        <p class="lesson-text--border">หนึ่งในวิธีที่ง่ายที่สุดในการโปรโมต - เป็น Instagram บัญชีส่วนบุคคล</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'One of the easiest ways to promote - it\'s personal account Instagram.');?></p>
 
-                        <p class="lesson-text">ในความเป็นจริงคุณสามารถลงทะเบียนใน Instagram เฉพาะผ่านโปรแกรมมือถืออย่างเป็นทางการ
-                            คุณสามารถเข้าสู่ระบบบัญชี instagram ที่มีอยู่ในคอมพิวเตอร์ของคุณผ่านเบราว์เซอร์เท่านั้น</p>
-                        <p class="lesson-text">หากต้องการลงทะเบียนในเครือข่ายสังคมออนไลน์และสร้างหน้าเว็บของคุณเองให้ติดตั้งแอพพลิเคชันอ
-                            ย่างเป็นทางการบนโทรศัพท์มือถือของคุณที่นี่คือลิงค์ดาวน์โหลด:</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'In fact, you can register in Instagram only through the official mobile
+                    application. You can log into an existing instagram account on your computer only via a browser.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'To register in this social network and create your own page, install the official
+                    application on your mobile phone, here are the download links:');?></p>
 
                         <div class="basic-inst-links__container">
 
@@ -415,14 +415,14 @@
                                     </a>
                                 </div>
 
-                                <p class="basic-inst-link-text">สำหรับ Android</p>
+                                <p class="basic-inst-link-text"><?=Yii::t(category:'front', message:'For Android');?></p>
 
                             </div>
 
                             <div class="basic-inst__link">
 
                                 <a href="#"><img src="/modules/admin/cabinet_assets/pictures/svg/icons/apple-logo.svg" class="basic-inst-link-img" alt="" /></a>
-                                <p class="basic-inst-link-text">สำหรับ iPhone (iOS)</p>
+                                <p class="basic-inst-link-text"><?=Yii::t(category:'front', message:'For iPhone (iOS)');?></p>
 
                             </div>
 
@@ -431,7 +431,7 @@
                                 <div class="rain"></div>
                                 <a href="https://www.microsoft.com/en-us/store/p/instagram/9nblggh5l9xt?SilentAuth=1&wa=wsignin1.0">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/windows-logo.svg" class="basic-inst-link-img" alt="" /></a>
-                                <p class="basic-inst-link-text">For Windows Mobile</p>
+                                <p class="basic-inst-link-text"><?=Yii::t(category:'front', message:'For Windows Mobile');?></p>
 
                             </div>
 
@@ -442,16 +442,16 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/instagram-icon.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">เข้าตามลิงค์ที่เหมาะสมกับโทรศัพท์ของคุณที่ระบุไว้ที่ด้านบน
-                                    หรือไปที่แอพสโตร์และดาวน์โหลด Instagram เอง</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Go to the link above, select in accordance with your phone
+                                or go to the application store and download Instagram.');?></p>
                                 <span class="lesson-block-num--white">1</span>
                             </div>
 
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/user.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">เปิดโปรแกรมที่ดาวน์โหลดมาและเลือกวิธีการลงทะเบียน
-                                    คุณสามารถลงทะเบียนผ่านทาง Facebook ได้โดยอัตโนมัติ (หากคุณมีบัญชี Facebook แล้ว)</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Run the application and select the registration method. You
+                                can automatically register via Facebook (if you have an account there)');?></p>
                                 <span class="lesson-block-num--white">2</span>
                             </div>
 
@@ -459,8 +459,8 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/send-mail.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">คุณสามารถลงทะเบียนผ่านทางอีเมลหรือหมายเลขโทรศัพท์ได้
-                                    โดยการเพียงแค่เปลี่ยนแท็บเท่านั้น</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'You can register via email or phone number, just switch the
+                                tab');?></p>
                                 <span class="lesson-block-num--white">3</span>
                             </div>
 
@@ -468,7 +468,7 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/stationery.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">กรอกหมายเลขโทรศัพท์หรืออีเมล์ของคุณ</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Enter your phone number or e-mail.');?></p>
                                 <span class="lesson-block-num--white">4</span>
                             </div>
 
@@ -476,8 +476,8 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/contract.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">จากนั้นให้กรอกชื่อและนามสกุลของคุณ
-                                    รวมไปถึงข้อมูลการเข้าสู่ระบบและรหัสผ่าน รวมไปถึงกรุณาให้สร้างรูปประจำตัว</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Next, enter your name and surname, login and password.
+                                Also, make an avatar photo.');?></p>
                                 <span class="lesson-block-num--white">5</span>
                             </div>
 
@@ -485,8 +485,8 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">ติดตามสมาชิกคนอื่น ๆ ใน Instagram ให้ได้จำนวนสูงสุด
-                                    ยิ่งคุณติดตามคนจำนวนมากขึ้นมากเท่าไร โอกาสในการพบผู้ซื้อก็ยิ่งมีมากขึ้นเท่านั้น</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Subscribe to the maximum number of friends. The more of
+                                them, the more likely to find buyers among them.');?></p>
                                 <span class="lesson-block-num--white">6</span>
                             </div>
 
@@ -495,8 +495,8 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/flag.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">เพียงเท่านี้ บัญชี Instagram ของคุณก็ถูกสร้างเสร็จเรียบร้อยแล้ว
-                                    ตอนนี้ก็ถึงเวลาที่คุณคุณควรออกแบบและตั้งค่าบัญชีของคุณแล้ว</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'That is all, an account is created, now you should design
+                                and set up it.');?></p>
                                 <span class="lesson-block-num--white">7</span>
                             </div>
 
@@ -508,7 +508,9 @@
 
                         <img src="/modules/admin/cabinet_assets/pictures/svg/icons/100-friends-th.svg" class="basic-inst-img" alt="" />
 
-                        <p class="lesson-text--border">สำหรับการโปรโมทธุรกิจผ่าน Instagram ให้ประสบความสำเร็จ คุณต้องการมีผู้ติดตามคุณอย่างน้อย 100 คน ซึ่งสิ่งนี้ไม่ใช่ปัญหาใหญ่และสามารถทำได้ง่าย ๆ หากคุณเริ่มต้นจากเพิ่มเพื่อนของคุณก่อน นอกจากนี้ หลายครั้งที่ Instagram มักจะแนะนำให้คุณเพิ่มเพื่อนจากสมุดบันทึกหรือจากเครือข่ายทางสังคมอื่น ๆ ด้วยเช่นกัน</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'For successful promotion in Instagram we need at least 100 subscribers.
+                        This is not a problem if you start adding your friends. Instagram very often suggests you to add
+                        friends from a notebook, or from other social networks.');?></p>
 
                         <div class="basic-inst__icons">
 
@@ -518,37 +520,49 @@
 
                         </div>
 
-                        <p class="lesson-text--border">เพื่อเริ่มต้นการโปรโมทผลิตภัณฑ์ของบริษัท DV การโพสต์ว่า ตัวคุณเองค้นพบว่า ผลิตภัณฑ์ Vita Energy เป็นผลิตภัณฑ์ทที่สามารถช่วยในการลดน้ำหนักได้เป็นอย่างดี เพียงเท่านี้ก็เพียงพอแล้ว
-                            <br> ขอให้คุณเขียนข้อดีของผลิตภัณฑ์ไว้ในภาพถ่ายของ Vita Energy โดยทั่วไปแล้วหลังจากที่คุณโพสต์เช่นนี้ คนจะเริ่มสนใจและอาจจะเขียนคำถามหรือเริ่มถามรายละเอียดเกี่ยวกับผลิตภัณฑ์มากขึ้น เช่น วิธีการซื้อ เป็นต้น นี่คือวิธีที่ง่ายที่สุดในการจำหน่ายผลิตภัณฑ์ของ DV ผ่านทางเครือข่ายสังคมออนไลน์ที่เรียกว่า Instagram </p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'To start promoting goods of the company DV, it is enough to post you have
+                        found a product Vita Energy that is very good at helping people to lose weight.
+                        <br/> You write its advantages and place a photo with Vita Energy. In most cases people start writing
+                        and asking about the product and how to buy it. This is the easiest way of distributing a product of
+                        DV in social network Instagram.');?></p>
 
                         <footer class="lesson-footer">
-                            <p class="lesson-footer-text">หากคุณต้องการทราบรายละเอียดเพิ่มเติมพร้อมด้วยเทคนิคส่วนตัว และเคล็ดลับว่าต้องทำอย่างไรจึงจะสามารถจำหน่ายผลิตภัณฑ์ผ่านทาง Instagram ได้อย่างรวดเร็ว คุณสามารถหาอ่านเพิ่มเติมได้ในบทเรียนขั้นสูงของเรา ซึ่งคุณจะสามารถเข้าถึงข้อมูลเหล่านี้ได้หลังจากที่คุณมีสถานะเป็น SP แล้ว</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'More detailed methodology, with private and secret techniques of fast
+                            sales through Instagram you can read in our advanced lessons. Access to them is possible after
+                            receiving the SP status.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footerBasicInst-th.svg" class="lesson-footer-img" alt="" />
                         </footer>
 
                     </div>
 
 
-                    <h1 class="school-accordion-caption">คอร์สการโปรโมทธุรกิจขั้นพื้นฐานผ่าน Facebook</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Basic course of promotion on Facebook');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">คอร์สการโปรโมทธุรกิจขั้นพื้นฐานผ่าน Facebook</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Basic course of promotion on Facebook');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg" class="lesson-header-img lesson-header-img--320" alt="" />
 
                         </div>
 
-                        <p class="lesson-text--border">Facebook เป็นอันดับ 1 ของโลกที่มีผู้เข้าชมมากที่สุดทุกวัน นี่คือแพลตฟอร์มขนาดใหญ่ที่สุดที่ซึ่งคุณสามารถขายสินค้าและบริการของคุณได้โดยครอบคลุมผู้ใช้จำนวนสูงที่สุด นี่คือวิธีที่มีประสิทธิภาพมากที่สุดเพื่อสร้างธุรกิจและยอดขายของคุณในเครือข่ายสังคม Facebook เนื่องจากมีผู้เข้าชมจำนวนมากที่สุด</p>
-                        <p class="lesson-text">สิ่งแรกที่ควรทำคือดาวน์โหลดแอพลิเคชั่นทางการของ Facebook ผู้ใช้ iPhone ผู้ใช้ Android และผู้ใช้ Windows Phone สามารถค้นหาแอพนี้ได้ใน App Store, Google Play Store และ Windows Phone Store ตามลำดับ</p>
-                        <p class="lesson-text">หากคุณมีบัญชีผู้ใช้ในเครือข่ายสังคมออนไลน์อยู่แล้ว คุณเพียงแค่ล็อกอินเข้าไปยังโปรแกรมที่ติดตั้งไว้ หากคุณไม่เคยใช้ Facebook เลย คุณจะต้องทำการลงทะเบียนก่อน</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Facebook takes the 1st place in the world by users who visit the resource
+                    daily. This is the largest platform, where you can sell your goods and services, covering the
+                    maximum number of users.
+                    It is the most effective way to build your business and sales in the social network Facebook,
+                    because there is the largest audience.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'The first thing to do is to download the official Facebook application. Users of
+                    the iPhone, devices based on Android and Windows Phone can find it in the App Store, Google Play
+                    Store and Windows Phone Store, accordingly.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'If you already have a working account in social networks, you just need to log in
+                    to the installed program. If you have not used Facebook before, you will be registered.');?></p>
 
                         <div class="lesson__container">
 
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/fb-logo.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">เปิดใช้แอพ Facebook บนสมาร์ทโฟนของคุณ</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Launch installed on your smartphone Facebook.');?></p>
                                 <span class="lesson-block-num--white">1</span>
                             </div>
 
@@ -556,22 +570,25 @@
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/check-symbol.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">"พุช" การจดทะเบียน "ลงทะเบียนบน Facebook" แล้วจึง - "เริ่มต้น"</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'\"Push\" the inscription \"Register on Facebook\", and then -
+                                \"Start\".');?></p>
                                 <span class="lesson-block-num--white">2</span>
                             </div>
 
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/list.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">กรอกอีเมลจริงของคุณรวมทั้งหมายเลขโทรศัพท์เพื่อให้คุณเข้าถึงบัญชีได้</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Enter your real e-mail, as well as a mobile phone number to
+                                which you have access.');?></p>
                                 <span class="lesson-block-num--white">3</span>
                             </div>
 
                             <div class="lesson__block">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/shield.svg"
                                      class="lesson-block-icon" alt="" />
-                                <p class="lesson-block-text--white">กรอกข้อมูลส่วนบุคคลของคุณ: ชื่อและนามสกุล, สถานที่อยู่ / เรียน /
-                                    ทำงาน, วันเกิด, และตั้งรหัสผ่านที่ปลอดภัย (โดยแน่ใจว่าคุณจะจำมันได้)</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Enter your personal data: name and surname, place of
+                                residence / study / work, date of birth, and then come up with a reliable password (and
+                                be sure to remember it).');?></p>
                                 <span class="lesson-block-num--white">4</span>
                             </div>
 
@@ -579,8 +596,11 @@
 
                         </div>
 
-                        <p class="lesson-text--border">หลังจากที่มีการระบุข้อมูลที่จำเป็นทั้งหมดแล้ว ระบบจะส่งรหัสยืนยันไปยังอีเมลหรือหมายเลขโทรศัพท์ของคุณ ซึ่งคุณจะต้องกรอกลงไปในแอพลิเคชั่นเพื่อดำเนินการลงทะเบียนให้เสร็จสิ้น</p>
-                        <p class="lesson-text--border">หลังจากนั้นให้คุณตอบคำถามและเริ่มหาเพื่อน ๆ ยิ่งคุณมีเพื่อนมากเท่าไร การขายของคุณก็จะดีขึ้นเท่านั้น</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'After all the required information is specified, the system will send a
+                    confirmation code to your e-mail or number, which you will need to enter in the application to
+                    complete the registration.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Then you fill out the questionnaire and start looking for friends. The
+                    more friends you add, the better for sales.');?></p>
 
                         <div class="base-fb__icons">
 
@@ -590,14 +610,19 @@
 
                         </div>
 
-                        <p class="lesson-text--border">โปรโมชั่นใน Facebook นั้นคล้ายคลึงมากกับใน Instagram บัญชีของคุณควรมีข้อมูลที่ครบถ้วนให้มากที่สุดเท่าที่จะเป็นไปได้ เพื่อที่เพื่อน ๆ จะได้เชื่อมั่นในตัวคุณ</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Promotion in facebook is very similar to promotion in Instagram. Your
+                    account should be as full as possible. So your friends will trust you.');?></p>
 
                         <img src="/modules/admin/cabinet_assets/pictures/" class="base-fb-screenshot" alt="" />
 
-                        <p class="lesson-text--border">ในอนาคตคุณจะต้องโพสต์เกี่ยวกับ VE (Vita Energy) คุณจะบอกเล่าเรื่องราวเกี่ยวกับผลิตภัณฑ์นี้และแนบรูปภาพด้วย ยิ่งโพสต์มีคุณภาพที่ดีมากเท่าใด การตอบรับที่คุณได้รับก็จะดีมากเท่านั้น</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'In the future you need to post about VE (Vite Energy). Then you tell a
+                    story about this product and attach a photo. The better quality of the post, the more responses you
+                    will receive.');?></p>
 
                         <footer class="lesson-footer">
-                            <p class="lesson-footer-text">ข้อมูลรายละเอียดเพิ่มเติมของโปรโมชั่นบน FB คุณจะพบได้ในบทเรียนถัดไปของเรา เราจะพูดคุยกันเกี่ยวกับความนิยมในเพจของคุณที่เติบโตขึ้นอย่างรวดเร็ว รวมถึงเทคนิคลับที่จะช่วยเพิ่มจำนวนลูกค้าและยอดขายได้อย่างยอดเยี่ยมต่อไป</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'More detailed information on the promotion on FB you will find in our
+                        next lessons. There we will talk about the rapid growth of the popularity of your page, secret
+                        techniques that increase the flow of customers and the flow of sales.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footerBasicFb-th.svg" class="lesson-footer-img" alt="" />
                         </footer>
 
@@ -605,77 +630,78 @@
                     </div>
 
 
-                    <h1 class="school-accordion-caption">การใช้ทรัพยากรและเว็บไซต์อื่น ๆ</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Use of other resources and sites');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">การใช้ทรัพยากรและเว็บไซต์อื่น ๆ</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Use of other resources and sites');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/line-panda.svg" class="lesson-header-img lesson-header-img--320" alt="">
 
                         </div>
 
-                        <p class="lesson-text">ในบทเรียนอันทรงคุณค่าของ DiaVita Club ก่อนหน้านี้ คุณได้เรียนรู้เกี่ยวกับจะใช้ Facebook
-                            และ Instagram เพื่อช่วยส่งเสริมยอดขายของคุณให้มีประสิทธิภาพมากยิ่งขึ้นได้อย่างไร ในบทเรียนนี้เราจะพูดถึงเครือข่ายสังคม
-                            ที่รู้จักกันอย่างแพร่หลายซึ่งสามารถใช้เพื่อโปรโมทผลิตภัณฑ์และธุรกิจของคุณได้ ซึ่งเรากำลังพูดถึง Line นั่นเอง</p>
-                        <p class="lesson-text--border">มี 3 คำถามหลักที่เราจะอธิบายให้คุณเข้าใจมากยิ่งขึ้น คือ Line คืออะไร วิธีการใช้ Line
-                            และวิธีขายผ่านทาง Line ให้เรามาเริ่มต้นกันเลย</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'In our previous DiaVita Club lessons we learned how effectively use sites like
+                    Facebook and Instagram for your sales. In this lesson we will talk about another well-known social
+                    network which can and should be used to promote your product and business: Line.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'We\'ll answer 3 main questions: what is Line, how to work with Line, how
+                    to sell in Line. So, let\'s go.');?></p>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">Line คืออะไร</h2>
-                            <p class="lesson-text--white">หากอธิบายอย่างสั้น ๆ ให้เข้าใจได้ง่ายขึ้น Line ก็คือ messenger นั่นเอง
-                                ดังที่ทราบกันดีว่า messenger คือ แอพพลิเคชั่นพิเศษสำหรับใช้สื่อสารระหว่างผู้ใช้งานรายต่าง ๆ แน่นอนว่า
-                                คุณสามารถส่งข้อความในแชท ส่งอีโมจิและสติกเกอร์ รวมทั้งไฟล์มีเดียต่าง ๆ ผ่านทาง Line ได้ นอกจากนี้ </p>
-                            <p class="lesson-text--white">Line ยังให้คุณโทรหาผู้ใช้บัญชี Line อื่น ๆ ได้ฟรี ตลอดจนมีหน้าฟีดที่คุณสาม
-                                ารถทราบอัพเดตทั้งหมดของเพื่อนในบัญชี Line ของคุณได้อีกด้วย</p>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'What is Line?');?></h2>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'If explained easily and briefly Line is a messenger. And a messenger
+                        is, as you know, a special app for communication between users. Of course, you can use Line to
+                        simply text in chats, send emojis and stickers and also media files.');?></p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'In addition, Line allows you to make free calls from one account to
+                        another whenever users are. Line also has news feed which helps to look through all updates on
+                        friends\' accounts.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/line-chat-demo.png" class="line-img" alt="" />
 
                         </div>
 
-                        <h2 class="lesson-caption--black">วิธีการใช้ Line</h2>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'How to work with Line?');?></h2>
 
-                        <p class="lesson-text--border">ในปัจจุบันนี้ คุณสามารถใช้ Line ผ่านทางเครื่องคอมพิวเตอร์และโทรศัพท์มือถือได้ ดังนั้น
-                            จึงมีที่มากมายที่คุณสามารถดาวน์โหลด Line มาใช้ได้ ได้แก่:</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Currently, Line is available for both PCs and cell phones. So there are
+                    plenty ways of how to get it on your device:');?></p>
 
                         <div class="lesson__container--small">
 
                             <div class="lesson__block--four">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/itunes-googleplay.svg" class="lesson-block-icon--four" alt="" />
-                                <p class="lesson-block-text--four">iTunes และ Google Play อย่างเป็นทางการ</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'official iTunes and Google Play');?></p>
 
                             </div>
 
                             <div class="lesson__block--four">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/shop.svg" class="lesson-block-icon--four" alt="" />
-                                <p class="lesson-block-text--four">ร้านค้าออนไลน์ภายในที่ได้รับการสนับสนุนจาก OS</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'internal stores of supported OS');?></p>
 
                             </div>
 
                             <div class="lesson__block--four">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/site.svg" class="lesson-block-icon--four" alt="" />
-                                <p class="lesson-block-text--four">เว็บไซต์ผลิตภัณฑ์อย่างเป็นทางการ</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'official product website');?></p>
 
                             </div>
 
                             <div class="lesson__block--four">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/internet.svg" class="lesson-block-icon--four" alt="" />
-                                <p class="lesson-block-text--four">นอกจากนี้ยังมีเว็บไซต์ของบุคคลที่สามจำนวนมากในอินเทอร์เน็ต</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'also numerous third-party sites in the Internet');?></p>
 
                             </div>
 
                         </div>
 
-                        <p class="lesson-text">คุณสามารถเข้าสู่ระบบ Line ได้เฉพาะทางโทรศัพท์มือถือเท่านั้น คุณจะต้องกรอกหมายเลขโทรศัพท์ข
-                            องคุณ และคุณจะได้รับรหัสการเข้าถึงพิเศษ รหัสนี้ใส่ในช่องข้อความ Line และคุณสามารถเริ่มต้นใช้งานได้</p>
-                        <p class="lesson-text--border">หลังจากสร้างบัญชีแล้วคุณจะมีตัวเลือกต่าง ๆ ทั้งหมดดังนี้ คือ เพิ่มรายชื่อติดต่อ
-                            (ผ่านทางหมายเลขโทรศัพท์) เขียนข้อความส่วนตัว สร้างการแชทกลุ่ม การสนทนาทางวิดีโอ และแน่นอนว่า คุณต้องดูแลรักษา
-                            หน้าเพจส่วนตัวหรือหน้าฟีดของคุณด้วย</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'You can log in only via cell phone. You\'ll need to write your phone number and
+                    then you\'ll receive a special access code. This code is put in the Line textbox and you can start.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'After creating an account you will have all options available: adding
+                    contacts (via phone numbers), writing private messages, creating group chats, making video calls and,
+                    of course, maintaining your personal page or your own news feed, in other words.');?></p>
 
 
                         <div class="lesson__block">
@@ -683,11 +709,11 @@
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/add-friend.svg" class="lesson-block-icon" alt="" />
 
                             <div class="lesson-block__container">
-                                <span class="lesson-block-container-text--bold">การเพิ่มเพื่อน </span>
-                                <span class="lesson-block-container-text">หากคุณต้องการเพิ่มเพื่อนใหม่
-                                    คุณก็เพียงแค่ป้อนหมายเลขโทรศัพท์ของเพื่อนคุณลงไปเท่านั้น หากเพื่อนของคุณมี Line
-                                    เหมือนกัน คุณก็จะเจอและสามารถเพิ่มเขาเป็นเพื่อนใหม่ใน Line ของคุณได้ทันที แต่หากเพื่อนของคุณยังไม่ได้เข้
-                                    าสู่ระบบ คุณสามารถส่งคำเชิญไปให้เขาด้วยลิงก์เพื่อดาวน์โหลดได้</span>
+                                <span class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'ADD FRIENDS.');?></span>
+                                <span class="lesson-block-container-text"><?=Yii::t(category:'front', message:'To add
+                            friends just enter a phone number and if your friend is already logged in the app will
+                            immediately find him or her and add to your friends. If a person isn\'t logged in yet then
+                            you can send him or her an invitation with a link to download.');?></span>
                             </div>
 
                         </div>
@@ -697,9 +723,10 @@
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/chat-trio.svg" class="lesson-block-icon" alt="" />
 
                             <div class="lesson-block__container">
-                                <span class="lesson-block-container-text--bold">สร้างการแชทกลุ่ม</span>
-                                <span class="lesson-block-container-text">ในการสร้างการแชทแบบกลุ่มคุณจำเป็นต้องเลือก “สร้างกลุ่ม”
-                                    และเพิ่มบุคคลที่คุณต้องการให้อยู่ในกลุ่มแชทนี้จากร ายชื่อติดต่อของคุณ</span>
+                                <span class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'CREATE GROUP CHAT.');?></span>
+                                <span class="lesson-block-container-text"><?=Yii::t(category:'front', message:' In
+                            order to create a group chat you need to choose \"Create group\" function and add right people
+                            from your contacts.');?></span>
                             </div>
 
                         </div>
@@ -709,9 +736,9 @@
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/resume.svg" class="lesson-block-icon" alt="" />
 
                             <div class="lesson-block__container">
-                                <span class="lesson-block-container-text--bold">หน้าเพจส่วนตัว </span>
-                                <span class="lesson-block-container-text">สำหรับหน้าเพจส่วนตัวของคุณ คุณสามารถลงเนื้อหาใด ๆ
-                                    ก็ได้ตามใจชอบ เช่น ข้อความ กราฟิกหรือวิดีโอ เป็นต้น</span>
+                                <span class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'PERSONAL PAGE.');?></span>
+                                <span class="lesson-block-container-text"><?=Yii::t(category:'front', message:' As for
+                            personal page maintaining you can put absolutely any content: text, graphics or videos.');?></span>
                             </div>
 
                         </div>
@@ -719,9 +746,9 @@
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">วิธีขายผ่านทาง Line</h2>
-                            <p class="lesson-text--white">ยอดขายของคุณในไลน์ขึ้นอยู่กับความสามารถในการสื่อสารและชักชวนคน
-                                เพื่อให้การขายผ่านทาง Line ประสบความสำเร็จ คุณจำเป็นต้องทำ 4 ขั้นตอนสำคัญดังต่อไปนี้ คือ</p>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'How to sell via Line?');?></h2>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Your sales in Line depend on your ability to communicate and persuade
+                        people. To sell successfully in the messenger you need to do 4 important steps:');?></p>
 
                             <div class="line__container--border">
 
@@ -730,10 +757,10 @@
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/icon-one.svg" class="line-num-icon" alt="" />
 
                                     <div class="lesson-block__container">
-                                        <b class="lesson-block-container-text--bold">การสร้างรายชื่อติดต่อ </b>
-                                        <p class="lesson-block-container-text">
-                                            โดยการเพิ่มคนต่าง ๆ ต่อไปนี้ลงในรายชื่อติดต่อของคุณ ได้แก่ เพื่อน เพื่อนของเพื่อน ผู้ติดตามหน้าเพจต่าง ๆ
-                                            ของคุณ ขยายเครือข่ายทางสังคมของคุณให้กว้างออกไป สื่อสารกับพวกเขาและสร้างมิตรภาพที่น่าเชื่อถือ</p>
+                                        <b class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'Establishing a contact.');?></b>
+                                        <p class="lesson-block-container-text"><?=Yii::t(category:'front', message:'Add your friends, their friends, subscribers of pages similar with what you\'re offering.
+                                Expand your social network in the messenger, communicate with your virtual friends and
+                                establish trustful friendships.');?></p>
                                     </div>
 
                                 </div>
@@ -743,12 +770,11 @@
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/icon-two.svg" class="line-num-icon" alt="" />
 
                                     <div class="lesson-block__container">
-                                        <b class="lesson-block-container-text--bold">ระบุความต้องการ </b>
-                                        <p class="lesson-block-container-text">
-                                            เพื่อให้ผู้ที่มีแนวโน้มว่าจะกลายเป็นลูกค้าของคุณในอนาคตกลายมาเป็นลูกค้าของคุณจริง ๆ คุณจำเป็นต้องรู้แล
-                                            ะสัมผัสได้ว่า พวกเขาต้องการสิ่งใด อะไรคือจุดขายของผลิตภัณฑ์ให้กับเขาหากเขายังไม่ต้องการผลิตภัณฑ์
-                                            แน่นอน คุณอาจจะต้องพยายามโน้มน้าวให้เขาได้ทราบและเข้าใจว่า เขาก็เป็นคนหนึ่งที่ต้องการผลิตภัณฑ์
-                                            แต่คุณต้องทำอย่างระมัดระวัง เราจะพูดถึงวิธีการเช่นนี้ในคราวต่อไป</p>
+                                        <b class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'Identifying needs. ');?></b>
+                                        <p class="lesson-block-container-text"><?=Yii::t(category:'front', message:'In order for a potential buyer to become your client you need to foresee and feel his
+                                desires. What\'s the point of selling a product to a person if he doesn\'t need the product?
+                                Of course, you may try to convince him that he needs a product but you need to do this
+                                very carefully. And later we\'ll talk about how to do this.');?></p>
                                     </div>
 
                                 </div>
@@ -758,22 +784,21 @@
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/icon-three.svg" class="line-num-icon" alt="" />
 
                                     <div class="lesson-block__container">
-                                        <b class="lesson-block-container-text--bold">การนำเสนอผลิตภัณฑ์ </b>
-                                        <p class="lesson-block-container-text">
-                                            หลังจากที่คุณเห็นว่ามีคนต้องการผลิตภัณฑ์หรือคุณทำให้เข้าเชื่อว่าเขาต้องการผลิตภัณฑ์ คุณต้องนำเสนอผลิตภัณ
-                                            ฑ์ในทางที่ถูกต้อง ให้แน่ใจว่า คุณได้ชี้ให้เห็นเขาเห็นแง่บวกของข้อเสนอของคุณในทุก ๆ ด้าน ตั้งแต่เรื่องคุณภา
-                                            พจนถึงเรื่องราคาและความเป็นไปได้ ขอให้เปลี่ยนข้อจำกัดและข้อด้อยต่าง ๆ ให้กลายเป็นประโยชน์!
-                                            ตัวอย่างเช่น ราคาที่สูงขึ้นจะกลายเป็นข้อดีทันทีหากคุณพูดถึง เป็นผลิตภัณฑ์คุณภาพสูงที่มีปริมาณจำกัดเมื่อเปรียบ
-                                            เทียบกับตัวอื่น ๆ เป็นต้น</p>
+                                        <b class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'Product presentation. ');?></b>
+                                        <p class="lesson-block-container-text"><?=Yii::t(category:'front', message:'After you saw a person need the product or you convinced him you need to present the
+                                product in a right way. Be sure to point out positive aspects of your offer starting
+                                from quality to prices and possibilities. What to do with minuses? Turn them into pluses!
+                                For example, a high price becomes a plus if you mention low flow of the product and higher
+                                quality in comparison with analogues.');?></p>
                                     </div>
 
                                 </div>
 
                             </div>
 
-                            <p class="lesson-text--white">Vita Energy เป็นผลิตภัณฑ์รุ่นใหม่ที่ผลิตจากธรรมชาติ 100% และมีรสชาติที่ห
-                                ลากหลาย นี่คือไอคอนสำคัญของอาหารเพื่อสุขภาพ ปริมาณดังกล่าวจะช่วยให้คุณสามารถซื้อและลืมเกี่ยวกับความต้องการซื้อ
-                                เพิ่มเติมได้ ซึ่งถือว่าคุ้มค่ามาก!</p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Vita Energy is a new generation product, wholly natural and has a
+                        wide range of flavors. It is the icon of a healthy diet. Such volume will allow you to buy and
+                        forget about a need to purchase more. It\'s worth it!');?></p>
 
                             <div class="line__container--border">
 
@@ -782,9 +807,9 @@
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/icon-four.svg" class="line-num-icon" alt="" />
 
                                     <div class="lesson-block__container">
-                                        <b class="lesson-block-container-text--bold">การรับมือกับข้อโต้แย้งต่าง ๆ </b>
-                                        <p class="lesson-block-container-text">
-                                            เราจะให้ความสนใจเป็นพิเศษกับขั้นตอนนี้เนื่องจากเป็นขั้นตอนการปิดการขาย แล้วคนส่วนใหญ่มักจะมีข้อโต้แย้งอย่างไร</p>
+                                        <b class="lesson-block-container-text--bold"><?=Yii::t(category:'front', message:'Working with arguments against. ');?></b>
+                                        <p class="lesson-block-container-text"><?=Yii::t(category:'front', message:'We will pay a special attention to this step since it is the closing stage of a transaction.
+                                So what are the arguments against?');?></p>
                                     </div>
 
                                 </div>
@@ -798,40 +823,43 @@
                         <div class="lesson-caption__container">
 
                             <span class="lesson-caption--yellow">4.1</span>
-                            <span class="lesson-caption--black">ข้อโต้แย้งเนื่องจากข้อผิดพลาดในขั้นตอนการติดต่อ</span>
+                            <span class="lesson-caption--black"><?=Yii::t(category:'front', message:'Arguments against because of errors at establishing a contact stage');?></span>
 
                         </div>
 
-                        <h3 class="lesson-caption--darkblue">กรณีที่ 1 ลูกค้าปฏิเสธที่จะพูดคุย</h3>
-                        <p class="lesson-text">บางทีลูกค้าอาจยังไม่ได้ตัดสินใจและต้องการศึกษารายละเอียดเพิ่มเติม เปรียบเทียบราคาและอื่น ๆ
-                            ดูก่อน นั่นเป็นเหตุผลที่ทำให้ลูกค้าตอบ “ปฏิเสธ” หรือนิ่งเฉย คุณต้องให้ความสนใจกับเขาเพื่อให้บทสนทนายังคงดำเนินต่อไปได้
-                            นี่คือตัวอย่างของบทสนทนา “ที่ได้ผล” ในสถานการณ์เช่นนี้ คือ</p>
+                        <h3 class="lesson-caption--darkblue"><?=Yii::t(category:'front', message:'Case 1. A client refuses to talk');?></h3>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Perhaps a client hasn\'t decided yet and wants to study the catalog in more
+                        detail, compare prices, etc. That\'s why his answer when you suggest to discuss a deal in chat is
+                        “No” or silence. You need to interest him so that a dialogue continues. Here is an example of a
+                        \"working\" dialogue in a similar situation:');?></p>
                         <img src="/modules/admin/cabinet_assets/pictures/img/chat-1-th.png" class="line-chat-img" alt="" />
-                        <p class="lesson-text--border">เมื่อการสนทนาเป็นไปในลักษณะนี้ ก็จะช่วยให้บทสนทนาถูกรื้อฟื้นขึ้นมา ตอนนี้หน้าที่ของคุณ
-                            คือ ทำการนำเสนอที่ดีและโน้มน้าวให้ผู้ที่มีแนวโน้มว่าจะกลายเป็นลูกค้าในอนาคตตัดสินใจซื้อผลิตภัณฑ์ให้ได้เท่านั้น</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'A dialogue is revived. Now your task is to do a nice presentation and
+                        convince a potential buyer to purchase the goods.');?></p>
 
-                        <h3 class="lesson-caption--darkblue">กรณีที่ 2 ลูกค้าแสดงความไม่ไว้ใจ</h3>
-                        <p class="lesson-text">ใช้โทนเสียงที่เป็นมิตร ทักทายแนะนำตัวเองและเรียกชื่อของลูกค้า ในระหว่างการสนทนาให้กล่าวคำชมเชย
-                            เล่าเรื่องตลก คล้อตามและเห็นด้วย รวมไปถึงขอบคุณเขา หากเหมาะสมให้แสดงความยินดีในวันหยุดกับเขาด้วย แสดงอารมณ์ในเ
-                            ชิงบวก เขียนว่า “ฉันมีความสุข” ใช้อีโมจิและหลีกเลี่ยงเสียงลักษณะที่เป็นทางการ กรุณาจำไว้ว่าทุกอย่างควรอยู่ในขอบเขต</p>
+                        <h3 class="lesson-caption--darkblue"><?=Yii::t(category:'front', message:'Case 2. A client expresses distrust.');?></h3>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Set a friendly tone. Say hello, introduce yourself and refer to a client by
+                        name. During  conversation make compliments, jokes, agree and thank him. If it\'s appropriate
+                        congratulate on holidays. Express positive emotions, write \"I\'m happy / with pleasure\". Use
+                        emojis and avoid formal tone. Remember: everything should be to the extent.');?></p>
                         <img src="/modules/admin/cabinet_assets/pictures/img/chat-2-th.png" class="line-chat-img" alt="" />
-                        <p class="lesson-text--border">เมื่อลูกค้าสนใจก็หมายความว่าไม่มีความไม่ไว้วางใจอีกต่อไป</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'A client is interested it means there is no distrust anymore.');?></p>
 
                         <!-- Second block -->
 
                         <div class="lesson-caption__container">
 
                             <span class="lesson-caption--yellow">4.2</span>
-                            <h2 class="lesson-caption--black">ข้อโต้แย้งเนื่องจากความต้องการไม่ตรงกัน</h2>
+                            <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Arguments against because of mismatching needs');?></h2>
 
                         </div>
 
-                        <p class="lesson-text--border">คุณควรจะนำเสนอในรูปแบบที่ช่วยให้ลูกค้าได้เห็นประโยชน์ที่ตัวเขาจะได้รับเสมอ!
-                            กรุณาจำสิ่งนี้ให้ขึ้นใจ!</p>
-                        <h3 class="lesson-caption--darkblue">กรณีที่ 1 ลูกค้าเกิดความลังเลสงสัยว่า เขาควรจะซื้อผลิตภัณฑ์หรือไม่</h3>
-                        <p class="lesson-text">เมื่อเลือกผลิตภัณฑ์ที่ลูกค้าไม่สามารถตรวจสอบได้เป็นการส่วนตัว เขาจะรู้สึกคัดค้านและนี่เป็นปฏิกิริยา
-                            ธรรมชาติ เนื่องจากไม่มีใครอยากได้ผลิตภัณฑ์ที่ไม่มีคุณภาพ ในขณะที่กำลังโน้มน้าวใจให้ลูกค้าสั่งซื้อ ขอให้หาให้เจอว่าอะไรคือสิ่
-                            งที่จะช่วยให้เขาตัดสินใจซื้อ การถามคำถามแบบเปิดซึ่งต้องการคำตอบโดยละเอียดจะช่วยได้มากกว่า การถามเพียงแค่ใช่หรือไม่</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'A client should always see benefits for him in your offer! Keep this
+                        in mind when establishing a contact!');?></p>
+                        <h3 class="lesson-caption--darkblue"><?=Yii::t(category:'front', message:'Case 1. The client doubts whether to buy the goods.');?></h3>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'When choosing a product a customer can\'t examine it personally. He objects
+                        and it\'s natural: no one wants to get pig in a poke. While convincing a client to purchase
+                        specify what exactly stops him. Ask open questions which require detailed answers and not just
+                        yes or no.');?></p>
                         <img src="/modules/admin/cabinet_assets/pictures/img/chat-3-th.png" class="line-chat-img" alt="" />
 
                         <!-- Third block -->
@@ -839,237 +867,235 @@
                         <div class="lesson-caption__container">
 
                             <span class="lesson-caption--yellow">4.3</span>
-                            <h2 class="lesson-caption--black">ข้อโต้แย้งเนื่องจากมีการนำเสนอที่ไม่สมบูรณ์</h2>
+                            <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Arguments against because of incomplete presentation.');?></h2>
 
                         </div>
 
-                        <p class="lesson-text--border">หน้าที่ของคุณ คือ การนำเสนอผลิตภัณฑ์ที่ตอบสนองความต้องการของลูกค้าได้อย่างตรงจุด
-                            ลองดูข้อโต้แย้งหลัก ๆ ที่อาจจะเกิดขึ้นได้ คือ</p>
-                        <h3 class="lesson-caption--darkblue">กรณีที่ 1 ลูกค้าไม่เข้าใจถึงผลประโยชน์ที่ตนเองจะได้รับ</h3>
-                        <p class="lesson-text">ข้อโต้แย้งที่พบได้บ่อยมีดังต่อไปนี้ คือ มีราคาแพงเกินไป ฉันเคยชินกับสิ่งที่ฉันมีในตอนนี้แล้ว
-                            ฉันไม่รู้สึกสนใจ ฉันไม่เห็นประโยชน์ เป็นต้น เปรียบเทียบข้อเสนอของคุณกับสิ่งที่ให้ประโยชน์หรือผลตอบแทนน้อยกว่า คือ
-                            วิธีการโน้มน้าวใจที่ถูกต้องที่สุด</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Your task is to offer a product that meet the requirements of a
+                        client. Let\'s look through main arguments against at this stage.');?></p>
+                        <h3 class="lesson-caption--darkblue"><?=Yii::t(category:'front', message:'Case 1. A client doesn\'t understand the benefits.');?></h3>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Arguments against are well known: it\'s expensive, I get used to what I have
+                        now, I\'m not interested, I don\'t see the benefits, etc. Compare your proposal with other less
+                        profitable ones this is one of the most correct ways of persuasion.');?></p>
                         <img src="/modules/admin/cabinet_assets/pictures/img/chat-4-th.png" class="line-chat-img" alt="" />
 
-                        <h3 class="lesson-caption--darkblue">กรณีที่ 2 ลูกค้าสงสัยเนื่องจากขาดข้อมูล</h3>
-                        <p class="lesson-text">นี่คือผลที่ตามมาของการนำเสนอผลิตภัณฑ์ที่ไม่ดี ดังนั้น ขอให้พยายามอธิบายให้ลูกค้าฟังใหม่อีกครั้ง
-                            แต่ในแง่ที่สดใสขึ้นโดยใช้วัสดุที่มีสีสันกว่า ได้แก่ ภาพถ่ายหรือวิดีโอ</p>
+                        <h3 class="lesson-caption--darkblue"><?=Yii::t(category:'front', message:'Case 2. A client doubts because lack of information.');?></h3>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'This is one of the consequences of the product\'s bad presentation. Try to
+                        explain a client again, but in more bright way, using colorful material: photos or videos.');?></p>
                         <img src="/modules/admin/cabinet_assets/pictures/img/chat-5-th.png" class="line-chat-img" alt="" />
 
                         <!-- end -->
 
-                        <p class="lesson-text--border">โปรดจำไว้ว่าสิ่งที่สำคัญ คือ ยอดขายของคุณอยู่ในมือของคุณ ขอให้ใช้แนวทางที่สร้างสรรค์
-                            อย่าใจร้อน สื่อสารกับลูกค้าของคุณอย่างสม่ำเสมอแล้วยอดขายของคุณก็จะเติบโตขึ้น เพื่อเพิ่มความภักดีกับผลิตภัณฑ์ให้มากขึ้น
-                            คุณสามารถใช้วิธีการที่น่าสนใจได้ คือ การพบปะกับลูกค้าเป็นรายบุคคลหรือรายกลุ่ม นำเสนอผลิตภัณฑ์ แบ่งปันรีวิว ใช้สื่อต่าง ๆ
-                            ที่ทันสมัย เป็นต้น ทั้งหมดขึ้นอยู่กับจินตนาการของคุณ! สิ่งสำคัญคือ LINE จะช่วยคุณในการสร้างการติดต่อหลักกับลูกค้าได้เป็น
-                            อย่างดี</p>
-                        <p class="lesson-text--border">ด้วย LINE คุณสามารถเพลิดเพลินกับการสื่อสารที่สะดวกสบาย ปลอดภัยและมีคุณภาพสูงได้
-                            ตลอดจนใช้ส่งเสริมผลิตภัณฑ์หรือธุรกิจของคุณได้อย่างยอดเยี่ยมอีกด้วย ข้อความในแอพพลิเคชั่นนี้จะถูกส่งทันที การส่งวิดีโอ
-                            รูปภาพ เสียงต่าง ๆ รวมทั้งอีโมจิและสติกเกอร์ คือ ความเป็นได้ทั้งหมดของ line เพื่อสร้างความสนใจและดึงดูดลูกค้าให้เข้าม
-                            าหาคุณได้มากขึ้น</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Remember the main thing: your sales are in your hands. Come up with
+                        creative approaches, but don\'t be double-hearted, communicate with your customers and then your
+                        sales will only grow up. To increase loyalty you can come up with very interesting and cool
+                        methods: meeting with a client in person, showing your product, sharing reviews, multimedia
+                        material, etc. It all depends on your imagination! The main thing is LINE will help you to
+                        establish a primary contact with a client.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'With LINE you can enjoy comfortable, safe and high-quality
+                        communication and, of course, promote your product or business. Messages in the app are sent in
+                        an instant. Send videos, photos, various sounds as well as original emojis and stickers, use all
+                        possibilities of the messenger and you\'ll be able to draw even more customers.');?></p>
 
                     </div>
 
 
-                    <h1 class="school-accordion-caption">คอร์สการโปรโมทธุรกิจขั้นสูงผ่าน Instagram</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Advanced course of promotion in Instagram');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">การโปรโมตหลักสูตรขั้นสูงใน Instagram</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Advanced course of promotion in Instagram');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/insta-panda.svg" class="lesson-header-img lesson-header-img--320" alt="">
 
                         </div>
 
-                        <p class="lesson-text">ในบทเรียน DVC เกี่ยวกับหลักการพื้นฐานของการโปรโมทธุรกิจใน Instagram
-                            คุณได้เรียนรู้เกี่ยวกับการลงทะเบียนในแอพพลิเคชั่น การเพิ่มเพื่อนและการโพสต์ข้อความหรือรูปภาพในลักษณะต่าง ๆ ไปแล้ว</p>
-                        <p class="lesson-text--border">ดังนั้นในหลักสูตรขั้นสูงนี้ คุณจะได้รู้จักกับบัญชีประเภทต่าง ๆ
-                            วิธีหลีกเลี่ยงการถูกแบนและกฎพื้นฐานในการตกแต่งบัญชี รวมไปถึงการโพสต์อย่างมีประสิทธิภาพ</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'In the DVC lesson on basic principles of promotion in Instagram you learned about
+                    registration in the app, adding friends and posting possibilities.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'In this advanced course you will learn what kind of accounts there are,
+                    how to avoid ban, about basic rules of decorating an account and effective posting.');?></p>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">คำถามที่ 1 มีบัญชีประเภทใดบ้าง </h2>
-                            <p class="lesson-text--white">ขอให้เริ่มต้นด้วยการตัดสินใจว่าคุณต้องการอะไรจาก Instagram
-                                เพื่อคุณจะสามารถกรอกรายละเอียดในโปรไฟล์และบัญชีของคุณได้อย่างถูกต้อง ประเภทบัญชีหลัก</p>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'Question 1. What types of accounts are there?');?></h2>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'To begin with, decide what you need Instagram for in order to
+                        properly fill out a profile and account in the future. Main types of accounts:');?></p>
 
                             <div class="lesson__block">
 
                                 <div class="lesson__block--five">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/self-avatar.svg" class="lesson-block-icon--five" />
-                                    <p class="lesson-block-text--five--white">บัญชีส่วนตัว</p>
+                                    <p class="lesson-block-text--five--white"><?=Yii::t(category:'front', message:'personal account');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--five">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/group-trio.svg" class="lesson-block-icon--five" />
-                                    <p class="lesson-block-text--five--white">บัญชีส่วนตัว</p>
+                                    <p class="lesson-block-text--five--white"><?=Yii::t(category:'front', message:'public account');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--five">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/online-shop.svg" class="lesson-block-icon--five" />
-                                    <p class="lesson-block-text--five--white">บัญชีออนไลน์</p>
+                                    <p class="lesson-block-text--five--white"><?=Yii::t(category:'front', message:'online stores');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--five">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking.svg" class="lesson-block-icon--five" />
-                                    <p class="lesson-block-text--five--white">บัญชีธุรกิจ</p>
+                                    <p class="lesson-block-text--five--white"><?=Yii::t(category:'front', message:'business accounts');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--five">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/itunes-googleplay.svg" class="lesson-block-icon--five" />
-                                    <p class="lesson-block-text--five--white">บัญชีตราผลิตภัณฑ์</p>
+                                    <p class="lesson-block-text--five--white"><?=Yii::t(category:'front', message:'brand account');?></p>
 
                                 </div>
 
                             </div>
 
-                            <p class="lesson-text--border--white">เมื่อคุณเลือกเหตุผลที่คุณต้องการสร้างบัญชี Instagram
-                                ได้แล้ว คุณจะสามารถเลือกประเภทและกลยุทธ์พื้นฐานในการโพสต์ได้ ในกรณีของการทำธุรกิจ MLM
-                                (ทั้งเพื่อการจำหน่ายและการหาคนใหม่ ๆ เข้าสู่ธุรกิจ) รูปแบบที่เหมาะสมที่สุด คือ บัญชีส่วนตัวและบัญชีธุรกิจ</p>
+                            <p class="lesson-text--border--white"><?=Yii::t(category:'front', message:'When chosen why you create an Instagram account you can choose
+                        its type and basic strategy of posting. In case of MLM both (as for sales and for attracting
+                        partners) the most optimal variants are personal and business accounts.');?></p>
 
                         </div>
 
-                        <h2 class="lesson-caption--black">คำถามที่ 2 จะหลีกเลี่ยงการถูกแบนได้อย่างไร</h2>
-                        <p class="lesson-text">ใน Instagram มีการกำหนดขอบเขตในการดำเนินการต่าง ๆ ไว้ หากผู้ใช้ Instagram
-                            ดำเนินการเกินกว่าขอบเขตที่กำหนดไว้ จะส่งผลให้บัญชีของตนถูกแบน ดังนั้น กรุณาอย่าข้ามในส่วนนี้ไป
-                            ขอให้อ่านอย่างละเอียดตั้งแต่ต้นจนจบ ขอบเขตหรือข้อกำหนดที่เกี่ยวข้อง คือ</p>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Question 2. How to avoid account blocking?');?></h2>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'There are limits for certain user actions in Instagram. Since exceeding these
+                    limits may result in ban don\'t skip this section and read it till the end.Relevant limits:');?></p>
 
                         <div class="lesson__block">
 
                             <div class="lesson__block--three">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/like-heart.svg" class="lesson-block-icon--three" />
-                                <p class="lesson-block-text--three">จำนวนไลค์ – สูงสุดได้ไม่เกินชั่วโมงละ 60 ไลค์</p>
+                                <p class="lesson-block-text--three"><?=Yii::t(category:'front', message:'Likes - up to 60 likes per hour.');?></p>
 
                             </div>
 
                             <div class="lesson__block--three">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/comments.svg" class="lesson-block-icon--three" />
-                                <p class="lesson-block-text--three">ความคิดเห็น - สูงสุดได้ไม่เกินชั่วโมงละ 60 ความคิดเห็น</p>
+                                <p class="lesson-block-text--three"><?=Yii::t(category:'front', message:'Comments - up to 60 comments per hour.');?></p>
 
                             </div>
 
                             <div class="lesson__block--three">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/new-members.svg" class="lesson-block-icon--three" />
-                                <p class="lesson-block-text--three">การติดตามและเลิกติดตาม - สูงสุดได้ไม่เกินชั่วโมงละ 60
-                                    การติดตามหรือเลิกติดตาม</p>
+                                <p class="lesson-block-text--three"><?=Yii::t(category:'front', message:'Follows and unfollows - up to 60 follows and unfollows
+                            per hour.');?></p>
 
                             </div>
 
                         </div>
 
-                        <p class="lesson-text">บัญชีใน Instagram ไม่สามารถแบนได้ด้วยตัวเอง แต่จะเป็นไปตามรูปแบบบางประการที่รู้กันในวงในของ
-                            Instagram เท่านั้น จากประสบการณ์ของเรา เราได้สรุปหลักเกณฑ์บางประการที่ Instagram
-                            ใช้ประเมินบัญชีที่น่าสงสัยและตัดสินใจแบนบัญชีต่าง ๆ เหล่านั้น</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Instagram accounts aren\'t banned manually, but according to some algorithm which
+                    is known only by Instagram insiders. But, based on our experience, we\'ve come up with a list of
+                    some criteria by which Instagram evaluates suspicious accounts and bans them.');?></p>
 
                         <ul class="lesson-list">
                             <li class="lesson-item ">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/close.svg" class="lesson-item-icon" />
-                                <p class="lesson-item-text">เกณฑ์ที่สำคัญที่สุด คือ บัญชีที่ได้รับความนิยมเพิ่มขึ้นอย่างรวดเร็ว</p>
+                                <p class="lesson-item-text"><?=Yii::t(category:'front', message:'The most important criterion is a sharply increased account
+                            popularity.');?></p>
                             </li>
                             <li class="lesson-item ">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/close.svg" class="lesson-item-icon" />
-                                <p class="lesson-item-text">ประการที่ 2 คือ การเปลี่ยน IP บ่อย ๆ</p>
+                                <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Secondly, it\'s a frequent IP change.');?></p>
                             </li>
                             <li class="lesson-item ">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/close.svg" class="lesson-item-icon" />
-                                <p class="lesson-item-text">ประการที่ 3 คือการเปลี่ยนอุปกรณ์ที่บัญชีได้ถูกแนบไว้</p>
+                                <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Thirdly, it\'s a change of device to which an account is
+                            attached.');?></p>
                             </li>
                         </ul>
 
-                        <p class="lesson-text">เพื่อเป็นการหลีกเลี่ยงการถูกแบนอันเนื่องมาจากการละเมิดกฎเกณฑ์ต่าง ๆ
-                            เราขอแนะนำให้คุณอ่านกฎระเบียบต่าง ๆ ของ Instagram อย่างละเอียดใน</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'In order to avoid ban for rules violation, we advise you to carefully read
+                    following sections of Instagram rules:');?></p>
 
                         <ul class="lesson-list">
                             <li class="lesson-item">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick.svg" class="lesson-item-icon" />
                                 <a href="https://help.instagram.com/478745558852511">
-                                    <p class="lesson-item-text">ข้อกำหนดการใช้งาน</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Terms of Use');?></p>
                                 </a>
                             </li>
                             <li class="lesson-item">
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick.svg" class="lesson-item-icon" />
                                 <a href="https://help.instagram.com/477434105621119">
-                                    <p class="lesson-item-text">แนวทางของชุมชน</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Community Guidelines');?></p>
                                 </a>
                             </li>
                         </ul>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">คำถามที่ 3 จะออกแบบบัญชีอย่างไร</h2>
-                            <p class="lesson-text--white">คุณควรออกแบบบัญชีในแนวทางที่ผู้ที่เข้ามาเยี่ยมชมใน Instagram
-                                จะทราบได้ทันทีว่า คุณเป็นใครและคุณกำลังนำเสนอสิ่งใด ในการทำเช่นนี้ คุณควรให้ความสำคัญและเน้นในองค์ประก
-                                อบหลักต่าง ๆ ดังต่อไปนี้</p>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'Question 3. How to design an account?');?></h2>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'You should design an account in a way so that a user can
+                        immediately answer two main questions: who are you and what are you offering. To do this,
+                        focus on main elements: ');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-inst-screen-1.png" class="advanced-screen" />
 
-                            <h3 class="lesson-caption--white--small">รูปภาพ</h3>
-                            <p class="lesson-text--white">หากคุณมีบัญชีส่วนตัวหรือหรือคุณกำลังใช้ Instagram
-                                เป็นแบรนด์เพื่อโปรโมทตัวคุณเอง ขอให้อัพโหลดรูปของคุณ
-                                หากบัญชีของคุณมีจุดมุ่งหมายเพื่อจำหน่ายผลิตภัณฑ์ ขอให้อัพโหลดรูปภาพที่เหมาะกับผลิตภัณฑ์ของคุณโดยใช้พื้นหลังที่สว่าง
-                                รูปภาพที่ใช้ควรทำให้เกิดความรู้สึกในด้านบวกและแสดงให้เห็นอย่างชัดเจนว่า คุณกำลังทำอะไร
-                                รวมไปถึงข้อความที่ใส่ไว้ในรูปควรเป็นข้อความที่อ่านได้ง่ายอีกด้วย</p>
+                            <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Photo.');?></h3>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'If you have a personal account or you promote yourself in Instagram as a brand, then upload
+                        your photo. If your account is aimed at sales, then upload an ideal picture of your product with
+                        a light background. A photo should evoke positive emotions, show the very core of what you do
+                        and text on a photo should be easy to read.');?></p>
 
-                            <h3 class="lesson-caption--white--small">ชื่อ</h3>
-                            <p class="lesson-text--white">กฎพื้นฐานของการตั้งชื่อบัญชี คือ ความเรียบง่าย
-                                เพื่อให้คนสามารถจดจำและค้นหาชื่อบัญชีของคุณได้อย่างง่ายดาย
-                                โดยไม่ใช้ความพยายาม สำหรับบัญชีส่วนตัวและแบรนด์ส่วนตัว โดยทั่วไปแล้วจะตั้งชื่อบัญชีโดยใช้ชื่อและนามสกุลของคุณ
-                                ในกรณีที่คุณกำลังโปรโมทตัวเองในฐานะร้านค้าหรือแบรนด์ คุณควรตั้งชื่อบัญชีโดยใช้ชื่อผลิตภัณฑ์และที่ตั้ง แน่นอนว่า
-                                บัญชีส่วนบุคคลจะไม่เพียงแต่ให้คุณสามารถจำหน่ายผลิตภัณฑ์ได้เท่านั้น แต่ยังให้คุณสามารถค้นหาผู้ร่วมธุรกิจรายใหม่ ๆ
-                                สำหรับทีมของคุณได้อีกด้วย เราอยากให้คุณจำสิ่งนี้ให้ขึ้นใจ</p>
+                            <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Name.');?></h3>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'The basic rule is simplicity. A person should easily remember your name and search for you
+                        without efforts. For a personal account and personal brand, name is basically your name and last
+                        name. In case you are promoting yourself as a store or brand it\'s name and location. But, of
+                        course, personal accounts will allow you not only to sell, but also to search partners for your
+                        structure. Keep this in mind.');?></p>
 
-                            <h3 class="lesson-caption--white--small">ชื่อผู้ใช้หรือ Username</h3>
-                            <p class="lesson-text--white">สามารถตั้งได้สูงสุดไม่เกิน 30 ตัวอักษร อย่าตั้งชื่อผู้ใช้หรือ Username
-                                ให้เหมือนกับชื่อบัญชีของคุณ สิ่งที่ดีกว่า คือ
-                                การใช้คำหลักที่เชื่อมโยงถึงกัน อย่ากลัวที่จะใช้อีโมจิ แต่ขอให้ใช้แต่พอสมควรเท่านั้น</p>
+                            <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Username.');?></h3>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Username limit is 30 characters. Don\'t duplicate your account name in username, it\'s better
+                        to write down connected keywords. Don\'t be afraid to use emojis, but moderately, of course.');?></p>
 
-                            <h3 class="lesson-caption--white--small">ประวัติโดยย่อ</h3>
-                            <p class="lesson-text--white">สามารถระบุได้สูงสุดไม่เกิน 150 ตัวอักษร
-                                สิ่งนี้เป็นสิ่งที่ทำใด้ค่อนข้างยากเพราะคุณจำเป็นต้องระบุสาระสำคัญทั้งหมด
-                                ของธุรกิจของคุณใน 150 ตัวอักษรเท่านั้น ดังนั้น คุณควรระบุข้อดีและความโดดเด่นต่าง ๆ ด้วยข้อความที่สั้นกระชับแ
-                                ละชัดเจนเพื่อสร้างความสนใจให้กับผู้ที่เข้ามาเยี่ยมชม Instagram ของคุณ อีกครั้งหนึ่ง อย่าลืมใช้อีโมจิเพื่อน
-                                “สร้างความสนใจ” ให้กับผู้ที่มีแนวโน้มว่าจะกลายมาเป็นลูกค้าหรือผู้ร่วมธุรกิจกับคุณในอนาคต</p>
+                            <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Bio.');?></h3>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Bio limit is 150 characters. Difficulty of this is that you have to fit the whole essence
+                        of your business in a short text. So immediately tell about advantages in order to catch the
+                        interest of a person on the other side of a screen. Again, don\'t forget to use emojis as Bio
+                        is your chance to \"catch" a potential client or partner.');?></p>
 
-                            <h2 class="lesson-caption--white">ใน 150 ตัวอักษรควรประกอบไปด้วย</h2>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'What 150 characters should include?');?></h2>
 
                             <div class="lesson__block">
 
                                 <div class="lesson__block--four">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/quality.svg" class="lesson-block-icon--four" />
-                                    <p class="lesson-block-text--four--white">ข้อดีและความโดดเด่นต่าง ๆ</p>
+                                    <p class="lesson-block-text--four--white"><?=Yii::t(category:'front', message:'Your advantages');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--four">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/ringing-phone.svg" class="lesson-block-icon--four" />
-                                    <p class="lesson-block-text--four--white">ข้อมูลที่คนสามารถติดต่อคุณได้</p>
+                                    <p class="lesson-block-text--four--white"><?=Yii::t(category:'front', message:'Information on how to contact you');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--four">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/megaphone.svg" class="lesson-block-icon--four" />
-                                    <p class="lesson-block-text--four--white">ข้อความช่วยกระตุ้นให้ตัดสินใจ</p>
+                                    <p class="lesson-block-text--four--white"><?=Yii::t(category:'front', message:'Call to action');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--four">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/user-card.svg" class="lesson-block-icon--four" />
-                                    <p class="lesson-block-text--four--white">ข้อมูลเพิ่มเติม</p>
+                                    <p class="lesson-block-text--four--white"><?=Yii::t(category:'front', message:'Additional Information');?></p>
 
                                 </div>
 
@@ -1077,24 +1103,23 @@
 
                         </div>
 
-                        <h2 class="lesson-caption--black">คำถามที่ 4 ควรจะโพสต์อะไร</h2>
-                        <p class="lesson-text--border">เนื้อหาในบัญชีของคุณควรมีความชัดเจนและน่าสนใจมากที่สุด ซึ่งเนื้อหาต่าง ๆ
-                            อาจจะประกอบด้วย ข้อมูลที่ให้ความบันเทิง ข้อมูลที่ให้ความรู้หรือแจ้งข่าวให้ทราบและข้อมูลเพื่อการจำหน่ายผลิตภัณฑ์
-                            โดยสัดส่วนที่ดีที่สุดควรอยู่ที่ 30/40/30 เนื้อหาเกี่ยวกับความบันเทิงควรประกอบด้วย ข้อความที่ช่วยสร้างแรงบันดาลใจ
-                            การแข่งขันหรือการประกวดต่าง ๆ ส่วนข้อมูลที่ให้ความรู้หรือแจ้งข่าวให้ทราบ คือ ข้อมูลที่คุณแจ้งให้สมาชิกทราบเกี่ยวกับผลิตภั
-                            ณฑ์หรือบริการของคุณว่า หัวใจหลักของผลิตภัณฑ์คืออะไร การแบ่งประเภท ราคา วิธีการสั่งซื้อและอื่น ๆ
-                            ในขณะที่ข้อมูลเพื่อการจำหน่ายผลิตภัณฑ์ คือ โพสต์ที่กระตุ้นให้เกิดการซื้อ
-                            ซึ่งส่วนใหญ่แล้วจะเป็นข้อความที่ช่วยกระตุ้นให้ตัดสินใจ</p>
-                        <p class="lesson-text--border">สำหรับองค์ประกอบภาพ (ภาพและเนื้อหาวิดีโอ) เราขอแนะนำให้คุณเลือกสไตล์ที่เป็นขอ
-                            งคุณเองและยึดไว้เป็นแนวทางของคุณ รูปภาพที่ใช้ควรมีความคมชัดสูงและมีคุณภาพดี รวมไปถึงมีสไตล์ที่เป็นของคุณเอง
-                            ใช้เลือกการวางรูปภาพที่หลากหลาย เช่น รูปภาพหลายรูปใน 1 โพสต์หรือภาพต่อกัน เป็นต้น รูปภาพสำหรับโพสต์ควรมีขนาด
-                            1080 x 1080 พิกเซล สำหรับการโพสต์วิดีโอใน Instagram ต้องมีความยาวสูงสุดไม่เกิน 1 นาที คุณสามารถใส่เนื้อหาวิดี
-                            โอได้เกือบทุกขนาด</p>
-                        <p class="lesson-text">ข้อความเช่นเดียวกับรูปถ่าย ควรมีเนื้อหาที่สั้นกระชับได้ใจความ เข้าใจง่าย รัดกุมและมีความสำคัญ
-                            ถ้าคุณเขียนเกี่ยวกับสิ่งที่สำคัญ ให้เพิ่มชื่อและไม่ควรให้ภาพเด่นเกินไป ขอให้แน่ใจว่า คุณได้ตรวจสอบความผิดพลาดทุกสิ่งอย่าง
-                            ละเอียดแล้ว สามารถทำได้โดย ให้พิมพ์ข้อความในบันทึกหรือ Notepad ก่อนหรือใช้บริการโพสต์ที่กำหนดเวลาไว้แล้ว
-                            ตัวอย่างเช่น https://kuku.io หรือ https://onlypult.com เป็นต้น คุณสามารถเลือกใช้ได้ตามความเหมาะสมหรือห
-                            าผู้ให้บริการที่มีค่าใช้จ่ายรายเดือนต่ำที่สุดได้ เนื่องจากมีบริการในลักษณะดังกล่าวให้คุณเลือกอยู่เป็นจำนวนมาก</p>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Question 4. What to post?');?></h2>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Your account content should be as clear and interesting as possible.
+                    Content may be entertaining, informative and selling. Ideal ratio is 30/40/30 respectively.
+                    Entertaining content includes various motivating posts, quizes and competitions. Informative is the
+                    one that informs your subscriber about your product / service. What is brand\'s core? Assortment?
+                    Price? How to buy? And so on. Selling content are posts that stimulate a user to make a purchase.
+                    Most often they contain a call to action.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'As for the visual component (photos and video content), we advise you to
+                    choose your style and stick to it. A photo should be of high quality and style. Use various
+                    placement options, for example, multiple photos in a post or collages.
+                    A photo for a post should be 1080 x 1080 px. As for a video, Instagram restriction is 1 minute.
+                    You can easily put almost any video content in this size.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Text as well as photos is the same strong, rich and important part of content.
+                    If you write about something important, add a title and don\'t make a photo bright. Be sure to check
+                    if you made any mistakes. First, type a text in memo or notepad, or use scheduled posting services.
+                    For example https://kuku.io or https://onlypult.com. There are a lot of such services, you can find
+                    the ones with minimum monthly fee.');?></p>
 
                         <a href="https://kuku.io">
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-inst-screen-2.png" class="advanced-screen-link" />
@@ -1103,20 +1128,20 @@
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-inst-screen-3.png" class="advanced-screen-link" />
                         </a>
 
-                        <p class="lesson-text">โปรดจำไว้ว่าข้อความใน Instagram มีการกำจัดความยาว โดยไม่เกิน 2,200 ตัวอักษร
-                            (ความยาวของโพสต์ที่เหมาะคือ 800 ตัวอักษร) ข้อความเกี่ยวกับการจำหน่ายผลิตภัณฑ์นั้นไม่ได้เป็นเพียงแค่คำอธิบายภาพหรื
-                            อเรื่องราวของคุณเท่านั้น แต่ควรเป็นความคิดเห็นของคุณด้วย กระตุ้นให้ผู้ที่เข้ามาชม Instagram ของคุณมีส่วนร่วมโดยการเ
-                            ขียนความคิดเห็นหรือพูดคุยกัน กระตุ้นให้เกิดการสนทนา คุณจำเป็นต้องใส่ @หน้าชื่อของเขาและพิมพ์ด้วยตัวคุณเอง
-                            หลังจากนั้นก็ส่งความคิดเห็น ในกรณีเช่นนี้ เขาคนนั้นจะได้รับการแจ้งเตือน</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Remember that Instagram texts have a limited length, they should not exceed 2200
+                    characters (and the ideal post length is 800 characters). Selling text is not just a photo
+                    description or your story, it\'s also your comments. Encourage users to comment and have a
+                    discussion. To engage a person in a conversation you need to put @ before his name and then type it
+                    yourself, and only then send a comment. In this case he\'ll receive a notice. ');?></p>
 
                         <a href="https://onlypult.com">
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-inst-screen-4.png" class="advanced-screen-link" />
                         </a>
 
-                        <p class="lesson-text">ในตอนท้ายของบทเรียน เราขอนำเสนอฟีเจอร์บางอย่างที่น่าสนใจที่จะช่วยให้คุณสามารถสร้างโพสต์ใ
-                            นบัญชีของคุณได้อย่างมีสไตล์มากยิ่งขึ้น</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'At the end of the lesson we offer you some cool goodies that will help you to
+                    make visual content of your account stylish:');?></p>
 
-                        <h2 class="lesson-caption--black">แอพพลิเคชั่นเพื่อการตกแต่งรูปภาพ</h2>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Apps for photo editing:');?></h2>
 
                         <div class="lesson__block">
 
@@ -1150,7 +1175,7 @@
 
                         </div>
 
-                        <h2 class="lesson-caption--black">แอพพลิเคชั่นเพื่อการตัดต่อวีดีโอ</h2>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Apps for video editing:');?></h2>
 
                         <div class="lesson__block">
 
@@ -1186,8 +1211,9 @@
 
                         <footer class="lesson-footer">
 
-                            <p class="lesson-footer-text">Instagram เป็นหนึ่งในเครื่องมือออนไลน์หลัก ขอให้ใช้อย่างเต็มประสิทธิภาพ!
-                                ข้อมูลเพิ่มเติมเกี่ยวกับวิธีลับต่าง ๆในการโปรโมท Instagram คุณสามารถหาอ่านได้ในหลักสูตรส่วนตัว ขอให้โชคดี!</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'Instagram is one of the main online tools. Use it at full power! More
+                        information about secret methods of Instagram promotion you can read in a private course.
+                        Good luck!');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footer-adv-inst-th.svg" class="lesson-footer-img" />
 
                         </footer>
@@ -1195,65 +1221,66 @@
                     </div>
 
 
-                    <h1 class="school-accordion-caption">คอร์สการโปรโมทธุรกิจขั้นสูงผ่าน Facebook</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Advanced course of promotion on Facebook');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">คอร์สการโปรโมทธุรกิจขั้นสูงผ่าน Facebook</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Advanced course of promotion on Facebook');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg"
                                  class="lesson-header-img lesson-header-img--320" alt="" />
 
                         </div>
 
-                        <p class="lesson-text">ในบทเรียนที่ผ่านมาเกี่ยวกับหลักการพื้นฐานในการโปรโมทธุรกิจผ่าน Facebook
-                            เราได้กล่าวถึงกระบวนการในการติดตั้งแอปพลิเคชั่น การสมัครสมาชิกในเครือข่ายรวมถึงขั้นตอนแรกในการใช้งานโดยละเอียด</p>
-                        <p class="lesson-text--border">ในคอร์สขั้นสูงนี้ คุณจะได้เรียนรู้เกี่ยวกับวิธีการออกแบบหน้าเพจอย่างเหมาะสม
-                            การสร้างกลุ่มตามธีมและการโพสต์ที่มีประสิทธิภาพ</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'In the previous lesson on basic principles of Facebook promotion, we covered
+                    process of installing the app and signing up in the network in detail, as well as first steps of
+                    using it.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'In the advanced course you\'ll learn how to properly design a page,
+                    create thematic groups and make effective posts.');?></p>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">คำถามที่ 1: คุณจะออกแบบโปรไฟล์ที่ดีได้อย่างไร?</h2>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'Question 1. How to design a profile?');?></h2>
 
 
                             <div class="lesson__block">
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/profile-avatar.svg" class="lesson-block-icon" />
 
-                                <p class="lesson-block-text--white">สิ่งแรกที่คุณต้องให้ความใส่ใจก็คือรูปที่ใช้แสดงโปรไฟล์ส่วนตัวของคุณ
-                                        กรุณาเลือกรูปโปรไฟล์ที่ดีและมีคุณภาพสูง และที่สำคัญไปกว่านั้นก็คือกรุณาเลือกรูปที่เป็นตัวคุณเอง
-                                        พึงระลึกไว้เสมอว่ารูปโปรไฟล์จะต้องมีขนาด 180 x 180 พิกเซล ทั้งนี้คุณสามารถแก้ไขรูปของคุณโดยใช้แอป
-                                        พลิเคชั่นแก้ไขรูปได้ล่วงหน้า ใน Facebook คุณสามารถตกแต่งหน้าเพจของคุณด้วยภาพหน้าปกหรือก็คือรูปส
-                                        วยๆ ซึ่งจะวางไว้ที่ส่วนบนของหน้าเพจของคุณนั่นเอง</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'The first thing you need to take care of is your personal profile photo.
+                                Please, choose a good and high-quality profile photo and most importantly choose a photo of
+                                yourself. Remember a profile photo has a size of 180 x 180 pixels. You can edit your photo
+                                in some photo editor app in advance. In Facebook you can decorate your page with a cover -
+                                a  beautiful photo which will be placed at the head of your page.');?></p>
 
                             </div>
 
-                            <p class="lesson-text--border--white">คุณสามารถสร้างรูปโปรไฟล์แบบไม่ธรรมดาซึ่งต่อเนื่องมาจากการออกแ
-                                บบภาพหน้าปกได้ ในการสร้างภาพหน้าปกแบบออริจินัลนั้น คุณสามารถใช้ตัวช่วยนี้ได้:
+                            <p class="lesson-text--border--white"><?=Yii::t(category:'front', message:'You can make an unusual profile picture which will continue
+                            the design of a cover. To create such original cover, you may use this:');?>
+                                <a href="https://www.timelinecoverbanner.com/Facebook-cover-photo-maker/"
+                                   class="advanced-icon-link">TimeLineCover</a>
                             </p>
-                            <a href="https://www.timelinecoverbanner.com/Facebook-cover-photo-maker/"
-                               class="advanced-icon-link">TimeLineCover</a>
 
-                            <p class="lesson-text--white">รูปโปรไฟล์แบบภาพเคลื่อนไหวกำลังได้รับความนิยมเป็นอย่างมากและได้รับ
-                                การตอบรับในเชิงบวกจากสมาชิก คุณเองก็สามารถทำเช่นนั้นได้ง่ายๆ ดังนี้: </p>
+
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Animated profile pictures are gaining great popularity and
+                            positive responses among subscribers. You can do it as described in the following: ');?></p>
 
                             <ul class="lesson-list">
                                 <li class="lesson-item">
                                     <span class="lesson-item-num--white">1</span>
-                                    <p class="lesson-item-text--white">ล็อกอินเข้าแอปพลิเคชั่น Facebook
-                                            จากอุปกรณ์แบบพกพาของคุณ</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Log into Facebook app from your mobile device');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <span class="lesson-item-num--white">2</span>
-                                    <p class="lesson-item-text--white">ไปที่โปรไฟล์ของคุณและคลิกที่รูปโปรไฟล์</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Go to your profile and click on your profile photo');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <span class="lesson-item-num--white">3</span>
-                                    <p class="lesson-item-text--white">เลือกคำสั่ง "ถ่ายวิดีโอ" หรือ "อัปโหลดวิดีโอ"</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Select \"Take a Video\" or \"Upload a Video\" option');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <span class="lesson-item-num--white">4</span>
-                                    <p class="lesson-item-text--white">เมื่อทำทุกอย่างเรียบร้อยแล้ว จากนั้นจึงคลิก "บันทึก"</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'When you\'re done click \"Save\"');?></p>
                                 </li>
                             </ul>
 
@@ -1261,9 +1288,9 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/hobby.svg" class="lesson-block-icon" />
 
-                                <p class="lesson-block-text--white">ทั้งนี้คุณควรตรวจสอบให้แน่ใจว่าได้กรอกข้อมูลในหัวข้อ “จงบรรยายถึงตัวคุณเอง”
-                                    และเพิ่มรายชื่อผู้ติดต่อแล้ว ในกรณีนี้ หากมีบุคคลที่คุณไม่รู้จักคลิกที่รูปโปรไฟล์ของคุณ
-                                    บุคคลดังกล่าวก็จะทราบได้ทันทีว่าคุณจะช่วยเหลือเขาได้อย่างไร</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Be sure to fill in a “Describe yourself” section and add your
+                                contacts. In this case, if an unknown person clicks on your profile photo, he will
+                                immediately see how you can help him.');?></p>
 
                             </div>
 
@@ -1271,70 +1298,69 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/user-description.svg" class="lesson-block-icon" />
 
-                                <p class="lesson-block-text--white">พยายามเพิ่มข้อมูลส่วนตัวของคุณให้มากที่สุดเท่าที่จะสามารถทำได้
-                                    การทำเช่นนั้นจะทำให้คุณได้รับความไว้วางใจมากขึ้นจากสมาชิกซึ่งเป็นลูกค้าหรือพาร์ทเนอร์ที่มีศักยภาพของคุณ
-                                    นอกจากนี้คุณควรตรวจสอบให้แน่ใจว่าหน้าเพจของคุณมีที่อยู่ซึ่งสวยงามและง่ายต่อการค้นหาเพื่อให้คนอื่นสามาร
-                                    ถหาคุณเจอได้ง่ายขึ้น</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Try to add as much as possible of personal information. By that you
+                                will have more trust of subscribers who are your potential customers or partners.
+                                Be sure to come up with beautiful and easy address of your page so you can be easily
+                                found.');?></p>
 
                             </div>
 
                         </div>
 
-                        <h2 class="lesson-caption--black">คำถามที่ 2: คุณจะสร้างกลุ่มได้อย่างไรและจะสามารถทำอะไรกับกลุ่มที่สร้างขึ้นได้บ้าง?</h2>
-                        <p class="lesson-text">กลุ่มใน Facebook เป็นวิธีการที่ดีเยี่ยมในการโปรโมทธุรกิจ
-                            ส่งเสริมการขายหรือแม้แต่หาพาร์ทเนอร์ใหม่ๆ ให้แก่ธุรกิจของคุณ วิธีการสร้างกลุ่ม</p>
+                        <h2 class="lesson-caption--black"><?=Yii::t(category:'front', message:'Question 2. How to create a group and what to do with it?');?></h2>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Facebook group is a great way to promote your business, sales and to find
+                    new partners. How to create a group?');?></p>
 
                         <div class="advanced-fb__screen">
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-fb-screen-1-th.png" class="advanced-fb-screen" />
-                            <p class="advanced-fb-screen-text">ไปที่บัญชี Facebook ส่วนตัวของคุณ
-                                คลิกที่ปุ่มด้านล่างตรงหัวเรื่องของหน้าเพจและเลือกคำสั่ง “สร้างหน้าเพจ” จากนั้นเลือกประเภทในหน้าต่างที่เปิดขึ้นมา</p>
+                            <p class="advanced-fb-screen-text"><?=Yii::t(category:'front', message:'Go to your personal Facebook account. Click Down button at the
+                        heading of your page and choose Create a Page option. In an opened window choose its type.');?></p>
 
                         </div>
 
                         <div class="advanced-fb__screen">
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-fb-screen-2-th.png" class="advanced-fb-screen" />
-                            <p class="advanced-fb-screen-text">กรอกแบบฟอร์มโดยใช้ข้อมูลเกี่ยวกับบริษัทของคุณ พยายามบอกกิจกรรมต่างๆ
-                                และข้อดีที่บริษัทคุณมีเหนือคู่แข่งอย่างละเอียดและได้ใจความ ที่สำคัญก็คืออย่าลืมใช้คำสำคัญต่างๆ เพราะหน้าเพจของ
-                                Facebook จะเชื่อมโยงเข้ากับเสิร์ชเอ็นจิ้นต่างๆ นั่นเอง</p>
+                            <p class="advanced-fb-screen-text"><?=Yii::t(category:'front', message:'Fill in the form with data about your company. Try to briefly and
+                        clearly outline its activities, advantages over competitors and don\'t forget to use keywords
+                        as Facebook pages are perfectly indexed by search engines.');?></p>
 
                         </div>
 
-                        <p class="advanced-text">ค่อยๆ เขียนข้อมูลเกี่ยวกับผู้เข้าชมที่เป็นเป้าหมายของคุณ Facebook
-                            จะแนะนำเพจของคุณให้แก่ผู้ที่อาจจะเป็นสมาชิกตามคุณลักษณะต่างๆ ที่มี</p>
+                        <p class="advanced-text"><?=Yii::t(category:'front', message:'Carefully write down data about your target audience. Facebook will recommend
+                    your page to potential subscribers according to these characteristics.');?></p>
 
                         <div class="advanced-fb__screen">
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/adv-fb-screen-3-th.png" class="advanced-fb-screen" />
-                            <p class="advanced-fb-screen-text">สร้างภาพหน้าปกให้หน้าเพจของคุณ ขนาดของภาพหน้าปกจะอยู่ที่ 851 х 315
-                                พิกเซล หลังจากที่สร้างภาพหน้าปกเรียบร้อยแล้ว ให้ปฏิบัติตามข้อกำหนดต่างๆ เพื่อที่คุณจะได้ไม่เสียคุณภาพของภาพหน้า
-                                ปกไปแม้แต่พิกเซลเดียว</p>
+                            <p class="advanced-fb-screen-text"><?=Yii::t(category:'front', message:'Create a cover for the page. The cover size is 851 х 315 px. When
+                        creating a picture, follow these parameters, and then you won\'t lose any pixel of quality.');?></p>
 
                         </div>
 
-                        <p class="advanced-text">ถึงจะสร้างหน้าเพจเสร็จแล้ว แต่ยังเร็วเกินไปสำหรับการโปรโมทเพราะหน้าเพจของคุณยังคงว่างเปล่
-                            าและไม่มีอะไรมานำเสนอให้แก่ผู้ที่อาจจะมาเป็นสมาชิกของคุณเลย มาถึงตอนนี้คุณกำลังเผชิญหน้ากับขั้นตอนที่เป็นปัญหาเข้าเสีย
-                            แล้วนั่นก็คือการสร้างสรรค์เนื้อหาที่มีประสิทธิภาพนั่นเอง</p>
-                        <p class="lesson-text--border">เราจะพูดถึงวิธีการสร้างสรรค์เนื้อหาที่ยอดเยี่ยมและมีคุณภาพสูงสำหรับกลุ่ม Facebook
-                            ในบล็อกถัดไป</p>
+                        <p class="advanced-text"><?=Yii::t(category:'front', message:'You created the page, but it\'s too early to promote it. It\'s empty and you have
+                    nothing to offer to potential subscribers yet. Now you\'re facing the most troublesome stage of
+                    work: a creation of primary content.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'We\'ll talk about how to create beautiful and high-quality content for
+                    Facebook group in the next block.');?></p>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">คำถามที่ 3: คุณจะสร้างเนื้อหาที่มีประสิทธิภาพได้อย่างไร?</h2>
-                            <p class="lesson-text--border--white">เนื้อหาใน Facebook เป็นเรื่องที่ง่ายมากเหมือนกับโซเชียลเน็ตเวิร์คอื่นๆ
-                                คุณก็แค่โพสต์เนื้อหาที่เป็นข้อความ รูปภาพและวิดีโอรวมถึงเพิ่มอัลบัมรูปภาพทั้งหมดแค่นั้นเอง</p>
-                            <p class="lesson-text--white">เรามีเคล็ดลับ 8 ข้อที่มีประสิทธิภาพเป็นอย่างมากในการสร้างเนื้อหาคุณภาพสูงบน
-                                Facebook มาแนะนำคุณ:  </p>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'Question 3. How to create effective content?');?></h2>
+                            <p class="lesson-text--border--white"><?=Yii::t(category:'front', message:'Facebook  content is as simple as in other social networks.
+                        You can post texts, photo and video content and add entire photo albums.');?></p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'We present you 8 really effective tips for creating high-quality
+                        Facebook content: ');?></p>
 
                             <div class="lesson__block">
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 1: ทำอะไรเชิงบวกเข้าไว้</h3>
-                                    <p class="lesson-text--white">ทุกวันนี้เรามีแนวโน้มในการแบ่งทุกอย่างเป็นเรื่องที่ “สนุก” และเรื่องที่
-                                        “ไม่สนุก” ดังนั้นคุณจึงควรทำตัวให้ “สนุก” เข้าไว้รวมถึงมอบความสุขให้แก่ทุกคนที่จะเข้ามาหาคุณเพราะโดย
-                                        ปรกติแล้วคนเราย่อมมีความยินดีที่จะได้แชร์โพสต์ในเชิงบวกกับเพื่อนๆ</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 1. More positivity');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Today we have a trend to divide everything into \"fun\" and
+                                \"not fun\". Be \"fun\" and give people happiness and people will reach out to you. People
+                                are glad to share positive Facebook posts with their friends.');?></p>
 
                                 </div>
 
@@ -1346,12 +1372,13 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 2: สร้างความน่าสนใจและความประหลาดใจ</h3>
-                                    <p class="lesson-text--white">โพสต์ที่ได้รับความนิยมส่วนมากมักเป็นโพสต์ที่มีความน่าสนใจแต่ไม่ได้เ
-                                        ปิดเผยทุกอย่างไปเสียหมด ดังนั้นคุณจึงควรสร้างทั้งความน่าสนใจและความประหลาดใจรวมถึงเรียนรู้ในการสร้า
-                                        งถ้อยคำเชิงสัญลักษณ์และกระตุ้นให้สมาชิกของคุณรอคอยที่จะได้รับชมเรื่องราวใหม่ๆ อยู่เสมอ
-                                        <br>หากคุณสามารถทำให้ผู้อ่านของคุณคลิกเข้ามาดูที่สถานะของคุณเพื่อดูว่ามีอะไรใหม่ๆ
-                                        มานำเสนอบ้างหรือเพราะติดใจในข้อความที่คุณโพสต์ นั่นย่อมแสดงว่าคุณจะประสบความสำเร็จอย่างแน่นอน</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 2. Create intrigue');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Most popular posts are those where you offer something
+                                interesting, but don\'t reveal it completely. Create an intrigue. Learn to create a lace of
+                                unspoken words and a desire of subscribers to wait for more and more new stories.
+                                <br/>If you cope with a task of causing an irresistible desire of readers to click on your
+                                status and satisfy their curiosity, which grew too strong because of your text, you\'ll
+                                assure your success.');?></p>
 
                                 </div>
 
@@ -1363,14 +1390,13 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 3: ลิงก์สั้นๆ แบบกำลังพอดี</h3>
-                                    <p class="lesson-text--white">หากคุณอยากจะแชร์ลิงก์กับสมาชิกในโพสต์ของคุณ
-                                        ลิงก์ดังกล่าวไม่ควรจะยาวมาก ตัวช่วยสุดเพอร์เฟกต์ในเรื่องนี้ก็เช่น</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 3. Short links');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'If you want to share a link with subscribers in your post, make
+                                it short. A perfect help are by services like');?></p>
                                         <a href="https://bitly.com/" class="advanced-icon-link">
                                             Bitly.
                                         </a>
-                                    <p class="lesson-text--white">นอกจากนี้คุณไม่ควรจะโพสต์ข้อความด้วยเนื้อหาที่เยิ่นเย้อหรือไม่จำเป็นและพึงระลึกไว้เสมอว่า
-                                        ข้อความที่สั้นและได้ใจความคือโพสต์ที่ดีที่สุด</p>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Don\'t overload a post with unnecessary characters. Brevity is the soul of wit.');?></p>
 
                                 </div>
 
@@ -1382,12 +1408,12 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 4: ทำให้รูปภาพมีความดึงดูดใจ</h3>
-                                    <p class="lesson-text--white">โพสต์ของ Facebook ที่ได้รับความสนใจมักเป็นโพสต์ที่มีรูปภาพประกอบ
-                                        ดังนั้นคุณจึงควรเลือกรูปภาพที่จะใช้อย่างเหมาะสม คุณควรเลือกรูปภาพที่เข้ากันกับอารมณ์ของข้อความที่โพสต์
-                                        รูปภาพที่คุณใช้ควรมีขนาด 800 x 600 พิกเซล พยายามให้รูปภาพมีขนาดตามที่กำหนดเพื่อคงไว้ซึ่งคุณภาพ
-                                        ของรูป หากคุณสามารถสร้างเนื้อหาของรูปภาพด้วยตัวคุณเอง คุณควรใช้ข้อได้เปรียบนี้เพราะภาพที่ไม่เหมือนใค
-                                        รย่อมได้รับความชื่นชมมากกว่า</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 4. Make images juicy');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Most engaging Facebook posts are those which have a picture.
+                                Choose it carefully. Choose a picture according to a post text mood. There is also an
+                                optimal size of 800x600 pixels. Try to fit in it and then you won\'t lose quality. If you
+                                can make photo content by yourself, use this advantage. Unique photos are always more
+                                appreciated.');?></p>
 
                                 </div>
 
@@ -1399,11 +1425,11 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 5: ปรับให้เข้ากับอุปกรณ์ต่างๆ</h3>
-                                    <p class="lesson-text--white">ถึงแม้ว่าคุณจะอัปโหลดโพสต์จากคอมพิวเตอร์แต่คุณต้องไม่ลืมว่าคนส่วน
-                                        ใหญ่มักเลื่อนฟีดข่าวจากอุปกรณ์แบบพกพาต่างๆ ดังนั้นคุณจึงควรเลือกเนื้อหาของรูปภาพที่เหมาะสมและไม่ควรโ
-                                        พสต์ข้อความยาวเกินไปจนยากที่จะอ่านได้จากอุปกรณ์แบบพกพา นอกจากนี้คุณยังควรเปิดหน้าเพจของคุณจากอุ
-                                        ปกรณ์พกพาดูอยู่เสมอเพื่อดูว่าโพสต์ของคุณดูเหมาะสมหรือไม่</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 5. Adjust to devices');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Even if you upload posts from PC don\'t forget that most
+                                people scroll news feed from mobile devices. Choose appropriate photo content and don\'t
+                                make text too long as it\'s hard to read from a mobile device. You can always open your
+                                own page from your mobile device and see if your post looks acceptable.');?></p>
 
                                 </div>
 
@@ -1415,11 +1441,11 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 6: มีส่วนรวมผ่านการสนทนา</h3>
-                                    <p class="lesson-text--white">ความคิดเห็นและการตอบกลับคืออีกสิ่งหนึ่งที่จะช่วยให้สมาชิกรู้สึกสนใจใ
-                                        นโพสต์บน Facebook ของคุณ คุณจึงควรสร้างความสัมพันธ์อันดีกับผู้อ่านของคุณผ่านการสนทนา นอกจากนี้คุ
-                                        ณควรพยายามเขียนข้อความให้เรียบง่ายและถามในสิ่งต่างๆ ราวกับว่าคุณกำลังพูดอยู่กับคนจริงๆ ทั้งนี้คุณควรตร
-                                        วจสอบให้แน่ใจว่าได้ติดตามความคิดเห็นต่างๆ และตอบคำถามที่มีอย่างเหมาะสมและทันท่วงที</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 6. Involve through dialogue');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Comments and answers also attract your audience\'s attention to
+                                Facebook posts. Build relationships with your readers through dialogue. Try to write in
+                                easy and simple way and ask questions as if you\'re talking to a real person. Be sure to
+                                follow comments and respond to them promptly.');?></p>
 
                                 </div>
 
@@ -1431,10 +1457,10 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 7: คงไว้ซึ่งช่วงเวลาไพรม์ไทม์</h3>
-                                    <p class="lesson-text--white">ไพรม์ไทม์คือช่วงเวลาที่เหมาะสมมากที่สุดในการโพสต์เนื้อหาเนื่องจากเป็
-                                        นช่วงเวลาที่กลุ่มเป้าหมายของคุณจะได้เห็นโพสต์ดังกล่าว อีกทั้งยังเป็นเวลาที่คนทั่วไปมักจะเข้าสู่โซเชียลเน็ตเวิร์
-                                        คและมีเวลาว่างมากพอที่จะเห็นโพสต์ของคุณ</p>
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 7. Maintain prime time');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Prime time is the most appropriate time for posting content
+                                when most of target audience can see it. It\'s time when people are scrolling social
+                                networks and have spare time to see your posts.');?></p>
 
                                 </div>
 
@@ -1446,16 +1472,15 @@
 
                                 <div class="lesson-block__container--wide">
 
-                                    <h3 class="lesson-caption--white--small">เคล็ดลับข้อที่ 8: ใช้ระบบโพสต์อัตโนมัติ</h3>
-                                    <p class="lesson-text--white">ระบบโพสต์อัตโนมัติหรือที่เรียกอีกอย่างว่าเป็นความสามารถในการวางแ
-                                        ผนการโพสต์และอัปโหลดเนื้อหาต่างๆ ในเวลาที่กำหนดถือเป็นตัวช่วยที่คุณจะขาดเสียไม่ได้หากคุณอยากจะจัดก
-                                        ารหน้าเพจหรือกลุ่มให้มีประสิทธิภาพ คุณสามารถเขียนโพสต์ได้ล่วงหน้า กำหนดวันที่และเวลาที่แน่นอน
-                                        จากนั้นโพสต์ของคุณก็จะปรากฏในฟีดข่าวตามเวลาที่กำหนด ทั้งนี้ในปัจจุบันมีบริการระบบโพสต์อัตโนมัติมีอยู่มาก
-                                        อาทิ
+                                    <h3 class="lesson-caption--white--small"><?=Yii::t(category:'front', message:'Tip 8. Use auto posting');?></h3>
+                                    <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Auto posting, or in other words ability to plan posts and upload
+                                them at specific time, is an irreplaceable assistant if you want to well manage a page or a
+                                group. You can write a post in advance, set a certain date and time and your work will
+                                appear in news feed at appointed time. THere are several auto posting services, for example,');?>
+                                        <a href="https://smmplanner.com/" class="advanced-icon-link">
+                                            SMMPlaner.
+                                        </a>
                                     </p>
-                                    <a href="https://smmplanner.com/" class="advanced-icon-link">
-                                        SMMPlaner.
-                                    </a>
 
                                 </div>
 
@@ -1465,38 +1490,39 @@
 
                         </div>
 
-                        <p class="lesson-text--border">หลังจากที่คุณมีเนื้อหาคุณภาพสูงสำหรับหน้าเพจและกลุ่มของคุณแล้ว
-                            คุณต้องไม่ลืมสิ่งสำคัญอีกสามสิ่งดังต่อไปนี้:</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'After you have high-quality content in your page and group, don\'t forget
+                    about three important things: ');?></p>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/time-refresh.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">อัพเดทเนื้อหาอย่างสม่ำเสมอ ให้ข้อมูลที่เหมาะสมกาลเทศะ
-                                เป็นประโยชน์และน่าสนใจแก่สมาชิกของคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Update content regularly. Give your subscribers a
+                        well-times, useful and interesting information');?></p>
 
                         </div>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/comments.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">สื่อสารกับสมาชิกของคุณ สร้างเพื่อนใหม่ ขยายการติดต่อผ่าน Facebook ของคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Communicate with subscribers, make new friends, expand
+                        your Facebook circle of contacts');?></p>
 
                         </div>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/quality.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">คิดเสมอเกี่ยวกับชื่อเสียงของคุณ คุณจำเป็นต้องสร้างแบรนด์ส่วนบุคคลที่แข็งแกร่งแล
-                                ะน่าเชื่อถือในโซเชียลเน็ตเวิร์ค จากนั้นเรื่องดังกล่าวก็จะกลายมาเป็นเครื่องมืออันทรงพลังในการค้นหาลูกค้าและพาร์ทเนอร์ขอ
-                                งคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Always think about your reputation. You need to create
+                        solid and confident personal brand in social networks, and then it will turn into a powerful
+                        tool for finding customers and partners.');?></p>
 
                         </div>
 
                         <footer class="lesson-footer">
 
-                            <p class="lesson-footer-text">ในคอร์สการโปรโมทธุรกิจผ่าน Facebook แบบส่วนตัวนั้น คุณจะได้เรียนรู้เกี่ยวกับโ
-                                อกาสในการโปรโมทกลุ่ม วิธีการโปรโมทเพจของคุณและการดึงดูดความสนใจสมาชิกผู้ที่อาจจะกลายมาเป็นลูกค้าหรือพาร์ทเ
-                                นอร์ของคุณภายในเวลาอันรวดเร็ว</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'In private Facebook promotion course you will learn about your group promotion
+                        opportunities, how to promote your own page and quickly attract new subscribers who can easily
+                        become your partners or customers.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footer-adv-fb-th.svg" class="lesson-footer-img" />
 
                         </footer>
@@ -1504,38 +1530,39 @@
                     </div>
 
 
-                    <h1 class="school-accordion-caption">การโฆษณาแบบกำหนดเป้าหมายใน Facebook</h1>
+                    <h1 class="school-accordion-caption"><?=Yii::t(category:'front', message:'Targeted advertising on Facebook');?></h1>
                     <div class="school-accordion__container">
 
                         <div class="lesson-header">
 
-                            <h2 class="lesson-header-caption">การโฆษณาแบบกำหนดเป้าหมายใน Facebook</h2>
+                            <h2 class="lesson-header-caption"><?=Yii::t(category:'front', message:'Targeted advertising on Facebook');?></h2>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/panda-darts.svg"
                                  class="lesson-header-img" alt="" />
 
                         </div>
 
-                        <p class="lesson-text--border">ในบทเรียนก่อนหน้านี้ คุณได้เรียนรู้หลักการพื้นฐานของการโปรโมทผ่านทาง Facebook
-                            แล้ว ถึงเวลาที่คุณจะได้เรียนรู้เพิ่มเติมเกี่ยวกับการโฆษณาที่ตรงกับกลุ่มเป้าหมายซึ่งจะช่วยให้คุณสามารถดึงดูดคนที่มีแนวโน้มว่า
-                            จะกลายมาเป็นลูกค้าและผู้ร่วมธุรกิจของคุณในอนาคตมากขึ้นได้</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'In previous lessons you\'ve already learned basic principles of Facebook
+                    promotion. It\'s time to learn more about targeted advertising, which will allow you to attract more
+                    of your potential customers and partners.');?></p>
 
                         <div class="lesson__container--gradient">
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/target-ad-hand-th.svg" class="lesson-container-img" />
                         </div>
 
-                        <p class="lesson-text">Facebook มีการวิเคราะห์ความสนใจและพฤติกรรมของผู้ใช้ในเว็บไซต์อย่างต่อเนื่อง
-                            ทั้งในและนอกแอพพลิเคชั่น เขาจะ “ดู” ว่า คนชอบอะไร เขาเขียนอะไรในฟีดข่าว เขาลงชื่อเข้าใช้ในกลุ่มใด
-                            เขาอ่านเพจใดบ้าง ใช้อุปกรณ์ใด เขาลงชื่อเข้าใช้จากอุปกรณ์ใด นั่นคือเหตุผลที่กำหนดได้อย่างถูกต้องว่าผู้ใช้รายใดเหมาะสมกับ
-                            การตั้งค่ากลุ่มเป้าหมายที่คุณกำหนดไว้ และแสดงโฆษณาให้กับคนเหล่านี้เห็น</p>
-                        <p class="lesson-text--border">ต่อไปนี้ คือ สิ่งที่คุณต้องทำเพื่อเริ่มใช้เครื่องมือที่มีประสิทธิภาพอย่างเช่นการโฆษณาที่ตรง
-                            กับกลุ่มเป้าหมาย และเราขอแนะนำให้คุณทำตามคำแนะนำทีละขั้นตอนของเราดังต่อไปนี้</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Facebook constantly analyzes interests and behavior of users on the site, in the
+                    app and outside of both. He \"looks\" what a person likes, what he writes in news feed, what he is
+                    signed up to, what groups / pages he reads, what devices he uses, what places he logs in from.
+                    That\'s why it accurately determines, which users fits the targeting parameters you use, and shows
+                    ads to these people.');?></p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'What you need to do to start using an effective tool like targeted
+                    advertising? We suggest using our step-by-step guide:');?></p>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/create-page.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">สร้างหน้าเพจธุรกิจสำหรับตัวคุณเองหรือแบรนด์ผลิตภัณฑ์ของคุณ หรือหากคุณไม่แน่ใจว่าคุ
-                                ณมีเพจนี้แล้วหรือไม่ ขอให้กรุณาตรวจสอบให้แน่ใจก่อน เราได้เขียนเกี่ยวกับวิธีสร้างหน้าเว็บใน Facebook ไว้ในบทเรียน
-                                ก่อนหน้านี้แล้ว </p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Create a business page for yourself or for your brand. Or make sure that
+                        such page already exist. We wrote about how to create a page in Facebook in the previous
+                        lesson.');?></p>
                             <span class="lesson-block-num">1</span>
 
                         </div>
@@ -1543,9 +1570,9 @@
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/create-ad.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">การกำหนดกลุ่มเป้าหมายของโฆษณาใน Facebook จะต้องทำใน Adsmanager
-                                ซึ่งคุณสามารถเข้าจากหน้าเพจของคุณได้โดยตรง จากนั้นให้คลิกที่ “สร้างโฆษณา” และที่มุมบนด้านขวาแล้วตั้งค่าพา
-                                รามิเตอร์</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Targeting of Facebook advertising begins in section Adsmanager, where you
+                        can go from your personal page. Next, in a right upper corner click \"create an ad\" and then set
+                        up parameters.');?></p>
                             <span class="lesson-block-num">2</span>
 
                         </div>
@@ -1553,16 +1580,17 @@
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/target-ad.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เลือกวัตถุประสงค์ของแคมเปญ โดยคุณจะบอกให้ Facebook ทราบว่า
-                                คุณอยากได้รับผลแบบใดจากการโฆษณา ในปัจจุบันนี้ มีอยู่ 3 หมวดหมู่ซึ่งประกอบด้วย 10 วัตถุประสงค์</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Choose a campaign\'s purpose. By choosing a purpose you tell Facebook what
+                        kind of result from an advertisement you want to receive. At the moment, there are 3 categories,
+                        which include 10 purposes.');?></p>
                             <span class="lesson-block-num">3</span>
 
                         </div>
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-1-th.png" class="target-gb-screen" />
 
-                        <p class="lesson-text--border">ลองสังเกตดูรายละเอียดเพิ่มเติมต่าง ๆ ด้วยเพื่อคุณจะสามารถเข้าใจได้ว่า
-                            วัตถุประสงค์ใดคือวัตถุประสงค์ที่เหมาะที่สุดในการเลือกใช้สำหรับแคมเปญของคุณ </p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Let\'s observe them in more detail, so you understand what advertising
+                    purpose is best to choose for your campaign.');?></p>
 
                         <div class="lesson__container">
 
@@ -1570,9 +1598,9 @@
 
                                 <div class="target-fb__content--small">
 
-                                    <h2 class="target-fb-caption--white">การจดจำได้</h2>
-                                    <p class="target-fb-text--white">เป้าหมายหลัก คือ การเพิ่มการรับรู้ถึงแบรนด์ผลิตภัณฑ์ของคุณ
-                                        วัตถุประสงค์ในกลุ่มนี้จะถูกใช้มากที่สุดหากคุณมีงบประมาณในการโฆษณาเป็นจำนวนมาก</p>
+                                    <h2 class="target-fb-caption--white"><?=Yii::t(category:'front', message:'Recognition');?></h2>
+                                    <p class="target-fb-text--white"><?=Yii::t(category:'front', message:'main goal is to increase awareness of your brand, this
+                                group is used most often if you have a large budget for advertising.');?></p>
 
                                 </div>
 
@@ -1582,12 +1610,12 @@
 
                             <ul class="target-fb-list">
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การรับรู้แบรนด์ผลิตภัณฑ์ – การโฆษณาถูกแสดงขึ้นมาเพื่อสร้างภาพลัก
-                                        ษณ์ของแบรนด์ในผู้ชมกลุ่มเป้าหมายของคุณ</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Brand recognition - advertising is shown to create a brand
+                                image in your target audience.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การเข้าถึง – คุณสามารถเลือกความถี่ที่ผู้ชมรายอื่น ๆ
-                                        จะเห็นโฆษณาของคุณได้</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Reach - allows you to choose how often users will see your
+                                ad.');?></p>
                                 </li>
                             </ul>
 
@@ -1595,9 +1623,9 @@
 
                                 <div class="target-fb__content--alone">
 
-                                    <h2 class="target-fb-caption--white">โอกาสในการขาย (Leads)</h2>
-                                    <p class="target-fb-text--white">วัตถุประสงค์ในกลุ่มนี้มีไว้เพื่อให้ผู้ชมมีปฏิสัมพันธ์กับแคมเปญของ
-                                        คุณ</p>
+                                    <h2 class="target-fb-caption--white"><?=Yii::t(category:'front', message:'Leads');?></h2>
+                                    <p class="target-fb-text--white"><?=Yii::t(category:'front', message:'purposes of this group are aimed at involving users to
+                                interact with your campaign.');?></p>
 
                                 </div>
 
@@ -1605,23 +1633,24 @@
 
                             <ul class="target-fb-list">
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การเข้าชม – จะอนุญาตให้แสดงโฆษณากับผู้ชมที่มีแนวโน้มว่าจะคลิกลิง
-                                        ค์ในโฆษณา</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Traffic - allows to show ads to people who are more likely
+                                to click on a link in an ad.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การมีส่วนร่วม – อนุญาตให้แสดงโฆษณากับผู้ชมที่มีปฏิสัมพันธ์กับโฆษ
-                                        ณาของคุณ ได้แก่ เขียนความคิดเห็น คลิกลิงค์ หรือกด “ไลค์” ในเพจของคุณ</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Involvement - allows to show ads to people who will interact
+                                with your ad: like it, comment, click on links, put \"like\" to your page.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การตั้งค่าแอพ – แสดงโฆษณากับผู้ชมที่มีแนวโน้มว่าจะติดตั้งแอพของ
-                                        คุณ</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'App settings - shows ads to those who are more likely to
+                                install your app.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">ดูวิดีโอ – แสดงโฆษณากับผู้ชมที่มีแนวโน้มว่าจะดูวิดีโอของคุณ</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Watching videos - shows ads to those who are more likely to
+                                see your video.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การสร้างโอกาสในการขาย – แสดงโฆษณากับผู้ชมที่มีแนวโน้มว่าจะคลิ
-                                        กโฆษณาและกรอกใบสมัครใน Facebook</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Leads generation - shows ads to people who are more likely
+                                to click on ads and fill out an application form on Facebook.');?></p>
                                 </li>
                             </ul>
 
@@ -1629,9 +1658,10 @@
 
                                 <div class="target-fb__content--small">
 
-                                    <h2 class="target-fb-caption--white">การแปลง</h2>
-                                    <p class="target-fb-text--white">วัตถุประสงค์ในกลุ่มนี้มีจุดมุ่งหมายเพื่อการขาย /แอพพลิเคชั่น
-                                        ทั้งจากคนใหม่ ๆ และจากผู้ที่รู้จักผลิตภัณฑ์และแบรนด์ของคุณแล้ว</p>
+                                    <h2 class="target-fb-caption--white"><?=Yii::t(category:'front', message:'Conversion');?></h2>
+                                    <p class="target-fb-text--white"><?=Yii::t(category:'front', message:'purposes of this group are aimed at getting sales /
+                                applications, both from new people and from those who already know your product and
+                                brand.');?></p>
 
                                 </div>
 
@@ -1641,16 +1671,18 @@
 
                             <ul class="target-fb-list">
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">Conversion – ช่วยให้คุณสามารถแสดงโฆษณากับผู้ชมที่มีแนวโน้ม
-                                        ว่าจะดำเนินการตามเป้าหมายที่กำหนดไว้ ได้แก่ การส่งใบสมัคร ตัดสินใจสั่งซื้อ ลงชื่อเข้าใช้ เป็นต้น</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Conversions - allows you to show ads to people who are more
+                                likely to perform a targeted action: send an application, make a purchase, sign in,
+                                etc.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">การขายตามแคตตาล็อก – อนุญาตให้คุณสามารถดาวน์โหลดแคตาล็อก
-                                        และแสดงโฆษณาตามการกระทำของบุคคลในไซต์: การดูบัตรผลิตภัณฑ์การเพิ่มลงในรถเข็นช็อปปิ้งเป็นต้น</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Sales by products catalog - allows you to download a product
+                                catalog and show ads depending on a person\'s actions on a site: viewing a product card,
+                                adding to a shopping cart, etc.');?></p>
                                 </li>
                                 <li class="target-fb-item">
-                                    <p class="target-fb-item-text">จุดเข้าชม (Visiting points) – แสดงโฆษณาให้กับผู้ชมที่สามารถ
-                                        เข้าชมแคมเปญของคุณได้</p>
+                                    <p class="target-fb-item-text"><?=Yii::t(category:'front', message:'Visiting points - shows ads to people who can visit your
+                                campaign.');?></p>
                                 </li>
                             </ul>
 
@@ -1659,8 +1691,8 @@
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/head-management.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เขียนชื่อแคมเปญ หากคุณคลิก “Split test” คุณสามารถตั้งค่าการทดสอบโฆษณาข
-                                องคุณได้ เพื่อดูว่าโฆษณาใดที่มีประสิทธิภาพมากที่สุด</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Write a campaign title. If you click \"Split test\", you can set up ads
+                        testing to find out which one is the most effective.');?></p>
                             <span class="lesson-block-num">4</span>
 
                         </div>
@@ -1670,53 +1702,53 @@
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/setting-ad.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">ตั้งค่าบัญชีการโฆษณาของคุณ คุณควรเลือกประเทศ สกุลเงิน และเขตเวลา – และอื่น ๆ
-                                ตามที่คุณต้องการ หลังจากนั้นให้คลิกที่ “ดำเนินการต่อ”</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Set up your advertising account. You should select country, currency and
+                        timezone - ones you need. After that click \"Continue\".');?></p>
                             <span class="lesson-block-num">5</span>
 
                         </div>
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-3-th.png" class="target-gb-screen" />
 
-                        <p class="lesson-text--border">อย่าลืมเลือกสกุลเงินที่คุณจะจ่ายสำหรับการโฆษณา คุณจะไม่สามารถเปลี่ยนแปลงแคมเ
-                            ปญได้หลังจากการเปิดตัวแคมเปญของคุณไปแล้วเนื่องจากโฆษณาของคุณได้เริ่มโฆษณาแล้ว</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Be sure to choose currency in which you\'ll pay for advertising. After
+                    launching of campaign, when it starts being showed to users, you won\'t be able to change it.');?></p>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/setting-ad.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">ตั้งค่าการกำหนดเป้าหมายและเลือกผู้ชมที่คุณต้องการให้เขาเห็นโฆษณาของคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Set up targeting and select an audience to show ads to.');?></p>
                             <span class="lesson-block-num">6</span>
 
                         </div>
 
                         <div class="lesson__container">
 
-                            <h2 class="lesson-caption--white">การตั้งค่าการกำหนดเป้าหมายพื้นฐาน ได้แก่</h2>
+                            <h2 class="lesson-caption--white"><?=Yii::t(category:'front', message:'Basic targeting settings include:');?></h2>
 
                             <ul class="lesson-list">
                                 <li class="lesson-item">
                                     <img src="/modules/modules/admin/cabinet_assets/pictures/svg/icons/earth-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text--white">ภูมิศาสตร์ – คุณสามารถเลือกเมืองหรือจังหวัด ประเทศ
-                                        หรือจุดอื่น ๆ บนแผนที่ที่ต้องการให้เห็นโฆษณาของคุณได้</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Geo - allows you to select cities, countries or
+                                points on map to show ads.');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/map-mark.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text--white">สถานที่ตั้ง – คุณสามารถที่อยู่ถาวรของสถานที่ นักท่องเที่ยวแ
-                                        ละผู้เยี่ยมชมล่าสุดได้</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Location - allows you to choose permanent residents
+                                of a place, travelers and recent visitors.');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/modules/admin/cabinet_assets/pictures/svg/icons/age-icon.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text--white">อายุ – มีให้เลือกตั้งแต่ 13 ถึง 65 ปีขึ้นไป</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Age - gives age choice from 13 to 65+ years.');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/gender-icon.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text--white">เพศ – คุณสามารถเลือกชาย หรือหญิง หรือทั้ง 2
-                                        เพศที่ต้องการให้เห็นโฆษณาของคุณได้</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Sex - allows you to choose men, women or both sexes
+                                to show ads to.');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/language-icon.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text--white">ภาษา – คุณสามารถเลือกภาษาให้สอดคล้องกับกลุ่มผู้ชมเป้าห
-                                        มายของคุณ</p>
+                                    <p class="lesson-item-text--white"><?=Yii::t(category:'front', message:'Language - allows to select language which your
+                                audience speaks on.');?></p>
                                 </li>
                             </ul>
 
@@ -1724,9 +1756,9 @@
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-4-th.png" class="target-gb-screen" />
 
-                        <p class="lesson-text--border">ขอให้กำหนดความสนใจและตามพฤติกรรมของกลุ่มเป้าหมายใน Facebook อย่างละเอียด
-                            รวมถึงสิ่งอื่น ๆ ด้วย</p>
-                        <p class="lesson-text">มีทั้งหมด 3 หมวดหมู่ซึ่งแต่ละหมวด แบ่งออกเป็นหมวดหมู่ย่อย ๆ หลายประเภท ได้แก่</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'Detailed targeting allows you to show ads based on person\'s interests
+                    and his behavior on Facebook and beyond it.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'It has 3 categories, each of them includes many subcategories:');?></p>
 
                         <div class="lesson__block">
 
@@ -1734,8 +1766,8 @@
 
                             <div class="lesson-block__container">
 
-                                <h3 class="lesson-block-text--bold">ความสนใจทางด้านประชากรศาสตร์ </h3>
-                                <p class="lesson-block-text">ได้แก่ การศึกษา เพื่อน เหตุการณ์ในชีวิต สถานภาพการสมรสและการทำงาน</p>
+                                <h3 class="lesson-block-text--bold"><?=Yii::t(category:'front', message:'Demographic interests:');?></h3>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'education, age mates, life events, marital status and work.');?></p>
 
                             </div>
 
@@ -1747,10 +1779,10 @@
 
                             <div class="lesson-block__container">
 
-                                <h3 class="lesson-block-text--bold">ความสนใจ</h3>
-                                <p class="lesson-block-text">ได้แก่ ธุรกิจและอุตสาหกรรม อาหารและเครื่องดื่ม การจับจ่ายใช้สอยและแฟชั่น
-                                    ความบันเทิง ครอบครัวและความสัมพันธ์ กีฬาและกิจกรรมกลางแจ้ง การออกกำลังกายและการดำเนินชีวิตที่ดี
-                                    ต่อสุขภาพ และงานอดิเรก</p>
+                                <h3 class="lesson-block-text--bold"><?=Yii::t(category:'front', message:'Interests:');?></h3>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'business and industry, foods and drinks, shopping and fashion,
+                            entertainment, family and relationships, sports and outdoor activities, fitness and healthy
+                            lifestyle, hobbies.');?></p>
 
                             </div>
 
@@ -1762,10 +1794,10 @@
 
                             <div class="lesson-block__container">
 
-                                <h3 class="lesson-block-text--bold">พฤติกรรม</h3>
-                                <p class="lesson-block-text">ได้แก วันครบรอบต่าง ๆ กิจกรรมออนไลน์ การจำแนกประเภทผู้บริโภค
-                                    เอกลักษณ์ทางวัฒนธรรม พฤติกรรมการจับจ่ายใช้สอย ผู้ใช้อุปกรณ์เคลื่อนที่ การเดินทาง กิจกรรมตามเทศกาลต่าง
-                                    ๆ และ ชาวต่างชาติ</p>
+                                <h3 class="lesson-block-text--bold"><?=Yii::t(category:'front', message:'Behavior:');?></h3>
+                                <p class="lesson-block-text"><?=Yii::t(category:'front', message:'anniversary, online activities, consumer classification,
+                            multicultural identity, purchase behavior, mobile device users, travelling, seasonal
+                            events, expatriates.');?></p>
 
                             </div>
 
@@ -1773,8 +1805,8 @@
 
                         <div class="target-fb__container--white">
 
-                            <p class="lesson-block-text--border">หลังจากกำหนดรายละเอียดกลุ่มเป้าหมายแล้ว คุณจะทราบจำนวนผู้เข้าเยี่ยมชม
-                                เว็บไซต์ที่พบโดย Facebook</p>
+                            <p class="lesson-block-text--border"><?=Yii::t(category:'front', message:'After choosing targeting you\'ll see audience size found by
+                        Facebook.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-5-th.png" class="target-fb-screen--right" />
 
                         </div>
@@ -1782,38 +1814,38 @@
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/setting-ad.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เลือกตำแหน่งโฆษณาของคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Choose your ad\'s placement');?></p>
                             <span class="lesson-block-num">7</span>
 
                         </div>
 
                         <div class="lesson__container">
 
-                            <p class="lesson-text--white">เมื่อสร้างโฆษณาใน Facebook ขอแนะนำให้ใช้ตำแหน่งอัตโนมัติหรือการกำหน
-                                ดตำแหน่งที่เลือกด้วยตนเอง (จุดโฆษณา)</p>
-                            <p class="lesson-text--white">เราสนใจในส่วนหลัง ดังนั้น คลิกที่ “แก้ไขตำแหน่ง”</p>
-                            <p class="lesson-text--white">สิ่งแรกที่คุณต้องทำ คือ เลือกตำแหน่งที่คุณจะแสดงโฆษณาของคุณ ได้แก่</p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'When creating an ad Facebook suggests using auto or manually
+                        selected placements (advertising spots).');?></p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'We are interested in the latter. So click on \"edit placement\".');?></p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'First of all you need to choose where you\'ll show ads:');?></p>
 
                             <div class="lesson__block">
 
                                 <div class="lesson__block--three">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/smartphone.svg" class="lesson-block-icon--three" />
-                                    <p class="lesson-block-text--three--white">โทรศัพท์สมาร์ทโฟน</p>
+                                    <p class="lesson-block-text--three--white"><?=Yii::t(category:'front', message:'Smartphones\'');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--three">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/smartphone.svg" class="lesson-block-icon--three" />
-                                    <p class="lesson-block-text--three--white">คอมพิวเตอร์</p>
+                                    <p class="lesson-block-text--three--white"><?=Yii::t(category:'front', message:'PCs');?></p>
 
                                 </div>
 
                                 <div class="lesson__block--three">
 
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/smartphone.svg" class="lesson-block-icon--three" />
-                                    <p class="lesson-block-text--three--white">ทั้งหมด (ทั้งโทรศัพท์สมาร์ทโฟนและคอมพิวเตอร์)</p>
+                                    <p class="lesson-block-text--three--white"><?=Yii::t(category:'front', message:'All (smartphones and PCs)');?></p>
 
                                 </div>
 
@@ -1823,7 +1855,8 @@
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-6-th.png" class="target-gb-screen" />
 
-                        <p class="lesson-text">เลือกตัวเลือกที่คุณต้องการและไปที่ตำแหน่งโฆษณา ประเภทของตำแหน่งที่สามารถเลือกได้ ได้แก่</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Select an option you need and go to ads placement. So, what types of placement
+                    can be selected: ');?></p>
 
                         <div class="lesson__block">
 
@@ -1831,7 +1864,7 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/fb-logo.svg" class="lesson-block-icon--four" />
                                 <b>Facebook</b>
-                                <p class="lesson-block-text--four">โฆษณาจะแสดงในเว็บไซต์ของ Facebook และในแอพพลิเคชั่น</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'ads are shown on Facebook website and in the app');?></p>
 
                             </div>
 
@@ -1839,7 +1872,7 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/instagram-icon.svg" class="lesson-block-icon--four" />
                                 <b>Instagram</b>
-                                <p class="lesson-block-text--four">โฆษณาจะแสดงในแอพพลิเคชั่นของโทรศัพท์สมาร์ทโฟน</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'ads are shown in the smartphone app');?></p>
 
                             </div>
 
@@ -1847,8 +1880,7 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/messenger.svg" class="lesson-block-icon--four" />
                                 <b>Messenger</b>
-                                <p class="lesson-block-text--four">โฆษณาจะแสดงทั้งใน Facebook
-                                    ในแอพพลิเคชั่นและในแอพพลิเคชั่นของ Messenger</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'ads are shown on Facebook, in the app and in the messenger app');?></p>
 
                             </div>
 
@@ -1856,57 +1888,54 @@
 
                                 <img src="/modules/admin/cabinet_assets/pictures/svg/icons/megaphone.svg" class="lesson-block-icon--four" />
                                 <b>Audience network</b>
-                                <p class="lesson-block-text--four">โฆษณาจะแสดงในเว็บไซต์และแอพพลิเคชั่นของพันธมิตรของ
-                                    Facebook</p>
+                                <p class="lesson-block-text--four"><?=Yii::t(category:'front', message:'ads are shown on sites and apps of Facebook partners');?></p>
 
                             </div>
 
                         </div>
 
-                        <p class="lesson-text">นอกจากนี้คุณยังสามารถเลือกอุปกรณ์และรูปแบบที่จะให้โฆษณาของคุณปรากฏได้อีกด้วย</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'You can also choose devices and their models where your ads will be shown.');?></p>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/calculated.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เลือกงบประมาณของแคมเปญโฆษณา</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Choose an advertising campaign budget');?></p>
                             <span class="lesson-block-num">8</span>
 
                         </div>
 
-                        <p class="lesson-text">มีทางเลือกงบประมาณให้เลือก 2 ทางเลือก ได้แก่</p>
-                        <b class="lesson-text--bold">งบประมาณรายวัน</b>
-                        <p class="lesson-text">คือ จำนวนเงินที่คุณพร้อมที่จะใช้จ่ายในการโฆษณาทุกวัน
-                        </p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'You can choose 2 budget options:');?></p>
+                        <b class="lesson-text--bold"><?=Yii::t(category:'front', message:'Daily budget');?></b>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'is the amount you\'re ready to spend on advertising daily.');?></p>
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-7-th.png" class="target-gb-screen" />
 
-                        <b class="lesson-text--bold">งบประมาณสำหรับช่วงเวลาทั้งหมด</b>
-                        <p class="lesson-text">คือ จำนวนเงินที่คุณพร้อมที่จะใช้จ่ายในการโฆษณาในช่วงระยะเวลาใดเวลาหนึ่ง
-                        </p>
+                        <b class="lesson-text--bold"><?=Yii::t(category:'front', message:'Budget for entire duration');?></b>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'is the amount you\'re ready to spend on advertising for a certain period of time.');?></p>
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-8-th.png" class="target-gb-screen" />
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/progress.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เลือกการเพิ่มประสิทธิภาพและราคาของโฆษณาของคุณ</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Choose your ads optimization and price.');?></p>
                             <span class="lesson-block-num">9</span>
 
                         </div>
 
-                        <p class="lesson-text--border">คุณสามารถเลือกวิธีที่คุณจะจ่ายสำหรับการโฆษณาของคุณได้
-                            สำหรับการแสดงโฆษณาหรือต่อคลิก คุณจะเลือกค่าและระบุราคาหรือปล่อยไว้ในโหมดอัตโนมัติก็ได้ - ในกรณีเช่นนี้
-                            Facebook จะเลือกราคาที่เหมาะสมที่แข่งขันได้ให้กับคุณให้เอง</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'You can choose how you\'ll pay for advertising: for showing it or per
+                    click. Choose value and specify the price, or leave it in auto mode - in this case Facebook itself
+                    will pick up a competitive price.');?></p>
 
                         <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-9-th.png" class="target-gb-screen" />
 
-                        <p class="lesson-text">คุณสามารถตั้งค่าวันที่เริ่มต้นและวันที่สิ้นสุดของโฆษณาได้ นอกจากนี้คุณยังสามารถกำหนดการแสด
-                            งโฆษณาของคุณได้อีกด้วย เช่น วันและช่วงเวลาที่คุณต้องการ เป็นต้น</p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'You can set up start date and end date of ad. Here you can come up with schedule
+                    of showing your ads: days, time, etc.');?></p>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/create-template.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">สร้างโฆษณา</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Create an ad');?></p>
                             <span class="lesson-block-num">10</span>
 
                         </div>
@@ -1916,7 +1945,8 @@
                             <div class="lesson__block">
 
                                 <span class="lesson-block-num--white">1</span>
-                                <p class="lesson-block-text--white">ตั้งชื่อโฆษณาและเลือกหน้าเว็บที่คุณจะเปิดตัว</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Write ads title and select a page from which you\'ll
+                            launch it');?></p>
 
                             </div>
 
@@ -1925,95 +1955,93 @@
                             <div class="lesson__block">
 
                                 <span class="lesson-block-num--white">2</span>
-                                <p class="lesson-block-text--white">เลือกรูปแบบของโฆษณา</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Select an ads format');?></p>
 
                             </div>
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-11-th.png" class="target-gb-screen" />
 
-                            <p class="lesson-text--border--white">รูปแบบเหล่านี้เป็นรูปแบบที่ได้รับความนิยมมากที่สุด
-                                หากคุณตั้งเป้าหมายที่ต่างออกไปสำหรับแคมเปญโฆษณาของคุณ เมื่อคุณเริ่มสร้างคุณจะเห็นรูปแบบอื่น ๆ
-                                ที่แตกต่างออกไปเช่นกัน</p>
+                            <p class="lesson-text--border--white"><?=Yii::t(category:'front', message:'These are the most popular formats. If you set different
+                        purposes for an advertising campaign, different formats will be offered at the beginning of
+                        its creation.');?></p>
 
                             <div class="lesson__block">
 
                                 <span class="lesson-block-num--white">3</span>
-                                <p class="lesson-block-text--white">สร้างโฆษณา
-                                    <br>โฆษณาประกอบไปด้วยองค์ประกอบ 7 ประการ ได้แก่</p>
+                                <p class="lesson-block-text--white"><?=Yii::t(category:'front', message:'Create an ad
+                            <br/>An ad consists from 7 elements:');?></p>
 
                             </div>
 
                             <ul class="lesson-list">
                                 <li class="lesson-container-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">รูปภาพที่มีขนาด 1,200x628 พิกเซล</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Picture in size 1200x628 pixels');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">ลิงค์</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Links');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">ชื่อเรื่อง</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Title');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">ข้อความ</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Text');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">ปุ่ม</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Button');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">คำอธิบายของลิงค์ในฟีดข่าว</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Description of a link in a news feed');?></p>
                                 </li>
                                 <li class="lesson-item">
                                     <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
-                                    <p class="lesson-item-text">ลิงค์สำหรับแสดงโฆษณา</p>
+                                    <p class="lesson-item-text"><?=Yii::t(category:'front', message:'Link for showing an ad');?></p>
                                 </li>
                             </ul>
 
-                            <p class="lesson-text--border--white">Facebook ร่วมมือกับ Shutterstock
-                                เพื่อให้คุณสามารถใช้ภาพคุณภาพสูง (ที่ปกติแล้วจะต้องซื้อหากต้องการใช้) ได้ฟรี หากต้องการใช้ กรุณาคลิกที่
-                                “รูปภาพฟรี”</p>
-                            <p class="lesson-text--white">รูปภาพที่ใช้ต้องเป็นไปตามกฎการโฆษณาของ Facebook
-                                คุณสามารถหาอ่านได้จากเว็บไซต์อย่างเป็นทางการ</p>
+                            <p class="lesson-text--border--white"><?=Yii::t(category:'front', message:'Facebook collaborates with Shutterstock, so you have
+                        high-quality paid images which you can use for free. To use them, click on \"free stock\".');?></p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'An image must comply with Facebook advertising rules. You can find
+                        them on official website.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-12-th.png" class="target-gb-screen" />
 
-                            <p class="lesson-text--white">ตั้งชื่อโฆษณาและเขียนคำอธิบาย สิ่งเหล่านี้เป็นองค์ประกอบสำคัญของโฆษณา
-                                ของคุณ คุณควรใช้ข้อความที่สามารถดึงดูดความสนใจได้เป็นอย่างดี</p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'Write text for title and description. It\' a very important element
+                        of your ad. You should work on text and given it a lot of attention.');?></p>
 
                             <img src="/modules/admin/cabinet_assets/pictures/img/target-ad-fb-screen-13-th.png" class="target-gb-screen
                         target-gb-screen--small" />
 
-                            <p class="lesson-text--white">ทางด้านขวาใน “ดูตัวอย่างโฆษณา” คุณสามารถดูได้ล่วงหน้าก่อนว่า
-                                โฆษณาของคุณจะมีลักษณะอย่างไรเมื่อปรากฏในอุปกรณ์ต่าง ๆ</p>
+                            <p class="lesson-text--white"><?=Yii::t(category:'front', message:'On the right in \"ads preview\" window you can see how your ad will
+                        look like on different devices.');?></p>
 
                         </div>
 
                         <div class="lesson__block">
 
                             <img src="/modules/admin/cabinet_assets/pictures/svg/icons/wallet.svg" class="lesson-block-icon" />
-                            <p class="lesson-block-text">เลือกวิธีการชำระเงิน</p>
+                            <p class="lesson-block-text"><?=Yii::t(category:'front', message:'Choose a payment method');?></p>
                             <span class="lesson-block-num">11</span>
 
                         </div>
 
-                        <p class="lesson-text--border">หากนี่เป็นแคมเปญโฆษณาแรกของคุณ ทาง Facebook จะขอให้คุณเลือกวิธีที่คุณจะใ
-                            ช้เพื่อจ่ายค่าโฆษณาของคุณ</p>
-                        <p class="lesson-text">เลือกวิธีการชำระเงิน กรอกข้อมูลที่ต้องการแล้วคลิกปุ่ม “ถัดไป” หลังจากเปิดตัวแคมเปญโฆษณาแล้ว
-                            โฆษณาจะได้รับการตรวจสอบก่อนภายในเวลาประมาณ 15 นาทีถึง 4 ชั่วโมง
-                            แต่โดยปกติแล้วการดำเนินการนี้จะไปได้อย่างรวดเร็ว</p>
-                        <p class="lesson-text">ขอแสดงความยินดี! คุณเพิ่งเปิดตัวโฆษณาที่ตรงกับกลุ่มเป้าหมายของคุณเป็นครั้งแรกใน
-                            Facebook!</p>
+                        <p class="lesson-text--border"><?=Yii::t(category:'front', message:'If this is your first advertising campaign, then Facebook will ask you
+                    to choose how you\'ll pay for advertising.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Choose payment method, enter required data and click \"Next\" button. After
+                    launching an ads campaign it will be moderated from 15 minutes to 4 hours. But usually it goes
+                    quickly.');?></p>
+                        <p class="lesson-text"><?=Yii::t(category:'front', message:'Congratulations! You just launched your first targeted ad on Facebook!');?></p>
 
                         <footer class="lesson-footer">
 
-                            <p class="lesson-footer-text">ในคอร์สการโปรโมทใน Facebook ส่วนตัว (คุณต้องโปรโมทสถานะเพื่อการเข้าถึง)
-                                คุณจะได้เรียนรู้เกี่ยวกับวิธีลับและเคล็ดลับต่าง ๆ ที่จะทำให้โฆษณาที่กำหนดเกลุ่มป้าหมายของคุณใน Facebook
-                                มีต้นทุนถูกลงแต่มีประสิทธิภาพมากขึ้น</p>
+                            <p class="lesson-footer-text"><?=Yii::t(category:'front', message:'In a private Facebook promotion course (you need to promote status
+                        to have access) you\'ll also learn about secret ways to make your targeted Facebook ads cost
+                        cheaper and be more effective.');?></p>
                             <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footer-targetAd-fb-th.svg" class="lesson-footer-img" />
 
                         </footer>
