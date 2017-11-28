@@ -1,0 +1,96 @@
+function showVideo() {
+    document.getElementById('shadow').classList.add('shadow-show');
+    document.getElementById('video_popup_1').classList.add('video-show');
+    document.getElementById('close_video_1').classList.add('video-close-show');
+    document.getElementById('video_popup_2').classList.add('video-show');
+    document.getElementById('close_video_2').classList.add('video-close-show');
+    document.getElementById('video_popup_3').classList.add('video-show');
+    document.getElementById('close_video_3').classList.add('video-close-show');
+    document.getElementById('video_popup_4').classList.add('video-show');
+    document.getElementById('close_video_4').classList.add('video-close-show');
+    document.getElementById('video_popup_5').classList.add('video-show');
+    document.getElementById('close_video_5').classList.add('video-close-show');
+    document.getElementById('video_popup_6').classList.add('video-show');
+    document.getElementById('close_video_6').classList.add('video-close-show');
+    document.getElementById('video_popup_7').classList.add('video-show');
+    document.getElementById('close_video_7').classList.add('video-close-show');
+    document.getElementById('video_popup_8').classList.add('video-show');
+    document.getElementById('close_video_8').classList.add('video-close-show');
+    document.getElementById('video_popup_9').classList.add('video-show');
+    document.getElementById('close_video_9').classList.add('video-close-show');
+    document.getElementById('video_popup_10').classList.add('video-show');
+    document.getElementById('close_video_10').classList.add('video-close-show');
+    document.getElementById('video_popup_11').classList.add('video-show');
+    document.getElementById('close_video_11').classList.add('video-close-show');
+    document.getElementById('video_popup_12').classList.add('video-show');
+    document.getElementById('close_video_12').classList.add('video-close-show');
+    document.getElementById('video_popup_13').classList.add('video-show');
+    document.getElementById('close_video_13').classList.add('video-close-show');
+    document.getElementById('video_popup_14').classList.add('video-show');
+    document.getElementById('close_video_14').classList.add('video-close-show');
+    document.getElementById('video_popup_15').classList.add('video-show');
+    document.getElementById('close_video_15').classList.add('video-close-show');
+    document.getElementById('video_popup_16').classList.add('video-show');
+    document.getElementById('close_video_16').classList.add('video-close-show');
+    document.getElementById('video_popup_17').classList.add('video-show');
+    document.getElementById('close_video_17').classList.add('video-close-show');
+    document.getElementById('video_popup_18').classList.add('video-show');
+    document.getElementById('close_video_18').classList.add('video-close-show');
+    document.getElementById('video_popup_19').classList.add('video-show');
+    document.getElementById('close_video_19').classList.add('video-close-show');
+    document.getElementById('video_popup_20').classList.add('video-show');
+    document.getElementById('close_video_20').classList.add('video-close-show');
+}
+
+function closeVideo() {
+    document.getElementById('shadow').classList.remove('shadow-show');
+    document.getElementById('video_popup_1').classList.remove('video-show');
+    document.getElementById('close_video_1').classList.remove('video-close-show');
+    document.getElementById('video_popup_2').classList.remove('video-show');
+    document.getElementById('close_video_2').classList.remove('video-close-show');
+    document.getElementById('video_popup_3').classList.remove('video-show');
+    document.getElementById('close_video_3').classList.remove('video-close-show');
+    document.getElementById('video_popup_4').classList.remove('video-show');
+    document.getElementById('close_video_4').classList.remove('video-close-show');
+    document.getElementById('video_popup_5').classList.remove('video-show');
+    document.getElementById('close_video_5').classList.remove('video-close-show');
+    document.getElementById('video_popup_6').classList.remove('video-show');
+    document.getElementById('close_video_6').classList.remove('video-close-show');
+    document.getElementById('video_popup_7').classList.remove('video-show');
+    document.getElementById('close_video_7').classList.remove('video-close-show');
+    document.getElementById('video_popup_8').classList.remove('video-show');
+    document.getElementById('close_video_8').classList.remove('video-close-show');
+    document.getElementById('video_popup_9').classList.remove('video-show');
+    document.getElementById('close_video_9').classList.remove('video-close-show');
+    document.getElementById('video_popup_10').classList.remove('video-show');
+    document.getElementById('close_video_10').classList.remove('video-close-show');
+    document.getElementById('video_popup_11').classList.remove('video-show');
+    document.getElementById('close_video_11').classList.remove('video-close-show');
+    document.getElementById('video_popup_12').classList.remove('video-show');
+    document.getElementById('close_video_12').classList.remove('video-close-show');
+    document.getElementById('video_popup_13').classList.remove('video-show');
+    document.getElementById('close_video_13').classList.remove('video-close-show');
+    document.getElementById('video_popup_14').classList.remove('video-show');
+    document.getElementById('close_video_14').classList.remove('video-close-show');
+    document.getElementById('video_popup_15').classList.remove('video-show');
+    document.getElementById('close_video_15').classList.remove('video-close-show');
+    document.getElementById('video_popup_16').classList.remove('video-show');
+    document.getElementById('close_video_16').classList.remove('video-close-show');
+    document.getElementById('video_popup_17').classList.remove('video-show');
+    document.getElementById('close_video_17').classList.remove('video-close-show');
+    document.getElementById('video_popup_18').classList.remove('video-show');
+    document.getElementById('close_video_18').classList.remove('video-close-show');
+    document.getElementById('video_popup_19').classList.remove('video-show');
+    document.getElementById('close_video_19').classList.remove('video-close-show');
+    document.getElementById('video_popup_20').classList.remove('video-show');
+    document.getElementById('close_video_20').classList.remove('video-close-show');
+}
+
+function closeMenu() {
+    document.getElementById('nav-mobil').classList.remove('show');
+    document.getElementById('open').classList.remove('active', 'close-btn');
+}
+
+function showSubmenu() {
+    document.getElementById('submenu_list').classList.add('show-submenu');
+}
