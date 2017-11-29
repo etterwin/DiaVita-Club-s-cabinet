@@ -1774,6 +1774,11 @@ input[type="file"] {
     color: #fecc0c;
 }
 
+.lesson-block-container-caption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /* end captions*/
 
 /*texts*/
@@ -1938,6 +1943,99 @@ input[type="file"] {
     font-weight: bold;
 }
 
+.text-linechat,
+.text-fb,
+.text-skype,
+.text-wa {
+    position: relative;
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+}
+
+.text-linechat::before {
+    content: " ";
+    background: #00c200;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+}
+
+.text-fb::before {
+    content: " ";
+    background: #29aae3;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+}
+
+.text-wa::before {
+    content: " ";
+    background: #1bd741;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+}
+
+.text-skype::before {
+    content: " ";
+    background: #00aff0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+}
+
+.lesson-container-text {
+    font-size: 14px;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: white;
+    margin: auto;
+}
+
+.lesson-container-text--border {
+    margin: 10px auto;
+    color: white;
+    position: relative;
+}
+
+.lesson-container-text--border::before {
+    content: " ";
+    background: #fecc0c;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+}
+
+.lesson-container-text--border--small {
+    position: relative;
+    margin: auto;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.lesson-container-text--border--small::before {
+    content: " ";
+    background: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -2px;
+}
+
 /*end texts*/
 
 /*containers*/
@@ -1957,6 +2055,14 @@ input[type="file"] {
     box-sizing: border-box;
     margin: 20px auto;
     background: #00c5db;
+}
+
+.lesson__container--border--left {
+    width: 70%;
+    margin: 15px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 8px dashed white;
 }
 
 .lesson__container--white {
@@ -2011,6 +2117,11 @@ input[type="file"] {
     width: 70%;
 }
 
+.lesson-block__texts {
+    width: 70%;
+    margin: 10px auto;
+}
+
 .lesson-block__container--wide {
     display: inline-block;
     margin: auto 0 auto ;
@@ -2024,6 +2135,12 @@ input[type="file"] {
 .lesson-block-icon {
     height: 100px;
     margin: auto auto auto 0;
+    display: inline-block;
+}
+
+.lesson-block-icon--top {
+    height: 100px;
+    margin: 0 auto auto 0;
     display: inline-block;
 }
 
@@ -2171,15 +2288,6 @@ input[type="file"] {
     margin: auto;
 }
 
-.lesson-container-text {
-    font-size: 14px;
-    width: 70%;
-    padding: 10px;
-    box-sizing: border-box;
-    line-height: 1.5;
-    color: white;
-    margin: auto;
-}
 
 /*footer*/
 
@@ -4269,7 +4377,8 @@ input[type="file"] {
     .lesson__block--two,
     .lesson__block--three,
     .lesson__block--four,
-    .lesson__block--five {
+    .lesson__block--five,
+    .lesson-block-icon--top {
         display: block;
         width: 100%;
         margin: 10px auto;
