@@ -1878,6 +1878,20 @@ input[type="file"] {
     margin: auto;
 }
 
+.lesson-block-text--centre {
+    display: inline-block;
+    margin: auto auto auto 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lesson-block-text--wide {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+
 .lesson-block-text--white {
     width: 70%;
     display: inline-block;
@@ -1941,6 +1955,11 @@ input[type="file"] {
 
 .lesson-block-container-text--bold {
     font-weight: bold;
+    color: white;
+}
+
+.lesson-block-container-text {
+    color: white;
 }
 
 .text-linechat,
@@ -2159,6 +2178,22 @@ input[type="file"] {
 }
 
 /*end images and icon*/
+
+/*video*/
+
+.lesson-video-wrapper {
+    margin: 20px auto;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+}
+
+.lesson-video {
+    max-width: 300px;
+    width: 100%;
+}
+
+/*end video*/
 
 /*list*/
 
@@ -2538,7 +2573,7 @@ input[type="file"] {
 /*advanced course of promotion in fb*/
 
 .advanced-icon-link {
-    color: white;
+    color: #fecc0c;
     font-size: 18px;
     font-weight: bold;
 }
@@ -3881,6 +3916,23 @@ input[type="file"] {
     width: 80%;
 }
 
+.lesson-screenshot--centre {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.lesson-screenshot--small {
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: inline-block;
+    width: 49%;
+}
+
+
 /*Power of a declaration*/
 
 .power__container {
@@ -4372,6 +4424,20 @@ input[type="file"] {
     .plan-header-caption {
         width: 100%;
         display: block;
+    }
+
+    .lesson-screenshot--centre {
+        width: 90%;
+    }
+
+    .lesson-screenshot--small {
+        padding: 10px;
+        display: block;
+        width: 90%;
+    }
+
+    .lesson-list {
+        width: 90%;
     }
 
     .lesson__block--two,
