@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="shortcut icon" href="../../assets/pictures/title.png" type="image/png">
+
+    <!-- CSS -->
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/media.css" rel="stylesheet">
+    <link href="../../assets/css/media1600.css" rel="stylesheet">
+    <link href="../../assets/css/media1400.css" rel="stylesheet">
+    <link href="../../assets/css/media1200.css" rel="stylesheet">
+    <link href="../../assets/css/media992.css" rel="stylesheet">
+    <link href="../../assets/css/media768.css" rel="stylesheet">
+    <link href="../../assets/css/media320.css" rel="stylesheet">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Kanit:300" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="../../assets/js/appendItemShop.js"></script>
+    <script src="../../assets/js/overlay.js"></script>
+
+    <script src="../../assets/js/addClass.js"></script>
+    <script src="../../assets/js/hide.js"></script>
+    <script src="../../assets/js/menu.js"></script>
+    <script src="../../assets/js/scrollup.js"></script>
+    <script src="../../assets/js/search.js"></script>
+    <script src="../../assets/js/submenu.js"></script>
+    <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+<!-- overlay -->
+<div id="overlay" class="shop-overlay">
+
+    <div class="overlay-wrapper">
+
+        <h2 class="overlay-caption"></h2>
+
+        <div class="progress-container" data-value="100">
+
+            <svg class="progress-bar" id="svg" width="120" height="120" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+                <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%"   stop-color="#05a"/>
+                    <stop offset="50%"  stop-color="#a55"/>
+                    <stop offset="100%" stop-color="#0a5"/>
+                </linearGradient>
+
+                <circle class="progress-meter" r="48" cx="60" cy="60" fill="transparent" stroke-width="20" stroke-dashoffset="0"></circle>
+                <circle class="progress-value" r="48" cx="60" cy="60" fill="transparent"  stroke="url(#linear)" stroke-width="20" stroke-dashoffset="0" stroke-dasharray="301.59"></circle>
+
+            </svg>
+
+            <span>0%</span>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- end overlay -->
+
+<!-- header -->
+
+<a id="anchor--top"></a>
+
+<div class="btn button-container" id="open">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+</div>
+
+<nav class="nav-mobil" id="nav-mobil">
+
+    <ul class="nav-mobil-list" id="accordion">
+        <li class="nav-mobil-item">
+            <a href="../../EN.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="" />Home</a>
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link">
+                <img src="../../assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="" />
+                My structure<i class="fa fa-chevron-down"></i></div>
+            <ul class="mobil-submenu-list mobil-tabs-list">
+                <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link active-profile-mob"
+                                                                  onclick="openProfile(this)">My profile</a></li>
+                <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
+                                                                  onclick="openProfile(this)">My statistic</a></li>
+                <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
+                                                                  onclick="openProfile(this)">My contacts</a></li>
+                <li class="mobil-submenu-item mobil-tabs-item"><a href="profile.html"
+                                                                  class="mobil-submenu-item-link mobil-tabs-item-link "
+                                                                  onclick="openProfile(this)">Setting</a></li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="instruments.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="" />Instruments</a>
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link">
+                <img src="../../assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="" />
+                School<i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item"><a href="introduction.html"
+                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                  onclick="openSchool(this)">Introduction</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
+                                                  onclick="openSchool(this)">Online promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
+                                                  onclick="openSchool(this)">Offline promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
+                                                  onclick="openSchool(this)">Business creating</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
+                                                  onclick="openSchool(this)">Increase in sales</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link"
+                                                  onclick="openSchool(this)">Negotiation</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link">
+                <img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                Training<i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item"><a href="training.html"
+                                                  class="mobil-submenu-item-link mobil-submenu-item-link-active"
+                                                  onclick="openTraining(this)">Business in the DiaVita Club</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Online promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Offline promotion</a>
+                </li>
+                <li class="mobil-submenu-item"><a href="training.html" class="mobil-submenu-item-link"
+                                                  onclick="openTraining(this)">Business development in the DiaVita Club</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="shop.html" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="" />Shop</a>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="#" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="" />Chat</a>
+        </li>
+        <li class="nav-mobil-item submenu-open">
+            <div class="link"><img src="../../assets/pictures/svg/translation.svg" class="nav-mobil-icon-fix" alt="" />
+                Language<i class="fa fa-chevron-down"></i>
+            </div>
+            <ul class="mobil-submenu-list">
+                <li class="mobil-submenu-item">
+                    <a href="../../EN.html" class="mobil-submenu-item-link mobil-submenu-item-link-active">English</a>
+                </li>
+                <li class="mobil-submenu-item">
+                    <a href="../TH/shop.html" class="mobil-submenu-item-link">ไทย</a> <!-- thai -->
+                </li>
+            </ul>
+        </li>
+        <li class="nav-mobil-item">
+            <a href="#" class="nav-mobil-item-link">
+                <img src="../../assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="" />Logout</a>
+        </li>
+    </ul>
+
+</nav>
+
+<header class="header">
+
+    <div class="header-wrapper">
+
+        <img src="../../assets/pictures/svg/logowhite.svg" class="header-logo-mob" alt="">
+
+        <nav class="header-navigation">
+
+            <ul class="navigation-list">
+                <li class="navigation-item"><a href="../../EN.html" class="navigation-item-link">Home</a></li>
+                <li class="navigation-item"><a href="profile.html" class="navigation-item-link">My structure</a></li>
+                <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">Instruments</a></li>
+                <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">School</a></li>
+                <li class="navigation-item"><a href="training.html" class="navigation-item-link">Training</a></li>
+                <li class="navigation-item"><a href="shop.html" class="navigation-item-link">Shop</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
+                <li class="navigation-item navigation-submenu" onclick="showSubmenu(this)">Language
+                    <ul class="navigation-submenu-list" id="submenu_list">
+                        <li class="navigation-submenu-item"><a href="../../EN.html">English</a></li>
+                        <li class="navigation-submenu-item"><a href="../TH/shop.html">ไทย</a></li> <!--thai-->
+                    </ul>
+                </li>
+            </ul>
+
+
+            <form class="header-form" action="" autocomplete="on">
+                <input id="search" name="search" type="search" placeholder="Search...">
+                <input id="search_submit" value="Researcher" type="submit">
+            </form>
+
+            <a href="login.html" class="logout-link">Logout</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- end header -->
+
+<!-- main container -->
+
+<div class="wrapper">
+
+    <main class="main">
+
+        <!-- items container -->
+
+        <div class="shop__container" id="shop_container">
+
+
+            <article class="shop-item__container item-in-stock" onclick="showOverlay(this)">
+
+                <a href="#" class="shop-item-link">
+
+                            <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="" />
+
+                            <div class="item__container item__data">
+
+                                <h2 class="shop-item-price">
+                                    <span class="price-currency">€</span>
+                                    <span class="price-number">45.00</span>
+                                </h2>
+
+                                <span class="item-status"></span>
+
+                            </div>
+
+                            <a href="#" class="shop-item-link">
+                                <h1 class="shop-item-caption">Vita Energy Chocolate</h1>
+                            </a>
+
+                            <p class="item-description">
+                                At the harsh pace of modern life, we often lack the time and energy to engage in a healthy
+                                lifestyle. But each and every one of us wants to feel great and stay in good shape. The Smart Nutrition
+                                Programs from the international company DiaVita© are designed to solve this problem and make your life
+                                easier, healthier, and happier!
+                            </p>
+
+                        </a>
+
+                <div class="item__container item__checkout">
+
+                            <img src="../../assets/pictures/svg/shop/shopping-cart.svg" class="item-icon" />
+
+                        </div>
+
+            </article>
+
+
+            <article class="shop-item__container item-en-route" onclick="">
+
+                <a href="#" class="shop-item-link">
+
+                            <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="" />
+
+                            <div class="item__container item__data">
+
+                                <h2 class="shop-item-price">
+                                    <span class="price-currency">€</span>
+                                    <span class="price-number">45.00</span>
+                                </h2>
+
+                                <span class="item-status"></span>
+
+                            </div>
+
+                            <a href="#" class="shop-item-link">
+                                <h1 class="shop-item-caption">Vita Energy Chocolate</h1>
+                            </a>
+
+                            <p class="item-description">
+                                At the harsh pace of modern life, we often lack the time and energy to engage in a healthy
+                                lifestyle. But each and every one of us wants to feel great and stay in good shape. The Smart Nutrition
+                                Programs from the international company DiaVita© are designed to solve this problem and make your life
+                                easier, healthier, and happier!
+                            </p>
+
+                        </a>
+
+                <div class="item__container item__checkout">
+
+                            <img src="../../assets/pictures/svg/shop/shopping-cart.svg" class="item-icon" />
+
+                        </div>
+
+            </article>
+
+
+            <article class="shop-item__container item-ended" onclick="">
+
+                <a href="#" class="shop-item-link">
+
+                            <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="" />
+
+                            <div class="item__container item__data">
+
+                                <h2 class="shop-item-price">
+                                    <span class="price-currency">€</span>
+                                    <span class="price-number">45.00</span>
+                                </h2>
+
+                                <span class="item-status"></span>
+
+                            </div>
+
+                            <a href="#" class="shop-item-link">
+                                <h1 class="shop-item-caption">Vita Energy Chocolate</h1>
+                            </a>
+
+
+
+                        </a>
+
+                <div class="item__container item__checkout">
+
+                            <img src="../../assets/pictures/svg/shop/shopping-cart.svg" class="item-icon" />
+
+                        </div>
+
+            </article>
+
+
+            <article class="shop-item__container item-en-route" onclick="">
+
+                <a href="#" class="shop-item-link">
+
+                    <img src="../../assets/pictures/img/chocolate.png" class="shop-item-img" alt="" />
+
+                    <div class="item__container item__data">
+
+                        <h2 class="shop-item-price">
+                            <span class="price-currency">€</span>
+                            <span class="price-number">45.00</span>
+                        </h2>
+
+                        <span class="item-status"></span>
+
+                    </div>
+
+                    <a href="#" class="shop-item-link">
+                        <h1 class="shop-item-caption">Vita Energy Chocolate</h1>
+                    </a>
+
+                    <p class="item-description">
+                        At the harsh pace of modern life, we often lack the time and energy to engage in a healthy
+                        lifestyle. But each and every one of us wants to feel great and stay in good shape. The Smart Nutrition
+                        Programs from the international company DiaVita© are designed to solve this problem and make your life
+                        easier, healthier, and happier!
+                    </p>
+
+                </a>
+
+                <div class="item__container item__checkout">
+
+                    <img src="../../assets/pictures/svg/shop/shopping-cart.svg" class="item-icon" />
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+        <!-- end items container -->
+
+    </main>
+
+    <a href="https://diavita.com/store.html/" class="checkout-btn-link"><p class="checkout-btn">Checkout</p></a>
+
+    <p class="main-text">At the harsh pace of modern life, we often lack the time and energy to engage in a healthy
+        lifestyle. But each and every one of us wants to feel great and stay in good shape. The Smart Nutrition
+        Programs from the international company DiaVita© are designed to solve this problem and make your life
+        easier, healthier, and happier!</p>
+
+</div>
+
+<!-- end main container -->
+
+<a href="#anchor--top" class="scrollup" id="scrollToTop">
+    <div class="arrow-wrapper">
+        <div class="arrows"></div>
+    </div>
+</a>
+
+<footer class="footer">
+    <p class="footer-text">All rights reserved.
+        <br> 2017 | <span class="diavita">DiaVita</span></p>
+</footer>
+
+<script src="../../assets/js/appendItemShop.js"></script>
+<script src="../../assets/js/overlay.js"></script>
+
+<script src="../../assets/js/addClass.js"></script>
+<script src="../../assets/js/hide.js"></script>
+<script src="../../assets/js/menu.js"></script>
+<script src="../../assets/js/scrollup.js"></script>
+<script src="../../assets/js/search.js"></script>
+<script src="../../assets/js/submenu.js"></script>
+<script src="../../assets/js/jquery-3.2.1.min.js"></script>
+</body>
+</html>
