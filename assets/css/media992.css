@@ -52,13 +52,6 @@
         width: 25%;
     }
 
-    /*shop*/
-    .shop-item__container {
-        width: 30%;
-        padding: 5px 0;
-        box-sizing: border-box;
-    }
-
     /*SCHOOL*/
     .school__body {
         width: 73%;

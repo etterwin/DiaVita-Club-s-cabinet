@@ -466,12 +466,6 @@
         width: 30px;
     }
 
-    .shop-item__container {
-        width: 30%;
-        padding: 5px 0;
-        box-sizing: border-box;
-    }
-
     .presentation-img {
         float: none;
     }
@@ -846,6 +840,13 @@
 
     .youtube__container {
         width: 100%;
+        display: block;
+    }
+
+    .youtube-img,
+    .youtube-text {
+        display: block;
+        margin: 0 auto;
     }
 
 

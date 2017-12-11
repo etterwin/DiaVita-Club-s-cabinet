@@ -3,12 +3,6 @@
         height: 100px;
     }
 
-    .shop-item__container {
-        width: 100%;
-        padding: 5px 0;
-        box-sizing: border-box;
-    }
-
     .tabs__content {
         margin-bottom: 50px;
     }
@@ -235,7 +229,7 @@
     .dialog {
         width: 100%;
         left: 0;
-    }
+}
 
     .dialog  .dialog-front,
     .dialog .dialog-back {
@@ -249,4 +243,3 @@
 
 
 }
-

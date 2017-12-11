@@ -48,12 +48,6 @@
         padding: 13px 1%;
     }
 
-    /*shop*/
-    .shop-item__container {
-        width: 30%;
-        padding: 5px 0;
-        box-sizing: border-box;
-    }
 
     /*profile*/
     .user-info__container {
@@ -246,4 +240,3 @@
         right: calc(260px + 2%);
     }
 }
-
