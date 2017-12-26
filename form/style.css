@@ -1,0 +1,54 @@
+.referal__container {
+    max-width: 300px;
+    padding: 15px;
+}
+
+.referal-code {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.referal-form {
+    width: 300px;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+
+.referal__img {
+    display: inline-block;
+    background: #5A5EA6;
+    width: 40px;
+    height: 30px;
+    border-radius: 4px 0 0 4px;
+}
+
+.referal-img {
+    max-height: 20px;
+    margin: 5px auto;
+    display: block;
+}
+
+.referal-field {
+    display: inline-block;
+    outline: none;
+    border: 0;
+    height: 20px;
+    margin: 5px auto;
+    vertical-align: top;
+    width: 75%;
+}
+
+.referal-label {
+    display: inline-block;
+    margin: 5px auto;
+    vertical-align: top;
+    height: 20px;
+}
+
+.referal-icon {
+    max-height: 20px;
+}
