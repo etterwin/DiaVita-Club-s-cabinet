@@ -769,8 +769,8 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                          alt=""/>
 
                     <div class="lesson-block__container">
-                        <span class="lesson-block-container-text--bold"><?= Yii::t('lessons', 'ADD FRIENDS.'); ?></span>
-                        <span class="lesson-block-container-text"><?= Yii::t('lessons', 'To add
+                        <span class="lesson-block-container-text--bold--black"><?= Yii::t('lessons', 'ADD FRIENDS.'); ?></span>
+                        <span class="lesson-block-container-text--black"><?= Yii::t('lessons', 'To add
                             friends just enter a phone number and if your friend is already logged in the app will
                             immediately find him or her and add to your friends. If a person isn\'t logged in yet then
                             you can send him or her an invitation with a link to download.'); ?></span>
@@ -784,8 +784,8 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                          alt=""/>
 
                     <div class="lesson-block__container">
-                        <span class="lesson-block-container-text--bold"><?= Yii::t('lessons', 'CREATE GROUP CHAT.'); ?></span>
-                        <span class="lesson-block-container-text"><?= Yii::t('lessons', ' In
+                        <span class="lesson-block-container-text--bold--black"><?= Yii::t('lessons', 'CREATE GROUP CHAT.'); ?></span>
+                        <span class="lesson-block-container-text--black"><?= Yii::t('lessons', ' In
                             order to create a group chat you need to choose "Create group" function and add right people
                             from your contacts.'); ?></span>
                     </div>
@@ -798,8 +798,8 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                          alt=""/>
 
                     <div class="lesson-block__container">
-                        <span class="lesson-block-container-text--bold"><?= Yii::t('lessons', 'PERSONAL PAGE.'); ?></span>
-                        <span class="lesson-block-container-text"><?= Yii::t('lessons', ' As for
+                        <span class="lesson-block-container-text--bold--black"><?= Yii::t('lessons', 'PERSONAL PAGE.'); ?></span>
+                        <span class="lesson-block-container-text--black"><?= Yii::t('lessons', ' As for
                             personal page maintaining you can put absolutely any content: text, graphics or videos.'); ?></span>
                     </div>
 
@@ -3750,12 +3750,220 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
                     </div>
 
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Private course of promotion on Facebook'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?=Yii::t('lessons', 'Private course of promotion on Facebook');?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg"
+                         class="lesson-header-img" alt="" />
+
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'So, you already have a beautiful Facebook page with detailed description and well-chosen profile photo and page cover. Now the most important question is: how to promote it?');?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'Get first 500 followers for free');?></h2>
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'You can easily get first 500 subscribers for free. Let\'s start with 5 points, which requires your primary attention to achieve this goal.');?></p>
+
+                    <div class="lesson__block">
+
+                        <span class="lesson-block-num--white">1</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'First of all is, of course, a content. Most coverage gets posts with an attractive picture and a good informative message / joke / fact / call-to-action / issue. It’s best to make about 8-10 posts a day and half of them should contain images, 10-15% - videos and only the rest may be text posts or articles.');?></p>
+
+                    </div>
+
+                    <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen1-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+
+                        <span class="lesson-block-num--white">2</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Create viral posts. Such posts are any kind of publications that has a potential for self-replication (natural materials distribution by social networks users). If you organize a material properly, taking into account target audience preferences, you can get hundreds or even thousands likes for a post overnight (if you have a small number of subscribers). When creating this kind of posts you need to remember all the time that a post should encourage a person to share such unique information.');?></p>
+
+                    </div>
+
+                    <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen2-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+
+                        <span class="lesson-block-num--white">3</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Promote your public / page in other groups or communities. Subscribe to 50 communities with related topics to yours, leave comments from using your page account, but don’t spam! Thus, you can attract targeted subscribers and increase coverage of your page / group for free.');?></p>
+
+                    </div>
+
+                    <div class="lesson__block">
+
+                        <span class="lesson-block-num--white">4</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Don’t hesitate to invite your friends. With their help you can already get 200-300 subscribers without spending a dime.');?></p>
+
+                    </div>
+
+                    <div class="lesson__block">
+
+                        <span class="lesson-block-num--white">5</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Write to pages that are similar to yours either by content or by number of subscribers and ask to publish your posts. In exchange for such service, you can do the same with their page, offer a cash reward or a gift from DiaVita Club, which they can play on their page.');?></p>
+
+                    </div>
+
+                    <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen3-<?=$lng;?>.png" class="lesson-screenshot" />
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'It’s not difficult to get the first 500, more difficult is to attract followers after reaching this amount. We’ll tell you how you can do this in the most optimal way.');?></p>
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'Choose a public page');?></h2>
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'We recommend creating Facebook public pages, not personal pages or groups, for business development because:');?></p>
+
+                    <ul class="lesson-container-list">
+                        <li class="lesson-container-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-container-item-icon" />
+                            <p class="lesson-container-text"><?=Yii::t('lessons', 'you won’t be able to set up advertising in groups;');?></p>
+                        </li>
+                        <li class="lesson-container-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-container-item-icon" />
+                            <p class="lesson-container-text"><?=Yii::t('lessons', 'it’s impossible to analyze group\'s development dynamics and subscribers demographics;');?></p>
+                        </li>
+                        <li class="lesson-container-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-container-item-icon" />
+                            <p class="lesson-container-text"><?=Yii::t('lessons', 'they aren’t available in a search engine;');?></p>
+                        </li>
+                        <li class="lesson-container-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-container-item-icon" />
+                            <p class="lesson-container-text"><?=Yii::t('lessons', 'posts rarely get into followers news feed.');?></p>
+                        </li>
+                    </ul>
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'Bind your Instagram');?></h2>
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'If you have an Instagram page, bind it to your Facebook business page. This will allow you to run advertising campaigns in Instagram (they are launched by using Facebook Ads Manager) and also collect accurate statistics on them.');?></p>
+
+                    <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen4-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'Identify your subscribers interests');?></h2>
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'Graph Search (social search Facebook) will help you with this difficult issue. To do this, switch language of the account to English and enter "interests liked by people who like [your page name]" in a Facebook search box.');?></p>
+
+                    <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen5-<?=$lng;?>.png" class="lesson-screenshot" />
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'Make a list of profile communities / groups where your target audience is to "sow" there your posts, leave expert comments or answer questions.');?></p>
+
+                </div>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Distribute posts in personal profiles');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'There is one trick that everyone knows, but a few uses it. You can tag people on Facebook with the @ symbol. At the same time, this post will appear both on a personal page of a person whom you tagged and in a news feed of this person\'s friends.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Watch the posting time');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'In statistics, you can see audience statistics not only by demographic characteristics, but also by time. You’ll be able to determine at what time your audience is most active, so, it’s better to publish posts at this time for greater involvement.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Quickly respond to private messages, reviews and comments');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Take part in discussions in other pages, groups and forums (don’t forget to put a link to your Facebook public). Respond to personal messages that were sent to you in your public  private messages in time - this may be your potential partner! A person who send a message is interested in communication, that’s why it’ll be very simple to convince him or her!');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Add a link to a page in your contacts');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Add a link to your Facebook page in your email signature. If you use other social networks or services (Twitter, Pinterest, Line, etc.), then bind your page to them, or add a link in a profile description. If you have a website, then don’t forget to add a public subscription option.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Offer discounts for likes');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', '<a href="https://www.wishpond.com/new/coupon/">Facebook Coupon App</a> and <a href="https://corp.wishpond.com/social-offers/">Group Offers App</a> will help you. The first one allows you to create personal discount coupons, which are activated by liking something. And the second one activates a discount after a certain number of people joined a campaign. Both apps are to be paid for, but there is a free trial period. In addition to likes, you can also offer discounts or gifts for content (for example, a photo of users with a DiaVita product and the #diavitaclub hashtag).');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Use targeted ads');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Go to Ads Manager or Power Editor, from where you can create and manage  your public page ads campaigns. To do this, click on "Create Ads" option in the menu.');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen6-<?=$lng;?>.png" class="lesson-screenshot" />
+                <p class="lesson-text"><?=Yii::t('lessons', 'You automatically go to Ads Manager, where you can select different formats and goals for your advertising. If you want to attract subscribers or increase page coverage, we recommend selecting the option "Lead generation".');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen7-<?=$lng;?>.png" class="lesson-screenshot" />
+                <p class="lesson-text"><?=Yii::t('lessons', 'Then you need to select the target country / city, customize audience and formats that are most beneficial to your material.');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/priv-fb-screen8-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Further ads customization is very simple and intuitive, so we won’t focus on this. In the next lesson on Facebook, we\'ll tell you in more detail about how to attract subscribers at the cheapest price within the sphere of targeted advertising.');?></p>
+
+            </div>
+
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Cheap targeted advertising on Facebook. Loyal customer flow'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?=Yii::t('lessons', 'Cheap targeted advertising on Facebook. Loyal customer flow');?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg"
+                         class="lesson-header-img" alt="" />
+
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'When you’ve learned to customize ads on Facebook, now you can promote your page about DiaVita Club. Of course, it’s more rational to do this at minimum rates, but cheap targeted ads in this social network is a difficult issue that will need to be carefully studied.');?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'How does an auction work on Facebook?');?></h2>
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'Usually on Facebook, traffic isn’t received by someone who offers more money, but by someone whose post is more valuable according to FB algorithms. Value is determined by the following three criteria:');?></p>
+
+                    <ul class="lesson-list">
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'rate (how much you’re interested in others seeing your ads);');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'relevance (how much this ad suits a person according to his interests);');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'actions frequency (how probable is that a person will do some actions: go to the site, repost, comment, etc.)');?></p>
+                        </li>
+                    </ul>
+
+                    <p class="lesson-text--border--white"><?=Yii::t('lessons', 'Let’s look in detail each of these criteria.');?></p>
+
+                </div>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Rate');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Conversion price depends on many factors and nuances. First of all, let\'s pay attention to rate. It can be manual or automatic. In the first case, you decide what maximum amount you’re ready to pay for result, in the second one Facebook does it based on its algorithms and your budget and selects the most optimal rate. In practice, if you’re more interested in price for result, choose a manual rate. If you’re more focused on result in volumes and time required to achieve it, then choose automatic one.');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/adv-fb-screeen1-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Relevance');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Facebook algorithm shows ads based on your preferences (likes, comments, certain materials reposts, as well as hobbies and interests written in your profile). It also determines relevance according to user reactions. If an ad post gets a lot of reactions in a short time, it’ll most likely appear in news feed of friends of those people who reacted to this post for free. If users reaction to ad is negative (they click on "Hide" button, little response with a large number of showings), then you’ll have to pay more for it.');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Facebook evaluates each of your ads relevance on a ten-point scale and you can see it in the Power Editor. The higher the score, the more often this ad will be shown and the less it’ll cost.');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/adv-fb-screeen2-<?=$lng;?>.png" class="lesson-screenshot" />
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'We’d like to remind you that Facebook prohibits promoting materials related to network marketing, so don’t add words related to this topic in ads text.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Actions frequency');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'How to decide whom show ads from the entire selected target audience and fit in budget? Facebook analyzes each registered user actions and on this basis counts "Approximate actions frequency". For example, if you created ad so that new partners would register on www.diavita.vip, Facebook will show ads first to people who have already registered on the sites in a similar way (via Facebook ads). If the actions frequency of your ad is low, then Facebook will compensate for low frequency with a larger rate in case of automatic rate. That’s why, we recommend that you first select an automatic rate and set a large budget to see actions frequency.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Season');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Let\'s look separately at such phenomenon as ads seasonality. Competition for ads placement is growing rapidly at peak times, when messages on promos, discounts, special offers, etc. massively appear on the Internet. Facebook is no exception, so plan your budget in advance, if you’ve chosen pre-holiday days as the time for placing your ad.');?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'What other parameters affect ads cost?');?></h2>
+
+                    <ul class="lesson-list">
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'Age');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'Sex');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'Languages');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'Connections to your page');?></p>
+                        </li>
+                    </ul>
+
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'You can optimize ad only by experimenting with these factors, since influencing factors are individual for each ad.');?></p>
+
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Any ads budget will pay off, because with Facebook you attract only new partners (or buyers). Once in your structure, they will re-buy and re-sell DiaVita Club products, you won’t be spending a penny. Social networks as Facebook and Instagram are systems for generating new partners and customers 24/7. Be sure to use these platforms to promote your page about DiaVita Club!');?></p>
+
+            </div>
+
         </div>
-        
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Private course of promotion on Facebook'); ?></h1>
-
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Cheap targeted advertising on Facebook. Loyal customer flow'); ?></h1>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Closed sources. Definitive guide'); ?></h1>
 
@@ -5650,7 +5858,7 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
                     <h2 class="lesson-caption--blue"><?= Yii::t('lessons', 'Reduction ad absurdum'); ?></h2>
                     <h3 class="lesson-caption--gray"><?= Yii::t('lessons', 'Technique number 6'); ?></h3>
-                    <p class="lesson-text--border"><?= Yii::t('lessons', 'You take a client\'s objection and confront it with a stronger
+                    <p class="lesson-text--border"><?= Yii::t('lessons', 'You take a client\'s objection and conlessons it with a stronger
                         statement. For example:'); ?></p>
                     <img src="/modules/admin/cabinet_assets/pictures/svg/dialog/dia6-<?=$lng;?>.svg"
                          class="contradictions-dialog-img" alt=""/>
