@@ -3962,10 +3962,186 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Closed sources. Definitive guide'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?=Yii::t('lessons', 'Closed sources. Definitive guide');?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg"
+                         class="lesson-header-img" alt="" />
+
+                </div>
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text-bborder"><?=Yii::t('lessons', '');?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', '');?></h2>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">
+                            <img src="" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                        </li>
+                        <li class="lesson-item">
+                            <img src="" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                    </li>
+                </ul>
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', '');?></h3>
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', '');?></h3>
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', '');?></h2>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">1</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                    <img src="" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">2</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">3</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">4</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                    <img src="" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5.1</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5.2</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                    <img src="" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5.3</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                    <img src="" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5.4</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                    <img src="" class="lesson-screenshot" />
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">5.5</span>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                    </div>
+
+                </div>
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <p class="lesson-text--bold"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <img src="" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+
+                <div class="lesson__block--four">
+                    <img src="" class="lesson-block-icon--four" />
+                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                </div>
+                <div class="lesson__block--four">
+                    <img src="" class="lesson-block-icon--four" />
+                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                </div>
+                <div class="lesson__block--four">
+                    <img src="" class="lesson-block-icon--four" />
+                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                </div>
+                <div class="lesson__block--four">
+                    <img src="" class="lesson-block-icon--four" />
+                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+
+            </div>
+
         </div>
-
-
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Closed sources. Definitive guide'); ?></h1>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Residual income with the help of Facebook and Instagram'); ?></h1>
 
