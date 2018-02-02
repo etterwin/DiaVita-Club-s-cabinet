@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $lng = 'en';
 $lng_list = ['en','th'];
@@ -4125,25 +4125,25 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                 <p class="lesson-text--border"><?=Yii::t('lessons', 'And the last thing we prepared for you is a list of networks that show their ads mainly in Thailand:');?></p>
 
                 <div class="lesson__block--four">
-                    <img src="" class="lesson-block-icon--four" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/tsood-logo.png" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.tsood.com/"><?=Yii::t('lessons', 'Tsood.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="" class="lesson-block-icon--four" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/lakornhit-logo.png" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.lakornhit.com/"><?=Yii::t('lessons', 'Lakornhit.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="" class="lesson-block-icon--four" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/doodiza.gif" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.doodiza.com/"><?=Yii::t('lessons', 'Doodiza.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="" class="lesson-block-icon--four" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/news-lifestyle-logo.png" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.news-lifestyle.com/"><?=Yii::t('lessons', 'News-lifestyle.com');?></a>
                     </p>
