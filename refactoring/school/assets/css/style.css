@@ -2431,7 +2431,7 @@ input[type="file"] {
 .lesson-block-icon--four,
 .lesson-block-icon--five {
     height: 100px;
-    margin: 10px auto;
+    max-width: 100px; margin: 10px auto;
     display: block;
 }
 
