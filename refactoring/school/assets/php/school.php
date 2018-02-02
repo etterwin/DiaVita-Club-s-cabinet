@@ -3968,176 +3968,188 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                 <div class="lesson-header">
 
                     <h2 class="lesson-header-caption"><?=Yii::t('lessons', 'Closed sources. Definitive guide');?></h2>
-                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/fb-panda.svg"
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/lockholder.svg"
                          class="lesson-header-img" alt="" />
 
                 </div>
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
-                <p class="lesson-text-bborder"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'In addition to all known online promotion channels, such as social networks and instant messengers, there are more sources, of which not everyone has heard. We are talking about advertising networks, which are systems for integration of advertising spots on the Internet with promos of various formats (both for those who want to sell advertising, and for those who want to buy it).');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Why are these sources attractive for DiaVita partners? First of all, with their help you can directly sell DiaVita products and make profit. Purchase and sales transaction is made in just a few clicks, and thanks to great interwebs sales volumes and profit are unlimited! First, let\'s look at their features and then work techniques.');?></p>
 
                 <div class="lesson__container">
 
-                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', '');?></h2>
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'As a rule networks include 3 elements:');?></h2>
                     <ul class="lesson-list">
                         <li class="lesson-item">
-                            <img src="" class="lesson-item-icon" />
-                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'interface for placing materials;');?></p>
                         </li>
                         <li class="lesson-item">
-                            <img src="" class="lesson-item-icon" />
-                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'displaying mechanism and program code to include in a web page which allows you to show ads in a certain place under certain conditions (targeting);');?></p>
                         </li>
                         <li class="lesson-item">
-                            <img src="" class="lesson-item-icon" />
-                            <p class="lesson-item-text--white"><?=Yii::t('lessons', '');?></p>
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/tick-white.svg" class="lesson-item-icon" />
+                            <p class="lesson-item-text--white"><?=Yii::t('lessons', 'data statistics for advertisers.');?></p>
                         </li>
                     </ul>
 
                 </div>
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'In this lesson we’ll review the largest ad networks cooperating with Thailand. Before you start advertising in any of them, you need to clarify their advertising policy. Usually it includes:');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'participation rules (topics of materials you publish);');?></p>
                 <ul class="lesson-list">
                     <li class="lesson-item">
-                        <img src="" class="lesson-item-icon" />
-                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'placements (at the top, bottom of a page, etc.);');?></p>
                     </li>
                     <li class="lesson-item">
-                        <img src="" class="lesson-item-icon" />
-                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'allowed number of banners on a page and in a network;');?></p>
                     </li>
                     <li class="lesson-item">
-                        <img src="" class="lesson-item-icon" />
-                        <p class="lesson-item-text"><?=Yii::t('lessons', '');?></p>
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'advertising material size.');?></p>
                     </li>
                 </ul>
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'We will start with <a href="https://www.taboola.com/">Taboola</a>, perhaps the largest advertising network, founded in 2007 in New York, USA. According to statistics in 2016, 1,000,000,000 unique users viewed materials of this giant. Another unique feature is the fact that Taboola is a partner of AdBlock. This means, dear DiaVita Club partners, that all AdBlock users will see ads of this network, as it’s included in a special list called "Acceptable Ads".');?></p>
 
-                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', '');?></h3>
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', 'How to register?');?></h3>
+                <p class="lesson-text"><?=Yii::t('lessons', 'You need to contact an account manager first via follow-up form on the site. After that, he will help to create and optimize your first ad campaign. You can replenish your account through paypal (3,6% commission fee) or credit card (3% commission fee).');?></p>
 
-                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', '');?></h3>
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <h3 class="lesson-caption--black--small"><?=Yii::t('lessons', 'How to create an ad campaign?');?></h3>
+                <p class="lesson-text"><?=Yii::t('lessons', 'To create your first ad campaign after a successful registration, go to Campaign Management >> New Campaign');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-1.png" class="lesson-screenshot" />
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Set your campaign name and paste your brand’s name.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-2.png" class="lesson-screenshot" />
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Choose time range for your ad.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-3.png" class="lesson-screenshot" />
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'In the Country section select Thailand, select all platforms and all operating systems. In the subsection "Block Publishers" you can restrict sites on which your ads will be shown. At the creation stage, we don’t recommend typing anything here. You’ll need this after you receive a large number of clicks. Process you’ll be involved in is called optimization; it’ll be described below.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-4.png" class="lesson-screenshot" />
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Code is generated automatically, you don’t need to click anything here.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-5.png" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?=Yii::t('lessons', 'Click “Continue”.');?></p>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-6.png" class="lesson-screenshot" />
 
                 <div class="lesson__container">
 
-                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', '');?></h2>
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'Optimization process');?></h2>
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">1</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Using "site" parameter Taboola shows from which site each click came. In the affiliate program which you use to advertise (we recommend AdCombo, if you aren’t yet a member of any), put a filter on this parameter. After that, there’ll be a list of sites from which clicks on your ads were made.');?></p>
                     </div>
 
-                    <img src="" class="lesson-screenshot" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-7.png" class="lesson-screenshot" />
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">2</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'In Taboola go then to Campaign Management, select the campaign for which you previously viewed statistics.');?></p>
                     </div>
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">3</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Then go to By Site tab and put the same date on which statistics were viewed.');?></p>
                     </div>
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">4</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Now you’ll see the same list of sites with about the same indicators that you saw before');?></p>
                     </div>
 
-                    <img src="" class="lesson-screenshot" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-8.png" class="lesson-screenshot" />
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Next go directly to the optimization process:');?></p>
                     </div>
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5.1</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'In the affiliate program you need to find sites with >350-400 clicks');?></p>
                     </div>
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5.2</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'If among highlighted sites there are that didn’t bring any results, then opposite them you need to click on a lock button');?></p>
                     </div>
 
-                    <img src="" class="lesson-screenshot" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-9.png" class="lesson-screenshot" />
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5.3</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'If among sites there are those with a small number of results (leads), namely (1-5), but with a significant number of clicks (500-2000), then you should low cost per click price (CPC). The maximum reduction percentage is 50%, use it only in case of high CTR (click-through rate), namely at its value of 1%.');?></p>
                     </div>
 
-                    <img src="" class="lesson-screenshot" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-10.png" class="lesson-screenshot" />
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5.4</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'If you get 1 lead per 100-200 clicks, then you’ll need to get maximum amount of traffic from such sites. This can be done using CPC increase button. Maximum percentage is 50%. It’s not recommended to raise by a large percentage from the very beginning, do it gradually, starting at 10%, since expenses are directly proportional to percentage growth.');?></p>
                     </div>
 
-                    <img src="" class="lesson-screenshot" />
+                    <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-11.png" class="lesson-screenshot" />
 
                     <div class="lesson__block">
                         <span class="lesson-block-num--white">5.5</span>
-                        <p class="lesson-block-text--white"><?=Yii::t('lessons', '');?></p>
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'All actions performed in optimization process can be canceled, returning everything to its original state.');?></p>
                     </div>
 
                 </div>
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'The next major ad network that works with Thailand is <a href="https://www.revcontent.com/">RevContent</a>. This American site operates from 2013 and supports two modes: per click (CPC) and 1000 impressions (cost per mille, aka CPM). The procedure is the same as with Taboola, first you register and contact an account manager who will help you to create and optimize campaigns.');?></p>
 
-                <p class="lesson-text--bold"><?=Yii::t('lessons', '');?></p>
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--bold"><?=Yii::t('lessons', 'Features');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'Optimization process is very similar to one in Taboola, only here sites that bring little leads are blocked not by button, but by blacklisting.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-12.png" class="lesson-screenshot" />
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'In addition, in RevContent there is a parameter "adv_targets", which show categories of products from which a click was made. Many categories aren’t suitable for the products promoted by us, they can be disabled by clicking on appropriate button. You also need to do the same with categories that bring zero lead numbers with a large number of clicks (1000).');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-13.png" class="lesson-screenshot" />
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'If categories bring a few leads with a large number of clicks, then you can reduce CPC of a category.');?></p>
 
-                <img src="" class="lesson-screenshot" />
+                <img src="/modules/admin/cabinet_assets/pictures/img/closed-sourse-screen-14.png" class="lesson-screenshot" />
 
-                <p class="lesson-text"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text"><?=Yii::t('lessons', 'All advertising campaigns are tested (moderated) in a particular network. Don’t forget to clarify advertising policies with account managers before creating anything, because you can be banned.');?></p>
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'And the last thing we prepared for you is a list of networks that show their ads mainly in Thailand:');?></p>
 
                 <div class="lesson__block--four">
                     <img src="" class="lesson-block-icon--four" />
-                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                    <p class="lesson-block-text--four--white">
+                        <a href="http://www.tsood.com/"><?=Yii::t('lessons', 'Tsood.com');?></a>
+                    </p>
                 </div>
                 <div class="lesson__block--four">
                     <img src="" class="lesson-block-icon--four" />
-                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                    <p class="lesson-block-text--four--white">
+                        <a href="http://www.lakornhit.com/"><?=Yii::t('lessons', 'Lakornhit.com');?></a>
+                    </p>
                 </div>
                 <div class="lesson__block--four">
                     <img src="" class="lesson-block-icon--four" />
-                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                    <p class="lesson-block-text--four--white">
+                        <a href="http://www.doodiza.com/"><?=Yii::t('lessons', 'Doodiza.com');?></a>
+                    </p>
                 </div>
                 <div class="lesson__block--four">
                     <img src="" class="lesson-block-icon--four" />
-                    <p class="lesson-block-text--four--white"><?=Yii::t('lessons', '');?></p>
+                    <p class="lesson-block-text--four--white">
+                        <a href="http://www.news-lifestyle.com/"><?=Yii::t('lessons', 'News-lifestyle.com');?></a>
+                    </p>
                 </div>
 
-                <p class="lesson-text--border"><?=Yii::t('lessons', '');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Success in any ad network depends on your persistence and ability to attract attention of people who click on ads. Choose interesting and enticing pictures, think up creative headlines and most importantly - experiment!');?></p>
 
             </div>
 
