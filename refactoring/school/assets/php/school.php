@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $lng = 'en';
 $lng_list = ['en','th'];
@@ -3750,6 +3750,7 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
                     </div>
 
+
             <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Private course of promotion on Facebook'); ?></h1>
             <div class="school-accordion__container">
 
@@ -3875,6 +3876,7 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
+
             <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Cheap targeted advertising on Facebook. Loyal customer flow'); ?></h1>
             <div class="school-accordion__container">
 
@@ -3961,6 +3963,7 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                 <p class="lesson-text--border"><?=Yii::t('lessons', 'Any ads budget will pay off, because with Facebook you attract only new partners (or buyers). Once in your structure, they will re-buy and re-sell DiaVita Club products, you won’t be spending a penny. Social networks as Facebook and Instagram are systems for generating new partners and customers 24/7. Be sure to use these platforms to promote your page about DiaVita Club!');?></p>
 
             </div>
+
 
             <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Closed sources. Definitive guide'); ?></h1>
             <div class="school-accordion__container">
@@ -4125,25 +4128,25 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
                 <p class="lesson-text--border"><?=Yii::t('lessons', 'And the last thing we prepared for you is a list of networks that show their ads mainly in Thailand:');?></p>
 
                 <div class="lesson__block--four">
-                    <img src="/modules/admin/cabinet_assets/pictures/img/tsood-logo.png" class="lesson-block-icon--four" />
+                    <img src="" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.tsood.com/"><?=Yii::t('lessons', 'Tsood.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="/modules/admin/cabinet_assets/pictures/img/lakornhit-logo.png" class="lesson-block-icon--four" />
+                    <img src="" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.lakornhit.com/"><?=Yii::t('lessons', 'Lakornhit.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="/modules/admin/cabinet_assets/pictures/img/doodiza.gif" class="lesson-block-icon--four" />
+                    <img src="" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.doodiza.com/"><?=Yii::t('lessons', 'Doodiza.com');?></a>
                     </p>
                 </div>
                 <div class="lesson__block--four">
-                    <img src="/modules/admin/cabinet_assets/pictures/img/news-lifestyle-logo.png" class="lesson-block-icon--four" />
+                    <img src="" class="lesson-block-icon--four" />
                     <p class="lesson-block-text--four--white">
                         <a href="http://www.news-lifestyle.com/"><?=Yii::t('lessons', 'News-lifestyle.com');?></a>
                     </p>
@@ -4153,9 +4156,186 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
-        </div>
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Residual income with the help of Facebook and Instagram'); ?></h1>
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Residual income with the help of Facebook and Instagram'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?=Yii::t('lessons', 'Residual income with the help of Facebook and Instagram');?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/"
+                         class="lesson-header-img" alt="" />
+
+                </div>
+
+                <p class="lesson-text"><?=Yii::t('lessons', 'Congratulations, now you are at our final lesson in "Online promotion" block. During the previous sessions you have discovered secrets of promotion in social networks, messengers and advertising networks. And most likely now you have a question: "How can I earn when now I have all this knowledge?"');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Did you know that using social networks you can receive passive income? Yes, that\'s right. You can earn money without leaving home or moving your finger. However, before this you’ll have to work hard because nothing happens without any investment or effort.');?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'What will passive income mean to you?');?></h2>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/coin.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three--white"><?=Yii::t('lessons', 'You’ll get money regardless of whether you work or not;');?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/time-refresh.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three--white"><?=Yii::t('lessons', 'If played right, you’ll have more free time, be able to invest your income in other projects and get total financial freedom;');?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/map-path.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three--white"><?=Yii::t('lessons', 'At a minimum, you’ll have flexible hours from any place in the world.');?></p>
+                    </div>
+
+                    <p class="lesson-text--white"><?=Yii::t('lessons', 'Well, let\'s not hesitate, now on example of Facebook and Instagram, ones of the most common networks in the world, we’ll tell you how to get a stable passive income in DiaVita Club.');?></p>
+
+                </div>
+
+                <p class="lesson-text"><?=Yii::t('lessons', 'The main method of getting an effective result in social networks is number of subscribers, and the more, the better. Your subscribers are the target audience, who subscribed to get knowledge, information on how to make money and sell goods. In other words, your subscribers are potential partners who will bring you passive income. The more partners you get into your structure, the more sales they have, the greater your passive income is.');?></p>
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Despite the fact that both Facebook and Instagram belong to "social networks", MLM principles for working with them are different. Let\'s see what they are.');?></p>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Facebook for recruiting');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'We use Facebook, because there are:');?></p>
+
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'Vast promising audience;');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', '"Big fishes" viz. business owners;');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'Easily customizable and effective advertising.');?></p>
+                    </li>
+                </ul>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'How to recruit?');?></h2>
+                    <p class="lesson-text--border--white"><?=Yii::t('lessons', 'In previous lessons we’ve already told you how you can promote your Facebook page and gain a lot of subscribers. Now let\'s focus on actions that you can take right after that.');?></p>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/new-members.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Add to your friends absolutely everyone! Without any greetings and other accompanying messages. The main thing is to gain a weighty number of friends (several thousand) and then you can use the "authority of quantity". Don’t you agree, when you see a beautiful Facebook profile with a lot of friends you have a feeling of a successfully developing business. After all, this person has so many partners with whom he works! The only thing you need to remember is don’t add more than 100 people a day to your friends, otherwise you risk getting into ban. Start with 10-15, then increasing somewhat up to 80 people a day and be sure to add them throughout a day.');?></p>
+                        <span class="lesson-block-num--white">1</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/insta-description.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Post articles with useful tips and interesting advices. Thanks to this people who come to your page will see you know what’s what and will add one point to a credit of trust.');?></p>
+                        <span class="lesson-block-num--white">2</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/comments.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Immediately send messages with suggestions. You\'re a busy person and you simply won’t have time to find out interests of other person starting from afar. Briefly state your thoughts, and if you’ll receive response start working with the person more carefully. Messages shouldn’t be sent to more than 7 people a day.');?></p>
+                        <span class="lesson-block-num--white">3</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Your friends walls are a free advertising platform for you. On Facebook if you tag a person in a post, this post will be seen by friends interested in news of this person. Even if you’ve already sent a PM, don’t be lazy to leave it on a person\'s wall also. But don’t overdo it here, do 10 people a day.');?></p>
+                        <span class="lesson-block-num--white">4</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/megaphone.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Post your offer in public pages on business. Even if you have to do it in 200-300 public places, don’t stop. It’s only a matter of statistics here, and sooner or later someone will write you in private messages questioning about partnership.');?></p>
+                        <span class="lesson-block-num--white">5</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/frineds-vlogger.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Add people who are subscribed to groups or pages about business. They are truly interested in earning (but don’t add more than 100 per day).');?></p>
+                        <span class="lesson-block-num--white">6</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/chat-trio.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Keep in touch with all who are interested in partnership. Even if you get this person to be your partner, don’t stop talking and be ready to listen to all his problems, because now you’re his mentor!');?></p>
+                        <span class="lesson-block-num--white">7</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/messenger.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'If you used ads to attract subscribers to your page, write to each of them. Start a conversation with thanks for subscribing and then present your proposal.');?></p>
+                        <span class="lesson-block-num--white">8</span>
+                    </div>
+
+                </div>
+
+                <h2 class="lesson-caption--black"><?=Yii::t('lessons', 'Instagram for recruiting');?></h2>
+                <p class="lesson-text"><?=Yii::t('lessons', 'We use Instagram because there are:');?></p>
+
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'Live videos and stories are popular among users;');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'Compact communication of ideas, you need to get all your thoughts in only 2,200 symbols;');?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?=Yii::t('lessons', 'Faster promotion of topics via hashtags.');?></p>
+                    </li>
+                </ul>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?=Yii::t('lessons', 'How to recruit?');?></h2>
+                    <p class="lesson-text--border--white"><?=Yii::t('lessons', 'From previous lessons you learned how to make a beautiful profile, as well as about various ways to promote in this social network. What else can you do with network marketing?');?></p>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/instagram-icon.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Instagram also has instant messages. Before sending a message, you need to subscribe to a user. Just like on Facebook, write to all subscribers of your page with an offer. Limit of direct messages is 60 per day, but don’t reach this limit, 30-40 is enough.');?></p>
+                        <span class="lesson-block-num--white">1</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/contract.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Use advertising for recruiting. Create posts about you making a team, looking for new employees, offering additional income, etc. Your chance to make a partner from a person who responded to such ads is maximally great.');?></p>
+                        <span class="lesson-block-num--white">2</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/user-card.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Make your profile thematic. Describe what you do, what the company is, favorable cooperation conditions, company’s advantages, the product, etc. in profile description.');?></p>
+                        <span class="lesson-block-num--white">3</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/quality.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Use mass-following. Everyone is interested in who subscribed to them, so they’ll most likely go to your profile and see your offer there. Optimal figure is 40 subscriptions per hour.');?></p>
+                        <span class="lesson-block-num--white">4</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/sharp.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Use hashtags. Think over them carefully cause via hashtags people not only find you bit also subscribe on a profile if find the content interesting.');?></p>
+                        <span class="lesson-block-num--white">5</span>
+                    </div>
+
+                    <div class="lesson__block">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/like-heart.svg" class="lesson-block-icon" />
+                        <p class="lesson-block-text--white"><?=Yii::t('lessons', 'Keep a content quality on a high level. DiaVita Club is not just another MLM company. DiaVita Club is a lifestyle which can help you to change world for the better. It’ll help  everyone to become more beautiful, healthy and rich. Spread this idea via your Instagram. The more luxurious your pictures are, the more a person desires to enter a structure and join such lofty task.');?></p>
+                        <span class="lesson-block-num--white">6</span>
+                    </div>
+
+                </div>
+
+                <p class="lesson-text--border"><?=Yii::t('lessons', 'Except for recruiting you can create an online store both on Facebook and Instagram. Here knowledge about promotion from previous DVC lessons will help you.. We recommend to return and carefully repeat this material. With social networks you have an opportunity to automate business in a way it’ll work for you. Sell and expand through Internet. All you need to do is start acting right now, go to your goal and never give up!');?></p>
+
+            </div>
+
+        </div>
 
     </div>
 
