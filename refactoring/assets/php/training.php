@@ -103,8 +103,8 @@
 
                     <div class="video__popup" id="video_popup_4">
 
-                        <iframe class="yt-video" src="https://www.youtube.com/embed/xAnZc2ikZgM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-4.png">
+                            <source src="/modules/admin/cabinet_assets/video/4.mp4" type="video/mp4"/>
                         </video>
 
                     </div>
@@ -124,7 +124,9 @@
 
                     <div class="video__popup" id="video_popup_5">
 
-                        <iframe class="yt-video" src="https://www.youtube.com/embed/0Ka7rSGMx4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-5.png">
+                            <source src="/modules/admin/cabinet_assets/video/5.mp4" type="video/mp4"/>
+                        </video>
 
                     </div>
 
@@ -151,7 +153,9 @@
 
                     <div class="video__popup" id="video_popup_6">
 
-                        <iframe class="yt-video" src="https://www.youtube.com/embed/sth_t77HP7o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-6.png">
+                            <source src="/modules/admin/cabinet_assets/video/6.mp4" type="video/mp4"/>
+                        </video>
 
                     </div>
 
