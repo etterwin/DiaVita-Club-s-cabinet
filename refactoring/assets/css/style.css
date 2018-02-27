@@ -1345,7 +1345,9 @@ input[type="file"] {
 .shop-overlay--active {
     display: flex;
     opacity: 0;
-    position: absolute;
+    position: fixed;
+    top:0;
+    left: 0;
     z-index: 9000;
     width: 100%;
     height: 100vh;
