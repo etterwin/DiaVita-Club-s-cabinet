@@ -40,7 +40,7 @@
 
                     <div class="video__popup" id="video_popup_1">
 
-                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/bg.png">
+                        <video class="video-player" id="video-player_1" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/bg.png">
                             <source src="/modules/admin/cabinet_assets/video/diavita%20draft2.mp4" type="video/mp4"/>
                         </video>
 
@@ -103,7 +103,7 @@
 
                     <div class="video__popup" id="video_popup_4">
 
-                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-4.png">
+                        <video class="video-player" id="video-player_4" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-4.png">
                             <source src="/modules/admin/cabinet_assets/video/4.mp4" type="video/mp4"/>
                         </video>
 
@@ -124,7 +124,7 @@
 
                     <div class="video__popup" id="video_popup_5">
 
-                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-5.png">
+                        <video class="video-player" id="video-player_5" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-5.png">
                             <source src="/modules/admin/cabinet_assets/video/5.mp4" type="video/mp4"/>
                         </video>
 
@@ -153,7 +153,7 @@
 
                     <div class="video__popup" id="video_popup_6">
 
-                        <video class="video-player" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-6.png">
+                        <video class="video-player" id="video-player_6" controls="controls" poster="/modules/admin/cabinet_assets/pictures/img/video/video-6.png">
                             <source src="/modules/admin/cabinet_assets/video/6.mp4" type="video/mp4"/>
                         </video>
 
