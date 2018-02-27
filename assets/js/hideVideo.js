@@ -5,7 +5,8 @@ $(function($){
             && div.has(e.target).length === 0) {
             div.removeClass('video-show');
             $('#shadow').removeClass('shadow-show');
-            $('#close_video').removeClass('video-close-show');
+            $('.video-close').removeClass('video-close-show');
+            $('.video__popup').removeClass('video-show');
         }
     });
 });
