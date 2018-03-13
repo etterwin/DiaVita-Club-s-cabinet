@@ -5913,9 +5913,100 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
     <div id="business-creating" class="school__body business-creating hide hide-mob">
 
-        <div class="school-accordion"></div>
+        <div class="school-accordion">
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Turn additional earnings into basic income'); ?></h1>
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Turn additional earnings into basic income'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?= Yii::t('lessons', 'Turn additional earnings into basic income'); ?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/header.svg"
+                         class="lesson-header-img--big" alt=""/>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Welcome to the third block of our online school called "Creating a Business"! You went through "Online promotion" and "Offline promotion" sections. Based on these two blocks you can now:'); ?></p>
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'create whole systems of events generating additional income;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'at the same time you can have a full day at your main job.'); ?></p>
+                    </li>
+                </ul>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'Do you know that additional income can be turned into the main one? And it can be done completely unnoticeable for yourself. So, how does this happen?'); ?></p>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'When you invite a potential partner to join the structure, he’ll certainly be interested in the following questions:'); ?></p>
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'whether he can sell the goods;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'the amount of earnings;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'in what time it’s possible to reach a solid income.'); ?></p>
+                    </li>
+                </ul>
+
+                <div class="lesson__container">
+
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'In DiaVita Club you can earn a very large amount of money, but the main point of earnings is that they don’t exactly depend on direct sales. Your goal is to explain to a potential partner that passive income is the main income in DiaVita Club. What does it mean?'); ?></p>
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'It means that you first need to work on building your own team. Recruit only motivated people into your team. Like you, they are inspired by a great goal and healthy ambitions. Each member of your team in his turn creates his own team of purposeful people and copies your actions.'); ?></p>
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'Yes, of course, you can’t do just by building a structure. At a minimum, your personal 60 PV hasn’t been canceled yet and you’ll have to sell the products both online and offline.'); ?></p>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Imagine if every member of your team at least fulfills their minimum volume, and their team  members also got 60 PV, then you’ll already earn good money. Carefully study the Marketing Plan. Did you know that if you’re a partner, your income can reach $1500 per month, if a leader - up to $4000 and if a president - up to $30,000 (see the table below). But remember that the amount of your income depends on your own efforts. For this you need to see one big goal'); ?></p>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/target.svg" class="lesson-block-img" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', '(this can be either reaching a certain position, or getting a specific plum money per month). But you need to have it, as it’ll motivate you, force you to rise from a sofa and act.'); ?></p>
+                </div>
+
+                <img src="/modules/admin/cabinet_assets/pictures/img/basic-income-scr.png" class="lesson-screenshot" />
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'The whole secret of turning your extra earnings into main income is in your team, or rather in the system used and only in it! Acting on a well-developed system, leaders easily transfer their knowledge to new participants at an intense rate and quickly achieve the desired result.'); ?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?= Yii::t('lessons', 'What should this system include?'); ?></h2>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">1</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'The system should include invitation methods and screening-out parameters at an initial stage.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">2</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'How to recruit new partners to your structure? Think in detail both online and offline methods.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">3</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'System and training platform for beginners. DiaVita Club already has its own online school, so this work is already done for you. Your task is to just bring a person and show him the possibilities of earning in DiaVita Club.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">4</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'Stages how to make a top-leader from a beginner. Firstly, think about this plan for yourself, then pass on your experience to the next members of your team.'); ?></p>
+                    </div>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Remember about all these criteria when developing your own system. You’ll find your individual approach already during work. You just need to start - and the rest is a matter of skills, which is sharpened with every new partner. You’ll learn how to quickly get your team in our next lesson.'); ?></p>
+
+            </div>
+
+        </div>
+
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'A quick way to make a team'); ?></h1>
 
