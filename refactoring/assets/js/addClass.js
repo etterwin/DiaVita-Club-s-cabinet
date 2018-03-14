@@ -62,3 +62,11 @@ function closeMenu() {
 function showSubmenu() {
     document.getElementById('submenu_list').classList.add('show-submenu');
 }
+
+function openFeedback() {
+    document.getElementById('feedback_container').classList.toggle('feedback__container--active');
+}
+
+function closeFeedback() {
+    document.getElementById('feedback_container').classList.remove('feedback__container--active');
+}
