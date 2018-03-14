@@ -115,7 +115,6 @@ ul {
 }
 
 /*arrow scroll to top*/
-
 body .arrows {
     position: fixed;
     bottom: 20px;
@@ -135,6 +134,7 @@ body .arrows {
     width: 55px;
     z-index: 50;
     border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(219, 75, 197, 0.2);
 }
 
 body .arrows:before {
@@ -181,7 +181,104 @@ body .arrows:after {
     }
 }
 
-/*header*/
+/*feedback*/
+body .feedback__btn {
+    bottom: 80px;
+    right: 16px;
+    position: fixed;
+    background: white;
+    height: 55px;
+    width: 55px;
+    z-index: 9999;
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(219, 75, 197, 0.2);
+}
+
+.feedback-icon {
+    width: 35px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.feedback__container {
+    display: none;
+}
+
+.feedback__container--active {
+    position: fixed;
+    right: 18px;
+    bottom: 150px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.feedback-caption {
+    color: #FF698B;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 0 0;
+}
+
+.feedback-close {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.feedback-field {
+    outline: none;
+    border: 1px solid rgba(241,241,243,1);
+    background: #F6F6F8;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.feedback-text {
+    outline: none;
+    border: 1px solid rgba(241,241,243,1);
+    background: #F6F6F8;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feedback-btn {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    background: #FF698B;
+    box-shadow: 0 0 20px rgba(255, 105, 139, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.feedback-btn:hover {
+    box-shadow: 0 0 30px rgba(255, 105, 139, 0.6);
+}
+
+    /*header*/
 
 .header-home {
     height: 500px;
