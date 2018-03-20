@@ -6005,10 +6005,126 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'A quick way to make a team'); ?></h1>
+            <div class="school-accordion__container">
+
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?= Yii::t('lessons', 'A quick way to make a team'); ?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/mountain.svg"
+                         class="lesson-header-img--big" alt=""/>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'As mentioned in the last lesson, the whole secret of success in the network business is in the team. Then there is a logical question: how to quickly and effectively recruit a team, especially at the initial stage?'); ?></p>
+                <p class="lesson-text"><?= Yii::t('lessons', 'From the very beginning, it’ll be easier for you to recruit a team from your friends or relatives. Don’t hesitate to invite them and talk about a profitable offer. You’ll do good not only for yourself, but for them too! Some people don’t want to deal with their relatives and friends when it comes to business. So tell me, if you like a movie or a book, don’t you recommend it to your relatives? Only thing is you do it for free, and in network marketing you can get money for it. If you’re afraid you won’t be taken seriously, then here are 2 tips for working with loved ones in MLM:'); ?></p>
+
+                <div class="lesson-flex">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/presentation.svg" class="flex-img" />
+
+                    <div class="flex__container">
+
+                        <div class="lesson__block">
+                            <span class="lesson-block-num">1</span>
+                            <p class="lesson-block-text"><?= Yii::t('lessons', 'Make a list of all friends and relatives you can invite. Don’t mark them like “will be interested in” or “won’t be”. You can’t know in advance who your proposal may be interesting to.'); ?></p>
+                        </div>
+
+                        <div class="lesson__block">
+                            <span class="lesson-block-num">2</span>
+                            <p class="lesson-block-text"><?= Yii::t('lessons', '’s better to work with relatives and friends together with a mentor. You may be not  taken seriously, because they know you from the other side.'); ?></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="lesson__container">
+
+                    <p class="lesson-text--border--white"><?= Yii::t('lessons', 'Do you know what is best sold in the network business? What will hook any person, regardless of whether he knows you or not. This is emotions! Accordingly, two MLM rules follow this basis:'); ?></p>
+
+                    <div class="lesson-flex">
+
+                        <div class="flex__container">
+
+                            <div class="lesson__block">
+                                <span class="lesson-block-num--white">1</span>
+                                <p class="lesson-block-text--white"><?= Yii::t('lessons', 'Before offering products you need to try it yourself. No beautiful descriptions and words will replace personal experience. Only in this way your recommendations will sound natural.'); ?></p>
+                            </div>
+
+                            <div class="lesson__block">
+                                <span class="lesson-block-num--white">2</span>
+                                <p class="lesson-block-text--white"><?= Yii::t('lessons', 'Become a "talking radio" about the DiaVita Club. Tell everyone you meet about the company and opportunities to earn.'); ?></p>
+                            </div>
+
+                        </div>
+
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/drows/panda303030.svg" class="flex-img" />
+
+                    </div>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'And of course, where can you meet people who can be recruited into your team? Let\'s look at the audience from where you can invite people. We divide them into two groups: warm and cold contacts.'); ?></p>
+                
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Warm contacts:'); ?></h2>
+                
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'colleagues at work;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'relatives and loved ones;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people you meet at birthdays, holidays, parties;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'all acquaintances (from your notebook, phone, contacts in social networks, friends, neighbors, etc.);'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'doctors and nurses in hospitals where you go;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'parents and teachers from your children’s school/kindergarten, etc.'); ?></p>
+                    </li>
+                </ul>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Cold contacts:'); ?></h2>
+
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people in public transport on the way to and from work;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people in cafes and restaurants you visit;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people you can attract in the Internet;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people you can attract offline;'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'people on all kinds of city events, etc.'); ?></p>
+                    </li>
+                </ul>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'Tell about DiaVita Club to at least 5 people a day. Cold contacts can be gained everywhere, where people are: on streets, in transport, cafes and restaurants, etc. You just have to feel free to approach and start a conversation. When meeting with everyone, give your contact information and talk about opportunities. Invite them to private meetings, where you can tell them everything.'); ?></p>
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Start with offline promotion. Meet your potential partners in person and only then go online. Naturally, then you’ll want to recruit your partners quickly and without much effort. There is one way out here: recruiting automation, which we’ll discuss in the next lesson.'); ?></p>
+
+            </div>
+
         </div>
-
-
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'A quick way to make a team'); ?></h1>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Structure that grows by itself'); ?></h1>
 
