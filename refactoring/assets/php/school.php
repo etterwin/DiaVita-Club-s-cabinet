@@ -6124,9 +6124,118 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
-        </div>
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Structure that grows by itself'); ?></h1>
+            <div class="school-accordion__container">
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Structure that grows by itself'); ?></h1>
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?= Yii::t('lessons', 'Structure that grows by itself'); ?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/thirdlesson/presentation.svg"
+                         class="lesson-header-img--big" alt=""/>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'You have something to be proud of, if you’ve already created your first team! Congratulations! If you haven’t done it yet, don’t be upset. Open our previous lesson and see what else you could do, what you didn’t do, and then go back to this lesson. Today we’ll tell you how to put your team together with lightning speed.'); ?></p>
+
+                <div class="lesson__container">
+
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'To quickly and massively get people into the structure, you need to automate the process. This will be difficult to implement offline, but quite online is quite a different story. In addition to recruiting you can automate other processes:'); ?></p>
+
+                    <div class="lesson__block">
+
+                        <div class="lesson__block--five">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking-2.svg" class="lesson-block-icon--five" />
+                            <p class="lesson-block-text--five--white"><?= Yii::t('lessons', 'registering participants;'); ?></p>
+                        </div>
+
+                        <div class="lesson__block--five">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/presentation.svg" class="lesson-block-icon--five" />
+                            <p class="lesson-block-text--five--white"><?= Yii::t('lessons', 'training new partners;'); ?></p>
+                        </div>
+
+                        <div class="lesson__block--five">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/networking.svg" class="lesson-block-icon--five" />
+                            <p class="lesson-block-text--five--white"><?= Yii::t('lessons', 'the system to motivate everyone in the structure;'); ?></p>
+                        </div>
+
+                        <div class="lesson__block--five">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/handshake.svg" class="lesson-block-icon--five" />
+                            <p class="lesson-block-text--five--white"><?= Yii::t('lessons', 'partial management;'); ?></p>
+                        </div>
+
+                        <div class="lesson__block--five">
+                            <img src="/modules/admin/cabinet_assets/pictures/svg/icons/searching.svg" class="lesson-block-icon--five" />
+                            <p class="lesson-block-text--five--white"><?= Yii::t('lessons', 'manual on technical instruments application, etc.'); ?></p>
+                        </div>
+
+                    </div>
+
+                    <p class="lesson-text--border--white"><?= Yii::t('lessons', 'Of course, automation of all the mentioned processes facilitates our work in many ways. But don’t think you can just do nothing. Don’t think if you create a process automation system, you don’t have to hold meetings yourself, make presentations and direct calls. Remember, freebees never happen. As a minimum you’ll need to analyze data, test new ideas and learn new technologies. The primary task is, of course, recruiting.'); ?></p>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Let\'s look at 5 ways to automate recruiting in mlm.'); ?></p>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Social networks'); ?></h2>
+
+                <div class="lesson__block">
+                    <span class="lesson-block-num">1</span>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/internet.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'What is the advantage of these channels? - It’s that they’ll help you to spread the information in a geometric progression. What do you need to do? The answer is very simple: you need to create a virus content, that is one your subscribers would like to share on their pages / accounts. Thus, you can not only recruit a large number of partners, but also sell goods. The only thing, don’t forget to check this or that social network advertising policy. Usually in social networks there is always a complete summary of rules and prohibitions, in extreme cases you can always contact the support service.'); ?></p>
+                </div>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Personal blogs'); ?></h2>
+
+                <div class="lesson__block">
+                    <span class="lesson-block-num">2</span>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/contract.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'A personal blog is a space for fantasy of a MLM-person, who’s keeping it. His personality is very important here. With charisma and charm you can better communication with a potential partner in your blog. And if  blogger has enough skills and talent to show his proposal benefits, then his readers will trust author and react by joining the structure. To promote personal blogs you can use Google advertising network or private sources of promotion, which you can find in our lesson in "Online promotion" block called "Closed Sources. Detailed guidance."'); ?></p>
+                </div>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Single pages with business offers'); ?></h2>
+
+                <div class="lesson__block">
+                    <span class="lesson-block-num">3</span>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/adv-pink.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'The most effective and, therefore, popular tool of MLM business, allowing to automate recruiting process, is a one-page website, or, as it’s also called, a funnel site. Information on this site is always concise and informative. The goal of a funnel site is to catch a reader with just a few phrases, convince him of proposal’s reality and effectiveness, or product’s uniqueness and quality. But the most important thing that a one-page site gives are contacts of a person interested in the offer. And then you can work directly with that person.'); ?></p>
+                </div>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Messengers'); ?></h2>
+
+                <div class="lesson__block">
+                    <span class="lesson-block-num">4</span>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/messenger.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Messengers are becoming more and more popular. If you want to keep up with the times, then don’t neglect them in any way. Facebook messenger, Line, What’s up, Skype - they’re all free and very useful resources. What are pros?'); ?></p>
+                </div>
+
+                <ul class="lesson-list">
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'You know customer’s mobile number. This is a much more reliable and long-term contact than email, because it\'s easier to change.'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'Instant push notifications. You can be sure that notification will reach a client and will be read.'); ?></p>
+                    </li>
+                    <li class="lesson-item">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/circle-yellow.svg" class="lesson-item-icon" />
+                        <p class="lesson-item-text"><?= Yii::t('lessons', 'A variety of content. Messengers allow you to share not only text, but also photos, videos, geo-position. Also through them you can call and for free.'); ?></p>
+                    </li>
+                </ul>
+
+                <h2 class="lesson-caption--black"><?= Yii::t('lessons', 'Youtube'); ?></h2>
+
+                <div class="lesson__block">
+                    <span class="lesson-block-num">5</span>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/youtube-logo.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Who doesn’t watch Youtube today? Submit information in interactive form in the video and type in more partners in your structure. Leave a link to registration under each of your videos, thereby automating the recruiting process on youtube. The important thing is that video content must be of high quality! Think about organizing a filming process, no one will watch videos of poor quality, and, consequently, the result won’t be the one you expected.'); ?></p>
+                </div>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'All details about how to create accounts, pages and websites (which were listed above), and also how to promote them in the Internet you’ll find in our block "Online promotion".'); ?></p>
+
+            </div>
+
+        </div>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'How quickly to become a brand, which everyone will look up to'); ?></h1>
 
