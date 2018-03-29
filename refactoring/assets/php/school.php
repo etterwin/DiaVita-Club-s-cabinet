@@ -6235,9 +6235,130 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
-        </div>
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'How quickly to become a brand, which everyone will look up to'); ?></h1>
+            <div class="school-accordion__container">
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'How quickly to become a brand, which everyone will look up to'); ?></h1>
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?= Yii::t('lessons', 'How quickly to become a brand, which everyone will look up to'); ?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/secondlesson/success-winner.svg"
+                         class="lesson-header-img--big" alt=""/>
+
+                </div>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'Everyone knows such brands like Nike, Apple, Dior. The whole world also knows who Disney, Mark Zuckerberg and Steve Jobs are. All these are examples of brands: in the first case - product ones, in the second - personal. Brand’s success is undeniable, and if you can build your brand, your income will multiply. In network marketing, it’s better to target a personal brand, rather than a product one. Why?'); ?></p>
+
+                <div class="lesson__block">
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/medal.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'To earn a lot in network marketing you need to become a leader for your structure. Only this way you can give advice, and people in their turn will follow you and do what you tell them.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/shield.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'Personal brand will create a competitive advantage. People will prefer to buy goods from a reputable person, rather than from little-known sellers.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/two.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'Personal promotion costs less than development of a whole company. In addition, if your name is associated with an existing brand, it can play into your hands. The more recognizable DiaVita is, the more honorable it is to be its representative and the easier it’ll be for you to build a personal brand (based on DiaVita brand).'); ?></p>
+                    </div>
+
+                </div>
+
+                <div class="lesson__container">
+                    <h2 class="lesson-caption--white"><?= Yii::t('lessons', 'So what is a personal brand?'); ?></h2>
+                    <p class="lesson-text--border--white"><?= Yii::t('lessons', 'It is a well-known name of a person who "made oneself". It is when people who didn’t even think they’d become your clients recommend you to others.'); ?></p>
+                    <p class="lesson-text--border--white"><?= Yii::t('lessons', 'It is when people hear your name, they immediately have a bright image in their heads.'); ?></p>
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'So how to quickly become a brand, to which everyone will look up to? Let’s look over 10 steps of your path to success.'); ?></p>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/head-management.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Start thinking of yourself as a brand. Think about associations you want to evoke in a person and develop these associations. Think about issues you’d like to become a pro in (sales, recruiting, etc.).'); ?></p>
+                    <span class="lesson-block-num">1</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/earth.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Create your own personal pages in all well-known social networks and promote them online (see our online promotion section for detailed instructions).'); ?></p>
+                    <span class="lesson-block-num">2</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/diamond.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Think about your name (whether you want to use your real one or choose a more high-sounding). Think of your personal hashtag and monitor your name mentioning in various sources. React to every mention, especially if it’s negative ones.'); ?></p>
+                    <span class="lesson-block-num">3</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/contract.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Start a personal blog and create valuable content for your target audience with useful stories and tips. Don’t forget that the content should correspond with DiaVita brand.'); ?></p>
+                    <span class="lesson-block-num">4</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/internet.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Create your own website with a personal success story, information about what you offer and your contacts. By that information about your personality, at least, will hit search engines.'); ?></p>
+                    <span class="lesson-block-num">5</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/list.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Think over the story about yourself in detail. People have always been and will always be interested in personal stories with emotional experience.'); ?></p>
+                    <span class="lesson-block-num">6</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/talking.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Work on your public speeches. Watch over your gestures, manner of presenting information and, of course, content. Only skilled and emotional speakers can lead people.'); ?></p>
+                    <span class="lesson-block-num">7</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/presentation.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Try to get on forums, conferences and meetups. Promote your personality there and offer yourself as a speaker at various events on relevant topics.'); ?></p>
+                    <span class="lesson-block-num">8</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/youtube-logo.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Share articles and information about network business or business in general on your pages in social networks. Write your opinion to each such post and like-minded people will join your structure. Record video reviews about received information and upload them on Youtube.'); ?></p>
+                    <span class="lesson-block-num">9</span>
+                </div>
+
+                <div class="lesson__block">
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/icons/fb-logo.svg" class="lesson-block-icon" />
+                    <p class="lesson-block-text"><?= Yii::t('lessons', 'Interview successful people and entrepreneurs in your city, post all materials in social networks and on Youtube.'); ?></p>
+                    <span class="lesson-block-num">10</span>
+                </div>
+
+                <div class="lesson__container">
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'And finally, we want to give you 2 general recommendations for creating and promoting a personal brand:'); ?></p>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">1</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'Personal brand includes 2 elements: coverage and reputation. If you take the craziest stars of various reality shows, their coverage is great, but reputation is small. If you take last year Nobel laureates, their coverage is small, but reputation is very large. In our case, you need to maintain middle ground and work on both parts.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block">
+                        <span class="lesson-block-num--white">2</span>
+                        <p class="lesson-block-text--white"><?= Yii::t('lessons', 'Don’t start with a personal brand, if you don’t clearly see possible development for your company and yourself. Forced communication, which doesn’t have any good, won’t lead to any result. On the contrary, it’s possible to discredit both your name and company’s name. Eliminate this flaw, and then move on to creating a personal brand.'); ?></p>
+                    </div>
+
+                </div>
+
+                <footer class="lesson-footer">
+                    <p class="lesson-footer-text"><?= Yii::t('lessons', 'In the next lesson we’ll tell you secrets of crazy popularity, how to achieve and maintain it.'); ?></p>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footerqiuck-<?=$lng;?>.svg"
+                         class="lesson-footer-img" alt=""/>
+                </footer>
+
+            </div>
+
+        </div>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Secret ways of super popularity'); ?></h1>
 
