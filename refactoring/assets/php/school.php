@@ -6358,9 +6358,130 @@ $this->registerJsFile('/modules/admin/cabinet_assets/js/rain.js', ['position' =>
 
             </div>
 
-        </div>
+            <h1 class="school-accordion-caption"><?= Yii::t('lessons', 'Secret ways of super popularity'); ?></h1>
+            <div class="school-accordion__container">
 
-        <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Secret ways of super popularity'); ?></h1>
+                <div class="lesson-header">
+
+                    <h2 class="lesson-header-caption"><?= Yii::t('lessons', 'Secret ways of super popularity'); ?></h2>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/secretway.svg"
+                         class="lesson-header-img--big" alt=""/>
+
+                </div>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'In last DVC lesson we learned about "personal brand" concept and how to use it in MLM world. To become a personal brand you need to gain popularity and this, in fact, isn’t that simple. What are the secrets of enormous popularity? We’ll talk about them both for your personal brand and for product one.'); ?></p>
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'Guarantee of any popularity is people\'s interest in you or your product. Undoubtedly, the Internet today is the most powerful tool to evoke people\'s interest in you or your product.'); ?></p>
+
+                <h2 class="lesson-caption--blue"><?= Yii::t('lessons', 'We share secret techniques for greater popularity in the Internet:'); ?></h2>
+
+                <div class="lesson__block">
+
+                    <div class="lesson__block--four">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/medal.svg" class="lesson-block-icon--four" />
+                        <p class="lesson-block-text--four"><?= Yii::t('lessons', 'Focus on the topic in which you want to be a professional. Become an opinion shaper in it and people will listen to your words, subscribe to you;'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--four">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/two.svg" class="lesson-block-icon--four" />
+                        <p class="lesson-block-text--four"><?= Yii::t('lessons', 'Provoke people on holy wars (from English holy war) - make people with different opinions to confront each other, let your page be a platform for discussion, try different ideas on your audience;'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--four">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/contract.svg" class="lesson-block-icon--four" />
+                        <p class="lesson-block-text--four"><?= Yii::t('lessons', 'As mentioned in the previous lesson, create author\'s content, express your thoughts and opinions on different topics;'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--four">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/head-management.svg" class="lesson-block-icon--four" />
+                        <p class="lesson-block-text--four"><?= Yii::t('lessons', 'Be bold and satirical. Whatever people say, they are more interested in intelligent and witty individuals, rather than in good-natured and simple guys. Controversial characters will always be talked about, because like a magnet they attract everyone\'s attention.'); ?></p>
+                    </div>
+
+                </div>
+
+                <p class="lesson-text--border"><?= Yii::t('lessons', 'But the Internet is not the only tool to attract attention to your product or you. In fact, people talk about products or people much more often than they do so in the Internet. Online promotion is very important, it goes beyond one country and one form of advertising, but according to our calculations, it attracts only 7% of active partners, all the rest come thanks to personal recommendations in MLM world. Set the goal to make people start talking about you.'); ?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?= Yii::t('lessons', 'Here\'s a small task for you to think about.'); ?></h2>
+
+                    <p class="lesson-text--white"><b><?= Yii::t('lessons', 'Task:'); ?></b> <?= Yii::t('lessons', 'What people talk about more often: Disneyland or protein shakes?'); ?></p>
+                    <p class="lesson-text--white"><b><?= Yii::t('lessons', 'Answer:'); ?></b> <?= Yii::t('lessons', 'Protein shakes. The reason for this is triggers (external stimuli) which constantly make you think about shakes.'); ?></p>
+
+                </div>
+
+                <h2 class="lesson-caption--blue"><?= Yii::t('lessons', 'How are they manifested?'); ?></h2>
+
+                <div class="lesson__block">
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/genious.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'This is a food product, so people face it every day, and when it comes to food, a person will think about healthy food.'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/libra.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'After physical training you think: "What I can eat after training without losing the effect I got in the last hour?"'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--three">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/heart.svg" class="lesson-block-icon--three" />
+                        <p class="lesson-block-text--three"><?= Yii::t('lessons', 'You talk with a friend and want to brag or, on the contrary, complain about your figure. And again you’ll come back to the idea of proper nutrition and protein shakes.'); ?></p>
+                    </div>
+
+                </div>
+
+                <p class="lesson-text"><?= Yii::t('lessons', 'As you see, talking about DiaVita products is very easy, all you need to do is start talking about company\'s products and create the effect of "word of mouth". Emotions are an integral part of the whole process, the brighter your emotions from what you tell are, the easier it is to create this effect.'); ?></p>
+
+                <div class="lesson__container">
+
+                    <h2 class="lesson-caption--white"><?= Yii::t('lessons', 'Mob mentality'); ?></h2>
+
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'This feeling has much greater impact on us than we admit. It manifests itself on an instinctive level and a man need to exert some efforts to overcome it.'); ?></p>
+                    <p class="lesson-text--white"><?= Yii::t('lessons', 'For example, when iPod entered the market, it came fitted with white headphones. At that time, black headphones were generally used, so people immediately knew a person had an iPod, even when the mp3-player was in a pocket. Gradually, more and more people were seen with white headphones and naturally we ourselves want to buy them and feel what they are like. When a person sees several people in his environment are using a product, he himself on a subconscious level begins to think about this product more often and think about buying it.'); ?></p>
+                    <p class="lesson-text--border--white"><?= Yii::t('lessons', 'What you need to do? Integrate the product into everyday life in a way that others will see, first of all, your friends and relatives. In addition, promote your personal brand (see the previous lesson) and always mention DVC products. For example post pictures as you eat in your Instagram and put a DiaVita can on your table.'); ?></p>
+
+                </div>
+
+                <h2 class="lesson-caption--blue"><?= Yii::t('lessons', 'Formula of enormous popularity: a person or a product should'); ?></h2>
+
+                <div class="lesson__block">
+
+                    <div class="lesson__block--five">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/rockstar.svg" class="lesson-block-icon--five" />
+                        <p class="lesson-block-text--five"><?= Yii::t('lessons', 'break stereotypes and attract attention,'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--five">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/target-1.svg" class="lesson-block-icon--five" />
+                        <p class="lesson-block-text--five"><?= Yii::t('lessons', 'are tied to frequent irritation, which occurs in everyday life (trigger),'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--five">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/masks.svg" class="lesson-block-icon--five" />
+                        <p class="lesson-block-text--five"><?= Yii::t('lessons', 'cause strong emotions (they can be anger, delight, surprise, joy),'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--five">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/like.svg" class="lesson-block-icon--five" />
+                        <p class="lesson-block-text--five"><?= Yii::t('lessons', 'have practical value or fascinating history,'); ?></p>
+                    </div>
+
+                    <div class="lesson__block--five">
+                        <img src="/modules/admin/cabinet_assets/pictures/svg/icons/fb-logo.svg" class="lesson-block-icon--five" />
+                        <p class="lesson-block-text--five"><?= Yii::t('lessons', 'have recognizable attributes (logo, bright sticker, etc.)'); ?></p>
+                    </div>
+
+                </div>
+
+                <footer class="lesson-footer">
+                    <p class="lesson-footer-text"><?= Yii::t('lessons', 'DiaVita and its products have all of the above. Adapt this formula for yourself and your personal brand.'); ?></p>
+                    <img src="/modules/admin/cabinet_assets/pictures/svg/drows/footersecretways-<?=$lng;?>.svg"
+                         class="lesson-footer-img" alt=""/>
+                </footer>
+
+            </div>
+
+        </div>
 
         <h1 class="school-accordion-caption-empty"><?= Yii::t('lessons', 'Passive growth of a structure without your participation'); ?></h1>
 
