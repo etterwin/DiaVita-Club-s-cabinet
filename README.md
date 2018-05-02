@@ -1,5 +1,6 @@
 # DiaVita Club - обучающая платформа по созданию и продвижению своего бизнеса
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ~госпаде, какой бардак, пздц~
 
 *Разработка принадлежит Panda Media, ООО "Эд Софт".*
